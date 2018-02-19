@@ -1,0 +1,27 @@
+{
+  "countries": {
+    "colombia": {
+      "festivos": {
+
+      },
+      "restricciones": [{
+        "ciudad": "medellin",
+        "horarios": [{
+          "desde": "7",
+          "hasta": "8.5"
+        },
+          {
+            "desde": "17.5",
+            "hasta": "19"
+          }],
+        "restricciones": [{
+          "placa": "0",
+          "dias": ["fri",
+            "tue"]
+        }],
+        "dia-sin-carro": ["20170101",
+          "20170202"]
+      }]
+    }
+  }
+}
