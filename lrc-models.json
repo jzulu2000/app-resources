@@ -1,7 +1,7 @@
 [
   {
     "name": "rentanadviser",
-    "url-pattern": "https://www.rentanadviser.com/en/subtitles/getsubtitle.aspx?artist=artistname&song=title",
+    "url-pattern": "https://www.rentanadviser.com/en/subtitles/getsubtitle.aspx?artist=artistname&song=songtitle",
     "url-replacements": [
       {
         "song-field" : "artist",
@@ -14,7 +14,7 @@
       },
       {
         "song-field" : "title",
-        "text": "title",
+        "text": "songtitle",
         "transformers": [
           {
             "type": "encode"
@@ -22,7 +22,7 @@
         ]
       }
     ],
-    "result-pattern": "<span id=\"ctl00_ContentPlaceHolder1_lbllyrics\"><h3>(.*)</span>.*</div>.*</div>.*<div class=\"alert alert-block\">",
+    "result-pattern": "<span id=\"ctl00_ContentPlaceHolder1_lbllyrics\"><h3>(.*)</span>.*<div class=\"alert alert-block\">",
     "result-transformers": [
       {
         "type": "html-to-text"
