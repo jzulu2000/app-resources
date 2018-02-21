@@ -1,36 +1,5 @@
 [
   {
-    "name": "rentanadviser",
-    "url-pattern": "https://www.rentanadviser.com/en/subtitles/getsubtitle.aspx?artist=artistname&song=songtitle",
-    "url-replacements": [
-      {
-        "song-field" : "artist",
-        "text": "artistname",
-        "transformers": [
-          {
-            "type": "encode"
-          }
-        ]
-      },
-      {
-        "song-field" : "title",
-        "text": "songtitle",
-        "transformers": [
-          {
-            "type": "encode"
-          }
-        ]
-      }
-    ],
-    "result-pattern": "<span id=\"ctl00_ContentPlaceHolder1_lbllyrics\"><h3>(.*)</span>.*<div class=\"alert alert-block\">",
-    "result-transformers": [
-      {
-        "type": "html-to-text"
-      }
-    ]
-  },
-
-  {
     "name": "lyricsmode",
     "url-pattern": "http://www.lyricsmode.com/lyrics/subartist/artist/title.html",
     "url-replacements": [
@@ -126,6 +95,70 @@
   },
 
   {
+    "name": "musixmatch",
+    "url-pattern": "https://www.musixmatch.com/lyrics/artist/title",
+    "url-replacements": [
+      {
+        "song-field" : "artist",
+        "text": "artist",
+        "transformers": [
+          {
+            "type": "upper"
+          },
+          {
+            "type": "replace",
+            "original": "[\\s'\"-]",
+            "replace":"-"
+          },
+          {
+            "type": "replace",
+            "original": "&",
+            "replace":"and"
+          },
+          {
+            "type": "replace",
+            "original": "[^A-Za-z0-9]",
+            "replace":"-"
+          }
+        ]
+      },
+      {
+        "song-field" : "title",
+        "text": "title",
+        "transformers": [
+          {
+            "type": "replace",
+            "original": "[\\s'\"-]",
+            "replace":"-"
+          },
+          {
+            "type": "replace",
+            "original": "&",
+            "replace":"and"
+          },
+          {
+            "type": "replace",
+            "original": "[^A-Za-z0-9]",
+            "replace":"-"
+          }
+        ]
+      }
+    ],
+    "result-pattern": "</div><span><p class=\"mxm-lyrics__content \">(.*)</p></div></span>",
+    "result-transformers": [
+      {
+        "type": "replace",
+        "original": "\\[[^\\[]*\\]",
+        "replace":""
+      },
+      {
+        "type": "remove",
+        "regex" : "(</p><div>.*</div><p class=\"mxm-lyrics__content \">)"
+      }
+    ]
+  },
+
+  {
     "name": "metrolyrics",
     "url-pattern": "http://www.metrolyrics.com/title-lyrics-artist.html",
     "url-replacements": [
@@ -201,135 +234,9 @@
           "replace":""
         },
         {
-          "type": "html-to-text"
-        }
-      ]
-  },
-
-  {
-    "name": "musixmatch",
-    "url-pattern": "https://www.musixmatch.com/lyrics/artist/title",
-    "url-replacements": [
-      {
-        "song-field" : "artist",
-        "text": "artist",
-        "transformers": [
-          {
-            "type": "upper"
-          },
-          {
-            "type": "replace",
-            "original": "[\\s'\"-]",
-            "replace":"-"
-          },
-          {
-            "type": "replace",
-            "original": "&",
-            "replace":"and"
-          },
-          {
-            "type": "replace",
-            "original": "[^A-Za-z0-9]",
-            "replace":"-"
-          }
-        ]
-      },
-      {
-        "song-field" : "title",
-        "text": "title",
-        "transformers": [
-          {
-            "type": "replace",
-            "original": "[\\s'\"-]",
-            "replace":"-"
-          },
-          {
-            "type": "replace",
-            "original": "&",
-            "replace":"and"
-          },
-          {
-            "type": "replace",
-            "original": "[^A-Za-z0-9]",
-            "replace":"-"
-          }
-        ]
-      }
-    ],
-    "result-pattern": "</div><span><p class=\"mxm-lyrics__content \">(.*)</p></div></span>",
-    "result-transformers": [
-      {
-        "type": "replace",
-        "original": "\\[[^\\[]*\\]",
-        "replace":""
-      }
-    ]
-  },
-
-  {
-    "name": "azlyrics",
-    "url-pattern": "http://www.azlyrics.com/lyrics/artist/title.html",
-    "url-replacements": [
-      {
-        "song-field" : "artist",
-        "text": "artist",
-        "transformers": [
-          {
-            "type": "lower"
-          },
-          {
-            "type": "replace",
-            "original": "[\\s'\"-]",
-            "replace":""
-          },
-          {
-            "type": "replace",
-            "original": "&",
-            "replace":"and"
-          },
-          {
-            "type": "replace",
-            "original": "[^A-Za-z0-9]",
-            "replace":""
-          },
-          {
-            "type": "replace",
-            "original": "^the ",
-            "replace":""
-          }
-        ]
-      },
-      {
-        "song-field" : "title",
-        "text": "title",
-        "transformers": [
-          {
-            "type": "lower"
-          },
-          {
-            "type": "replace",
-            "original": "[\\s'\"-]",
-            "replace":""
-          },
-          {
-            "type": "replace",
-            "original": "&",
-            "replace":"and"
-          },
-          {
-            "type": "replace",
-            "original": "[^A-Za-z0-9]",
-            "replace":""
-          }
-        ]
-      }
-    ],
-    "result-pattern": "Sorry about that. -->(.*)</div>.*<br><br>.*MxM banner.*<form id=\"addsong\"",
-    "result-transformers": [
-        {
-          "type": "replace",
-          "original": "\\[[^\\[]*\\]",
-          "replace":""
+          "type": "remove",
+          "from" : "<!--WIDGET",
+          "to" : "<!--END WIDGET"
         },
         {
           "type": "html-to-text"
