@@ -242,5 +242,98 @@
           "type": "html-to-text"
         }
       ]
+  },
+
+  {
+    "name": "lyricstranslate",
+    "url-pattern": "http://lyricstranslate.com/en/artist-title-lyrics.html",
+    "url-replacements": [
+      {
+        "song-field" : "artist",
+        "text": "artist",
+        "transformers": [
+          {
+            "type": "replace",
+            "original": "[\\s\"-]",
+            "replace":"-"
+          },
+          {
+            "type": "replace",
+            "original": "'",
+            "replace":"039"
+          },
+          {
+            "type": "replace",
+            "original": "& ",
+            "replace":""
+          },
+          {
+            "type": "replace",
+            "original": "[^A-Za-z0-9]",
+            "replace":"-"
+          },
+          {
+            "type": "replace",
+            "original": " the ",
+            "replace":"-"
+          },
+          {
+            "type": "replace",
+            "original": " of ",
+            "replace":"-"
+          }
+        ]
+      },
+      {
+        "song-field" : "title",
+        "text": "title",
+        "transformers": [
+          {
+            "type": "lower"
+          },
+          {
+            "type": "replace",
+            "original": "[\\s\"-]",
+            "replace":"-"
+          },
+          {
+            "type": "replace",
+            "original": "'",
+            "replace":"039"
+          },
+          {
+            "type": "replace",
+            "original": "& ",
+            "replace":""
+          },
+          {
+            "type": "replace",
+            "original": "[^A-Za-z0-9]",
+            "replace":"-"
+          },
+          {
+            "type": "replace",
+            "original": " the ",
+            "replace":"-"
+          },
+          {
+            "type": "replace",
+            "original": " of ",
+            "replace":"-"
+          }
+        ]
+      }
+    ],
+    "result-pattern": "<div class=\"ltf\">(.*)</div>.*<div class=\"ext-buttons song-social-buttons",
+    "result-transformers": [
+      {
+        "type": "replace",
+        "original": "\\[[^\\[]*\\]",
+        "replace":""
+      },
+      {
+        "type": "html-to-text"
+      }
+    ]
   }
 ]
