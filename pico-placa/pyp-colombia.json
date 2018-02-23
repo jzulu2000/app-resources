@@ -1,0 +1,344 @@
+{
+  "country" : "colombia",
+  "holidays": ["20180101", "20180108", "20180319", "20180329",
+    "20180330", "20180501", "20180514", "20180604", "20180611", "20180702", "20180720",
+    "20180807", "20180820", "20181015", "20181105", "20181112", "20181208", "20181225",
+    "20190101", "20190107", "20190325", "20190418", "20190429", "20190501", "20190603",
+    "20190624", "20190701", "20190720", "20190807", "20190819", "20191014", "20191104",
+    "20191111", "20191208", "20191225"],
+  "cities": [
+    {
+      "name": "medellin",
+      "aliases": ["bello", "envigado", "itagui", "sabaneta", "barbosa", "caldas", "la estrella",
+        "girardota", "copacabana"],
+      "earth-days": [],
+      "restrictions": [
+        {
+          "day": "weekdays",
+          "hours":[
+            {
+              "from": "7",
+              "to": "8.5"
+            },
+            {
+              "from": "17.5",
+              "to": "19"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "4",
+            "plates-by-day": "4"
+          }
+        },
+        {
+          "day": "sat",
+          "hours":[
+            {
+              "from": "7",
+              "to": "8.5"
+            },
+            {
+              "from": "17.5",
+              "to": "19"
+            }
+          ],
+          "validator": {
+            "type": "pair-impair",
+            "evaluator": "WEEK_OF_YEAR",
+            "pair-if-pair": "false"
+          }
+        }
+      ]
+    },
+    {
+      "name": "bogota",
+      "earth-days": [],
+      "restrictions": [
+        {
+          "day": "weekdays",
+          "hours":[
+            {
+              "from": "6",
+              "to": "8.5"
+            },
+            {
+              "from": "15",
+              "to": "19.5"
+            }
+          ],
+          "validator": {
+            "type": "pair-impair",
+            "evaluator": "DAY_OF_MONTH",
+            "pair-if-pair": "true"
+          }
+        }
+      ]
+    },
+    {
+      "name": "pereira",
+      "earth-days": [],
+      "restrictions": [
+        {
+          "day": "weekdays",
+          "hours":[
+            {
+              "from": "7",
+              "to": "19"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "0",
+            "plates-by-day": "2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "bucaramanga",
+      "earth-days": [],
+      "restrictions": [
+        {
+          "day": "weekdays",
+          "hours":[
+            {
+              "from": "6",
+              "to": "20"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "3",
+            "plates-by-day": "2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "cartagena",
+      "earth-days": [],
+      "restrictions": [
+        {
+          "day": "weekdays",
+          "hours":[
+            {
+              "from": "7",
+              "to": "9"
+            },
+            {
+              "from": "12",
+              "to": "14"
+            },
+            {
+              "from": "17",
+              "to": "19.5"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "1",
+            "plates-by-day": "2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "cali",
+      "earth-days": [],
+      "restrictions": [
+        {
+          "day": "weekdays",
+          "hours":[
+            {
+              "from": "6",
+              "to": "10"
+            },
+            {
+              "from": "16",
+              "to": "20"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "3",
+            "plates-by-day": "2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "barranquilla",
+      "earth-days": [],
+      "restrictions": [
+        {
+          "day": "weekdays",
+          "hours":[
+            {
+              "from": "7.5",
+              "to": "9"
+            },
+            {
+              "from": "17.5",
+              "to": "19"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "1",
+            "plates-by-day": "4"
+          }
+        }
+      ]
+    },
+    {
+      "name": "armenia",
+      "earth-days": [],
+      "restrictions": [
+        {
+          "day": "weekdays",
+          "hours":[
+            {
+              "from": "8",
+              "to": "20"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "1",
+            "plates-by-day": "2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "santa marta",
+      "earth-days": [],
+      "restrictions": [
+        {
+          "day": "weekdays",
+          "hours":[
+            {
+              "from": "7",
+              "to": "19"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "8",
+            "plates-by-day": "2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "pasto",
+      "earth-days": [],
+      "restrictions": [
+        {
+          "day": "weekdays",
+          "hours":[
+            {
+              "from": "7.5",
+              "to": "19"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "4",
+            "plates-by-day": "2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "cucuta",
+      "earth-days": [],
+      "restrictions": [
+        {
+          "day": "weekdays",
+          "hours":[
+            {
+              "from": "7.5",
+              "to": "9"
+            },
+            {
+              "from": "11.5",
+              "to": "13.5"
+            },
+            {
+              "from": "17.5",
+              "to": "19"
+            }
+          ],
+          "validator": {
+            "type": "static",
+            "restrictions": [
+              {
+                "day": "mon",
+                "plates": [ "0", "9"]
+              },
+              {
+                "day": "tue",
+                "plates": [ "1", "8"]
+              },
+              {
+                "day": "wed",
+                "plates": [ "2", "7"]
+              },
+              {
+                "day": "thu",
+                "plates": [ "3", "6"]
+              },
+              {
+                "day": "fri",
+                "plates": [ "4", "5"]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "villavicencio",
+      "earth-days": [],
+      "restrictions": [
+        {
+          "day": "weekdays",
+          "hours":[
+            {
+              "from":"6.5",
+              "to":"19.5"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "7",
+            "plates-by-day": "2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "tunja",
+      "earth-days": [],
+      "restrictions": [
+        {
+          "day": "weekdays",
+          "hours":[
+            {
+              "from":"7",
+              "to":"19"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "5",
+            "plates-by-day": "2"
+          }
+        }
+      ]
+    }
+
+  ]
+}

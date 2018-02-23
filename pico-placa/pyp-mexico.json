@@ -1,0 +1,61 @@
+{
+  "country" : "mexico",
+  "holidays": ["20180101", "20180205", "20180319", "20180501","20181119", "20181225",
+    "20190101", "20190204", "20190318", "20190501","20190916", "20191118", "20191225"],
+  "cities": [
+    {
+      "name": "ciudad de mexico",
+      "earth-days": [],
+      "restrictions": [
+        {
+          "day": "weekdays",
+          "hours":[
+            {
+              "from": "5",
+              "to": "22"
+            }
+          ],
+          "validator": {
+            "type": "static",
+            "restrictions": [
+              {
+                "day": "mon",
+                "plates": [ "5", "6"]
+              },
+              {
+                "day": "tue",
+                "plates": [ "7", "8"]
+              },
+              {
+                "day": "wed",
+                "plates": [ "3", "4"]
+              },
+              {
+                "day": "thu",
+                "plates": [ "1", "2"]
+              },
+              {
+                "day": "fri",
+                "plates": [ "9", "0"]
+              }
+            ]
+          }
+        },
+        {
+          "day": "sat",
+          "hours":[
+            {
+              "from": "5",
+              "to": "22"
+            }
+          ],
+          "validator": {
+            "type": "pair-impair",
+            "evaluator": "WEEK_OF_YEAR",
+            "pair-if-pair": "true"
+          }
+        }
+      ]
+    }
+  ]
+}
