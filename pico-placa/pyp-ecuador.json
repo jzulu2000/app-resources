@@ -9,9 +9,10 @@
     {
       "name": "quito",
       "earth-days": [],
+      "unrestricted-days": [],
       "restrictions": [
         {
-          "day": "weekdays",
+          "days": ["mon", "tue", "wed", "thu", "fri"],
           "hours":[
             {
               "from": "7",

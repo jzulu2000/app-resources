@@ -6,9 +6,10 @@
     {
       "name": "ciudad de mexico",
       "earth-days": [],
+      "unrestricted-days": [],
       "restrictions": [
         {
-          "day": "weekdays",
+          "days": ["mon", "tue", "wed", "thu", "fri"],
           "hours":[
             {
               "from": "5",
@@ -42,7 +43,7 @@
           }
         },
         {
-          "day": "sat",
+          "days": ["sat"],
           "hours":[
             {
               "from": "5",

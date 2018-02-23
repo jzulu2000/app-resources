@@ -12,9 +12,10 @@
       "aliases": ["bello", "envigado", "itagui", "sabaneta", "barbosa", "caldas", "la estrella",
         "girardota", "copacabana"],
       "earth-days": [],
+      "unrestricted-days": [],
       "restrictions": [
         {
-          "day": "weekdays",
+          "days": ["mon", "tue", "wed", "thu", "fri"],
           "hours":[
             {
               "from": "7",
@@ -32,7 +33,7 @@
           }
         },
         {
-          "day": "sat",
+          "days": ["sat"],
           "hours":[
             {
               "from": "7",
@@ -54,9 +55,10 @@
     {
       "name": "bogota",
       "earth-days": [],
+      "unrestricted-days": [],
       "restrictions": [
         {
-          "day": "weekdays",
+          "days": ["mon", "tue", "wed", "thu", "fri"],
           "hours":[
             {
               "from": "6",
@@ -78,9 +80,10 @@
     {
       "name": "pereira",
       "earth-days": [],
+      "unrestricted-days": [],
       "restrictions": [
         {
-          "day": "weekdays",
+          "days": ["mon", "tue", "wed", "thu", "fri"],
           "hours":[
             {
               "from": "7",
@@ -98,9 +101,10 @@
     {
       "name": "bucaramanga",
       "earth-days": [],
+      "unrestricted-days": [],
       "restrictions": [
         {
-          "day": "weekdays",
+          "days": ["mon", "tue", "wed", "thu", "fri"],
           "hours":[
             {
               "from": "6",
@@ -118,9 +122,10 @@
     {
       "name": "cartagena",
       "earth-days": [],
+      "unrestricted-days": [],
       "restrictions": [
         {
-          "day": "weekdays",
+          "days": ["mon", "tue", "wed", "thu", "fri"],
           "hours":[
             {
               "from": "7",
@@ -146,9 +151,10 @@
     {
       "name": "cali",
       "earth-days": [],
+      "unrestricted-days": [],
       "restrictions": [
         {
-          "day": "weekdays",
+          "days": ["mon", "tue", "wed", "thu", "fri"],
           "hours":[
             {
               "from": "6",
@@ -170,9 +176,10 @@
     {
       "name": "barranquilla",
       "earth-days": [],
+      "unrestricted-days": [],
       "restrictions": [
         {
-          "day": "weekdays",
+          "days": ["mon", "tue", "wed", "thu", "fri"],
           "hours":[
             {
               "from": "7.5",
@@ -194,9 +201,10 @@
     {
       "name": "armenia",
       "earth-days": [],
+      "unrestricted-days": [],
       "restrictions": [
         {
-          "day": "weekdays",
+          "days": ["mon", "tue", "wed", "thu", "fri"],
           "hours":[
             {
               "from": "8",
@@ -214,9 +222,10 @@
     {
       "name": "santa marta",
       "earth-days": [],
+      "unrestricted-days": [],
       "restrictions": [
         {
-          "day": "weekdays",
+          "days": ["mon", "tue", "wed", "thu", "fri"],
           "hours":[
             {
               "from": "7",
@@ -234,9 +243,10 @@
     {
       "name": "pasto",
       "earth-days": [],
+      "unrestricted-days": [],
       "restrictions": [
         {
-          "day": "weekdays",
+          "days": ["mon", "tue", "wed", "thu", "fri"],
           "hours":[
             {
               "from": "7.5",
@@ -254,9 +264,10 @@
     {
       "name": "cucuta",
       "earth-days": [],
+      "unrestricted-days": [],
       "restrictions": [
         {
-          "day": "weekdays",
+          "days": ["mon", "tue", "wed", "thu", "fri"],
           "hours":[
             {
               "from": "7.5",
@@ -302,9 +313,10 @@
     {
       "name": "villavicencio",
       "earth-days": [],
+      "unrestricted-days": [],
       "restrictions": [
         {
-          "day": "weekdays",
+          "days": ["mon", "tue", "wed", "thu", "fri"],
           "hours":[
             {
               "from":"6.5",
@@ -322,9 +334,10 @@
     {
       "name": "tunja",
       "earth-days": [],
+      "unrestricted-days": [],
       "restrictions": [
         {
-          "day": "weekdays",
+          "days": ["mon", "tue", "wed", "thu", "fri"],
           "hours":[
             {
               "from":"7",
