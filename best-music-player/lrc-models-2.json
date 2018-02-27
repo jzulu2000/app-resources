@@ -35,7 +35,7 @@
       },
       {
         "type": "remove",
-        "regex": "(By RentAnAdviser.com)"
+        "regex": "([Bb]y [Rr]ent[Aa]n[Aa]dviser.com)"
       }
     ]
   },
@@ -202,86 +202,86 @@
     "name": "metrolyrics",
     "url-pattern": "http://www.metrolyrics.com/title-lyrics-artist.html",
     "url-replacements": [
-        {
-          "song-field" : "artist",
-          "text": "artist",
-          "transformers": [
-            {
-              "type": "lower"
-            },
-            {
-              "type": "replace",
-              "original": "[\\s\"-]",
-              "replace":"-"
-            },
-            {
-              "type": "replace",
-              "original": "'",
-              "replace":""
-            },
-            {
-              "type": "replace",
-              "original": "&",
-              "replace":"and"
-            },
-            {
-              "type": "replace",
-              "original": "[^A-Za-z0-9]",
-              "replace":"-"
-            },
-            {
-              "type": "replace",
-              "original": "^the ",
-              "replace":""
-            }
-          ]
-        },
-        {
-          "song-field" : "title",
-          "text": "title",
-          "transformers": [
-            {
-              "type": "lower"
-            },
-            {
-              "type": "replace",
-              "original": "[\\s\"-]",
-              "replace":"-"
-            },
-            {
-              "type": "replace",
-              "original": "'",
-              "replace":""
-            },
-            {
-              "type": "replace",
-              "original": "&",
-              "replace":"and"
-            },
-            {
-              "type": "replace",
-              "original": "[^A-Za-z0-9]",
-              "replace":"-"
-            }
-          ]
-        }
-      ],
+      {
+        "song-field" : "artist",
+        "text": "artist",
+        "transformers": [
+          {
+            "type": "lower"
+          },
+          {
+            "type": "replace",
+            "original": "[\\s\"-]",
+            "replace":"-"
+          },
+          {
+            "type": "replace",
+            "original": "'",
+            "replace":""
+          },
+          {
+            "type": "replace",
+            "original": "&",
+            "replace":"and"
+          },
+          {
+            "type": "replace",
+            "original": "[^A-Za-z0-9]",
+            "replace":"-"
+          },
+          {
+            "type": "replace",
+            "original": "^the ",
+            "replace":""
+          }
+        ]
+      },
+      {
+        "song-field" : "title",
+        "text": "title",
+        "transformers": [
+          {
+            "type": "lower"
+          },
+          {
+            "type": "replace",
+            "original": "[\\s\"-]",
+            "replace":"-"
+          },
+          {
+            "type": "replace",
+            "original": "'",
+            "replace":""
+          },
+          {
+            "type": "replace",
+            "original": "&",
+            "replace":"and"
+          },
+          {
+            "type": "replace",
+            "original": "[^A-Za-z0-9]",
+            "replace":"-"
+          }
+        ]
+      }
+    ],
     "result-pattern": "First Section -->(.*)<!--BOTTOM MPU",
     "result-transformers": [
-        {
-          "type": "replace",
-          "original": "\\[[^\\[]*\\]",
-          "replace":""
-        },
-        {
-          "type": "remove",
-          "from" : "<!--WIDGET",
-          "to" : "<!--END WIDGET"
-        },
-        {
-          "type": "html-to-text"
-        }
-      ]
+      {
+        "type": "replace",
+        "original": "\\[[^\\[]*\\]",
+        "replace":""
+      },
+      {
+        "type": "remove",
+        "from" : "<!--WIDGET",
+        "to" : "<!--END WIDGET"
+      },
+      {
+        "type": "html-to-text"
+      }
+    ]
   },
 
   {
