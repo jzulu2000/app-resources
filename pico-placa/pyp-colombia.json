@@ -11,7 +11,6 @@
       "name": "medellin",
       "aliases": ["bello", "envigado", "itagui", "sabaneta", "barbosa", "caldas", "la estrella",
         "girardota", "copacabana"],
-      "earth-days": [],
       "unrestricted-days": [],
       "restrictions": [
         {
@@ -54,7 +53,6 @@
     },
     {
       "name": "bogota",
-      "earth-days": [],
       "unrestricted-days": [],
       "restrictions": [
         {
@@ -79,7 +77,6 @@
     },
     {
       "name": "pereira",
-      "earth-days": [],
       "unrestricted-days": [],
       "restrictions": [
         {
@@ -100,7 +97,6 @@
     },
     {
       "name": "bucaramanga",
-      "earth-days": [],
       "unrestricted-days": [],
       "restrictions": [
         {
@@ -121,7 +117,6 @@
     },
     {
       "name": "cartagena",
-      "earth-days": [],
       "unrestricted-days": [],
       "restrictions": [
         {
@@ -142,7 +137,7 @@
           ],
           "validator": {
             "type": "plates-by-day",
-            "monday-start": "1",
+            "monday-start": "3",
             "plates-by-day": "2"
           }
         }
@@ -150,7 +145,6 @@
     },
     {
       "name": "cali",
-      "earth-days": [],
       "unrestricted-days": [],
       "restrictions": [
         {
@@ -175,7 +169,6 @@
     },
     {
       "name": "barranquilla",
-      "earth-days": [],
       "unrestricted-days": [],
       "restrictions": [
         {
@@ -200,7 +193,6 @@
     },
     {
       "name": "armenia",
-      "earth-days": [],
       "unrestricted-days": [],
       "restrictions": [
         {
@@ -221,7 +213,6 @@
     },
     {
       "name": "santa marta",
-      "earth-days": [],
       "unrestricted-days": [],
       "restrictions": [
         {
@@ -242,7 +233,6 @@
     },
     {
       "name": "pasto",
-      "earth-days": [],
       "unrestricted-days": [],
       "restrictions": [
         {
@@ -263,7 +253,6 @@
     },
     {
       "name": "cucuta",
-      "earth-days": [],
       "unrestricted-days": [],
       "restrictions": [
         {
@@ -312,7 +301,6 @@
     },
     {
       "name": "villavicencio",
-      "earth-days": [],
       "unrestricted-days": [],
       "restrictions": [
         {
@@ -333,7 +321,6 @@
     },
     {
       "name": "tunja",
-      "earth-days": [],
       "unrestricted-days": [],
       "restrictions": [
         {
@@ -351,7 +338,26 @@
           }
         }
       ]
+    },
+    {
+      "name": "manizales",
+      "unrestricted-days": [],
+      "restrictions": [
+        {
+          "days": ["20180419"],
+          "hours":[
+            {
+              "from": "0",
+              "to": "24"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "0",
+            "plates-by-day": "10"
+          }
+        }
+      ]
     }
-
   ]
 }

@@ -6,7 +6,6 @@
   "cities": [
     {
       "name": "sao paulo",
-      "earth-days": [],
       "unrestricted-days": [],
       "restrictions": [
         {

@@ -8,7 +8,6 @@
   "cities": [
     {
       "name": "quito",
-      "earth-days": [],
       "unrestricted-days": [],
       "restrictions": [
         {

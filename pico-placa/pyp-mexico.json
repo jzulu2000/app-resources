@@ -5,7 +5,6 @@
   "cities": [
     {
       "name": "ciudad de mexico",
-      "earth-days": [],
       "unrestricted-days": [],
       "restrictions": [
         {
