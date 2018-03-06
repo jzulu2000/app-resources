@@ -15,6 +15,60 @@
       "unrestricted-days": [],
       "restrictions": [
         {
+          "days": ["20180307"],
+          "hours":[
+            {
+              "from": "5",
+              "to": "10"
+            },
+            {
+              "from": "16",
+              "to": "20"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "0",
+            "plates-by-day": "6"
+          }
+        },
+        {
+          "days": ["20180308"],
+          "hours":[
+            {
+              "from": "5",
+              "to": "10"
+            },
+            {
+              "from": "16",
+              "to": "20"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "6",
+            "plates-by-day": "6"
+          }
+        },
+        {
+          "days": ["20180309"],
+          "hours":[
+            {
+              "from": "5",
+              "to": "10"
+            },
+            {
+              "from": "16",
+              "to": "20"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "2",
+            "plates-by-day": "6"
+          }
+        },
+        {
           "days": ["mon", "tue", "wed", "thu", "fri"],
           "hours":[
             {
@@ -36,12 +90,8 @@
           "days": ["sat"],
           "hours":[
             {
-              "from": "7",
-              "to": "8.5"
-            },
-            {
-              "from": "17.5",
-              "to": "19"
+              "from": "10",
+              "to": "16"
             }
           ],
           "validator": {
