@@ -1,4 +1,13 @@
 {
+  "special-events": [
+    {
+      "dates": ["20180309"],
+      "city": "medellin",
+      "title": "Se levanta estado de Alerta desde Viernes 9 de Marzo",
+      "text": "A partir de las 12 del día de este viernes 9 de marzo se levanta el pico y placa de seis dígitos.",
+      "url": "http://www.elcolombiano.com/antioquia/calidad-del-aire-en-medellin-medidas-de-prevencion-XF8337202"
+    }
+  ],
   "country" : "colombia",
   "holidays": ["20180101", "20180108", "20180319", "20180329",
     "20180330", "20180501", "20180514", "20180604", "20180611", "20180702", "20180720",
@@ -46,24 +55,6 @@
           "validator": {
             "type": "plates-by-day",
             "monday-start": "8",
-            "plates-by-day": "6"
-          }
-        },
-        {
-          "days": ["20180309"],
-          "hours":[
-            {
-              "from": "5",
-              "to": "10"
-            },
-            {
-              "from": "16",
-              "to": "20"
-            }
-          ],
-          "validator": {
-            "type": "plates-by-day",
-            "monday-start": "6",
             "plates-by-day": "6"
           }
         },
