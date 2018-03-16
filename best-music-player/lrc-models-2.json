@@ -1,5 +1,8 @@
 [
   {
+    "name": "VLyrics"
+  },
+  {
     "name": "RaaLyrics",
     "url-pattern": "http://www.rentanadviser.com/en/subtitles/subtitles4songs.aspx?src=artistname%20songtitle",
     "url-replacements": [
