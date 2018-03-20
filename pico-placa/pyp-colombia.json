@@ -1,11 +1,11 @@
 {
   "special-events": [
     {
-      "dates": ["20180309"],
-      "city": "medellin",
-      "title": "Se levanta estado de Alerta Hoy",
-      "text": "A partir de las 12 del día de este viernes 9 de marzo se levanta el pico y placa de seis dígitos.",
-      "url": "http://www.elcolombiano.com/antioquia/calidad-del-aire-en-medellin-medidas-de-prevencion-XF8337202"
+      "dates": ["20180326", "20180327", "20180328"],
+      "city": "bucaramanga",
+      "title": "Bucaramanga sin Pico y Placa en Semana Santa",
+      "text": "A partir del sábado 24 de marzo comenzará la suspensión temporal del pico y placa en la Ciudad de los Parques",
+      "url": "http://bucaramanga.extra.com.co/noticias/nacional/no-habra-pico-y-placa-en-bucaramanga-durante-esta-semana-san-400652"
     }
   ],
   "country" : "colombia",
@@ -142,7 +142,7 @@
     },
     {
       "name": "bucaramanga",
-      "unrestricted-days": [],
+      "unrestricted-days": ["20180326", "20180327", "20180328"],
       "restrictions": [
         {
           "days": ["mon", "tue", "wed", "thu", "fri"],
