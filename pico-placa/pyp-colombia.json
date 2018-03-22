@@ -6,6 +6,13 @@
       "title": "Bucaramanga sin Pico y Placa en Semana Santa",
       "text": "A partir del sábado 24 de marzo comenzará la suspensión temporal del pico y placa en la Ciudad de los Parques",
       "url": "http://bucaramanga.extra.com.co/noticias/nacional/no-habra-pico-y-placa-en-bucaramanga-durante-esta-semana-san-400652"
+    },
+    {
+      "dates": ["20180401"],
+      "city": "medellin",
+      "title": "Medellin sin Pico y Placa en Semana Santa",
+      "text": "El pico y placa será suspendido de Marzo 26 a Abril 1",
+      "url": "http://www.elcolombiano.com/antioquia/movilidad/pico-y-placa-en-medellin-suspendido-en-semana-santa-HN8429922"
     }
   ],
   "country" : "colombia",
@@ -20,7 +27,7 @@
       "name": "medellin",
       "aliases": ["bello", "envigado", "itagui", "sabaneta", "barbosa", "caldas", "la estrella",
         "girardota", "copacabana"],
-      "unrestricted-days": [],
+      "unrestricted-days": ["20180326", "20180327", "20180328", "20180331"],
       "restrictions": [
         {
           "days": ["20180307"],
@@ -142,7 +149,7 @@
     },
     {
       "name": "bucaramanga",
-      "unrestricted-days": ["20180326", "20180327", "20180328"],
+      "unrestricted-days": ["20180326", "20180327", "20180328", "20180331"],
       "restrictions": [
         {
           "days": ["mon", "tue", "wed", "thu", "fri"],

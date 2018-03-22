@@ -1,11 +1,11 @@
 {
   "special-events": [
     {
-      "dates": ["20180309"],
+      "dates": ["20180401"],
       "city": "medellin",
-      "title": "Se levanta estado de Alerta Hoy",
-      "text": "A partir de las 12 del día de este viernes 9 de marzo se levanta el pico y placa de seis dígitos.",
-      "url": "http://www.elcolombiano.com/antioquia/calidad-del-aire-en-medellin-medidas-de-prevencion-XF8337202"
+      "title": "Medellin sin Pico y Placa en Semana Santa",
+      "text": "El pico y placa será suspendido de Marzo 26 a Abril 1",
+      "url": "http://www.elcolombiano.com/antioquia/movilidad/pico-y-placa-en-medellin-suspendido-en-semana-santa-HN8429922"
     }
   ],
   "country" : "colombia",
@@ -21,7 +21,7 @@
       "name": "medellin",
       "aliases": ["bello", "envigado", "itagui", "sabaneta", "barbosa", "caldas", "la estrella",
         "girardota", "copacabana"],
-      "unrestricted-days": [],
+      "unrestricted-days": ["20180326", "20180327", "20180328", "20180331"],
       "restrictions": [
         {
           "days": ["20180307"],
