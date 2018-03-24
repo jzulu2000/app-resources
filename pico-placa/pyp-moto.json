@@ -6,6 +6,13 @@
       "title": "Medellin sin Pico y Placa en Semana Santa",
       "text": "El pico y placa será suspendido de Marzo 26 a Abril 1. Sobre el pico y placa ambiental los días sábados afirmó que en Semana Santa se levanta la restricción para todos los vehículos, aunque confirmó que el 7 de abril le tocará a los vehículos con placa impar.",
       "url": "http://www.elcolombiano.com/antioquia/movilidad/pico-y-placa-en-medellin-suspendido-en-semana-santa-HN8429922"
+    },
+    {
+      "dates": ["20180328"],
+      "city": "villavicencio",
+      "title": "Villavicencio sin Pico y Placa en Semana Santa",
+      "text": "Se levantará de manera transitoria el pico y placa para vehículos particulares y motocicletas en la capital del Meta",
+      "url": "https://periodicodelmeta.com/en-semana-santa-no-habra-pico-y-placa-en-villavicencio/"
     }
   ],
   "country" : "colombia",
@@ -256,7 +263,7 @@
     },
     {
       "name": "villavicencio",
-      "unrestricted-days": [],
+      "unrestricted-days": ["20180326", "20180327", "20180328"],
       "restrictions": [
         {
           "days": ["mon", "tue", "wed", "thu", "fri"],

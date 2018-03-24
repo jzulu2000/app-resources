@@ -13,6 +13,13 @@
       "title": "Bucaramanga sin Pico y Placa en Semana Santa",
       "text": "A partir del sábado 24 de marzo comenzará la suspensión temporal del pico y placa en la Ciudad de los Parques",
       "url": "http://bucaramanga.extra.com.co/noticias/nacional/no-habra-pico-y-placa-en-bucaramanga-durante-esta-semana-san-400652"
+    },
+    {
+      "dates": ["20180328"],
+      "city": "villavicencio",
+      "title": "Villavicencio sin Pico y Placa en Semana Santa",
+      "text": "Se levantará de manera transitoria el pico y placa para vehículos particulares y motocicletas en la capital del Meta",
+      "url": "https://periodicodelmeta.com/en-semana-santa-no-habra-pico-y-placa-en-villavicencio/"
     }
   ],
   "country" : "colombia",
@@ -353,7 +360,7 @@
     },
     {
       "name": "villavicencio",
-      "unrestricted-days": [],
+      "unrestricted-days": ["20180326", "20180327", "20180328"],
       "restrictions": [
         {
           "days": ["mon", "tue", "wed", "thu", "fri"],
