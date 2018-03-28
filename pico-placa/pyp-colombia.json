@@ -27,6 +27,13 @@
       "title": "Decretan Día sin carro el Viernes Santo en Cúcuta",
       "text": "Los vehículos particulares y motos no podrán circular entre las 7:30 am y las 5:00 pm. El ‘Pico y placa’ se mantiene.",
       "url": "https://www.laopinion.com.co/cucuta/viernes-santo-dia-sin-carro-y-sin-moto-en-cucuta-151625"
+    },
+    {
+      "dates": ["20180328"],
+      "city": "popayan",
+      "title": "Pico y Placa suspendido Miércoles Santo al mediodía en Popayán",
+      "text": "De cara a la Semana Santa, las autoridades emitieron un decreto para mejorar la movilidad en esta Ciudad.",
+      "url": "http://www.wradio.com.co/noticias/actualidad/pico-y-placa-se-suspendera-el-miercoles-santo-al-mediodia-en-popayan/20180326/nota/3728780.aspx"
     }
   ],
   "country" : "colombia",
@@ -421,6 +428,40 @@
             "type": "plates-by-day",
             "monday-start": "0",
             "plates-by-day": "10"
+          }
+        }
+      ]
+    },
+    {
+      "name": "popayan",
+      "unrestricted-days": [],
+      "restrictions": [
+        {
+          "days": ["20180328"],
+          "hours":[
+            {
+              "from":"7",
+              "to":"12"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "3",
+            "plates-by-day": "2"
+          }
+        },
+        {
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from":"7",
+              "to":"20"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "3",
+            "plates-by-day": "2"
           }
         }
       ]
