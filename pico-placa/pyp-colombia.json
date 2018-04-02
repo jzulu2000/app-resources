@@ -8,11 +8,11 @@
       "url": "http://www.elcolombiano.com/antioquia/movilidad/pico-y-placa-en-medellin-suspendido-en-semana-santa-HN8429922"
     },
     {
-      "dates": ["20180328"],
+      "dates": ["20180402"],
       "city": "bucaramanga",
-      "title": "Bucaramanga sin Pico y Placa en Semana Santa",
-      "text": "A partir del sábado 24 de marzo comenzará la suspensión temporal del pico y placa en la Ciudad de los Parques",
-      "url": "http://bucaramanga.extra.com.co/noticias/nacional/no-habra-pico-y-placa-en-bucaramanga-durante-esta-semana-san-400652"
+      "title": "Cambio en pico y placa desde Abril 2",
+      "text": "A partir del 2 de abril cambian los dígitos de pico y placa en Bucaramanga",
+      "url": "http://caracol.com.co/emisora/2018/03/17/bucaramanga/1521298690_275782.html"
     },
     {
       "dates": ["20180328"],
@@ -182,7 +182,7 @@
           ],
           "validator": {
             "type": "plates-by-day",
-            "monday-start": "3",
+            "monday-start": "5",
             "plates-by-day": "2"
           }
         }
