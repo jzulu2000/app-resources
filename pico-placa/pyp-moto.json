@@ -159,6 +159,26 @@
       ]
     },
     {
+      "name": "bucaramanga",
+      "unrestricted-days": [],
+      "restrictions": [
+        {
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from": "6",
+              "to": "20"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "5",
+            "plates-by-day": "2"
+          }
+        }
+      ]
+    },
+    {
       "name": "santa marta",
       "unrestricted-days": [],
       "restrictions": [
