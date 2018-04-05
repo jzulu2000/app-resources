@@ -113,7 +113,7 @@
           "validator": {
             "type": "pair-impair",
             "evaluator": "WEEK_OF_YEAR",
-            "pair-if-pair": "false"
+            "pair-if-pair": "true"
           }
         }
       ]
