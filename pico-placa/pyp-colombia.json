@@ -8,6 +8,13 @@
       "url": "https://twitter.com/sttmed/status/980825956259631104"
     },
     {
+      "dates": ["20180409"],
+      "city": "medellin",
+      "title": "El Sábado 7 de Abril termina el pico y placa ambiental y vuelve el de movilidad",
+      "text": "A partir del lunes 9 de abril de nuevo entra a regir el pico y placa de movilidad, que incluye cuatro dígitos para vehículos particulares, dos dígitos para las motos de dos tiempos y los taxis con placas terminadas en 9.",
+      "url": "http://www.elcolombiano.com/antioquia/este-sabado-acaba-el-estado-de-prevencion-ambiental-en-medellin-FX8505272"
+    },
+    {
       "dates": ["20180410"],
       "city": "huila",
       "title": "10 de Abril, día sin carro y moto.",
@@ -37,42 +44,6 @@
       "unrestricted-days": ["20180326", "20180327", "20180328", "20180331"],
       "restrictions": [
         {
-          "days": ["20180307"],
-          "hours":[
-            {
-              "from": "5",
-              "to": "10"
-            },
-            {
-              "from": "16",
-              "to": "20"
-            }
-          ],
-          "validator": {
-            "type": "plates-by-day",
-            "monday-start": "0",
-            "plates-by-day": "6"
-          }
-        },
-        {
-          "days": ["20180308"],
-          "hours":[
-            {
-              "from": "5",
-              "to": "10"
-            },
-            {
-              "from": "16",
-              "to": "20"
-            }
-          ],
-          "validator": {
-            "type": "plates-by-day",
-            "monday-start": "8",
-            "plates-by-day": "6"
-          }
-        },
-        {
           "days": ["mon", "tue", "wed", "thu", "fri"],
           "hours":[
             {
@@ -91,7 +62,7 @@
           }
         },
         {
-          "days": ["sat"],
+          "days": ["20180407"],
           "hours":[
             {
               "from": "7",
