@@ -16,7 +16,7 @@
     },
     {
       "dates": ["20180410"],
-      "city": "huila",
+      "city": "neiva",
       "title": "10 de Abril, día sin carro y moto.",
       "text": "La jornada que se desarrollará entre las 7:00 a.m. y 7:00 p.m. Solo en el perímetro urbano",
       "url": "https://www.diariodelhuila.com/ojo-a-la-multa-que-debera-pagar-si-no-acata-dia-sin-carro-y-moto"
@@ -424,15 +424,15 @@
       ]
     },
     {
-      "name": "huila",
+      "name": "neiva",
       "unrestricted-days": [],
       "restrictions": [
         {
           "days": ["20180410"],
           "hours":[
             {
-              "from": "7",
-              "to": "19"
+              "from": "6.5",
+              "to": "20.5"
             }
           ],
           "validator": {
