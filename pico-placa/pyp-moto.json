@@ -1,25 +1,11 @@
 {
   "special-events": [
     {
-      "dates": ["20180407"],
+      "dates": ["20180424"],
       "city": "medellin",
-      "title": "Sábado 7 de Abril, pico y placa PARES",
-      "text": "Se cambia la rotación por la suspensión en Semana Santa",
-      "url": "https://twitter.com/sttmed/status/980825956259631104"
-    },
-    {
-      "dates": ["20180409"],
-      "city": "medellin",
-      "title": "El Sábado 7 de Abril termina el pico y placa ambiental y vuelve el de movilidad",
-      "text": "A partir del lunes 9 de abril de nuevo entra a regir el pico y placa de movilidad, que incluye cuatro dígitos para vehículos particulares, dos dígitos para las motos de dos tiempos y los taxis con placas terminadas en 9.",
-      "url": "http://www.elcolombiano.com/antioquia/este-sabado-acaba-el-estado-de-prevencion-ambiental-en-medellin-FX8505272"
-    },
-    {
-      "dates": ["20180410"],
-      "city": "neiva",
-      "title": "10 de Abril, día sin carro y moto.",
-      "text": "La jornada que se desarrollará entre las 7:00 a.m. y 7:00 p.m. Solo en el perímetro urbano",
-      "url": "https://www.diariodelhuila.com/ojo-a-la-multa-que-debera-pagar-si-no-acata-dia-sin-carro-y-moto"
+      "title": "Martes 24 de Abril 2018 Dia Sin Carro y Moto",
+      "text": "De 7 a.m. a 7 p.m. se realizará el próximo martes 24 de abril el día sin carro y moto en Medellín y sus corregimientos",
+      "url": "https://twitter.com/sttmed/status/986248201006145537"
     },
     {
       "dates": ["20180419"],
@@ -45,6 +31,20 @@
       "unrestricted-days": ["20180326", "20180327", "20180328", "20180331"],
       "restrictions": [
         {
+          "days": ["20180424"],
+          "hours":[
+            {
+              "from": "7",
+              "to": "19"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "0",
+            "plates-by-day": "10"
+          }
+        },
+        {
           "days": ["mon", "tue", "wed", "thu", "fri"],
           "hours":[
             {
@@ -60,24 +60,6 @@
             "type": "plates-by-day",
             "monday-start": "8",
             "plates-by-day": "2"
-          }
-        },
-        {
-          "days": ["20180407"],
-          "hours":[
-            {
-              "from": "7",
-              "to": "8.5"
-            },
-            {
-              "from": "17.5",
-              "to": "19"
-            }
-          ],
-          "validator": {
-            "type": "pair-impair",
-            "evaluator": "WEEK_OF_YEAR",
-            "pair-if-pair": "true"
           }
         }
       ]
@@ -261,7 +243,7 @@
     },
     {
       "name": "villavicencio",
-      "unrestricted-days": ["20180326", "20180327", "20180328"],
+      "unrestricted-days": [],
       "restrictions": [
         {
           "days": ["mon", "tue", "wed", "thu", "fri"],
@@ -283,20 +265,6 @@
       "name": "popayan",
       "unrestricted-days": [],
       "restrictions": [
-        {
-          "days": ["20180328"],
-          "hours":[
-            {
-              "from":"7",
-              "to":"12"
-            }
-          ],
-          "validator": {
-            "type": "plates-by-day",
-            "monday-start": "3",
-            "plates-by-day": "2"
-          }
-        },
         {
           "days": ["mon", "tue", "wed", "thu", "fri"],
           "hours":[
@@ -323,26 +291,6 @@
             {
               "from": "0",
               "to": "24"
-            }
-          ],
-          "validator": {
-            "type": "plates-by-day",
-            "monday-start": "0",
-            "plates-by-day": "10"
-          }
-        }
-      ]
-    },
-    {
-      "name": "neiva",
-      "unrestricted-days": [],
-      "restrictions": [
-        {
-          "days": ["20180410"],
-          "hours":[
-            {
-              "from": "6.5",
-              "to": "20.5"
             }
           ],
           "validator": {
