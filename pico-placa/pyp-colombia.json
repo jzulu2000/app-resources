@@ -13,6 +13,20 @@
       "title": "19 de Abril, día sin carro y moto.",
       "text": "Se institucionaliza el 19 de abril como el día sin carro y sin moto por las calles de la ciudad.",
       "url": "http://www.eltiempo.com/colombia/otras-ciudades/en-manizales-decretan-el-19-de-abril-como-dia-sin-carro-189300"
+    },
+    {
+      "dates": ["20180419"],
+      "city": "bucaramanga",
+      "title": "19 de Abril, día sin carro y moto.",
+      "text": "Jueves sin carros ni motos en Bucaramanga y Barrancabermeja.",
+      "url": "http://caracol.com.co/emisora/2018/04/19/bucaramanga/1524100053_090180.html"
+    },
+    {
+      "dates": ["20180419"],
+      "city": "barrancabermeja",
+      "title": "19 de Abril, día sin carro y moto.",
+      "text": "Jueves sin carros ni motos en Bucaramanga y Barrancabermeja.",
+      "url": "http://caracol.com.co/emisora/2018/04/19/bucaramanga/1524100053_090180.html"
     }
   ],
   "country" : "colombia",
@@ -111,6 +125,20 @@
       "name": "bucaramanga",
       "unrestricted-days": [],
       "restrictions": [
+        {
+          "days": ["20180419"],
+          "hours":[
+            {
+              "from": "6",
+              "to": "20"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "0",
+            "plates-by-day": "10"
+          }
+        },
         {
           "days": ["mon", "tue", "wed", "thu", "fri"],
           "hours":[
@@ -359,8 +387,8 @@
           "days": ["20180419"],
           "hours":[
             {
-              "from": "0",
-              "to": "24"
+              "from": "6",
+              "to": "19.5"
             }
           ],
           "validator": {
@@ -387,6 +415,26 @@
             "type": "plates-by-day",
             "monday-start": "3",
             "plates-by-day": "2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "barrancabermeja",
+      "unrestricted-days": [],
+      "restrictions": [
+        {
+          "days": ["20180419"],
+          "hours":[
+            {
+              "from": "6",
+              "to": "20"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "0",
+            "plates-by-day": "10"
           }
         }
       ]
