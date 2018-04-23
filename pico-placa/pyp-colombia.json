@@ -458,6 +458,30 @@
           }
         }
       ]
+    },
+    {
+      "name": "buenaventura",
+      "unrestricted-days": [],
+      "restrictions": [
+        {
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from": "7",
+              "to": "10"
+            },
+            {
+              "from": "17",
+              "to": "20"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "3",
+            "plates-by-day": "2"
+          }
+        }
+      ]
     }
   ]
 }
