@@ -438,6 +438,26 @@
           }
         }
       ]
+    },
+    {
+      "name": "quibdo",
+      "unrestricted-days": [],
+      "restrictions": [
+        {
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from": "7.5",
+              "to": "19.5"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "1",
+            "plates-by-day": "2"
+          }
+        }
+      ]
     }
   ]
 }
