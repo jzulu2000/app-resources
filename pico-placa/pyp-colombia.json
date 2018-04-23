@@ -482,6 +482,30 @@
           }
         }
       ]
+    },
+    {
+      "name": "ibague",
+      "unrestricted-days": [],
+      "restrictions": [
+        {
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from": "6.5",
+              "to": "9"
+            },
+            {
+              "from": "17",
+              "to": "19.5"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "0",
+            "plates-by-day": "2"
+          }
+        }
+      ]
     }
   ]
 }
