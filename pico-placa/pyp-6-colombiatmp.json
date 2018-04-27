@@ -1,0 +1,745 @@
+{
+  "special-events": [
+  ],
+  "vehicle-types" : [
+    {
+      "type": "particular",
+      "icon": "car",
+      "name-ref": "vehicle_type_particular",
+      "plate-color": "plate_color_yellow",
+      "plate-text": "plate_color_black"
+    },
+    {
+      "type": "taxi",
+      "icon": "taxi",
+      "name-ref": "vehicle_type_taxi",
+      "plate-color": "plate_color_white",
+      "plate-text": "plate_color_black"
+    },
+    {
+      "type": "especial",
+      "icon": "car",
+      "name-ref": "vehicle_type_especial",
+      "plate-color": "plate_color_white",
+      "plate-text": "plate_color_black"
+    },
+    {
+      "type": "publico",
+      "icon": "bus",
+      "name-ref": "vehicle_type_publico",
+      "plate-color": "plate_color_white",
+      "plate-text": "plate_color_black"
+    },
+    {
+      "type": "moto-2t",
+      "icon": "motorcycle",
+      "name-ref": "vehicle_type_moto_2t",
+      "plate-extractor": "first-digit-found",
+      "plate-color": "plate_color_yellow",
+      "plate-text": "plate_color_black"
+    },
+    {
+      "type": "moto-4t",
+      "icon": "motorcycle",
+      "name-ref": "vehicle_type_moto_4t",
+      "plate-extractor": "first-digit-found",
+      "plate-color": "plate_color_yellow",
+      "plate-text": "plate_color_black"
+    }
+  ],
+  "country" : "colombia",
+  "holidays": ["20180101", "20180108", "20180319", "20180329",
+    "20180330", "20180501", "20180514", "20180604", "20180611", "20180702", "20180720",
+    "20180807", "20180820", "20181015", "20181105", "20181112", "20181208", "20181225",
+    "20190101", "20190107", "20190325", "20190418", "20190429", "20190501", "20190603",
+    "20190624", "20190701", "20190720", "20190807", "20190819", "20191014", "20191104",
+    "20191111", "20191208", "20191225"],
+  "cities": [
+    {
+      "name": "medellin",
+      "aliases": ["bello", "envigado", "itagui", "sabaneta", "barbosa", "caldas", "la estrella",
+        "girardota", "copacabana"],
+      "unrestricted-days": ["20180326", "20180327", "20180328", "20180331"],
+      "restrictions": [
+        {
+          "vehicles": ["particular"],
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from": "7",
+              "to": "8.5"
+            },
+            {
+              "from": "17.5",
+              "to": "19"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "4",
+            "plates-by-day": "4"
+          }
+        },
+        {
+          "vehicles": ["moto-2t"],
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from": "7",
+              "to": "8.5"
+            },
+            {
+              "from": "17.5",
+              "to": "19"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "8",
+            "plates-by-day": "2"
+          }
+        },
+        {
+          "vehicles": ["taxi"],
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from": "6",
+              "to": "20"
+            }
+          ],
+          "validator": {
+            "type": "static",
+            "restrictions": [
+              {
+                "days": ["20180503", "20180518", "20180601", "20180625", "20180710", "20180724"],
+                "plates": [ "0"]
+              },
+              {
+                "days": ["20180430", "20180504", "20180528", "20180612", "20180626", "20180711", "20180725"],
+                "plates": [ "1"]
+              },
+              {
+                "days": ["20180508", "20180522", "20180606", "20180620", "20180705", "20180719"],
+                "plates": [ "2"]
+              },
+              {
+                "days": ["20180516", "20180530", "20180614", "20180628", "20180713", "20180727"],
+                "plates": [ "3"]
+              },
+              {
+                "days": ["20180510", "20180524", "20180608", "20180622", "20180716", "20180730"],
+                "plates": [ "4"]
+              },
+              {
+                "days": ["20180426", "20180511", "20180525", "20180618", "20180703", "20180717", "20180731"],
+                "plates": [ "5"]
+              },
+              {
+                "days": ["20180427", "20180507", "20180521", "20180605", "20180619", "20180704", "20180718"],
+                "plates": [ "6"]
+              },
+              {
+                "days": ["20180515", "20180529", "20180613", "20180627", "20180712", "20180726"],
+                "plates": [ "7"]
+              },
+              {
+                "days": ["20180509", "20180523", "20180607", "20180621", "20180706"],
+                "plates": [ "8"]
+              },
+              {
+                "days": ["20180502", "20180517", "20180531", "20180615", "20180629", "20180709", "20180723"],
+                "plates": [ "9"]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "bogota",
+      "unrestricted-days": [],
+      "restrictions": [
+        {
+          "vehicles": ["particular"],
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from": "6",
+              "to": "8.5"
+            },
+            {
+              "from": "15",
+              "to": "19.5"
+            }
+          ],
+          "validator": {
+            "type": "pair-impair",
+            "evaluator": "DAY_OF_MONTH",
+            "pair-if-pair": "true"
+          }
+        },
+        {
+          "vehicles": ["taxi", "especial"],
+          "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+          "hours":[
+            {
+              "from": "6",
+              "to": "20"
+            }
+          ],
+          "validator": {
+            "type": "year-secuence",
+            "first-monday-start": "7",
+            "plates-by-day": "2",
+            "include-saturdays": "true",
+            "include-sundays": "false"
+          }
+        },
+        {
+          "vehicles": ["publico"],
+          "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+          "hours":[
+            {
+              "from": "6",
+              "to": "20"
+            }
+          ],
+          "validator": {
+            "type": "year-secuence",
+            "first-monday-start": "5",
+            "plates-by-day": "2",
+            "include-saturdays": "true",
+            "include-sundays": "false"
+          }
+        }
+      ]
+    },
+    {
+      "name": "pereira",
+      "unrestricted-days": [],
+      "restrictions": [
+        {
+          "vehicles": ["particular"],
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from": "7",
+              "to": "19"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "0",
+            "plates-by-day": "2"
+          }
+        },
+        {
+          "vehicles": ["moto-2t", "moto-4t"],
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from": "7",
+              "to": "19"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "0",
+            "plates-by-day": "2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "bucaramanga",
+      "unrestricted-days": [],
+      "restrictions": [
+        {
+          "vehicles": ["particular"],
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from": "6",
+              "to": "20"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "5",
+            "plates-by-day": "2"
+          }
+        },
+        {
+          "vehicles": ["moto-2t", "moto-4t"],
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from": "6",
+              "to": "20"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "5",
+            "plates-by-day": "2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "cartagena",
+      "unrestricted-days": [],
+      "restrictions": [
+        {
+          "vehicles": ["particular"],
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from": "7",
+              "to": "9"
+            },
+            {
+              "from": "12",
+              "to": "14"
+            },
+            {
+              "from": "17",
+              "to": "19.5"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "3",
+            "plates-by-day": "2"
+          }
+        },
+        {
+          "vehicles": ["taxi"],
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from": "6",
+              "to": "24"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "3",
+            "plates-by-day": "2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "cali",
+      "unrestricted-days": [],
+      "restrictions": [
+        {
+          "vehicles": ["particular"],
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from": "6",
+              "to": "10"
+            },
+            {
+              "from": "16",
+              "to": "20"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "3",
+            "plates-by-day": "2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "barranquilla",
+      "unrestricted-days": [],
+      "restrictions": [
+        {
+          "vehicles": ["particular"],
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from": "7.5",
+              "to": "9"
+            },
+            {
+              "from": "17.5",
+              "to": "19"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "1",
+            "plates-by-day": "4"
+          }
+        }
+      ]
+    },
+    {
+      "name": "armenia",
+      "unrestricted-days": [],
+      "restrictions": [
+        {
+          "vehicles": ["particular"],
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from": "8",
+              "to": "20"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "1",
+            "plates-by-day": "2"
+          }
+        },
+        {
+          "vehicles": ["moto-2t", "moto-4t"],
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from": "8",
+              "to": "20"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "1",
+            "plates-by-day": "2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "santa marta",
+      "unrestricted-days": [],
+      "restrictions": [
+        {
+          "vehicles": ["particular"],
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from": "7",
+              "to": "19"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "8",
+            "plates-by-day": "2"
+          }
+        },
+        {
+          "vehicles": ["moto-2t", "moto-4t"],
+          "days": ["20180120", "20180220", "20180320", "20180420", "20180520", "20180620",
+            "20180720", "20180820", "20180920", "20181020", "20181120", "20181220"],
+          "hours":[
+            {
+              "from": "4",
+              "to": "24"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "0",
+            "plates-by-day": "10"
+          }
+        },
+        {
+          "vehicles": ["moto-2t", "moto-4t"],
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from": "7",
+              "to": "19"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "1",
+            "plates-by-day": "4"
+          }
+        },
+        {
+          "vehicles": ["moto-2t", "moto-4t"],
+          "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+          "hours":[
+            {
+              "from": "0",
+              "to": "4"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "1",
+            "plates-by-day": "10"
+          }
+        }
+      ]
+    },
+    {
+      "name": "pasto",
+      "unrestricted-days": [],
+      "restrictions": [
+        {
+          "vehicles": ["particular"],
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from": "7.5",
+              "to": "19"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "4",
+            "plates-by-day": "2"
+          }
+        },
+        {
+          "vehicles": ["moto-2t", "moto-4t"],
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from": "7.5",
+              "to": "19"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "4",
+            "plates-by-day": "2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "cucuta",
+      "unrestricted-days": [],
+      "restrictions": [
+        {
+          "vehicles": ["particular"],
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from": "7.5",
+              "to": "9"
+            },
+            {
+              "from": "11.5",
+              "to": "13.5"
+            },
+            {
+              "from": "17.5",
+              "to": "19"
+            }
+          ],
+          "validator": {
+            "type": "static",
+            "restrictions": [
+              {
+                "days": ["mon"],
+                "plates": [ "0", "9"]
+              },
+              {
+                "days": ["tue"],
+                "plates": [ "1", "8"]
+              },
+              {
+                "days": ["wed"],
+                "plates": [ "2", "7"]
+              },
+              {
+                "days": ["thu"],
+                "plates": [ "3", "6"]
+              },
+              {
+                "days": ["fri"],
+                "plates": [ "4", "5"]
+              }
+            ]
+          }
+        },
+        {
+          "vehicles": ["moto-2t", "moto-4t"],
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from": "7.5",
+              "to": "9"
+            },
+            {
+              "from": "11.5",
+              "to": "13.5"
+            },
+            {
+              "from": "17.5",
+              "to": "19"
+            }
+          ],
+          "validator": {
+            "type": "static",
+            "restrictions": [
+              {
+                "days": ["mon"],
+                "plates": [ "0", "9"]
+              },
+              {
+                "days": ["tue"],
+                "plates": [ "1", "8"]
+              },
+              {
+                "days": ["wed"],
+                "plates": [ "2", "7"]
+              },
+              {
+                "days": ["thu"],
+                "plates": [ "3", "6"]
+              },
+              {
+                "days": ["fri"],
+                "plates": [ "4", "5"]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "villavicencio",
+      "unrestricted-days": ["20180326", "20180327", "20180328"],
+      "restrictions": [
+        {
+          "vehicles": ["particular"],
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from":"6.5",
+              "to":"19.5"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "7",
+            "plates-by-day": "2"
+          }
+        },
+        {
+          "vehicles": ["moto-2t", "moto-4t"],
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from":"6.5",
+              "to":"19.5"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "7",
+            "plates-by-day": "2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "tunja",
+      "unrestricted-days": [],
+      "restrictions": [
+        {
+          "vehicles": ["particular"],
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from":"7",
+              "to":"19"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "5",
+            "plates-by-day": "2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "popayan",
+      "unrestricted-days": [],
+      "restrictions": [
+        {
+          "vehicles": ["particular"],
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from":"7",
+              "to":"20"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "3",
+            "plates-by-day": "2"
+          }
+        },
+        {
+          "vehicles": ["moto-2t", "moto-4t"],
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from":"7",
+              "to":"20"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "3",
+            "plates-by-day": "2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "quibdo",
+      "unrestricted-days": [],
+      "restrictions": [
+        {
+          "vehicles": ["moto-2t", "moto-4t"],
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from": "7.5",
+              "to": "19.5"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "1",
+            "plates-by-day": "4"
+          }
+        },
+        {
+          "vehicles": ["particular"],
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from": "7.5",
+              "to": "19.5"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "1",
+            "plates-by-day": "2"
+          }
+        }
+      ]
+    }
+  ]
+}
