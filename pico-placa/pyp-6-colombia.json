@@ -378,6 +378,23 @@
             "monday-start": "1",
             "plates-by-day": "4"
           }
+        },
+        {
+          "vehicles": ["taxi"],
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from": "6",
+              "to": "20"
+            }
+          ],
+          "validator": {
+            "type": "year-secuence",
+            "first-monday-start": "5",
+            "plates-by-day": "2",
+            "include-saturdays": "true",
+            "include-sundays": "false"
+          }
         }
       ]
     },
