@@ -336,7 +336,7 @@
       "unrestricted-days": [],
       "restrictions": [
         {
-          "vehicles": ["particular"],
+          "vehicles": ["particular", "especial"],
           "days": ["mon", "tue", "wed", "thu", "fri"],
           "hours":[
             {
@@ -352,6 +352,42 @@
             "type": "plates-by-day",
             "monday-start": "3",
             "plates-by-day": "2"
+          }
+        },
+        {
+          "vehicles": ["taxi"],
+          "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+          "skip-on-holidays": false,
+          "hours":[
+            {
+              "from": "6",
+              "to": "24"
+            }
+          ],
+          "validator": {
+            "type": "year-secuence",
+            "first-monday-start": "7",
+            "plates-by-day": "2",
+            "include-saturdays": "true",
+            "include-sundays": "true"
+          }
+        },
+        {
+          "vehicles": ["publico"],
+          "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+          "skip-on-holidays": false,
+          "hours":[
+            {
+              "from": "5",
+              "to": "10"
+            }
+          ],
+          "validator": {
+            "type": "year-secuence",
+            "first-monday-start": "6",
+            "plates-by-day": "2",
+            "include-saturdays": "true",
+            "include-sundays": "true"
           }
         }
       ]
