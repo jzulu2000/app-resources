@@ -1,4 +1,13 @@
 {
+  "special-events": [
+    {
+      "dates": ["20180512"],
+      "city": "ciudad de mexico",
+      "title": "Nueva versión 6.0 disponible.",
+      "text": "Soporte a holograma 1 y 2. Incluye municipios del Estado de México. Una vez realices la actualización, confirma el tipo de holograma de tu vehículo para mayor precisión en las notificaciones de los días Sábado.",
+      "url": "https://play.google.com/store/apps/details?id=com.jzulu2000.platerestrictionnotifier_mexico"
+    }
+  ],
   "country" : "mexico",
   "holidays": ["20180101", "20180205", "20180319", "20180501","20181119", "20181225",
     "20190101", "20190204", "20190318", "20190501","20190916", "20191118", "20191225"],
