@@ -1,32 +1,11 @@
 {
   "special-events": [
     {
-      "dates": ["20180424"],
+      "dates": ["20180512"],
       "city": "medellin",
-      "title": "Martes 24 de Abril 2018 Dia Sin Carro y Moto",
-      "text": "De 7 a.m. a 7 p.m. se realizará el próximo martes 24 de abril el día sin carro y moto en Medellín y sus corregimientos",
-      "url": "https://twitter.com/sttmed/status/986248201006145537"
-    },
-    {
-      "dates": ["20180419"],
-      "city": "manizales",
-      "title": "19 de Abril, día sin carro y moto.",
-      "text": "Se institucionaliza el 19 de abril como el día sin carro y sin moto por las calles de la ciudad.",
-      "url": "http://www.eltiempo.com/colombia/otras-ciudades/en-manizales-decretan-el-19-de-abril-como-dia-sin-carro-189300"
-    },
-    {
-      "dates": ["20180419"],
-      "city": "bucaramanga",
-      "title": "19 de Abril, día sin carro y moto.",
-      "text": "Jueves sin carros ni motos en Bucaramanga y Barrancabermeja.",
-      "url": "http://caracol.com.co/emisora/2018/04/19/bucaramanga/1524100053_090180.html"
-    },
-    {
-      "dates": ["20180419"],
-      "city": "barrancabermeja",
-      "title": "19 de Abril, día sin carro y moto.",
-      "text": "Jueves sin carros ni motos en Bucaramanga y Barrancabermeja.",
-      "url": "http://caracol.com.co/emisora/2018/04/19/bucaramanga/1524100053_090180.html"
+      "title": "Nueva versión 6.0 disponible.",
+      "text": "Se puede tipificar Motos 2 tiempos y 4 tiempos. Una vez realices la actualización, confirma el tipo de moto para mayor precisión en las notificaciones.",
+      "url": "https://play.google.com/store/apps/details?id=com.jzulu2000.platerestrictionnotifier_moto"
     }
   ],
   "country" : "colombia",
@@ -42,22 +21,8 @@
       "name": "medellin",
       "aliases": ["bello", "envigado", "itagui", "sabaneta", "barbosa", "caldas", "la estrella",
         "girardota", "copacabana"],
-      "unrestricted-days": ["20180326", "20180327", "20180328", "20180331"],
+      "unrestricted-days": [],
       "restrictions": [
-        {
-          "days": ["20180424"],
-          "hours":[
-            {
-              "from": "7",
-              "to": "19"
-            }
-          ],
-          "validator": {
-            "type": "plates-by-day",
-            "monday-start": "0",
-            "plates-by-day": "10"
-          }
-        },
         {
           "days": ["mon", "tue", "wed", "thu", "fri"],
           "hours":[
@@ -122,20 +87,6 @@
       "name": "bucaramanga",
       "unrestricted-days": [],
       "restrictions": [
-        {
-          "days": ["20180419"],
-          "hours":[
-            {
-              "from": "6",
-              "to": "20"
-            }
-          ],
-          "validator": {
-            "type": "plates-by-day",
-            "monday-start": "0",
-            "plates-by-day": "10"
-          }
-        },
         {
           "days": ["mon", "tue", "wed", "thu", "fri"],
           "hours":[
@@ -305,46 +256,6 @@
             "type": "plates-by-day",
             "monday-start": "3",
             "plates-by-day": "2"
-          }
-        }
-      ]
-    },
-    {
-      "name": "manizales",
-      "unrestricted-days": [],
-      "restrictions": [
-        {
-          "days": ["20180419"],
-          "hours":[
-            {
-              "from": "6",
-              "to": "19.5"
-            }
-          ],
-          "validator": {
-            "type": "plates-by-day",
-            "monday-start": "0",
-            "plates-by-day": "10"
-          }
-        }
-      ]
-    },
-    {
-      "name": "barrancabermeja",
-      "unrestricted-days": [],
-      "restrictions": [
-        {
-          "days": ["20180419"],
-          "hours":[
-            {
-              "from": "6",
-              "to": "20"
-            }
-          ],
-          "validator": {
-            "type": "plates-by-day",
-            "monday-start": "0",
-            "plates-by-day": "10"
           }
         }
       ]
