@@ -6,7 +6,7 @@
       "type": "particular",
       "icon": "car",
       "name-ref": "vehicle_type_particular",
-      "plate-color": "plate_color_yellow",
+      "plate-color": "plate_color_white",
       "plate-text": "plate_color_black"
     }
   ],
