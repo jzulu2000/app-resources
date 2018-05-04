@@ -1,0 +1,46 @@
+{
+  "special-events": [
+  ],
+  "vehicle-types" : [
+    {
+      "type": "particular",
+      "icon": "car",
+      "name-ref": "vehicle_type_particular",
+      "plate-color": "plate_color_white",
+      "plate-text": "plate_color_black"
+    }
+  ],
+  "country" : "ecuador",
+  "holidays": [
+    "20180101", "20180212", "20180213", "20180330", "20180501", "20180525",
+    "20180810", "20181012", "20181102", "20181103", "20181225", "20190101", "20190304",
+    "20190305", "20190419", "20190501", "20190524", "20190810", "20191011", "20191102",
+    "20191225"],
+  "cities": [
+    {
+      "name": "quito",
+      "unrestricted-days": [],
+      "restrictions": [
+        {
+          "vehicles": ["particular"],
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from": "7",
+              "to": "9.5"
+            },
+            {
+              "from": "16",
+              "to": "19.5"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "1",
+            "plates-by-day": "2"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "special-events": [
+  ],
+  "vehicle-types" : [
+    {
+      "type": "particular",
+      "icon": "car",
+      "name-ref": "vehicle_type_particular",
+      "plate-color": "plate_color_white",
+      "plate-text": "plate_color_blue"
+    }
+  ],
+  "country" : "costarica",
+  "holidays": [
+    "20180101", "20180329", "20180330", "20180411","20180501", "20180725", "20180802",
+    "20180815", "20180915", "20181015", "20181225",
+    "20190101", "20190411", "20190418", "20190419","20190501", "20190725", "20190802",
+    "20190815", "20191012", "20191225"],
+  "cities": [
+    {
+      "name": "san jose",
+      "unrestricted-days": [],
+      "restrictions": [
+        {
+          "vehicles": ["particular"],
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from": "6",
+              "to": "19"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "1",
+            "plates-by-day": "2"
+          }
+        }
+      ]
+    }
+  ]
+}
