@@ -59,7 +59,7 @@
       "name": "medellin",
       "aliases": ["bello", "envigado", "itagui", "sabaneta", "barbosa", "caldas", "la estrella",
         "girardota", "copacabana"],
-      "unrestricted-days": ["20180326", "20180327", "20180328", "20180331"],
+      "unrestricted-days": [],
       "restrictions": [
         {
           "vehicles": ["particular"],
@@ -667,7 +667,7 @@
     },
     {
       "name": "villavicencio",
-      "unrestricted-days": ["20180326", "20180327", "20180328"],
+      "unrestricted-days": [],
       "restrictions": [
         {
           "vehicles": ["particular"],
