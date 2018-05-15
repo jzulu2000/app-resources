@@ -1,0 +1,9 @@
+{
+  "object-type" : "com.jzulu2000.contentExtractor.AmazonContentExtractor",
+  "priceRegexs" :[
+    "<span id=\"priceblock_[^\"]*price\" class=\"a-size-medium a-color-price\">\\$([0-9\\.]*)</span>"
+  ],
+  "iconRegexs": [
+    "<img alt=\"\" src=\"(http[^\"]*)\">"
+  ]
+}
