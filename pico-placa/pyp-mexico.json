@@ -1,11 +1,11 @@
 {
   "special-events": [
     {
-      "dates": ["20180512"],
+      "dates": ["20180519"],
       "city": "ciudad de mexico",
-      "title": "Nueva versión 6.0 disponible.",
-      "text": "Soporte a holograma 1 y 2. Incluye municipios del Estado de México. Una vez realices la actualización, confirma el tipo de holograma de tu vehículo para mayor precisión en las notificaciones de los días Sábado.",
-      "url": "https://play.google.com/store/apps/details?id=com.jzulu2000.platerestrictionnotifier_mexico"
+      "title": "Sep 22, Dia nacional Sin Automovil.",
+      "text": "El país se suma a la iniciativa de fijar como fecha de celebración el 22 de Septiembre de cada Año.",
+      "url": "http://www.eluniversal.com.mx/nacion/sociedad/oficializa-mexico-dia-nacional-sin-automovil"
     }
   ],
   "country" : "mexico",
@@ -62,6 +62,20 @@
             "type": "pair-impair",
             "evaluator": "WEEK_OF_YEAR",
             "pair-if-pair": "false"
+          }
+        },
+        {
+          "days": [ "20180922", "20190922", "20200922", "20210922", "20220922"],
+          "hours":[
+            {
+              "from": "5",
+              "to": "22"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "0",
+            "plates-by-day": "10"
           }
         }
       ]

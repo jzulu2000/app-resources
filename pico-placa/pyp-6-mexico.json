@@ -1,5 +1,12 @@
 {
   "special-events": [
+    {
+      "dates": ["20180519"],
+      "city": "ciudad de mexico",
+      "title": "Sep 22, Dia nacional Sin Automovil.",
+      "text": "El país se suma a la iniciativa de fijar como fecha de celebración el 22 de Septiembre de cada Año.",
+      "url": "http://www.eluniversal.com.mx/nacion/sociedad/oficializa-mexico-dia-nacional-sin-automovil"
+    }
   ],
   "vehicle-types" : [
     {
@@ -110,6 +117,21 @@
                 "plates": [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
               }
             ]
+          }
+        },
+        {
+          "vehicles": ["holograma-1", "holograma-2"],
+          "days": [ "20180922", "20190922", "20200922", "20210922", "20220922"],
+          "hours":[
+            {
+              "from": "5",
+              "to": "22"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "0",
+            "plates-by-day": "10"
           }
         }
       ]
