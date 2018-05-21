@@ -284,6 +284,23 @@
             "monday-start": "5",
             "plates-by-day": "2"
           }
+        },
+        {
+          "vehicles": ["taxi"],
+          "days": ["mon", "tue", "wed", "thu", "fri"],
+          "hours":[
+            {
+              "from": "7",
+              "to": "21"
+            }
+          ],
+          "validator": {
+            "type": "year-secuence",
+            "first-monday-start": "9",
+            "plates-by-day": "2",
+            "include-saturdays": "true",
+            "include-sundays": "false"
+          }
         }
       ]
     },
