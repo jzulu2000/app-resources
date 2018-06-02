@@ -1,11 +1,11 @@
 {
   "special-events": [
     {
-      "dates": ["20180512"],
-      "city": "medellin",
-      "title": "Nueva versión 6.0 disponible.",
-      "text": "Incluye Particulares, Taxis, Motos 2T y 4T, servicio publico y especiales.",
-      "url": "https://play.google.com/store/apps/details?id=com.jzulu2000.platerestrictionnotifier"
+      "dates": ["20180606"],
+      "city": "cartagena",
+      "title": "El Martes 5 Junio, nueva rotación en Cartagena.",
+      "text": "A partir del Martes 5 de Junio (el Lunes es festivo) rotará el pico y placa para vehículos particulares, de acuerdo al Decreto 1550 de 2017.",
+      "url": "http://www.eluniversal.com.co/cartagena/pico-y-placa-en-cartagena-cambiara-desde-este-5-de-junio-279595"
     }
   ],
   "country" : "colombia",
@@ -20,22 +20,8 @@
       "name": "medellin",
       "aliases": ["bello", "envigado", "itagui", "sabaneta", "barbosa", "caldas", "la estrella",
         "girardota", "copacabana"],
-      "unrestricted-days": ["20180326", "20180327", "20180328", "20180331"],
+      "unrestricted-days": [],
       "restrictions": [
-        {
-          "days": ["20180424"],
-          "hours":[
-            {
-              "from": "7",
-              "to": "19"
-            }
-          ],
-          "validator": {
-            "type": "plates-by-day",
-            "monday-start": "0",
-            "plates-by-day": "10"
-          }
-        },
         {
           "days": ["mon", "tue", "wed", "thu", "fri"],
           "hours":[
@@ -105,20 +91,6 @@
       "unrestricted-days": [],
       "restrictions": [
         {
-          "days": ["20180419"],
-          "hours":[
-            {
-              "from": "6",
-              "to": "20"
-            }
-          ],
-          "validator": {
-            "type": "plates-by-day",
-            "monday-start": "0",
-            "plates-by-day": "10"
-          }
-        },
-        {
           "days": ["mon", "tue", "wed", "thu", "fri"],
           "hours":[
             {
@@ -156,7 +128,7 @@
           ],
           "validator": {
             "type": "plates-by-day",
-            "monday-start": "3",
+            "monday-start": "5",
             "plates-by-day": "2"
           }
         }
@@ -320,7 +292,7 @@
     },
     {
       "name": "villavicencio",
-      "unrestricted-days": ["20180326", "20180327", "20180328"],
+      "unrestricted-days": [],
       "restrictions": [
         {
           "days": ["mon", "tue", "wed", "thu", "fri"],
@@ -359,26 +331,6 @@
       ]
     },
     {
-      "name": "manizales",
-      "unrestricted-days": [],
-      "restrictions": [
-        {
-          "days": ["20180419"],
-          "hours":[
-            {
-              "from": "6",
-              "to": "19.5"
-            }
-          ],
-          "validator": {
-            "type": "plates-by-day",
-            "monday-start": "0",
-            "plates-by-day": "10"
-          }
-        }
-      ]
-    },
-    {
       "name": "popayan",
       "unrestricted-days": [],
       "restrictions": [
@@ -394,26 +346,6 @@
             "type": "plates-by-day",
             "monday-start": "3",
             "plates-by-day": "2"
-          }
-        }
-      ]
-    },
-    {
-      "name": "barrancabermeja",
-      "unrestricted-days": [],
-      "restrictions": [
-        {
-          "days": ["20180419"],
-          "hours":[
-            {
-              "from": "6",
-              "to": "20"
-            }
-          ],
-          "validator": {
-            "type": "plates-by-day",
-            "monday-start": "0",
-            "plates-by-day": "10"
           }
         }
       ]
