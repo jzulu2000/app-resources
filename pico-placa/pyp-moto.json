@@ -1,11 +1,11 @@
 {
   "special-events": [
     {
-      "dates": ["20180512"],
-      "city": "medellin",
-      "title": "Nueva versión 6.0 disponible.",
-      "text": "Se puede tipificar Motos 2 tiempos y 4 tiempos. Una vez realices la actualización, confirma el tipo de moto para mayor precisión en las notificaciones.",
-      "url": "https://play.google.com/store/apps/details?id=com.jzulu2000.platerestrictionnotifier_moto"
+      "dates": ["20180613"],
+      "city": "bucaramanga",
+      "title": "El Miercoles 13 de Junio, dia sin carro.",
+      "text": "La Dirección de Tránsito de Bucaramanga confirmó que este miércoles 13 de junio tendrá lugar una nueva jornada de Día sin Carro y sin Moto en la capital de Santander.",
+      "url": "http://www.vanguardia.com/area-metropolitana/bucaramanga/435289-este-miercoles-habra-dia-sin-carro-y-moto-en-bucaramanga"
     }
   ],
   "country" : "colombia",
@@ -87,6 +87,20 @@
       "name": "bucaramanga",
       "unrestricted-days": [],
       "restrictions": [
+        {
+          "days": ["20180613"],
+          "hours":[
+            {
+              "from": "6",
+              "to": "20"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "0",
+            "plates-by-day": "10"
+          }
+        },
         {
           "days": ["mon", "tue", "wed", "thu", "fri"],
           "hours":[
