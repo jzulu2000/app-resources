@@ -1,11 +1,11 @@
 {
   "special-events": [
     {
-      "dates": ["20180613"],
-      "city": "bucaramanga",
-      "title": "El Miercoles 13 de Junio, dia sin carro.",
-      "text": "La Dirección de Tránsito de Bucaramanga confirmó que este miércoles 13 de junio tendrá lugar una nueva jornada de Día sin Carro y sin Moto en la capital de Santander.",
-      "url": "http://www.vanguardia.com/area-metropolitana/bucaramanga/435289-este-miercoles-habra-dia-sin-carro-y-moto-en-bucaramanga"
+      "dates": ["20180703"],
+      "city": "cali",
+      "title": "El Martes 7 de Julio rota el pico y placa.",
+      "text": "La restricción para este día va dirigida a carros con placas terminadas en 3 y 4.",
+      "url": "http://www.eltiempo.com/colombia/cali/este-martes-empieza-la-rotacion-del-pico-y-placa-en-cali-238172"
     }
   ],
   "country" : "colombia",
@@ -166,7 +166,7 @@
           ],
           "validator": {
             "type": "plates-by-day",
-            "monday-start": "3",
+            "monday-start": "1",
             "plates-by-day": "2"
           }
         }
