@@ -6,6 +6,13 @@
       "title": "Define tu tipo de moto 2T o 4T",
       "text": "Se soporta Motos 2 tiempos y 4 tiempos. 4 Tiempos no tiene notificaciones temporalmente y no recibirán notificaciones hasta que vuelvan a ser incluidas en el pico y placa. Debes tener la última versión de la aplicación.",
       "url": "https://play.google.com/store/apps/details?id=com.jzulu2000.platerestrictionnotifier_moto"
+    },
+    {
+      "dates": ["20180719"],
+      "city": "medellin",
+      "title": "Julio 19, Dia sin carro y moto en Rionegro.",
+      "text": "Aplica para el perímetro urbano del municipio de Rionegro pero no incluye las vías concesionadas del orden nacional y departamental.",
+      "url": "https://www.minuto30.com/todo-lo-que-necesita-saber-acerca-del-dia-sin-carro-en-el-municipio-de-rionegro/651742/"
     }
   ],
   "vehicle-types" : [
@@ -305,6 +312,27 @@
             "type": "plates-by-day",
             "monday-start": "1",
             "plates-by-day": "4"
+          }
+        }
+      ]
+    },
+    {
+      "name": "rionegro",
+      "unrestricted-days": [],
+      "restrictions": [
+        {
+          "vehicles": ["moto-2t", "moto-4t"],
+          "days": ["20180719"],
+          "hours":[
+            {
+              "from": "7",
+              "to": "19"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "0",
+            "plates-by-day": "10"
           }
         }
       ]

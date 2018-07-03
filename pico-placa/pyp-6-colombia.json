@@ -13,6 +13,13 @@
       "title": "El Martes 7 de Julio rota el pico y placa.",
       "text": "A partir del 3 de julio se cumplirá una nueva rotación de los dígitos del Pico y Placa para los conductores de carros particulares y de motocicletas.",
       "url": "http://www.vanguardia.com/area-metropolitana/bucaramanga/437540-el-proximo-martes-rotaran-los-digitos-del-pico-y-placa"
+    },
+    {
+      "dates": ["20180719"],
+      "city": "medellin",
+      "title": "Julio 19, Dia sin carro y moto en Rionegro.",
+      "text": "Aplica para el perímetro urbano del municipio de Rionegro pero no incluye las vías concesionadas del orden nacional y departamental.",
+      "url": "https://www.minuto30.com/todo-lo-que-necesita-saber-acerca-del-dia-sin-carro-en-el-municipio-de-rionegro/651742/"
     }
   ],
   "vehicle-types" : [
@@ -821,6 +828,27 @@
             "type": "plates-by-day",
             "monday-start": "1",
             "plates-by-day": "2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "rionegro",
+      "unrestricted-days": [],
+      "restrictions": [
+        {
+          "vehicles": ["particular", "moto-2t", "moto-4t"],
+          "days": ["20180719"],
+          "hours":[
+            {
+              "from": "7",
+              "to": "19"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "0",
+            "plates-by-day": "10"
           }
         }
       ]
