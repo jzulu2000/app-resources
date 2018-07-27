@@ -1,25 +1,11 @@
 {
   "special-events": [
     {
-      "dates": ["20180703"],
-      "city": "cali",
-      "title": "El Martes 7 de Julio rota el pico y placa.",
-      "text": "La restricción para este día va dirigida a carros con placas terminadas en 3 y 4.",
-      "url": "http://www.eltiempo.com/colombia/cali/este-martes-empieza-la-rotacion-del-pico-y-placa-en-cali-238172"
-    },
-    {
-      "dates": ["20180703"],
-      "city": "bucaramanga",
-      "title": "El Martes 7 de Julio rota el pico y placa.",
-      "text": "A partir del 3 de julio se cumplirá una nueva rotación de los dígitos del Pico y Placa para los conductores de carros particulares y de motocicletas.",
-      "url": "http://www.vanguardia.com/area-metropolitana/bucaramanga/437540-el-proximo-martes-rotaran-los-digitos-del-pico-y-placa"
-    },
-    {
-      "dates": ["20180719"],
+      "dates": ["20180811"],
       "city": "medellin",
-      "title": "Julio 19, Dia sin carro y moto en Rionegro.",
-      "text": "Aplica para el perímetro urbano del municipio de Rionegro pero no incluye las vías concesionadas del orden nacional y departamental.",
-      "url": "https://www.minuto30.com/todo-lo-que-necesita-saber-acerca-del-dia-sin-carro-en-el-municipio-de-rionegro/651742/"
+      "title": "Lunes 6 de Agosto 2018, Rotación de pico y placa Particulares y Motos. Taxis Miercoles 1 de Agosto",
+      "text": "La rotación de pico y placa en Medellín inicia el miércoles 1 de agosto ara taxis y el lunes 6 de agosto para motos 2T y vehículos particulares.",
+      "url": "https://twitter.com/sttmed/status/1022614331370954752"
     }
   ],
   "country" : "colombia",
