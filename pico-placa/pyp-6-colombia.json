@@ -83,7 +83,7 @@
           ],
           "validator": {
             "type": "plates-by-day",
-            "monday-start": "4",
+            "monday-start": "0",
             "plates-by-day": "4"
           }
         },
@@ -102,7 +102,7 @@
           ],
           "validator": {
             "type": "plates-by-day",
-            "monday-start": "8",
+            "monday-start": "6",
             "plates-by-day": "2"
           }
         },

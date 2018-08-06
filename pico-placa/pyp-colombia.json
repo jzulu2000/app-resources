@@ -36,7 +36,7 @@
           ],
           "validator": {
             "type": "plates-by-day",
-            "monday-start": "4",
+            "monday-start": "0",
             "plates-by-day": "4"
           }
         }
