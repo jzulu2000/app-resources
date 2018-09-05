@@ -8,11 +8,11 @@
       "url": "https://twitter.com/sttmed/status/1022614331370954752"
     },
     {
-      "dates": ["20180921"],
+      "dates": ["20180922"],
       "city": "cali",
-      "title": "Día sin carro en Cali se realizará el próximo 21 de septiembre de 2018",
-      "text": "el próximo 21 de septiembre se realizará el día sin carro para contribuir con el medio ambiente de la ciudad.",
-      "url": "https://www.elpais.com.co/cali/dia-sin-carro-en-se-realizara-el-proximo-21-de-septiembre-armitage.html"
+      "title": "Día sin carro en Cali se realizará el próximo 22 de septiembre de 2018",
+      "text": "El próximo 22 de septiembre se realizará el día sin carro entre las 6am y 6pm para contribuir con el medio ambiente de la ciudad.",
+      "url": "https://www.elpais.com.co/cali/dia-sin-carro-en-cali-se-hara-el-sabado-22-de-septiembre.html"
     },
     {
       "dates": ["20180908"],
@@ -383,6 +383,21 @@
       "name": "cali",
       "unrestricted-days": [],
       "restrictions": [
+        {
+          "vehicles": ["particular", "especial"],
+          "days": ["20180922"],
+          "hours":[
+            {
+              "from": "6",
+              "to": "18"
+            }
+          ],
+          "validator": {
+            "type": "plates-by-day",
+            "monday-start": "0",
+            "plates-by-day": "10"
+          }
+        },
         {
           "vehicles": ["particular", "especial"],
           "days": ["mon", "tue", "wed", "thu", "fri"],
