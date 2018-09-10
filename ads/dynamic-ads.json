@@ -1,0 +1,301 @@
+{
+  "object-type": "co.com.twelvestars.commons.adds.JzuluAdsModel",
+  "apps": [
+    {
+      "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
+      "country": "co",
+      "descriptions": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Notifica el pico y placa para Colombia."
+        }
+      ],
+      "icon": "picoplaca_round",
+      "titles": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Pico y Placa Colombia"
+        }
+      ],
+      "url": "com.twelvestars.platerestrictionnotifier"
+    },
+    {
+      "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
+      "descriptions": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Plugin for displaying lyrics in most of the music players."
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "es",
+          "text": "Plugin para visualizar letras en los diferentes reproductores."
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "fr",
+          "text": "Plugin lecteur et éditeur de paroles LRC. Pas un lecteur de musique."
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "pt",
+          "text": "Plugin para reprodução de letras e edição de letras."
+        }
+      ],
+      "icon": "lrcplayer_round",
+      "titles": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "LRCPlayer lyrics (FREE / PAID)"
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "es",
+          "text": "LRCPlayer plugin para letras (GRATIS / PAGO)"
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "fr",
+          "text": "LRCPlayer lyrics (GRATUIT / PAYÉ)"
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "pt",
+          "text": "LRCPlayer plugin (GRÁTIS / PAGO)"
+        }
+      ],
+      "url": "co.com.twelvestars.gmplayer_paid"
+    },
+    {
+      "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
+      "country": "br",
+      "descriptions": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Gerar Notificações para o Rodízio de veículos Brasil."
+        }
+      ],
+      "icon": "picoplaca_round",
+      "titles": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Rodízio de veículos Brasil"
+        }
+      ],
+      "url": "com.twelvestars.platerestrictionnotifier_brasil"
+    },
+    {
+      "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
+      "descriptions": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Records video in background when motion is detected or by user request."
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "es",
+          "text": "Graba video en segundo plano cuando se detecta movimiento o cuando el usuario lo requiera."
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "fr",
+          "text": "Enregistre la vidéo en arrière-plan lorsqu'un mouvement est détecté.."
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "pt",
+          "text": "Grava vídeo em segundo plano quando movimento detectado ou quando o usuário quer."
+        }
+      ],
+      "icon": "moca_round",
+      "titles": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "MoCa Motion Camera (FREE / PAID)"
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "es",
+          "text": "MoCa Camara detección Movimiento (GRATIS / PAGO)"
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "fr",
+          "text": "MoCa Caméra détection mouvement (GRATUIT / PAYÉ)"
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "pt",
+          "text": "MoCa Detecção de movimento (GRÁTIS / PAGO)"
+        }
+      ],
+      "url": "twelvestars.sp_i_camera_paid"
+    },
+    {
+      "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
+      "country": "ec",
+      "descriptions": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Notifica el pico y placa para Ecuador."
+        }
+      ],
+      "icon": "picoplaca_round",
+      "titles": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Pico y Placa Ecuador"
+        }
+      ],
+      "url": "com.twelvestars.platerestrictionnotifier_ecuador"
+    },
+    {
+      "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
+      "descriptions": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Notifies when content of a page includes a text, or when text changes."
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "es",
+          "text": "Notifica cuando una página contenga un texto o cuando el texto cambie."
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "fr",
+          "text": "Notifie quand le contenu d'une page inclut (ou non) un texte, ou quand il change."
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "pt",
+          "text": "Notifica quando conteúdo de página inclui (ou não) um texto, ou quando ele muda."
+        }
+      ],
+      "icon": "webpagemonitor_round",
+      "titles": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Web Page Monitor (FREE / PAID)"
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "es",
+          "text": "Monitor de páginas web (GRATIS / PAGO)"
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "fr",
+          "text": "Moniteur de page Web (GRATUIT / PAYÉ)"
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "pt",
+          "text": "Monitor de Página Web (GRÁTIS / PAGO)"
+        }
+      ],
+      "url": "com.twelvestars.urlchecker_paid"
+    },
+    {
+      "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
+      "country": "mx",
+      "descriptions": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Notifica restricciones para el Hoy No Circula en Mexico."
+        }
+      ],
+      "icon": "picoplaca_round",
+      "titles": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Hoy No Circula Mexico"
+        }
+      ],
+      "url": "com.twelvestars.platerestrictionnotifier_mexico"
+    },
+    {
+      "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
+      "descriptions": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Monitors different products and notifies when the price changes."
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "es",
+          "text": "Monitorea diferentes productos y notifica cuando el precio cambie."
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "fr",
+          "text": "Surveille différents produits et avertit lorsque le prix change."
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "pt",
+          "text": "Monitora produtos diferentes e notifica quando o preço muda."
+        }
+      ],
+      "icon": "amazon_round",
+      "titles": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Amazon Price Tracking (FREE / PAID)"
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "es",
+          "text": "Amazon Price Tracking (FREE / PAID)"
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "fr",
+          "text": "Amazon Price Tracking (FREE / PAID)"
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "pt",
+          "text": "Amazon rastreamento de preço (FREE / PAID)"
+        }
+      ],
+      "url": "com.twelvestars.urlchecker_amzpaid"
+    },
+    {
+      "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
+      "country": "ph",
+      "descriptions": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Number coding Scheme Vehicle restriction in Philippines."
+        }
+      ],
+      "icon": "picoplaca_round",
+      "titles": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "MMDA Number coding Scheme Philippines"
+        }
+      ],
+      "url": "com.twelvestars.platerestrictionnotifier_philippines"
+    },
+    {
+      "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
+      "country": "cr",
+      "descriptions": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Notifica la restriccion vehicular en Costa Rica."
+        }
+      ],
+      "icon": "picoplaca_round",
+      "titles": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Restriccion Vehicular Costa Rica"
+        }
+      ],
+      "url": "com.twelvestars.platerestrictionnotifier_costarica"
+    }
+  ]
+}
