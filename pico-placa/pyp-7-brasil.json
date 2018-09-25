@@ -1,0 +1,65 @@
+{
+	"object-type": "com.twelvestars.pipla.daos.model.PyPModel",
+	"specialEvents": [],
+	"vehicles": [
+		{
+			"object-type": "com.twelvestars.pipla.daos.model.Vehicle",
+			"iconRef": "car",
+			"nameRef": "vehicle_type_particular",
+			"plateColorRef": "plate_color_white",
+			"plateExtractor": {
+				"object-type": "com.twelvestars.pipla.daos.model.LastDigitExtractor"
+			},
+			"textColorRef": "plate_color_black",
+			"type": "particular"
+		}, {
+			"object-type": "com.twelvestars.pipla.daos.model.Vehicle",
+			"iconRef": "car",
+			"nameRef": "vehicle_type_publico",
+			"plateColorRef": "plate_color_red",
+			"plateExtractor": {
+				"object-type": "com.twelvestars.pipla.daos.model.LastDigitExtractor"
+			},
+			"textColorRef": "plate_color_black",
+			"type": "publico"
+		}
+	],
+	"country": "brasil",
+	"holidays": [
+		"20180101", "20180421", "20180501", "20180907", "20181012", "20181102", "20181115", "20181225", "20190101",
+		"20190501", "20190907", "20191012", "20191102", "20191115", "20191225"
+	],
+	"cities": [
+		{
+			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"aliases": [],
+			"name": "sao paulo",
+			"restrictions": [
+				{
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "420",
+							"to": "600"
+						}, {
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "1020",
+							"to": "1200"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "2",
+							"monday-start": "1"
+						}
+					},
+					"vehicles": ["particular", "publico"]
+				}
+			],
+			"unrestrictedDays": []
+		}
+	]
+}

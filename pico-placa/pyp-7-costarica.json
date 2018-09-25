@@ -1,0 +1,52 @@
+{
+	"object-type": "com.twelvestars.pipla.daos.model.PyPModel",
+	"specialEvents": [],
+	"vehicles": [
+		{
+			"object-type": "com.twelvestars.pipla.daos.model.Vehicle",
+			"iconRef": "car",
+			"nameRef": "vehicle_type_particular",
+			"plateColorRef": "plate_color_white",
+			"plateExtractor": {
+				"object-type": "com.twelvestars.pipla.daos.model.LastDigitExtractor"
+			},
+			"textColorRef": "plate_color_blue",
+			"type": "particular"
+		}
+	],
+	"country": "costarica",
+	"holidays": [
+		"20180101", "20180329", "20180330", "20180411", "20180501", "20180725", "20180802", "20180815", "20180915",
+		"20181015", "20181225", "20190101", "20190411", "20190418", "20190419", "20190501", "20190725", "20190802",
+		"20190815", "20191012", "20191225"
+	],
+	"cities": [
+		{
+			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"aliases": [],
+			"name": "san jose",
+			"restrictions": [
+				{
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "360",
+							"to": "1140"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "2",
+							"monday-start": "1"
+						}
+					},
+					"vehicles": ["particular"]
+				}
+			],
+			"unrestrictedDays": []
+		}
+	]
+}

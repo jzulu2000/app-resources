@@ -1,0 +1,1077 @@
+{
+	"object-type": "com.twelvestars.pipla.daos.model.PyPModel",
+	"specialEvents": [
+		{
+			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
+			"city": "medellin",
+			"dates": ["2018-08-11"],
+			"text": "La rotación de pico y placa en Medellín inicia el miércoles 1 de agosto ara taxis y el lunes 6 de agosto para motos 2T y vehículos particulares.",
+			"title": "Lunes 6 de Agosto 2018, Rotación de pico y placa Particulares y Motos. Taxis Miercoles 1 de Agosto",
+			"url": "https://twitter.com/sttmed/status/1022614331370954752"
+		}, {
+			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
+			"city": "cali",
+			"dates": ["2018-09-22"],
+			"text": "El próximo 22 de septiembre se realizará el día sin carro entre las 6am y 6pm para contribuir con el medio ambiente de la ciudad.",
+			"title": "Día sin carro en Cali se realizará el próximo 22 de septiembre de 2018",
+			"url": "https://www.elpais.com.co/cali/dia-sin-carro-en-cali-se-hara-el-sabado-22-de-septiembre.html"
+		}, {
+			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
+			"city": "cartagena",
+			"dates": ["2018-09-08"],
+			"text": "A partir del lunes 3 de septiembre de 2018 y hasta el 30 de noviembre de 2018, regirá la nueva rotación del Decreto 1550 de 2017, o pico y placa para vehículos particulares, informó el Departamento Administrativo de Tránsito y Transporte, DATT..",
+			"title": "Septiembre 3, 2018 cambia pico y placa en Cartagena",
+			"url": "http://www.eluniversal.com.co/cartagena/atencion-nueva-rotacion-del-pico-y-placa-para-particulares-en-cartagena-285359"
+		}
+	],
+	"vehicles": [
+		{
+			"object-type": "com.twelvestars.pipla.daos.model.Vehicle",
+			"iconRef": "car",
+			"nameRef": "vehicle_type_particular",
+			"plateColorRef": "plate_color_yellow",
+			"plateExtractor": {
+				"object-type": "com.twelvestars.pipla.daos.model.LastDigitExtractor"
+			},
+			"textColorRef": "plate_color_black",
+			"type": "particular"
+		}, {
+			"object-type": "com.twelvestars.pipla.daos.model.Vehicle",
+			"iconRef": "taxi",
+			"nameRef": "vehicle_type_taxi",
+			"plateColorRef": "plate_color_white",
+			"plateExtractor": {
+				"object-type": "com.twelvestars.pipla.daos.model.LastDigitExtractor"
+			},
+			"textColorRef": "plate_color_black",
+			"type": "taxi"
+		}, {
+			"object-type": "com.twelvestars.pipla.daos.model.Vehicle",
+			"iconRef": "car",
+			"nameRef": "vehicle_type_especial",
+			"plateColorRef": "plate_color_white",
+			"plateExtractor": {
+				"object-type": "com.twelvestars.pipla.daos.model.LastDigitExtractor"
+			},
+			"textColorRef": "plate_color_black",
+			"type": "especial"
+		}, {
+			"object-type": "com.twelvestars.pipla.daos.model.Vehicle",
+			"iconRef": "bus",
+			"nameRef": "vehicle_type_publico",
+			"plateColorRef": "plate_color_white",
+			"plateExtractor": {
+				"object-type": "com.twelvestars.pipla.daos.model.LastDigitExtractor"
+			},
+			"textColorRef": "plate_color_black",
+			"type": "publico"
+		}, {
+			"object-type": "com.twelvestars.pipla.daos.model.Vehicle",
+			"iconRef": "motorcycle",
+			"nameRef": "vehicle_type_moto_2t",
+			"plateColorRef": "plate_color_yellow",
+			"plateExtractor": {
+				"object-type": "com.twelvestars.pipla.daos.model.FirstDigitFoundExtractor"
+			},
+			"textColorRef": "plate_color_black",
+			"type": "moto-2t"
+		}, {
+			"object-type": "com.twelvestars.pipla.daos.model.Vehicle",
+			"iconRef": "motorcycle",
+			"nameRef": "vehicle_type_moto_4t",
+			"plateColorRef": "plate_color_yellow",
+			"plateExtractor": {
+				"object-type": "com.twelvestars.pipla.daos.model.FirstDigitFoundExtractor"
+			},
+			"textColorRef": "plate_color_black",
+			"type": "moto-4t"
+		}
+	],
+	"country": "colombia",
+	"holidays": [
+		"20180101", "20180108", "20180319", "20180329", "20180330", "20180501", "20180514", "20180604", "20180611",
+		"20180702", "20180720", "20180807", "20180820", "20181015", "20181105", "20181112", "20181208", "20181225",
+		"20190101", "20190107", "20190325", "20190418", "20190429", "20190501", "20190603", "20190624", "20190701",
+		"20190720", "20190807", "20190819", "20191014", "20191104", "20191111", "20191208", "20191225"
+	],
+	"cities": [
+		{
+			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"aliases": [
+				"bello", "envigado", "itagui", "sabaneta", "barbosa", "caldas", "la estrella", "girardota", "copacabana"
+			],
+			"name": "medellin",
+			"restrictions": [
+				{
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "420",
+							"to": "510"
+						}, {
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "1050",
+							"to": "1140"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "4",
+							"monday-start": "0"
+						}
+					},
+					"vehicles": ["particular"]
+				}, {
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "420",
+							"to": "510"
+						}, {
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "1050",
+							"to": "1140"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "2",
+							"monday-start": "6"
+						}
+					},
+					"vehicles": ["moto-2t"]
+				}, {
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "360",
+							"to": "1200"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator",
+						"parameters": {},
+						"staticRestrictions": [
+							{
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": [
+									"20180503", "20180518", "20180601", "20180625", "20180710", "20180724", "20180808", "20180822",
+									"20180906", "20180920", "20181005", "20181019", "20181102", "20181126", "20181211", "20190116",
+									"20190130"
+								],
+								"plates": ["0"]
+							}, {
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": [
+									"20180430", "20180504", "20180528", "20180612", "20180626", "20180711", "20180725", "20180809",
+									"20180823", "20180907", "20180921", "20181001", "20181029", "20181113", "20181127", "20181212",
+									"20181226", "20190110", "20190124"
+								],
+								"plates": ["1"]
+							}, {
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": [
+									"20180508", "20180522", "20180606", "20180620", "20180705", "20180719", "20180802", "20180817",
+									"20180831", "20180910", "20180924", "20181009", "20181023", "20181107", "20181121", "20181206",
+									"20181220", "20190103", "20190118"
+								],
+								"plates": ["2"]
+							}, {
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": [
+									"20180516", "20180530", "20180614", "20180628", "20180713", "20180727", "20180806", "20180904",
+									"20180918", "20181003", "20181017", "20181031", "20181115", "20181129", "20181214", "20181228",
+									"20190121"
+								],
+								"plates": ["3"]
+							}, {
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": [
+									"20180510", "20180524", "20180608", "20180622", "20180716", "20180730", "20180814", "20180828",
+									"20180912", "20180926", "20181011", "20181025", "20181109", "20181123", "20181203", "20181217",
+									"20181231", "20190108", "20190122"
+								],
+								"plates": ["4"]
+							}, {
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": [
+									"20180426", "20180511", "20180525", "20180618", "20180703", "20180717", "20180731", "20180815",
+									"29201808", "20180913", "20180927", "20181012", "20181026", "20181119", "20181204", "20181218",
+									"20190109", "20190123"
+								],
+								"plates": ["5"]
+							}, {
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": [
+									"20180427", "20180507", "20180521", "20180605", "20180619", "20180704", "20180718", "20180801",
+									"20180816", "20180830", "20180914", "20180928", "20181008", "20181022", "20181106", "20181120",
+									"20181205", "20181219", "20190102", "20190117", "20190131"
+								],
+								"plates": ["6"]
+							}, {
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": [
+									"20180515", "20180529", "20180613", "20180627", "20180712", "20180726", "20180810", "20180824",
+									"20180903", "20180917", "20181002", "20181016", "20181030", "20181114", "20181128", "20181213",
+									"20181227", "20190111", "20190125"
+								],
+								"plates": ["7"]
+							}, {
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": [
+									"20180509", "20180523", "20180607", "20180621", "20180706", "20180803", "20180813", "20180827",
+									"20180911", "20180925", "20181010", "20181024", "20181108", "20181122", "20181207", "20181221",
+									"20190104", "20190114", "20190128"
+								],
+								"plates": ["8"]
+							}, {
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": [
+									"20180502", "20180517", "20180531", "20180615", "20180629", "20180709", "20180723", "20180821",
+									"20180905", "20180919", "20181004", "20181018", "20181101", "20181116", "20181130", "20181210",
+									"20181224", "20190115", "20190129"
+								],
+								"plates": ["9"]
+							}
+						]
+					},
+					"vehicles": ["taxi"]
+				}
+			],
+			"unrestrictedDays": []
+		}, {
+			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"aliases": [],
+			"name": "bogota",
+			"restrictions": [
+				{
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "360",
+							"to": "510"
+						}, {
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "900",
+							"to": "1170"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PairImpairValidator",
+						"parameters": {
+							"evaluator": "DAY_OF_MONTH",
+							"pair-if-pair": "true"
+						}
+					},
+					"vehicles": ["particular"]
+				}, {
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "360",
+							"to": "1200"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.YearSecuenceValidator",
+						"parameters": {
+							"include-saturdays": "true",
+							"plates-by-day": "2",
+							"first-monday-start": "7",
+							"include-sundays": "false"
+						}
+					},
+					"vehicles": ["taxi", "especial"]
+				}, {
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "360",
+							"to": "1200"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.YearSecuenceValidator",
+						"parameters": {
+							"include-saturdays": "true",
+							"plates-by-day": "2",
+							"first-monday-start": "5",
+							"include-sundays": "false"
+						}
+					},
+					"vehicles": ["publico"]
+				}
+			],
+			"unrestrictedDays": []
+		}, {
+			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"aliases": [],
+			"name": "pereira",
+			"restrictions": [
+				{
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "420",
+							"to": "1140"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "2",
+							"monday-start": "0"
+						}
+					},
+					"vehicles": ["particular"]
+				}, {
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "420",
+							"to": "1140"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "2",
+							"monday-start": "0"
+						}
+					},
+					"vehicles": ["moto-2t", "moto-4t"]
+				}
+			],
+			"unrestrictedDays": []
+		}, {
+			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"aliases": [],
+			"name": "bucaramanga",
+			"restrictions": [
+				{
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "360",
+							"to": "1200"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "2",
+							"monday-start": "7"
+						}
+					},
+					"vehicles": ["particular"]
+				}, {
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "360",
+							"to": "1200"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "2",
+							"monday-start": "7"
+						}
+					},
+					"vehicles": ["moto-2t", "moto-4t"]
+				}, {
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "420",
+							"to": "1260"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.YearSecuenceValidator",
+						"parameters": {
+							"include-saturdays": "true",
+							"plates-by-day": "2",
+							"first-monday-start": "9",
+							"include-sundays": "false"
+						}
+					},
+					"vehicles": ["taxi"]
+				}
+			],
+			"unrestrictedDays": []
+		}, {
+			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"aliases": [],
+			"name": "cartagena",
+			"restrictions": [
+				{
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "420",
+							"to": "540"
+						}, {
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "720",
+							"to": "840"
+						}, {
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "1020",
+							"to": "1170"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "2",
+							"monday-start": "7"
+						}
+					},
+					"vehicles": ["particular"]
+				}, {
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "360",
+							"to": "1440"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "2",
+							"monday-start": "5"
+						}
+					},
+					"vehicles": ["taxi"]
+				}
+			],
+			"unrestrictedDays": []
+		}, {
+			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"aliases": [],
+			"name": "cali",
+			"restrictions": [
+				{
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["20180922"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "360",
+							"to": "1080"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "10",
+							"monday-start": "0"
+						}
+					},
+					"vehicles": ["particular", "especial"]
+				}, {
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "360",
+							"to": "600"
+						}, {
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "960",
+							"to": "1200"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "2",
+							"monday-start": "1"
+						}
+					},
+					"vehicles": ["particular", "especial"]
+				}, {
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "360",
+							"to": "1440"
+						}
+					],
+					"skipOnHolidays": false,
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.YearSecuenceValidator",
+						"parameters": {
+							"include-saturdays": "true",
+							"plates-by-day": "2",
+							"first-monday-start": "7",
+							"include-sundays": "true"
+						}
+					},
+					"vehicles": ["taxi"]
+				}, {
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "300",
+							"to": "600"
+						}
+					],
+					"skipOnHolidays": false,
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.YearSecuenceValidator",
+						"parameters": {
+							"include-saturdays": "true",
+							"plates-by-day": "2",
+							"first-monday-start": "6",
+							"include-sundays": "true"
+						}
+					},
+					"vehicles": ["publico"]
+				}
+			],
+			"unrestrictedDays": []
+		}, {
+			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"aliases": [],
+			"name": "barranquilla",
+			"restrictions": [
+				{
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "450",
+							"to": "540"
+						}, {
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "1050",
+							"to": "1140"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "4",
+							"monday-start": "1"
+						}
+					},
+					"vehicles": ["particular"]
+				}, {
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "360",
+							"to": "1200"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.YearSecuenceValidator",
+						"parameters": {
+							"include-saturdays": "true",
+							"plates-by-day": "2",
+							"first-monday-start": "5",
+							"include-sundays": "false"
+						}
+					},
+					"vehicles": ["taxi"]
+				}
+			],
+			"unrestrictedDays": []
+		}, {
+			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"aliases": [],
+			"name": "armenia",
+			"restrictions": [
+				{
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "480",
+							"to": "1200"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "2",
+							"monday-start": "1"
+						}
+					},
+					"vehicles": ["particular"]
+				}, {
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "480",
+							"to": "1200"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "2",
+							"monday-start": "1"
+						}
+					},
+					"vehicles": ["moto-2t", "moto-4t"]
+				}
+			],
+			"unrestrictedDays": []
+		}, {
+			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"aliases": [],
+			"name": "santa marta",
+			"restrictions": [
+				{
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "420",
+							"to": "1140"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "2",
+							"monday-start": "8"
+						}
+					},
+					"vehicles": ["particular"]
+				}, {
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": [
+						"20180120", "20180220", "20180320", "20180420", "20180520", "20180620", "20180720", "20180820", "20180920",
+						"20181020", "20181120", "20181220"
+					],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "240",
+							"to": "1440"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "10",
+							"monday-start": "0"
+						}
+					},
+					"vehicles": ["moto-2t", "moto-4t"]
+				}, {
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "420",
+							"to": "1140"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "4",
+							"monday-start": "1"
+						}
+					},
+					"vehicles": ["moto-2t", "moto-4t"]
+				}, {
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "0",
+							"to": "240"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "10",
+							"monday-start": "1"
+						}
+					},
+					"vehicles": ["moto-2t", "moto-4t"]
+				}
+			],
+			"unrestrictedDays": []
+		}, {
+			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"aliases": [],
+			"name": "pasto",
+			"restrictions": [
+				{
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "450",
+							"to": "1140"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "2",
+							"monday-start": "4"
+						}
+					},
+					"vehicles": ["particular"]
+				}, {
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "450",
+							"to": "1140"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "2",
+							"monday-start": "4"
+						}
+					},
+					"vehicles": ["moto-2t", "moto-4t"]
+				}
+			],
+			"unrestrictedDays": []
+		}, {
+			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"aliases": [],
+			"name": "cucuta",
+			"restrictions": [
+				{
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "450",
+							"to": "540"
+						}, {
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "690",
+							"to": "810"
+						}, {
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "1050",
+							"to": "1140"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator",
+						"parameters": {},
+						"staticRestrictions": [
+							{
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": ["mon"],
+								"plates": ["0", "9"]
+							}, {
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": ["tue"],
+								"plates": ["1", "8"]
+							}, {
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": ["wed"],
+								"plates": ["2", "7"]
+							}, {
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": ["thu"],
+								"plates": ["3", "6"]
+							}, {
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": ["fri"],
+								"plates": ["4", "5"]
+							}
+						]
+					},
+					"vehicles": ["particular"]
+				}, {
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "450",
+							"to": "540"
+						}, {
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "690",
+							"to": "810"
+						}, {
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "1050",
+							"to": "1140"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator",
+						"parameters": {},
+						"staticRestrictions": [
+							{
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": ["mon"],
+								"plates": ["0", "9"]
+							}, {
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": ["tue"],
+								"plates": ["1", "8"]
+							}, {
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": ["wed"],
+								"plates": ["2", "7"]
+							}, {
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": ["thu"],
+								"plates": ["3", "6"]
+							}, {
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": ["fri"],
+								"plates": ["4", "5"]
+							}
+						]
+					},
+					"vehicles": ["moto-2t", "moto-4t"]
+				}
+			],
+			"unrestrictedDays": []
+		}, {
+			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"aliases": [],
+			"name": "villavicencio",
+			"restrictions": [
+				{
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "390",
+							"to": "1170"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "2",
+							"monday-start": "7"
+						}
+					},
+					"vehicles": ["particular"]
+				}, {
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "390",
+							"to": "1170"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "2",
+							"monday-start": "7"
+						}
+					},
+					"vehicles": ["moto-2t", "moto-4t"]
+				}
+			],
+			"unrestrictedDays": []
+		}, {
+			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"aliases": [],
+			"name": "tunja",
+			"restrictions": [
+				{
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "420",
+							"to": "1140"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "2",
+							"monday-start": "5"
+						}
+					},
+					"vehicles": ["particular"]
+				}
+			],
+			"unrestrictedDays": []
+		}, {
+			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"aliases": [],
+			"name": "popayan",
+			"restrictions": [
+				{
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "420",
+							"to": "1200"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "2",
+							"monday-start": "3"
+						}
+					},
+					"vehicles": ["particular"]
+				}, {
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "420",
+							"to": "1200"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "2",
+							"monday-start": "3"
+						}
+					},
+					"vehicles": ["moto-2t", "moto-4t"]
+				}
+			],
+			"unrestrictedDays": []
+		}, {
+			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"aliases": [],
+			"name": "quibdo",
+			"restrictions": [
+				{
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "450",
+							"to": "1170"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "4",
+							"monday-start": "1"
+						}
+					},
+					"vehicles": ["moto-2t", "moto-4t"]
+				}, {
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "450",
+							"to": "1170"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "2",
+							"monday-start": "1"
+						}
+					},
+					"vehicles": ["particular"]
+				}
+			],
+			"unrestrictedDays": []
+		}, {
+			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"aliases": [],
+			"name": "rionegro",
+			"restrictions": [
+				{
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["20180719"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "420",
+							"to": "1140"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "10",
+							"monday-start": "0"
+						}
+					},
+					"vehicles": ["particular", "moto-2t", "moto-4t"]
+				}
+			],
+			"unrestrictedDays": []
+		}
+	]
+}
