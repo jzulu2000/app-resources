@@ -111,6 +111,7 @@
 							"from": "420",
 							"to": "510"
 						}, {
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
 							"from": "1050",
 							"to": "1140"
 						}
