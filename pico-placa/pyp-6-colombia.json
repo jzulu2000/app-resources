@@ -84,6 +84,25 @@
       "restrictions": [
         {
           "vehicles": ["particular"],
+          "days": ["sat"],
+          "hours":[
+            {
+              "from": "7",
+              "to": "8.5"
+            },
+            {
+              "from": "17.5",
+              "to": "19"
+            }
+          ],
+          "validator": {
+            "type": "pair-impair",
+            "evaluator": "WEEK_OF_YEAR",
+            "pair-if-pair": "false"
+          }
+        },
+        {
+          "vehicles": ["particular"],
           "days": ["mon", "tue", "wed", "thu", "fri"],
           "hours":[
             {
@@ -102,7 +121,7 @@
           }
         },
         {
-          "vehicles": ["moto-2t"],
+          "vehicles": ["moto-2t", "moto-4t"],
           "days": ["mon", "tue", "wed", "thu", "fri"],
           "hours":[
             {
