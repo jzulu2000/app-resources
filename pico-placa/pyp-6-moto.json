@@ -41,7 +41,7 @@
       "unrestricted-days": [],
       "restrictions": [
         {
-          "vehicles": ["moto-2t"],
+          "vehicles": ["moto-2t", "moto-4t"],
           "days": ["mon", "tue", "wed", "thu", "fri"],
           "hours":[
             {
