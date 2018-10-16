@@ -1,0 +1,1 @@
+find */*/src/ -name *.json | awk '{print "\"" $0 "\""}' | xargs ls -l --time-style="+%Y-%m-%d %H:%M:00" | awk '{print $8 " " $6 " " $7}' | awk -F "/" '{print $6}' | sort | uniq | awk '{print "\"" $1 "\"\t:" "\"" $2 " " $3 "\","}'
