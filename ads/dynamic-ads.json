@@ -46,22 +46,22 @@
       "titles": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "LRCPlayer lyrics (FREE / PAID)"
+          "text": "Lyra Plugin"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "es",
-          "text": "LRCPlayer plugin para letras (GRATIS / PAGO)"
+          "text": "Lyra Plugin para letras"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "fr",
-          "text": "LRCPlayer lyrics (GRATUIT / PAYÉ)"
+          "text": "Lyra Plugin"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "pt",
-          "text": "LRCPlayer plugin (GRÁTIS / PAGO)"
+          "text": "Lyra plugin"
         }
       ],
       "url": "co.com.twelvestars.gmplayer_paid"
@@ -111,22 +111,22 @@
       "titles": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "MoCa Motion Camera (FREE / PAID)"
+          "text": "MoCa Motion Camera"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "es",
-          "text": "MoCa Camara detección Movimiento (GRATIS / PAGO)"
+          "text": "MoCa Camara detección Movimiento"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "fr",
-          "text": "MoCa Caméra détection mouvement (GRATUIT / PAYÉ)"
+          "text": "MoCa Caméra détection mouvement"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "pt",
-          "text": "MoCa Detecção de movimento (GRÁTIS / PAGO)"
+          "text": "MoCa Detecção de movimento"
         }
       ],
       "url": "twelvestars.sp_i_camera_paid"
@@ -176,22 +176,22 @@
       "titles": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "Web Page Monitor (FREE / PAID)"
+          "text": "Web Page Monitor"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "es",
-          "text": "Monitor de páginas web (GRATIS / PAGO)"
+          "text": "Monitor de páginas web"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "fr",
-          "text": "Moniteur de page Web (GRATUIT / PAYÉ)"
+          "text": "Moniteur de page Web"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "pt",
-          "text": "Monitor de Página Web (GRÁTIS / PAGO)"
+          "text": "Monitor de Página Web"
         }
       ],
       "url": "com.twelvestars.urlchecker_paid"
@@ -241,22 +241,22 @@
       "titles": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "Amazon Price Tracking (FREE / PAID)"
+          "text": "Amazon Price Tracking"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "es",
-          "text": "Amazon Price Tracking (FREE / PAID)"
+          "text": "Amazon Price Tracking"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "fr",
-          "text": "Amazon Price Tracking (FREE / PAID)"
+          "text": "Amazon Price Tracking"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "pt",
-          "text": "Amazon rastreamento de preço (FREE / PAID)"
+          "text": "Amazon rastreamento de preço"
         }
       ],
       "url": "com.twelvestars.urlchecker_amzpaid"
