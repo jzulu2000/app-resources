@@ -1,26 +1,5 @@
 {
   "special-events": [
-    {
-      "dates": ["20180811"],
-      "city": "medellin",
-      "title": "Lunes 6 de Agosto 2018, Rotación de pico y placa Particulares y Motos. Taxis Miercoles 1 de Agosto",
-      "text": "La rotación de pico y placa en Medellín inicia el miércoles 1 de agosto ara taxis y el lunes 6 de agosto para motos 2T y vehículos particulares.",
-      "url": "https://twitter.com/sttmed/status/1022614331370954752"
-    },
-    {
-      "dates": ["20180922"],
-      "city": "cali",
-      "title": "Día sin carro en Cali se realizará el próximo 22 de septiembre de 2018",
-      "text": "El próximo 22 de septiembre se realizará el día sin carro entre las 6am y 6pm para contribuir con el medio ambiente de la ciudad.",
-      "url": "https://www.elpais.com.co/cali/dia-sin-carro-en-cali-se-hara-el-sabado-22-de-septiembre.html"
-    },
-    {
-      "dates": ["20180908"],
-      "city": "cartagena",
-      "title": "Septiembre 3, 2018 cambia pico y placa en Cartagena",
-      "text": "A partir del lunes 3 de septiembre de 2018 y hasta el 30 de noviembre de 2018, regirá la nueva rotación del Decreto 1550 de 2017, o pico y placa para vehículos particulares, informó el Departamento Administrativo de Tránsito y Transporte, DATT..",
-      "url": "http://www.eluniversal.com.co/cartagena/atencion-nueva-rotacion-del-pico-y-placa-para-particulares-en-cartagena-285359"
-    }
   ],
   "vehicle-types" : [
     {
@@ -84,25 +63,6 @@
       "restrictions": [
         {
           "vehicles": ["particular"],
-          "days": ["sat"],
-          "hours":[
-            {
-              "from": "7",
-              "to": "8.5"
-            },
-            {
-              "from": "17.5",
-              "to": "19"
-            }
-          ],
-          "validator": {
-            "type": "pair-impair",
-            "evaluator": "WEEK_OF_YEAR",
-            "pair-if-pair": "false"
-          }
-        },
-        {
-          "vehicles": ["particular"],
           "days": ["mon", "tue", "wed", "thu", "fri"],
           "hours":[
             {
@@ -121,7 +81,7 @@
           }
         },
         {
-          "vehicles": ["moto-2t", "moto-4t"],
+          "vehicles": ["moto-2t"],
           "days": ["mon", "tue", "wed", "thu", "fri"],
           "hours":[
             {
@@ -402,21 +362,6 @@
       "name": "cali",
       "unrestricted-days": [],
       "restrictions": [
-        {
-          "vehicles": ["particular", "especial"],
-          "days": ["20180922"],
-          "hours":[
-            {
-              "from": "6",
-              "to": "18"
-            }
-          ],
-          "validator": {
-            "type": "plates-by-day",
-            "monday-start": "0",
-            "plates-by-day": "10"
-          }
-        },
         {
           "vehicles": ["particular", "especial"],
           "days": ["mon", "tue", "wed", "thu", "fri"],
@@ -872,27 +817,6 @@
             "type": "plates-by-day",
             "monday-start": "1",
             "plates-by-day": "2"
-          }
-        }
-      ]
-    },
-    {
-      "name": "rionegro",
-      "unrestricted-days": [],
-      "restrictions": [
-        {
-          "vehicles": ["particular", "moto-2t", "moto-4t"],
-          "days": ["20180719"],
-          "hours":[
-            {
-              "from": "7",
-              "to": "19"
-            }
-          ],
-          "validator": {
-            "type": "plates-by-day",
-            "monday-start": "0",
-            "plates-by-day": "10"
           }
         }
       ]

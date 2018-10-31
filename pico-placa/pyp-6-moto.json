@@ -1,12 +1,5 @@
 {
   "special-events": [
-    {
-      "dates": ["20180811"],
-      "city": "medellin",
-      "title": "Lunes 6 de Agosto 2018, Rotación de pico y placa",
-      "text": "La rotación de pico y placa en Medellín inicia el lunes 6 de agosto para motos 2T.",
-      "url": "https://twitter.com/sttmed/status/1022614331370954752"
-    }
   ],
   "vehicle-types" : [
     {
@@ -41,7 +34,7 @@
       "unrestricted-days": [],
       "restrictions": [
         {
-          "vehicles": ["moto-2t", "moto-4t"],
+          "vehicles": ["moto-2t"],
           "days": ["mon", "tue", "wed", "thu", "fri"],
           "hours":[
             {
