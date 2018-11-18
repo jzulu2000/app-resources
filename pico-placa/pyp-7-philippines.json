@@ -1,14 +1,14 @@
 {
-	"object-type": "com.twelvestars.pipla.daos.model.PyPModel",
+	"object-type": "com.twelvestars.pipla_philippines.daos.model.PyPModel",
 	"specialEvents": [],
 	"vehicles": [
 		{
-			"object-type": "com.twelvestars.pipla.daos.model.Vehicle",
+			"object-type": "com.twelvestars.pipla_philippines.daos.model.Vehicle",
 			"iconRef": "car",
 			"nameRef": "vehicle_type_particular",
 			"plateColorRef": "plate_color_white",
 			"plateExtractor": {
-				"object-type": "com.twelvestars.pipla.daos.model.LastDigitExtractor"
+				"object-type": "com.twelvestars.pipla_philippines.daos.model.LastDigitExtractor"
 			},
 			"textColorRef": "plate_color_black",
 			"type": "particular"
@@ -22,27 +22,27 @@
 	],
 	"cities": [
 		{
-			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"object-type": "com.twelvestars.pipla_philippines.daos.model.City",
 			"aliases": [],
 			"name": "manila",
 			"restrictions": [
 				{
-					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"object-type": "com.twelvestars.pipla_philippines.daos.model.Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
 						{
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"object-type": "com.twelvestars.pipla_philippines.daos.model.Schedule",
 							"from": "420",
 							"to": "600"
 						}, {
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"object-type": "com.twelvestars.pipla_philippines.daos.model.Schedule",
 							"from": "900",
 							"to": "1140"
 						}
 					],
 					"skipOnHolidays": true,
 					"validator": {
-						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"object-type": "com.twelvestars.pipla_philippines.daos.validators.PlatesByDayValidator",
 						"parameters": {
 							"plates-by-day": "2",
 							"monday-start": "1"
@@ -53,23 +53,23 @@
 			],
 			"unrestrictedDays": []
 		}, {
-			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"object-type": "com.twelvestars.pipla_philippines.daos.model.City",
 			"aliases": [],
 			"name": "makati",
 			"restrictions": [
 				{
-					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"object-type": "com.twelvestars.pipla_philippines.daos.model.Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
 						{
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"object-type": "com.twelvestars.pipla_philippines.daos.model.Schedule",
 							"from": "420",
 							"to": "1140"
 						}
 					],
 					"skipOnHolidays": true,
 					"validator": {
-						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"object-type": "com.twelvestars.pipla_philippines.daos.validators.PlatesByDayValidator",
 						"parameters": {
 							"plates-by-day": "2",
 							"monday-start": "1"
@@ -80,23 +80,23 @@
 			],
 			"unrestrictedDays": []
 		}, {
-			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"object-type": "com.twelvestars.pipla_philippines.daos.model.City",
 			"aliases": [],
 			"name": "las pinas",
 			"restrictions": [
 				{
-					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"object-type": "com.twelvestars.pipla_philippines.daos.model.Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
 						{
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"object-type": "com.twelvestars.pipla_philippines.daos.model.Schedule",
 							"from": "420",
 							"to": "1140"
 						}
 					],
 					"skipOnHolidays": true,
 					"validator": {
-						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"object-type": "com.twelvestars.pipla_philippines.daos.validators.PlatesByDayValidator",
 						"parameters": {
 							"plates-by-day": "2",
 							"monday-start": "1"
@@ -107,27 +107,27 @@
 			],
 			"unrestrictedDays": []
 		}, {
-			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"object-type": "com.twelvestars.pipla_philippines.daos.model.City",
 			"aliases": [],
 			"name": "pasig",
 			"restrictions": [
 				{
-					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"object-type": "com.twelvestars.pipla_philippines.daos.model.Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
 						{
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"object-type": "com.twelvestars.pipla_philippines.daos.model.Schedule",
 							"from": "420",
 							"to": "540"
 						}, {
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"object-type": "com.twelvestars.pipla_philippines.daos.model.Schedule",
 							"from": "960",
 							"to": "1140"
 						}
 					],
 					"skipOnHolidays": true,
 					"validator": {
-						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"object-type": "com.twelvestars.pipla_philippines.daos.validators.PlatesByDayValidator",
 						"parameters": {
 							"plates-by-day": "2",
 							"monday-start": "1"
@@ -138,27 +138,27 @@
 			],
 			"unrestrictedDays": []
 		}, {
-			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"object-type": "com.twelvestars.pipla_philippines.daos.model.City",
 			"aliases": [],
 			"name": "quezon city",
 			"restrictions": [
 				{
-					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"object-type": "com.twelvestars.pipla_philippines.daos.model.Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
 						{
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"object-type": "com.twelvestars.pipla_philippines.daos.model.Schedule",
 							"from": "420",
 							"to": "600"
 						}, {
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"object-type": "com.twelvestars.pipla_philippines.daos.model.Schedule",
 							"from": "900",
 							"to": "1140"
 						}
 					],
 					"skipOnHolidays": true,
 					"validator": {
-						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"object-type": "com.twelvestars.pipla_philippines.daos.validators.PlatesByDayValidator",
 						"parameters": {
 							"plates-by-day": "2",
 							"monday-start": "1"
@@ -169,27 +169,27 @@
 			],
 			"unrestrictedDays": []
 		}, {
-			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"object-type": "com.twelvestars.pipla_philippines.daos.model.City",
 			"aliases": [],
 			"name": "san juan",
 			"restrictions": [
 				{
-					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"object-type": "com.twelvestars.pipla_philippines.daos.model.Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
 						{
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"object-type": "com.twelvestars.pipla_philippines.daos.model.Schedule",
 							"from": "420",
 							"to": "600"
 						}, {
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"object-type": "com.twelvestars.pipla_philippines.daos.model.Schedule",
 							"from": "900",
 							"to": "1140"
 						}
 					],
 					"skipOnHolidays": true,
 					"validator": {
-						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"object-type": "com.twelvestars.pipla_philippines.daos.validators.PlatesByDayValidator",
 						"parameters": {
 							"plates-by-day": "2",
 							"monday-start": "1"
@@ -200,27 +200,27 @@
 			],
 			"unrestrictedDays": []
 		}, {
-			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"object-type": "com.twelvestars.pipla_philippines.daos.model.City",
 			"aliases": [],
 			"name": "malabon",
 			"restrictions": [
 				{
-					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"object-type": "com.twelvestars.pipla_philippines.daos.model.Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
 						{
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"object-type": "com.twelvestars.pipla_philippines.daos.model.Schedule",
 							"from": "420",
 							"to": "600"
 						}, {
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"object-type": "com.twelvestars.pipla_philippines.daos.model.Schedule",
 							"from": "900",
 							"to": "1140"
 						}
 					],
 					"skipOnHolidays": true,
 					"validator": {
-						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"object-type": "com.twelvestars.pipla_philippines.daos.validators.PlatesByDayValidator",
 						"parameters": {
 							"plates-by-day": "2",
 							"monday-start": "1"
@@ -231,27 +231,27 @@
 			],
 			"unrestrictedDays": []
 		}, {
-			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"object-type": "com.twelvestars.pipla_philippines.daos.model.City",
 			"aliases": [],
 			"name": "navotas",
 			"restrictions": [
 				{
-					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"object-type": "com.twelvestars.pipla_philippines.daos.model.Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
 						{
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"object-type": "com.twelvestars.pipla_philippines.daos.model.Schedule",
 							"from": "420",
 							"to": "600"
 						}, {
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"object-type": "com.twelvestars.pipla_philippines.daos.model.Schedule",
 							"from": "900",
 							"to": "1140"
 						}
 					],
 					"skipOnHolidays": true,
 					"validator": {
-						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"object-type": "com.twelvestars.pipla_philippines.daos.validators.PlatesByDayValidator",
 						"parameters": {
 							"plates-by-day": "2",
 							"monday-start": "1"
@@ -262,27 +262,27 @@
 			],
 			"unrestrictedDays": []
 		}, {
-			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"object-type": "com.twelvestars.pipla_philippines.daos.model.City",
 			"aliases": [],
 			"name": "mandaluyong",
 			"restrictions": [
 				{
-					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"object-type": "com.twelvestars.pipla_philippines.daos.model.Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
 						{
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"object-type": "com.twelvestars.pipla_philippines.daos.model.Schedule",
 							"from": "420",
 							"to": "600"
 						}, {
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"object-type": "com.twelvestars.pipla_philippines.daos.model.Schedule",
 							"from": "900",
 							"to": "1140"
 						}
 					],
 					"skipOnHolidays": true,
 					"validator": {
-						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"object-type": "com.twelvestars.pipla_philippines.daos.validators.PlatesByDayValidator",
 						"parameters": {
 							"plates-by-day": "2",
 							"monday-start": "1"
@@ -293,27 +293,27 @@
 			],
 			"unrestrictedDays": []
 		}, {
-			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"object-type": "com.twelvestars.pipla_philippines.daos.model.City",
 			"aliases": [],
 			"name": "valenzuela",
 			"restrictions": [
 				{
-					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"object-type": "com.twelvestars.pipla_philippines.daos.model.Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
 						{
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"object-type": "com.twelvestars.pipla_philippines.daos.model.Schedule",
 							"from": "420",
 							"to": "600"
 						}, {
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"object-type": "com.twelvestars.pipla_philippines.daos.model.Schedule",
 							"from": "900",
 							"to": "1140"
 						}
 					],
 					"skipOnHolidays": true,
 					"validator": {
-						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"object-type": "com.twelvestars.pipla_philippines.daos.validators.PlatesByDayValidator",
 						"parameters": {
 							"plates-by-day": "2",
 							"monday-start": "1"
@@ -324,27 +324,27 @@
 			],
 			"unrestrictedDays": []
 		}, {
-			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"object-type": "com.twelvestars.pipla_philippines.daos.model.City",
 			"aliases": [],
 			"name": "caloocan",
 			"restrictions": [
 				{
-					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"object-type": "com.twelvestars.pipla_philippines.daos.model.Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
 						{
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"object-type": "com.twelvestars.pipla_philippines.daos.model.Schedule",
 							"from": "420",
 							"to": "600"
 						}, {
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"object-type": "com.twelvestars.pipla_philippines.daos.model.Schedule",
 							"from": "900",
 							"to": "1140"
 						}
 					],
 					"skipOnHolidays": true,
 					"validator": {
-						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"object-type": "com.twelvestars.pipla_philippines.daos.validators.PlatesByDayValidator",
 						"parameters": {
 							"plates-by-day": "2",
 							"monday-start": "1"
@@ -355,27 +355,27 @@
 			],
 			"unrestrictedDays": []
 		}, {
-			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"object-type": "com.twelvestars.pipla_philippines.daos.model.City",
 			"aliases": [],
 			"name": "pateros",
 			"restrictions": [
 				{
-					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"object-type": "com.twelvestars.pipla_philippines.daos.model.Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
 						{
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"object-type": "com.twelvestars.pipla_philippines.daos.model.Schedule",
 							"from": "420",
 							"to": "600"
 						}, {
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"object-type": "com.twelvestars.pipla_philippines.daos.model.Schedule",
 							"from": "900",
 							"to": "1140"
 						}
 					],
 					"skipOnHolidays": true,
 					"validator": {
-						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"object-type": "com.twelvestars.pipla_philippines.daos.validators.PlatesByDayValidator",
 						"parameters": {
 							"plates-by-day": "2",
 							"monday-start": "1"
@@ -386,27 +386,27 @@
 			],
 			"unrestrictedDays": []
 		}, {
-			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"object-type": "com.twelvestars.pipla_philippines.daos.model.City",
 			"aliases": [],
 			"name": "pasay",
 			"restrictions": [
 				{
-					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"object-type": "com.twelvestars.pipla_philippines.daos.model.Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
 						{
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"object-type": "com.twelvestars.pipla_philippines.daos.model.Schedule",
 							"from": "420",
 							"to": "600"
 						}, {
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"object-type": "com.twelvestars.pipla_philippines.daos.model.Schedule",
 							"from": "900",
 							"to": "1140"
 						}
 					],
 					"skipOnHolidays": true,
 					"validator": {
-						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"object-type": "com.twelvestars.pipla_philippines.daos.validators.PlatesByDayValidator",
 						"parameters": {
 							"plates-by-day": "2",
 							"monday-start": "1"

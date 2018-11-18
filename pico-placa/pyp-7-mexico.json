@@ -1,8 +1,8 @@
 {
-	"object-type": "com.twelvestars.pipla.daos.model.PyPModel",
+	"object-type": "com.twelvestars.pipla_mexico.daos.model.PyPModel",
 	"specialEvents": [
 		{
-			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
+			"object-type": "com.twelvestars.pipla_mexico.daos.model.SpecialEvent",
 			"city": "ciudad de mexico",
 			"dates": ["2018-05-19"],
 			"text": "El país se suma a la iniciativa de fijar como fecha de celebración el 22 de Septiembre de cada Año.",
@@ -12,22 +12,22 @@
 	],
 	"vehicles": [
 		{
-			"object-type": "com.twelvestars.pipla.daos.model.Vehicle",
+			"object-type": "com.twelvestars.pipla_mexico.daos.model.Vehicle",
 			"iconRef": "h1",
 			"nameRef": "vehicle_type_h1",
 			"plateColorRef": "plate_color_white",
 			"plateExtractor": {
-				"object-type": "com.twelvestars.pipla.daos.model.LastDigitExtractor"
+				"object-type": "com.twelvestars.pipla_mexico.daos.model.LastDigitExtractor"
 			},
 			"textColorRef": "plate_color_black",
 			"type": "holograma-1"
 		}, {
-			"object-type": "com.twelvestars.pipla.daos.model.Vehicle",
+			"object-type": "com.twelvestars.pipla_mexico.daos.model.Vehicle",
 			"iconRef": "h2",
 			"nameRef": "vehicle_type_h2",
 			"plateColorRef": "plate_color_white",
 			"plateExtractor": {
-				"object-type": "com.twelvestars.pipla.daos.model.LastDigitExtractor"
+				"object-type": "com.twelvestars.pipla_mexico.daos.model.LastDigitExtractor"
 			},
 			"textColorRef": "plate_color_black",
 			"type": "holograma-2"
@@ -40,7 +40,7 @@
 	],
 	"cities": [
 		{
-			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"object-type": "com.twelvestars.pipla_mexico.daos.model.City",
 			"aliases": [
 				"valle del chalco solidaridad", "tlalnepantla", "villa nicolas romero", "nezahualcoyotl", "benito juarez",
 				"los reyes acaquilpan", "huixquilucan de degollado", "chimalhuacan", "cuautitlan izcalli",
@@ -51,38 +51,38 @@
 			"name": "ciudad de mexico",
 			"restrictions": [
 				{
-					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"object-type": "com.twelvestars.pipla_mexico.daos.model.Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
 						{
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"object-type": "com.twelvestars.pipla_mexico.daos.model.Schedule",
 							"from": "300",
 							"to": "1320"
 						}
 					],
 					"skipOnHolidays": true,
 					"validator": {
-						"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator",
+						"object-type": "com.twelvestars.pipla_mexico.daos.validators.StaticValidator",
 						"parameters": {},
 						"staticRestrictions": [
 							{
-								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"object-type": "com.twelvestars.pipla_mexico.daos.validators.StaticValidator$StaticRestriction",
 								"days": ["mon"],
 								"plates": ["5", "6"]
 							}, {
-								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"object-type": "com.twelvestars.pipla_mexico.daos.validators.StaticValidator$StaticRestriction",
 								"days": ["tue"],
 								"plates": ["7", "8"]
 							}, {
-								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"object-type": "com.twelvestars.pipla_mexico.daos.validators.StaticValidator$StaticRestriction",
 								"days": ["wed"],
 								"plates": ["3", "4"]
 							}, {
-								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"object-type": "com.twelvestars.pipla_mexico.daos.validators.StaticValidator$StaticRestriction",
 								"days": ["thu"],
 								"plates": ["1", "2"]
 							}, {
-								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"object-type": "com.twelvestars.pipla_mexico.daos.validators.StaticValidator$StaticRestriction",
 								"days": ["fri"],
 								"plates": ["9", "0"]
 							}
@@ -90,29 +90,29 @@
 					},
 					"vehicles": ["holograma-1", "holograma-2"]
 				}, {
-					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"object-type": "com.twelvestars.pipla_mexico.daos.model.Restriction",
 					"days": ["sat"],
 					"hours": [
 						{
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"object-type": "com.twelvestars.pipla_mexico.daos.model.Schedule",
 							"from": "300",
 							"to": "1320"
 						}
 					],
 					"skipOnHolidays": true,
 					"validator": {
-						"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator",
+						"object-type": "com.twelvestars.pipla_mexico.daos.validators.StaticValidator",
 						"parameters": {},
 						"staticRestrictions": [
 							{
-								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"object-type": "com.twelvestars.pipla_mexico.daos.validators.StaticValidator$StaticRestriction",
 								"days": [
 									"20180505", "20180519", "20180602", "20180616", "20180707", "20180721", "20180804", "20180818",
 									"20180901", "20180915", "20181006", "20181020", "20181103", "20181117", "20181201", "20181215"
 								],
 								"plates": ["1", "3", "5", "7", "9"]
 							}, {
-								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"object-type": "com.twelvestars.pipla_mexico.daos.validators.StaticValidator$StaticRestriction",
 								"days": [
 									"20180512", "20180526", "20180609", "20180623", "20180714", "20180728", "20180811", "20180825",
 									"20180908", "20180922", "20181013", "20181027", "20181110", "20181124", "20181208", "20181222"
@@ -123,22 +123,22 @@
 					},
 					"vehicles": ["holograma-1"]
 				}, {
-					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"object-type": "com.twelvestars.pipla_mexico.daos.model.Restriction",
 					"days": ["sat"],
 					"hours": [
 						{
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"object-type": "com.twelvestars.pipla_mexico.daos.model.Schedule",
 							"from": "300",
 							"to": "1320"
 						}
 					],
 					"skipOnHolidays": true,
 					"validator": {
-						"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator",
+						"object-type": "com.twelvestars.pipla_mexico.daos.validators.StaticValidator",
 						"parameters": {},
 						"staticRestrictions": [
 							{
-								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"object-type": "com.twelvestars.pipla_mexico.daos.validators.StaticValidator$StaticRestriction",
 								"days": ["sat"],
 								"plates": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 							}
@@ -146,18 +146,18 @@
 					},
 					"vehicles": ["holograma-2"]
 				}, {
-					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"object-type": "com.twelvestars.pipla_mexico.daos.model.Restriction",
 					"days": ["20180922", "20190922", "20200922", "20210922", "20220922"],
 					"hours": [
 						{
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"object-type": "com.twelvestars.pipla_mexico.daos.model.Schedule",
 							"from": "300",
 							"to": "1320"
 						}
 					],
 					"skipOnHolidays": true,
 					"validator": {
-						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"object-type": "com.twelvestars.pipla_mexico.daos.validators.PlatesByDayValidator",
 						"parameters": {
 							"plates-by-day": "10",
 							"monday-start": "0"

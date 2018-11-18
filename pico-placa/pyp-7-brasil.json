@@ -1,24 +1,24 @@
 {
-	"object-type": "com.twelvestars.pipla.daos.model.PyPModel",
+	"object-type": "com.twelvestars.pipla_brasil.daos.model.PyPModel",
 	"specialEvents": [],
 	"vehicles": [
 		{
-			"object-type": "com.twelvestars.pipla.daos.model.Vehicle",
+			"object-type": "com.twelvestars.pipla_brasil.daos.model.Vehicle",
 			"iconRef": "car",
 			"nameRef": "vehicle_type_particular",
 			"plateColorRef": "plate_color_white",
 			"plateExtractor": {
-				"object-type": "com.twelvestars.pipla.daos.model.LastDigitExtractor"
+				"object-type": "com.twelvestars.pipla_brasil.daos.model.LastDigitExtractor"
 			},
 			"textColorRef": "plate_color_black",
 			"type": "particular"
 		}, {
-			"object-type": "com.twelvestars.pipla.daos.model.Vehicle",
+			"object-type": "com.twelvestars.pipla_brasil.daos.model.Vehicle",
 			"iconRef": "car",
 			"nameRef": "vehicle_type_publico",
 			"plateColorRef": "plate_color_red",
 			"plateExtractor": {
-				"object-type": "com.twelvestars.pipla.daos.model.LastDigitExtractor"
+				"object-type": "com.twelvestars.pipla_brasil.daos.model.LastDigitExtractor"
 			},
 			"textColorRef": "plate_color_black",
 			"type": "publico"
@@ -31,27 +31,27 @@
 	],
 	"cities": [
 		{
-			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"object-type": "com.twelvestars.pipla_brasil.daos.model.City",
 			"aliases": [],
 			"name": "sao paulo",
 			"restrictions": [
 				{
-					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"object-type": "com.twelvestars.pipla_brasil.daos.model.Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
 						{
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"object-type": "com.twelvestars.pipla_brasil.daos.model.Schedule",
 							"from": "420",
 							"to": "600"
 						}, {
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"object-type": "com.twelvestars.pipla_brasil.daos.model.Schedule",
 							"from": "1020",
 							"to": "1200"
 						}
 					],
 					"skipOnHolidays": true,
 					"validator": {
-						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"object-type": "com.twelvestars.pipla_brasil.daos.validators.PlatesByDayValidator",
 						"parameters": {
 							"plates-by-day": "2",
 							"monday-start": "1"
