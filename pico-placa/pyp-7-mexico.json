@@ -60,6 +60,7 @@
 							"to": "1320"
 						}
 					],
+					"skipOnHolidays": true,
 					"validator": {
 						"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator",
 						"parameters": {},
@@ -98,6 +99,7 @@
 							"to": "1320"
 						}
 					],
+					"skipOnHolidays": true,
 					"validator": {
 						"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator",
 						"parameters": {},
@@ -130,6 +132,7 @@
 							"to": "1320"
 						}
 					],
+					"skipOnHolidays": true,
 					"validator": {
 						"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator",
 						"parameters": {},
@@ -152,6 +155,7 @@
 							"to": "1320"
 						}
 					],
+					"skipOnHolidays": true,
 					"validator": {
 						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
 						"parameters": {

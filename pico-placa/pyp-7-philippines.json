@@ -40,6 +40,7 @@
 							"to": "1140"
 						}
 					],
+					"skipOnHolidays": true,
 					"validator": {
 						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
 						"parameters": {
@@ -66,6 +67,7 @@
 							"to": "1140"
 						}
 					],
+					"skipOnHolidays": true,
 					"validator": {
 						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
 						"parameters": {
@@ -92,6 +94,7 @@
 							"to": "1140"
 						}
 					],
+					"skipOnHolidays": true,
 					"validator": {
 						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
 						"parameters": {
@@ -122,6 +125,7 @@
 							"to": "1140"
 						}
 					],
+					"skipOnHolidays": true,
 					"validator": {
 						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
 						"parameters": {
@@ -152,6 +156,7 @@
 							"to": "1140"
 						}
 					],
+					"skipOnHolidays": true,
 					"validator": {
 						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
 						"parameters": {
@@ -182,6 +187,7 @@
 							"to": "1140"
 						}
 					],
+					"skipOnHolidays": true,
 					"validator": {
 						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
 						"parameters": {
@@ -212,6 +218,7 @@
 							"to": "1140"
 						}
 					],
+					"skipOnHolidays": true,
 					"validator": {
 						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
 						"parameters": {
@@ -242,6 +249,7 @@
 							"to": "1140"
 						}
 					],
+					"skipOnHolidays": true,
 					"validator": {
 						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
 						"parameters": {
@@ -272,6 +280,7 @@
 							"to": "1140"
 						}
 					],
+					"skipOnHolidays": true,
 					"validator": {
 						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
 						"parameters": {
@@ -302,6 +311,7 @@
 							"to": "1140"
 						}
 					],
+					"skipOnHolidays": true,
 					"validator": {
 						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
 						"parameters": {
@@ -332,6 +342,7 @@
 							"to": "1140"
 						}
 					],
+					"skipOnHolidays": true,
 					"validator": {
 						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
 						"parameters": {
@@ -362,6 +373,7 @@
 							"to": "1140"
 						}
 					],
+					"skipOnHolidays": true,
 					"validator": {
 						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
 						"parameters": {
@@ -392,6 +404,7 @@
 							"to": "1140"
 						}
 					],
+					"skipOnHolidays": true,
 					"validator": {
 						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
 						"parameters": {
