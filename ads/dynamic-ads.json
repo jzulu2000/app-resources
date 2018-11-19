@@ -17,7 +17,7 @@
           "text": "Pico y Placa Colombia"
         }
       ],
-      "url": "com.twelvestars.platerestrictionnotifier"
+      "url": "com.twelvestars.pipla"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
@@ -82,7 +82,7 @@
           "text": "Rodízio de veículos Brasil"
         }
       ],
-      "url": "com.twelvestars.platerestrictionnotifier_brasil"
+      "url": "com.twelvestars.pipla_brasil"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
@@ -129,7 +129,7 @@
           "text": "MoCa Detecção de movimento"
         }
       ],
-      "url": "twelvestars.sp_i_camera_paid"
+      "url": "co.com.twelvestars.moca_paid"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
@@ -147,7 +147,7 @@
           "text": "Pico y Placa Ecuador"
         }
       ],
-      "url": "com.twelvestars.platerestrictionnotifier_ecuador"
+      "url": "com.twelvestars.pipla_ecuador"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
@@ -194,7 +194,7 @@
           "text": "Monitor de Página Web"
         }
       ],
-      "url": "com.twelvestars.urlchecker_paid"
+      "url": "com.twelvestars.webmonitor_paid"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
@@ -212,7 +212,7 @@
           "text": "Hoy No Circula Mexico"
         }
       ],
-      "url": "com.twelvestars.platerestrictionnotifier_mexico"
+      "url": "com.twelvestars.pipla_mexico"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
@@ -259,7 +259,24 @@
           "text": "Amazon rastreamento de preço"
         }
       ],
-      "url": "com.twelvestars.urlchecker_amzpaid"
+      "url": "com.twelvestars.webmonitor_amzpaid"
+    },
+    {
+      "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
+      "descriptions": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Makes a video recording of the screen and includes audio."
+        }
+      ],
+      "icon": "amazon_round",
+      "titles": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Screen Recorder"
+        }
+      ],
+      "url": "com.twelvestars.screenRecorder_paid"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
@@ -277,7 +294,7 @@
           "text": "MMDA Number coding Scheme Philippines"
         }
       ],
-      "url": "com.twelvestars.platerestrictionnotifier_philippines"
+      "url": "com.twelvestars.pipla_philippines"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
@@ -295,7 +312,7 @@
           "text": "Restriccion Vehicular Costa Rica"
         }
       ],
-      "url": "com.twelvestars.platerestrictionnotifier_costarica"
+      "url": "com.twelvestars.pipla_costarica"
     }
   ]
 }
