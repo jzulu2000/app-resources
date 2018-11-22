@@ -2,7 +2,8 @@
   "object-type" : "com.twelvestars.contentExtractor.AmazonContentExtractor",
   "priceRegexs" :[
     "<span id=\"priceblock_[^\"]*price\" class=\"a-size-medium a-color-price\">\\$([0-9\\.]*)</span>",
-    "<span class=\"a-size-base a-color-price a-color-price\">\\s*\\$([0-9\\.]*)\\s*</span>"
+    "<span class=\"a-size-base a-color-price a-color-price\">\\s*\\$([0-9\\.]*)\\s*</span>",
+    "<span class=\"buyingPrice\">([0-9\\.]*)</span>"
   ],
   "iconRegexs": [
     "<img alt=\"\" src=\"(http[^\"]*)\">",
