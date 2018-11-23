@@ -1,28 +1,6 @@
 {
 	"object-type": "com.twelvestars.pipla.daos.model.PyPModel",
 	"specialEvents": [
-		{
-			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
-			"city": "medellin",
-			"dates": ["2018-08-11"],
-			"text": "La rotación de pico y placa en Medellín inicia el miércoles 1 de agosto ara taxis y el lunes 6 de agosto para motos 2T y vehículos particulares.",
-			"title": "Lunes 6 de Agosto 2018, Rotación de pico y placa Particulares y Motos. Taxis Miercoles 1 de Agosto",
-			"url": "https://twitter.com/sttmed/status/1022614331370954752"
-		}, {
-			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
-			"city": "cali",
-			"dates": ["2018-09-22"],
-			"text": "El próximo 22 de septiembre se realizará el día sin carro entre las 6am y 6pm para contribuir con el medio ambiente de la ciudad.",
-			"title": "Día sin carro en Cali se realizará el próximo 22 de septiembre de 2018",
-			"url": "https://www.elpais.com.co/cali/dia-sin-carro-en-cali-se-hara-el-sabado-22-de-septiembre.html"
-		}, {
-			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
-			"city": "cartagena",
-			"dates": ["2018-09-08"],
-			"text": "A partir del lunes 3 de septiembre de 2018 y hasta el 30 de noviembre de 2018, regirá la nueva rotación del Decreto 1550 de 2017, o pico y placa para vehículos particulares, informó el Departamento Administrativo de Tránsito y Transporte, DATT..",
-			"title": "Septiembre 3, 2018 cambia pico y placa en Cartagena",
-			"url": "http://www.eluniversal.com.co/cartagena/atencion-nueva-rotacion-del-pico-y-placa-para-particulares-en-cartagena-285359"
-		}
 	],
 	"vehicles": [
 		{
