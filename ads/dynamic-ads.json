@@ -10,11 +10,11 @@
           "text": "Notifica el pico y placa para Colombia."
         }
       ],
-      "icon": "picoplaca_round",
+      "icon": "pipla_round",
       "titles": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "Pico y Placa Colombia"
+          "text": "Pipla - Pico y Placa Colombia"
         }
       ],
       "url": "com.twelvestars.pipla"
@@ -75,11 +75,11 @@
           "text": "Gerar Notificações para o Rodízio de veículos Brasil."
         }
       ],
-      "icon": "picoplaca_round",
+      "icon": "pipla_brasil_round",
       "titles": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "Rodízio de veículos Brasil"
+          "text": "Pipla - Rodízio de veículos Brasil"
         }
       ],
       "url": "com.twelvestars.pipla_brasil"
@@ -111,22 +111,22 @@
       "titles": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "MoCa Motion Camera"
+          "text": "MoCa Motion Spy Camera"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "es",
-          "text": "MoCa Camara detección Movimiento"
+          "text": "MoCa Camara espía detección Movimiento"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "fr",
-          "text": "MoCa Caméra détection mouvement"
+          "text": "MoCa Spy Caméra détection mouvement"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "pt",
-          "text": "MoCa Detecção de movimento"
+          "text": "MoCa Spy Detecção de movimento"
         }
       ],
       "url": "co.com.twelvestars.moca_paid"
@@ -140,11 +140,11 @@
           "text": "Notifica el pico y placa para Ecuador."
         }
       ],
-      "icon": "picoplaca_round",
+      "icon": "pipla_ecuador_round",
       "titles": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "Pico y Placa Ecuador"
+          "text": "Pipla - Pico y Placa Ecuador"
         }
       ],
       "url": "com.twelvestars.pipla_ecuador"
@@ -176,12 +176,12 @@
       "titles": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "Web Page Monitor"
+          "text": "Page Change Detector"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "es",
-          "text": "Monitor de páginas web"
+          "text": "Detector de cambios en páginas web"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
@@ -191,7 +191,7 @@
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "pt",
-          "text": "Monitor de Página Web"
+          "text": "Detector de Cambios Páginas Web"
         }
       ],
       "url": "com.twelvestars.webmonitor_paid"
@@ -205,11 +205,11 @@
           "text": "Notifica restricciones para el Hoy No Circula en Mexico."
         }
       ],
-      "icon": "picoplaca_round",
+      "icon": "pipla_mexico_round",
       "titles": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "Hoy No Circula Mexico"
+          "text": "Pipla - Hoy No Circula Mexico"
         }
       ],
       "url": "com.twelvestars.pipla_mexico"
@@ -266,14 +266,14 @@
       "descriptions": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "Makes a video recording of the screen and includes audio."
+          "text": "Screen and audio recording."
         }
       ],
-      "icon": "amazon_round",
+      "icon": "screen_recorder_round",
       "titles": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "Screen Recorder"
+          "text": "Recky - Screen and Audio Recorder"
         }
       ],
       "url": "com.twelvestars.screenRecorder_paid"
@@ -287,11 +287,11 @@
           "text": "Number coding Scheme Vehicle restriction in Philippines."
         }
       ],
-      "icon": "picoplaca_round",
+      "icon": "pipla_philippines_round",
       "titles": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "MMDA Number coding Scheme Philippines"
+          "text": "Pipla - Number coding Scheme Philippines"
         }
       ],
       "url": "com.twelvestars.pipla_philippines"
@@ -305,11 +305,11 @@
           "text": "Notifica la restriccion vehicular en Costa Rica."
         }
       ],
-      "icon": "picoplaca_round",
+      "icon": "pipla_costarica_round",
       "titles": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "Restriccion Vehicular Costa Rica"
+          "text": "Pipla - Restriccion Vehicular Costa Rica"
         }
       ],
       "url": "com.twelvestars.pipla_costarica"
