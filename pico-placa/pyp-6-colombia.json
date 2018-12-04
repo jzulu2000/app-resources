@@ -324,20 +324,16 @@
           "hours":[
             {
               "from": "7",
-              "to": "9"
-            },
-            {
-              "from": "12",
-              "to": "14"
+              "to": "10"
             },
             {
               "from": "17",
-              "to": "19.5"
+              "to": "20"
             }
           ],
           "validator": {
             "type": "plates-by-day",
-            "monday-start": "7",
+            "monday-start": "9",
             "plates-by-day": "2"
           }
         },

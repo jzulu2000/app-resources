@@ -415,22 +415,18 @@
 						{
 							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
 							"from": "420",
-							"to": "540"
-						}, {
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
-							"from": "720",
-							"to": "840"
+							"to": "600"
 						}, {
 							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
 							"from": "1020",
-							"to": "1170"
+							"to": "1200"
 						}
 					],
 					"validator": {
 						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
 						"parameters": {
 							"plates-by-day": "2",
-							"monday-start": "7"
+							"monday-start": "9"
 						}
 					},
 					"vehicles": ["particular"]
