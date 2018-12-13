@@ -1,5 +1,12 @@
 {
   "special-events": [
+    {
+      "dates": ["20181226"],
+      "city": "bucaramanga",
+      "title": "Se levanta el pico y placa en Bucaramanga a partir del 26 de Diciembre",
+      "text": "Se levanta el pico y placa a partir del 26 de Diciembre y hasta el Domingo 13 de Enero.",
+      "url": "http://caracol.com.co/emisora/2018/12/12/bucaramanga/1544640836_050504.html"
+    }
   ],
   "vehicle-types" : [
     {
@@ -263,7 +270,8 @@
     },
     {
       "name": "bucaramanga",
-      "unrestricted-days": [],
+      "unrestricted-days": [ "20181226", "20181227", "20181228", "20181231",
+        "20190102", "20190103", "20190104", "20190106", "20190107", "20190108", "20190109", "20190110", "20190111"],
       "restrictions": [
         {
           "vehicles": ["particular"],
