@@ -129,7 +129,7 @@
           "text": "MoCa Spy Detecção de movimento"
         }
       ],
-      "url": "co.com.twelvestars.moca_paid"
+      "url": "twelvestars.moca_paid"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
@@ -313,6 +313,23 @@
         }
       ],
       "url": "com.twelvestars.pipla_costarica"
+    },
+    {
+      "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
+      "descriptions": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Applies a customizable screen shade."
+        }
+      ],
+      "icon": "screen_filter_round",
+      "titles": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Screen Filter"
+        }
+      ],
+      "url": "com.twelvestars.screenFilter"
     }
   ]
 }
