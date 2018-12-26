@@ -10,6 +10,7 @@
 			"url": "http://caracol.com.co/emisora/2018/12/12/bucaramanga/1544640836_050504.html"
 		},
 		{
+			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
 			"dates": ["2019-01-04"],
 			"city": "bogota",
 			"title": "Se levanta el pico y placa en Bogota partir del 26 de Diciembre",
