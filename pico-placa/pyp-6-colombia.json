@@ -13,7 +13,14 @@
       "title": "Se levanta el pico y placa en Bogota partir del 26 de Diciembre",
       "text": "Se levanta el pico y placa a partir del 26 de Diciembre y hasta el Viernes 4 de Enero.",
       "url": "https://www.publimetro.co/co/noticias/2018/12/05/pico-y-placa-en-bogota-diciembre-2018.html"
-    }
+    },
+		{
+			"dates": ["20190111"],
+			"city": "cali",
+			"title": "Se levanta el pico y placa en Cali en las 2 primeras semanas de 2019",
+			"text": "Las primeras dos semanas de enero no habrá pico y placa en la ciudad para los vehículos particulares ni de servicio especial.",
+			"url": "https://www.bluradio.com/cali/estos-son-los-dias-en-los-que-no-habra-pico-y-placa-en-cali-200818-ie4370686"
+		}
   ],
   "vehicle-types" : [
     {
@@ -372,7 +379,7 @@
     },
     {
       "name": "cali",
-      "unrestricted-days": [],
+      "unrestricted-days": ["20190102", "20190103", "20190104", "20190106", "20190107", "20190108", "20190109", "20190110", "20190111"],
       "restrictions": [
         {
           "vehicles": ["particular", "especial"],
