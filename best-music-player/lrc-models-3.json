@@ -40,7 +40,7 @@
     ]
   },
   {
-    "name": "lyricsmode",
+    "name": "lrcmd",
     "url-pattern": "http://www.lyricsmode.com/lyrics/subartist/artist/title.html",
     "url-replacements": [
       {
@@ -135,7 +135,7 @@
   },
 
   {
-    "name": "musixmatch",
+    "name": "msmch",
     "url-pattern": "https://www.musixmatch.com/lyrics/artist/title",
     "url-replacements": [
       {
@@ -199,7 +199,7 @@
   },
 
   {
-    "name": "metrolyrics",
+    "name": "mtrlrc",
     "url-pattern": "http://www.metrolyrics.com/title-lyrics-artist.html",
     "url-replacements": [
       {
@@ -285,7 +285,7 @@
   },
 
   {
-    "name": "lyricstranslate",
+    "name": "lrctrsl",
     "url-pattern": "http://lyricstranslate.com/en/artist-title-lyrics.html",
     "url-replacements": [
       {
