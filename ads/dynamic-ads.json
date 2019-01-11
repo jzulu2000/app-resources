@@ -64,7 +64,7 @@
           "text": "Lyra plugin"
         }
       ],
-      "url": "co.com.twelvestars.gmplayer_paid"
+      "url": "co.com.twelvestars.gmplayer"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
@@ -129,7 +129,7 @@
           "text": "MoCa Spy Detecção de movimento"
         }
       ],
-      "url": "twelvestars.moca_paid"
+      "url": "twelvestars.moca"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
@@ -176,25 +176,25 @@
       "titles": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "Page Change Detector"
+          "text": "Pacha - Page Change Detector"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "es",
-          "text": "Detector de cambios en páginas web"
+          "text": "Pacha - Detector de cambios en páginas web"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "fr",
-          "text": "Moniteur de page Web"
+          "text": "Pacha - Moniteur de page Web"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "pt",
-          "text": "Detector de Cambios Páginas Web"
+          "text": "Pacha - Detector de Cambios Páginas Web"
         }
       ],
-      "url": "com.twelvestars.webmonitor_paid"
+      "url": "com.twelvestars.webmonitor"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
@@ -259,7 +259,7 @@
           "text": "Amazon rastreamento de preço"
         }
       ],
-      "url": "com.twelvestars.webmonitor_amzpaid"
+      "url": "com.twelvestars.webmonitor_amz"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
@@ -276,7 +276,7 @@
           "text": "Recky - Screen and Audio Recorder"
         }
       ],
-      "url": "com.twelvestars.screenRecorder_paid"
+      "url": "com.twelvestars.screenRecorder"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
