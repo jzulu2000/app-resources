@@ -24,6 +24,53 @@
       "descriptions": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Music player for LRC lyrics downloading, displaying and edition."
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "es",
+          "text": "Reproductor de Música para descargar, ver y editar letras LRC."
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "fr",
+          "text": "Lecteur de musique pour téléchargement, affichage et édition des paroles LRC."
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "pt",
+          "text": "Leitor de música para download, exibição e edição de letras LRC."
+        }
+      ],
+      "icon": "best_round",
+      "titles": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Lyra Music Player"
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "es",
+          "text": "Reproductor de Música Lyra"
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "fr",
+          "text": "Lyra Lecteur de musique"
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "pt",
+          "text": "Lyra Leitor de música"
+        }
+      ],
+      "url": "co.com.twelvestars.best_free"
+    },
+    {
+      "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
+      "descriptions": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "text": "Plugin for displaying lyrics in most of the music players."
         },
         {
