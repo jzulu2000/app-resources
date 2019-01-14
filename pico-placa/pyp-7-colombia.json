@@ -611,8 +611,16 @@
 					"hours": [
 						{
 							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
-							"from": "480",
-							"to": "1200"
+							"from": "450",
+							"to": "570"
+						},{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "690",
+							"to": "870"
+						},{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "1050",
+							"to": "1170"
 						}
 					],
 					"validator": {
@@ -629,8 +637,16 @@
 					"hours": [
 						{
 							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
-							"from": "480",
-							"to": "1200"
+							"from": "450",
+							"to": "570"
+						},{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "690",
+							"to": "870"
+						},{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "1050",
+							"to": "1170"
 						}
 					],
 					"validator": {
