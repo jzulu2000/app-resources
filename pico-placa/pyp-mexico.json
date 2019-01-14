@@ -1,11 +1,11 @@
 {
   "special-events": [
     {
-      "dates": ["20180519"],
+      "dates": ["20190331"],
       "city": "ciudad de mexico",
-      "title": "Sep 22, Dia nacional Sin Automovil.",
-      "text": "El país se suma a la iniciativa de fijar como fecha de celebración el 22 de Septiembre de cada Año.",
-      "url": "http://www.eluniversal.com.mx/nacion/sociedad/oficializa-mexico-dia-nacional-sin-automovil"
+      "title": "Necesitas actualizar tu aplicación.",
+      "text": "Esta versión no tendrá más soporte; para seguir recibiendo notificaciones debes descargar la nueva aplicación en el playstore. Ahora es Pipla - Hoy No Circula Mexico de Twelve Stars Software. Haz click en Leer Mas para llevar al nuevo enlace de descarga.",
+      "url": "https://play.google.com/store/apps/details?id=com.twelvestars.pipla_mexico"
     }
   ],
   "country" : "mexico",

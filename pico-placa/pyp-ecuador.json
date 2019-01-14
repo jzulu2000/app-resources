@@ -1,4 +1,13 @@
 {
+  "special-events": [
+    {
+      "dates": ["20190331"],
+      "city": "quito",
+      "title": "Necesitas actualizar tu aplicación.",
+      "text": "Esta versión no tendrá más soporte; para seguir recibiendo notificaciones debes descargar la nueva aplicación en el playstore. Ahora es Pipla - Pico y Placa Ecuador Quito de Twelve Stars Software. Haz click en Leer Más para llevar al nuevo enlace de descarga.",
+      "url": "https://play.google.com/store/apps/details?id=com.twelvestars.pipla_ecuador"
+    }
+  ],
   "country" : "ecuador",
   "holidays": [
     "20180101", "20180212", "20180213", "20180330", "20180501", "20180525",

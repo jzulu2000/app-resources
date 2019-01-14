@@ -1,11 +1,95 @@
 {
   "special-events": [
     {
-      "dates": ["20181226"],
+      "dates": ["20190331"],
+      "city": "medellin",
+      "title": "Necesitas actualizar tu aplicación.",
+      "text": "Esta versión no tendrá más soporte; para seguir recibiendo notificaciones debes descargar la nueva aplicación en el playstore. Ahora es Pipla de Twelve Stars Software. Haz click en Leer Más para llevar al nuevo enlace de descarga.",
+      "url": "https://play.google.com/store/apps/details?id=com.twelvestars.pipla"
+    }, {
+      "dates": ["20190331"],
+      "city": "bogota",
+      "title": "Necesitas actualizar tu aplicación.",
+      "text": "Esta versión no tendrá más soporte; para seguir recibiendo notificaciones debes descargar la nueva aplicación en el playstore. Ahora es Pipla de Twelve Stars Software. Haz click en Leer Más para llevar al nuevo enlace de descarga.",
+      "url": "https://play.google.com/store/apps/details?id=com.twelvestars.pipla"
+    }, {
+      "dates": ["20190331"],
+      "city": "pereira",
+      "title": "Necesitas actualizar tu aplicación.",
+      "text": "Esta versión no tendrá más soporte; para seguir recibiendo notificaciones debes descargar la nueva aplicación en el playstore. Ahora es Pipla de Twelve Stars Software. Haz click en Leer Más para llevar al nuevo enlace de descarga.",
+      "url": "https://play.google.com/store/apps/details?id=com.twelvestars.pipla"
+    }, {
+      "dates": ["20190331"],
       "city": "bucaramanga",
-      "title": "Se levanta el pico y placa en Bucaramanga a partir del 26 de Diciembre",
-      "text": "Se levanta el pico y placa a partir del 26 de Diciembre y hasta el Domingo 13 de Enero.",
-      "url": "http://caracol.com.co/emisora/2018/12/12/bucaramanga/1544640836_050504.html"
+      "title": "Necesitas actualizar tu aplicación.",
+      "text": "Esta versión no tendrá más soporte; para seguir recibiendo notificaciones debes descargar la nueva aplicación en el playstore. Ahora es Pipla de Twelve Stars Software. Haz click en Leer Más para llevar al nuevo enlace de descarga.",
+      "url": "https://play.google.com/store/apps/details?id=com.twelvestars.pipla"
+    }, {
+      "dates": ["20190331"],
+      "city": "cartagena",
+      "title": "Necesitas actualizar tu aplicación.",
+      "text": "Esta versión no tendrá más soporte; para seguir recibiendo notificaciones debes descargar la nueva aplicación en el playstore. Ahora es Pipla de Twelve Stars Software. Haz click en Leer Más para llevar al nuevo enlace de descarga.",
+      "url": "https://play.google.com/store/apps/details?id=com.twelvestars.pipla"
+    }, {
+      "dates": ["20190331"],
+      "city": "cali",
+      "title": "Necesitas actualizar tu aplicación.",
+      "text": "Esta versión no tendrá más soporte; para seguir recibiendo notificaciones debes descargar la nueva aplicación en el playstore. Ahora es Pipla de Twelve Stars Software. Haz click en Leer Más para llevar al nuevo enlace de descarga.",
+      "url": "https://play.google.com/store/apps/details?id=com.twelvestars.pipla"
+    }, {
+      "dates": ["20190331"],
+      "city": "barranquilla",
+      "title": "Necesitas actualizar tu aplicación.",
+      "text": "Esta versión no tendrá más soporte; para seguir recibiendo notificaciones debes descargar la nueva aplicación en el playstore. Ahora es Pipla de Twelve Stars Software. Haz click en Leer Más para llevar al nuevo enlace de descarga.",
+      "url": "https://play.google.com/store/apps/details?id=com.twelvestars.pipla"
+    }, {
+      "dates": ["20190331"],
+      "city": "armenia",
+      "title": "Necesitas actualizar tu aplicación.",
+      "text": "Esta versión no tendrá más soporte; para seguir recibiendo notificaciones debes descargar la nueva aplicación en el playstore. Ahora es Pipla de Twelve Stars Software. Haz click en Leer Más para llevar al nuevo enlace de descarga.",
+      "url": "https://play.google.com/store/apps/details?id=com.twelvestars.pipla"
+    }, {
+      "dates": ["20190331"],
+      "city": "santa marta",
+      "title": "Necesitas actualizar tu aplicación.",
+      "text": "Esta versión no tendrá más soporte; para seguir recibiendo notificaciones debes descargar la nueva aplicación en el playstore. Ahora es Pipla de Twelve Stars Software. Haz click en Leer Más para llevar al nuevo enlace de descarga.",
+      "url": "https://play.google.com/store/apps/details?id=com.twelvestars.pipla"
+    }, {
+      "dates": ["20190331"],
+      "city": "pasto",
+      "title": "Necesitas actualizar tu aplicación.",
+      "text": "Esta versión no tendrá más soporte; para seguir recibiendo notificaciones debes descargar la nueva aplicación en el playstore. Ahora es Pipla de Twelve Stars Software. Haz click en Leer Más para llevar al nuevo enlace de descarga.",
+      "url": "https://play.google.com/store/apps/details?id=com.twelvestars.pipla"
+    }, {
+      "dates": ["20190331"],
+      "city": "cucuta",
+      "title": "Necesitas actualizar tu aplicación.",
+      "text": "Esta versión no tendrá más soporte; para seguir recibiendo notificaciones debes descargar la nueva aplicación en el playstore. Ahora es Pipla de Twelve Stars Software. Haz click en Leer Más para llevar al nuevo enlace de descarga.",
+      "url": "https://play.google.com/store/apps/details?id=com.twelvestars.pipla"
+    }, {
+      "dates": ["20190331"],
+      "city": "villavicencio",
+      "title": "Necesitas actualizar tu aplicación.",
+      "text": "Esta versión no tendrá más soporte; para seguir recibiendo notificaciones debes descargar la nueva aplicación en el playstore. Ahora es Pipla de Twelve Stars Software. Haz click en Leer Más para llevar al nuevo enlace de descarga.",
+      "url": "https://play.google.com/store/apps/details?id=com.twelvestars.pipla"
+    }, {
+      "dates": ["20190331"],
+      "city": "tunja",
+      "title": "Necesitas actualizar tu aplicación.",
+      "text": "Esta versión no tendrá más soporte; para seguir recibiendo notificaciones debes descargar la nueva aplicación en el playstore. Ahora es Pipla de Twelve Stars Software. Haz click en Leer Más para llevar al nuevo enlace de descarga.",
+      "url": "https://play.google.com/store/apps/details?id=com.twelvestars.pipla"
+    }, {
+      "dates": ["20190331"],
+      "city": "popayan",
+      "title": "Necesitas actualizar tu aplicación.",
+      "text": "Esta versión no tendrá más soporte; para seguir recibiendo notificaciones debes descargar la nueva aplicación en el playstore. Ahora es Pipla de Twelve Stars Software. Haz click en Leer Más para llevar al nuevo enlace de descarga.",
+      "url": "https://play.google.com/store/apps/details?id=com.twelvestars.pipla"
+    }, {
+      "dates": ["20190331"],
+      "city": "quibdo",
+      "title": "Necesitas actualizar tu aplicación.",
+      "text": "Esta versión no tendrá más soporte; para seguir recibiendo notificaciones debes descargar la nueva aplicación en el playstore. Ahora es Pipla de Twelve Stars Software. Haz click en Leer Más para llevar al nuevo enlace de descarga.",
+      "url": "https://play.google.com/store/apps/details?id=com.twelvestars.pipla"
     }
   ],
   "country" : "colombia",
