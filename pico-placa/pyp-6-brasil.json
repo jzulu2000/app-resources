@@ -1,5 +1,12 @@
 {
   "special-events": [
+    {
+      "dates": ["20190331"],
+      "city": "sao paulo",
+      "title": "Você precisa atualizar seu aplicativo.",
+      "text": "Esta versão não terá mais suporte; para continuar recebendo as notificações, você deve baixar o novo aplicativo no playstore. Agora é Pipla - Rodízio de Veículos Brasil do Twelve Stars Software. Clique em Leia mais para obter o novo link de download.",
+      "url": "https://play.google.com/store/apps/details?id=com.twelvestars.pipla_brasil"
+    }
   ],
   "vehicle-types" : [
     {
