@@ -1,30 +1,6 @@
 {
 	"object-type": "com.twelvestars.pipla.daos.model.PyPModel",
 	"specialEvents": [
-		{
-			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
-			"dates": ["2019-01-13"],
-			"city": "bucaramanga",
-			"title": "Se levanta el pico y placa en Bucaramanga a partir del 26 de Diciembre",
-			"text": "Se levanta el pico y placa a partir del 26 de Diciembre y hasta el Domingo 13 de Enero.",
-			"url": "http://caracol.com.co/emisora/2018/12/12/bucaramanga/1544640836_050504.html"
-		},
-		{
-			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
-			"dates": ["2019-01-04"],
-			"city": "bogota",
-			"title": "Se levanta el pico y placa en Bogota partir del 26 de Diciembre",
-			"text": "Se levanta el pico y placa a partir del 26 de Diciembre y hasta el Viernes 4 de Enero.",
-			"url": "https://www.publimetro.co/co/noticias/2018/12/05/pico-y-placa-en-bogota-diciembre-2018.html"
-		},
-		{
-			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
-			"dates": ["2019-01-11"],
-			"city": "cali",
-			"title": "Se levanta el pico y placa en Cali en las 2 primeras semanas de 2019",
-			"text": "Las primeras dos semanas de enero no habrá pico y placa en la ciudad para los vehículos particulares ni de servicio especial.",
-			"url": "https://www.bluradio.com/cali/estos-son-los-dias-en-los-que-no-habra-pico-y-placa-en-cali-200818-ie4370686"
-		}
 	],
 	"vehicles": [
 		{
@@ -289,7 +265,7 @@
 						"parameters": {
 							"include-saturdays": "true",
 							"plates-by-day": "2",
-							"first-monday-start": "7",
+							"first-monday-start": "3",
 							"include-sundays": "false"
 						}
 					},
@@ -309,7 +285,7 @@
 						"parameters": {
 							"include-saturdays": "true",
 							"plates-by-day": "2",
-							"first-monday-start": "5",
+							"first-monday-start": "1",
 							"include-sundays": "false"
 						}
 					},
