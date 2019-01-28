@@ -3,11 +3,11 @@
 	"specialEvents": [
 		{
 			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
-			"dates": ["2019-01-18"],
-			"city": "cucuta",
-			"title": "Se levanta el pico y placa en Cucuta",
-			"text": "La decisión de la Alcaldía obedece a que harán intervenciones de la malla vial.",
-			"url": "https://www.laopinion.com.co/cucuta/levantan-pico-y-placa-y-placa-dia-en-cucuta-169470"
+			"dates": ["2019-02-07"],
+			"city": "bogota",
+			"title": "Feb. 7, 2019; Día sin Carro ni Moto en Bogotá.",
+			"text": "Desde las 5:30 de la mañana hasta las 7:30 de la noche.",
+			"url": "http://caracol.com.co/emisora/2019/01/24/bogota/1548335435_899561.html"
 		}
 	],
 	"vehicles": [
