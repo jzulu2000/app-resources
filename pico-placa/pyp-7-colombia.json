@@ -8,6 +8,13 @@
 			"title": "Feb. 7, 2019; Día sin Carro ni Moto en Bogotá.",
 			"text": "Desde las 5:30 de la mañana hasta las 7:30 de la noche.",
 			"url": "http://caracol.com.co/emisora/2019/01/24/bogota/1548335435_899561.html"
+		}, {
+			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
+			"dates": ["2019-02-11"],
+			"city": "medellin",
+			"title": "Nueva rotación del pico y placa desde Feb. 4, 2019.",
+			"text": "La medida rotará para vehículos particulares y motos 2t el Lunes 4 de Febrero y para Taxis el Viernes 1 de Febrero.",
+			"url": "https://twitter.com/sttmed/status/1090274231194009600"
 		}
 	],
 	"vehicles": [
@@ -237,6 +244,24 @@
 			"name": "bogota",
 			"restrictions": [
 				{
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["20190207"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "330",
+							"to": "1170"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "10",
+							"monday-start": "0"
+						}
+					},
+					"vehicles": ["particular", "moto-2t", "moto-4t"]
+				}, {
 					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
