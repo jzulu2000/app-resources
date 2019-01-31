@@ -926,6 +926,24 @@
 						}
 					},
 					"vehicles": ["particular"]
+				}, {
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["20190213"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "360",
+							"to": "1200"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "10",
+							"monday-start": "0"
+						}
+					},
+					"vehicles": ["particular", "moto-2t", "moto-4t"]
 				}
 			],
 			"unrestrictedDays": []
