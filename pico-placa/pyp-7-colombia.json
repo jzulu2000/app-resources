@@ -854,50 +854,6 @@
 		}, {
 			"object-type": "com.twelvestars.pipla.daos.model.City",
 			"aliases": [],
-			"name": "popayan",
-			"restrictions": [
-				{
-					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
-					"days": ["mon", "tue", "wed", "thu", "fri"],
-					"hours": [
-						{
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
-							"from": "420",
-							"to": "1200"
-						}
-					],
-					"validator": {
-						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
-						"parameters": {
-							"plates-by-day": "2",
-							"monday-start": "3"
-						}
-					},
-					"vehicles": ["particular"]
-				}, {
-					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
-					"days": ["mon", "tue", "wed", "thu", "fri"],
-					"hours": [
-						{
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
-							"from": "420",
-							"to": "1200"
-						}
-					],
-					"validator": {
-						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
-						"parameters": {
-							"plates-by-day": "2",
-							"monday-start": "3"
-						}
-					},
-					"vehicles": ["moto-2t", "moto-4t"]
-				}
-			],
-			"unrestrictedDays": []
-		}, {
-			"object-type": "com.twelvestars.pipla.daos.model.City",
-			"aliases": [],
 			"name": "ibague",
 			"restrictions": [
 				{
