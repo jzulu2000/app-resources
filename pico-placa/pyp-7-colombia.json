@@ -3,6 +3,13 @@
 	"specialEvents": [
 		{
 			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
+			"dates": ["2019-02-18"],
+			"city": "medellin",
+			"title": "Estado de prevención en Medellín desde el 18 de Febrero",
+			"text": "Declaran estado de prevención en Medellín por calidad del aire. A la medida, que empieza a regir el 18 de febrero, se unieron los 10 municipios del valle de Aburrá.",
+			"url": "http://www.elcolombiano.com/antioquia/movilidad/pico-y-placa-2019-medellin-rotacion-y-aumento-a-seis-digitos-OI10185478"
+		},{
+			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
 			"dates": ["2019-02-07"],
 			"city": "bogota",
 			"title": "Feb. 7, 2019; Día sin Carro ni Moto en Bogotá.",
