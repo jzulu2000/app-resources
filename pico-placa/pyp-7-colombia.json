@@ -235,24 +235,6 @@
 			"restrictions": [
 				{
 					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
-					"days": ["20190207"],
-					"hours": [
-						{
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
-							"from": "330",
-							"to": "1170"
-						}
-					],
-					"validator": {
-						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
-						"parameters": {
-							"plates-by-day": "10",
-							"monday-start": "0"
-						}
-					},
-					"vehicles": ["particular", "moto-2t", "moto-4t"]
-				}, {
-					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
 						{
@@ -712,24 +694,6 @@
 						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
 						"parameters": {
 							"plates-by-day": "4",
-							"monday-start": "1"
-						}
-					},
-					"vehicles": ["moto-2t", "moto-4t"]
-				}, {
-					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
-					"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
-					"hours": [
-						{
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
-							"from": "0",
-							"to": "240"
-						}
-					],
-					"validator": {
-						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
-						"parameters": {
-							"plates-by-day": "10",
 							"monday-start": "1"
 						}
 					},
