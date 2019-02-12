@@ -10,18 +10,11 @@
 			"url": "http://www.elcolombiano.com/antioquia/movilidad/pico-y-placa-2019-medellin-rotacion-y-aumento-a-seis-digitos-OI10185478"
 		},{
 			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
-			"dates": ["2019-02-07"],
-			"city": "bogota",
-			"title": "Feb. 7, 2019; Día sin Carro ni Moto en Bogotá.",
-			"text": "Desde las 5:30 de la mañana hasta las 7:30 de la noche.",
-			"url": "http://caracol.com.co/emisora/2019/01/24/bogota/1548335435_899561.html"
-		}, {
-			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
-			"dates": ["2019-02-11"],
-			"city": "medellin",
-			"title": "Nueva rotación del pico y placa en Medellín desde Feb. 4, 2019.",
-			"text": "La medida rotará para vehículos particulares y motos 2t el Lunes 4 de Febrero y para Taxis el Viernes 1 de Febrero.",
-			"url": "https://twitter.com/sttmed/status/1090274231194009600"
+			"dates": ["2019-02-13"],
+			"city": "ibague",
+			"title": "Feb. 13 de 2019 día sin Carro ni Moto en Ibagué.",
+			"text": "Desde las 6:00 de la mañana hasta las 8:00 de la noche. La restricción para automóviles y bicicletas va desde las 6 am hasta las 8pm.",
+			"url": "http://www.ondasdeibague.com/noticias/tendencias/19427-preparese-para-el-dia-sin-carro-y-sin-moto-este-miercoles"
 		}
 	],
 	"vehicles": [
@@ -864,6 +857,24 @@
 			"name": "ibague",
 			"restrictions": [
 				{
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["20190213"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "360",
+							"to": "1200"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "10",
+							"monday-start": "0"
+						}
+					},
+					"vehicles": ["particular", "moto-2t", "moto-4t"]
+				}, {
 					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
