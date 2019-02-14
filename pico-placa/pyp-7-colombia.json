@@ -15,6 +15,13 @@
 			"title": "Feb. 13 de 2019 día sin Carro ni Moto en Ibagué.",
 			"text": "Desde las 6:00 de la mañana hasta las 8:00 de la noche. La restricción para automóviles y bicicletas va desde las 6 am hasta las 8pm.",
 			"url": "http://www.ondasdeibague.com/noticias/tendencias/19427-preparese-para-el-dia-sin-carro-y-sin-moto-este-miercoles"
+		},{
+			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
+			"dates": ["2019-03-04"],
+			"city": "cartagena",
+			"title": "Nueva rotación del Pico y Placa en Cartagena el 4 de Marzo.",
+			"text": "Desde el 4 de marzo nueva rotación del pico y placa para particulares; la rotación que estará vigente hasta el 31 de mayo, empezará los días Lunes con los vehículos con las placas terminadas en 1 y 2.",
+			"url": "http://caracol.com.co/emisora/2019/02/13/cartagena/1550028160_736625.html"
 		}
 	],
 	"vehicles": [
