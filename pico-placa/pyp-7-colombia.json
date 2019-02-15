@@ -3,6 +3,13 @@
 	"specialEvents": [
 		{
 			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
+			"dates": ["2019-02-17"],
+			"city": "bogota",
+			"title": "Pico y placa Este fin de semana en Bogotá",
+			"text": "Este fin de semana habrá pico y placa en Bogotá. Aplicará para vehículos particulares y motocicletas. El Sábado será para placas Pares entre 6:30am y 6:00 pm; el Domingo placas Impares entre 6:30am y 3:00pm.",
+			"url": "https://www.eltiempo.com/bogota/pico-y-placa-durante-alerta-ambiental-en-bogota-327352"
+		},{
+			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
 			"dates": ["2019-02-18"],
 			"city": "medellin",
 			"title": "Estado de prevención en Medellín desde el 18 de Febrero",
@@ -241,6 +248,42 @@
 			"name": "bogota",
 			"restrictions": [
 				{
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["20190216"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "390",
+							"to": "1080"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PairImpairValidator",
+						"parameters": {
+							"evaluator": "DAY_OF_MONTH",
+							"pair-if-pair": "true"
+						}
+					},
+					"vehicles": ["particular", "moto-2t", "moto-4t"]
+				}, {
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["20190217"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "390",
+							"to": "900"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PairImpairValidator",
+						"parameters": {
+							"evaluator": "DAY_OF_MONTH",
+							"pair-if-pair": "true"
+						}
+					},
+					"vehicles": ["particular", "moto-2t", "moto-4t"]
+				}, {
 					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
