@@ -308,10 +308,6 @@
 						{
 							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
 							"from": "360",
-							"to": "510"
-						}, {
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
-							"from": "900",
 							"to": "1170"
 						}
 					],
