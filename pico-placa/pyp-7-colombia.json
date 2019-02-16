@@ -267,7 +267,7 @@
 					"vehicles": ["particular", "moto-2t", "moto-4t"]
 				}, {
 					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
-					"days": ["20190217"],
+					"days": ["20190210", "20190217"],
 					"hours": [
 						{
 							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
