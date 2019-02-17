@@ -10,18 +10,11 @@
 			"url": "https://www.eltiempo.com/bogota/pico-y-placa-durante-alerta-ambiental-en-bogota-327352"
 		},{
 			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
-			"dates": ["2019-02-18"],
+			"dates": ["2019-02-24"],
 			"city": "medellin",
-			"title": "Estado de prevención en Medellín desde el 18 de Febrero",
+			"title": "Lunes 18 de Feb. comienza Estado de prevención en Medellín.",
 			"text": "Declaran estado de prevención en Medellín por calidad del aire. A la medida, que empieza a regir el 18 de febrero, se unieron los 10 municipios del valle de Aburrá.",
 			"url": "http://www.elcolombiano.com/antioquia/movilidad/pico-y-placa-2019-medellin-rotacion-y-aumento-a-seis-digitos-OI10185478"
-		},{
-			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
-			"dates": ["2019-02-13"],
-			"city": "ibague",
-			"title": "Feb. 13 de 2019 día sin Carro ni Moto en Ibagué.",
-			"text": "Desde las 6:00 de la mañana hasta las 8:00 de la noche. La restricción para automóviles y bicicletas va desde las 6 am hasta las 8pm.",
-			"url": "http://www.ondasdeibague.com/noticias/tendencias/19427-preparese-para-el-dia-sin-carro-y-sin-moto-este-miercoles"
 		},{
 			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
 			"dates": ["2019-03-04"],
@@ -108,6 +101,112 @@
 			"name": "medellin",
 			"restrictions": [
 				{
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "420",
+							"to": "510"
+						}, {
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "1050",
+							"to": "1140"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator",
+						"parameters": {},
+						"staticRestrictions": [
+							{
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": ["mon"],
+								"plates": ["6", "7", "8", "9", "0", "1"]
+							}, {
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": ["tue"],
+								"plates": ["0", "1", "2", "3", "4", "5"]
+							}, {
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": ["wed"],
+								"plates": ["4", "5", "6", "7", "8", "9"]
+							}, {
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": ["thu"],
+								"plates": ["8", "9", "0", "1", "2", "3"]
+							}, {
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": ["fri"],
+								"plates": ["2", "3", "4", "5", "6", "7"]
+							}
+						]
+					},
+					"vehicles": ["particular"]
+				}, {
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "420",
+							"to": "510"
+						}, {
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "1050",
+							"to": "1140"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator",
+						"parameters": {},
+						"staticRestrictions": [
+							{
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": ["mon"],
+								"plates": ["4", "5", "6", "7", "8", "9"]
+							}, {
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": ["tue"],
+								"plates": ["6", "7", "8", "9", "0", "1"]
+							}, {
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": ["wed"],
+								"plates": ["8", "9", "0", "1", "2", "3"]
+							}, {
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": ["thu"],
+								"plates": ["0", "1", "2", "3", "4", "5"]
+							}, {
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": ["fri"],
+								"plates": ["2", "3", "4", "5", "6", "7"]
+							}
+						]
+					},
+					"vehicles": ["moto-2t", "moto-4t"]
+				}, {
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["sat"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "420",
+							"to": "510"
+						}, {
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "1050",
+							"to": "1140"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PairImpairValidator",
+						"parameters": {
+							"evaluator": "DAY_OF_MONTH",
+							"pair-if-pair": "true"
+						}
+					},
+					"vehicles": ["particular", "moto-2t", "moto-4t"]
+				}, {
 					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
@@ -262,24 +361,6 @@
 						"parameters": {
 							"evaluator": "DAY_OF_MONTH",
 							"pair-if-pair": "true"
-						}
-					},
-					"vehicles": ["particular", "moto-2t", "moto-4t"]
-				}, {
-					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
-					"days": ["20190210"],
-					"hours": [
-						{
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
-							"from": "390",
-							"to": "900"
-						}
-					],
-					"validator": {
-						"object-type": "com.twelvestars.pipla.daos.validators.PairImpairValidator",
-						"parameters": {
-							"evaluator": "DAY_OF_MONTH",
-							"pair-if-pair": "false"
 						}
 					},
 					"vehicles": ["particular", "moto-2t", "moto-4t"]
@@ -886,24 +967,6 @@
 			"restrictions": [
 				{
 					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
-					"days": ["20190213"],
-					"hours": [
-						{
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
-							"from": "360",
-							"to": "1200"
-						}
-					],
-					"validator": {
-						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
-						"parameters": {
-							"plates-by-day": "10",
-							"monday-start": "0"
-						}
-					},
-					"vehicles": ["particular", "moto-2t", "moto-4t"]
-				}, {
-					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
 						{
@@ -928,24 +991,6 @@
 						}
 					},
 					"vehicles": ["particular"]
-				}, {
-					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
-					"days": ["20190213"],
-					"hours": [
-						{
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
-							"from": "360",
-							"to": "1200"
-						}
-					],
-					"validator": {
-						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
-						"parameters": {
-							"plates-by-day": "10",
-							"monday-start": "0"
-						}
-					},
-					"vehicles": ["particular", "moto-2t", "moto-4t"]
 				}
 			],
 			"unrestrictedDays": []
