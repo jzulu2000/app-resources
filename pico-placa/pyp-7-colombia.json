@@ -396,8 +396,8 @@
 					"hours": [
 						{
 							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
-							"from": "360",
-							"to": "1200"
+							"from": "330",
+							"to": "1260"
 						}
 					],
 					"validator": {
