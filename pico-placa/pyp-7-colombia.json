@@ -3,6 +3,13 @@
 	"specialEvents": [
 		{
 			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
+			"dates": ["2019-02-19"],
+			"city": ".*",
+			"title": "Corrección a borrado de configuración.",
+			"text": "Algunos dispositivos han presentado problemas con la aplicación, haciendo que la configuración de la placa se pierda. En este momento se tiene una versión para corregir el problema. En caso de ser uno de los usuarios afectados, se debe instalar la nueva versión y configurar de nuevo el vehículo. Lamentamos los inconvenientes y esperamos sea la solución final al problema.",
+			"url": "https://play.google.com/store/apps/details?id=com.twelvestars.pipla"
+		},{
+			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
 			"dates": ["2019-02-17"],
 			"city": "bogota",
 			"title": "Pico y placa Este fin de semana en Bogotá",
