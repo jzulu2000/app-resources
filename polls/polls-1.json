@@ -1,0 +1,132 @@
+{
+	"registry" : {
+		"PollOption" : "co.com.twelvestars.commons.polls.PollOption",
+		"Translatable" : "co.com.twelvestars.commons.polls.Translatable",
+		"Poll" : "co.com.twelvestars.commons.polls.Poll"
+	},
+	"registry" : {
+		"ask-later-option" : {
+			"object-type": "PollOption",
+			"action" : "ask-later",
+			"texts" : {
+				"en" : "Later",
+				"es" : "Luego"
+			}
+		},
+		"dont-ask-again-option" : {
+			"object-type": "PollOption",
+			"action" : "dont-ask-again",
+			"texts" : {
+				"en" : "Don't ask again",
+				"es" : "No preguntar de nuevo"
+			}
+		},
+		"send-email-dialog" : {
+			"mail.dialog.title" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "Send us an email.",
+					"es" : "Envíanos un correo."
+				}
+			}, "mail.dialog.message" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "Do you want to send us an email with comments about the app? We will try to address any concerns.",
+					"es" : "Quieres enviarnos un email con comentarios sobre la app? Trataremos de dar solución a tus inquietudes."
+				}
+			}, "mail.dialog.ok" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "OK"
+				}
+			}, "mail.dialog.no" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "NO"
+				}
+			},"mail.send.to" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "twelve.stars.software@gmail.com"
+				}
+			},"mail.send.title" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "I'm rating with %s your app %s.",
+					"es" : "Estoy dando %s a su aplicación %s."
+				}
+			},"mail.send.message" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "Hello.\nHere are some thoughts I have about your app.\n 1. ",
+					"es" : "Hola.\nLes envío algunas sugerencias para la aplicación.\n 1. "
+				}
+			}
+		}
+	},
+	"object-type" : "co.com.twelvestars.commons.polls.PollsModel",
+	"polls" : [
+		{
+			"object-type": "Poll",
+			"id" : "rateme",
+			"lapse" : 7,
+			"title" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "Would you like to rate our app?",
+					"es" : "Te gustaría puntuar nuestra app?"
+				}
+			}, "okOption" : {
+				"registry-ref": "ask-later-option"
+			}, "neutralOption" : {
+				"registry-ref": "dont-ask-again-option"
+			},"options" : [
+				{
+					"object-type": "PollOption",
+					"action" : "playstore",
+					"texts" : {
+						"en" : "5 Stars",
+						"es" : "5 Estrellas"
+					}
+				},{
+					"object-type": "PollOption",
+					"action" : "playstore",
+					"texts" : {
+						"en" : "4 Stars",
+						"es" : "4 Estrellas"
+					}
+				}, {
+					"object-type": "PollOption",
+					"action" : "email",
+					"texts" : {
+						"en" : "3 Stars",
+						"es" : "3 Estrellas"
+					},
+					"actionParameters" : {
+						"registry-ref" : "send-email-dialog"
+					}
+				},{
+					"object-type": "PollOption",
+					"action" : "email",
+					"texts" : {
+						"en" : "2 Stars",
+						"es" : "2 Estrellas"
+					},
+					"actionParameters" : {
+						"registry-ref" : "send-email-dialog"
+					}
+				},{
+					"object-type": "PollOption",
+					"action" : "email",
+					"texts" : {
+						"en" : "1 Star",
+						"es" : "1 Estrella"
+					},
+					"actionParameters" : {
+						"registry-ref" : "send-email-dialog"
+					}
+				}
+			]
+		}
+	]
+}
