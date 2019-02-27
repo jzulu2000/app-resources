@@ -3,25 +3,25 @@
 	"specialEvents": [
 		{
 			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
-			"dates": ["2019-02-20"],
-			"city": "bogota",
-			"title": "Vuelve el Pico y Placa normal a Bogotá; Miercoles 20 Feb",
-			"text": "Desde este miércoles, Bogotá vuelve al pico y placa normal. Se levantan alertas naranja y amarilla",
-			"url": "https://www.eltiempo.com/bogota/vuelve-el-pico-y-placa-normal-en-bogota-328812"
-		},{
-			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
-			"dates": ["2019-02-24"],
-			"city": "medellin",
-			"title": "Lunes 18 de Feb. comienza Estado de prevención en Medellín.",
-			"text": "Declaran estado de prevención en Medellín por calidad del aire. A la medida, que empieza a regir el 18 de febrero, se unieron los 10 municipios del valle de Aburrá.",
-			"url": "http://www.elcolombiano.com/antioquia/movilidad/pico-y-placa-2019-medellin-rotacion-y-aumento-a-seis-digitos-OI10185478"
-		},{
-			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
-			"dates": ["2019-03-04"],
+			"dates": ["2019-03-08"],
 			"city": "cartagena",
 			"title": "Nueva rotación del Pico y Placa en Cartagena el 4 de Marzo.",
 			"text": "Desde el 4 de marzo nueva rotación del pico y placa para particulares; la rotación que estará vigente hasta el 31 de mayo, empezará los días Lunes con los vehículos con las placas terminadas en 1 y 2.",
-			"url": "http://caracol.com.co/emisora/2019/02/13/cartagena/1550028160_736625.html"
+			"url": "https://www.eluniversal.com.co/cartagena/atento-este-4-de-marzo-rota-el-pico-y-placa-para-vehiculos-particulares-CF799370"
+		}, {
+			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
+			"dates": ["2019-03-08"],
+			"city": "santa marta",
+			"title": "Cambio Pico y Placa en Santa Marta el 1 de Marzo.",
+			"text": "El 1 de Marzo comienza y habrá 15 días para socialización y sanciones pedagógicas. ",
+			"url": "http://www.elinformador.com.co/index.php/el-magdalena/81-distrito/197539-distrito-renueva-pico-y-placa-para-vehiculos-particulares"
+		}, {
+			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
+			"dates": ["2019-03-01"],
+			"city": "cartagena",
+			"title": "Cambio Pico y Placa Taxis en Cartagena el 1 de Marzo.",
+			"text": "La nueva medida operará desde este 1 de marzo de lunes a viernes y arrancará con los dígitos 1 y 2.",
+			"url": "https://www.eluniversal.com.co/cartagena/taxistas-regresan-al-pico-y-placa-de-dos-digitos-por-dia-AG811031"
 		}
 	],
 	"vehicles": [
