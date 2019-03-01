@@ -560,7 +560,7 @@
 						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
 						"parameters": {
 							"plates-by-day": "2",
-							"monday-start": "5"
+							"monday-start": "3"
 						}
 					},
 					"vehicles": ["taxi"]
@@ -768,7 +768,7 @@
 						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
 						"parameters": {
 							"plates-by-day": "2",
-							"monday-start": "8"
+							"monday-start": "6"
 						}
 					},
 					"vehicles": ["particular"]
