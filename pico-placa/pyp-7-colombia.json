@@ -4,6 +4,13 @@
 		{
 			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
 			"dates": ["2019-03-08"],
+			"city": "medellin",
+			"title": "Ampliado horario PyP del Miercoles 6 al Viernes 8.",
+			"text": "La medida regirá de 5am a 10am y de 4pm a 8pm.",
+			"url": "https://www.elcolombiano.com/antioquia/pico-y-placa-en-medellin-por-contaminacion-del-aire-NA10329411"
+		},{
+			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
+			"dates": ["2019-03-08"],
 			"city": "cartagena",
 			"title": "Nueva rotación del Pico y Placa en Cartagena el 4 de Marzo.",
 			"text": "Desde el 4 de marzo nueva rotación del pico y placa para particulares; la rotación que estará vigente hasta el 31 de mayo, empezará los días Lunes con los vehículos con las placas terminadas en 1 y 2.",
@@ -15,13 +22,6 @@
 			"title": "Cambio Pico y Placa en Santa Marta el 1 de Marzo.",
 			"text": "El 1 de Marzo comienza y habrá 15 días para socialización y sanciones pedagógicas. ",
 			"url": "http://www.elinformador.com.co/index.php/el-magdalena/81-distrito/197539-distrito-renueva-pico-y-placa-para-vehiculos-particulares"
-		}, {
-			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
-			"dates": ["2019-03-01"],
-			"city": "cartagena",
-			"title": "Cambio Pico y Placa Taxis en Cartagena el 1 de Marzo.",
-			"text": "La nueva medida operará desde este 1 de marzo de lunes a viernes y arrancará con los dígitos 1 y 2.",
-			"url": "https://www.eluniversal.com.co/cartagena/taxistas-regresan-al-pico-y-placa-de-dos-digitos-por-dia-AG811031"
 		}
 	],
 	"vehicles": [
@@ -102,16 +102,16 @@
 			"restrictions": [
 				{
 					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
-					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"days": ["wed", "thu", "fri"],
 					"hours": [
 						{
 							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
-							"from": "420",
-							"to": "510"
+							"from": "300",
+							"to": "600"
 						}, {
 							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
-							"from": "1050",
-							"to": "1140"
+							"from": "960",
+							"to": "1200"
 						}
 					],
 					"validator": {
@@ -119,14 +119,6 @@
 						"parameters": {},
 						"staticRestrictions": [
 							{
-								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
-								"days": ["mon"],
-								"plates": ["6", "7", "8", "9", "0", "1"]
-							}, {
-								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
-								"days": ["tue"],
-								"plates": ["0", "1", "2", "3", "4", "5"]
-							}, {
 								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
 								"days": ["wed"],
 								"plates": ["4", "5", "6", "7", "8", "9"]
@@ -144,7 +136,71 @@
 					"vehicles": ["particular"]
 				}, {
 					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
-					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"days": ["wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "300",
+							"to": "600"
+						}, {
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "960",
+							"to": "1200"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator",
+						"parameters": {},
+						"staticRestrictions": [
+							{
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": ["wed"],
+								"plates": ["8", "9", "0", "1", "2", "3"]
+							}, {
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": ["thu"],
+								"plates": ["0", "1", "2", "3", "4", "5"]
+							}, {
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": ["fri"],
+								"plates": ["2", "3", "4", "5", "6", "7"]
+							}
+						]
+					},
+					"vehicles": ["moto-2t", "moto-4t"]
+				}, {
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "420",
+							"to": "510"
+						}, {
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "1050",
+							"to": "1140"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator",
+						"parameters": {},
+						"staticRestrictions": [
+							{
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": ["mon"],
+								"plates": ["6", "7", "8", "9", "0", "1"]
+							}, {
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": ["tue"],
+								"plates": ["0", "1", "2", "3", "4", "5"]
+							}
+						]
+					},
+					"vehicles": ["particular"]
+				}, {
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["mon", "tue"],
 					"hours": [
 						{
 							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
@@ -168,18 +224,6 @@
 								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
 								"days": ["tue"],
 								"plates": ["6", "7", "8", "9", "0", "1"]
-							}, {
-								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
-								"days": ["wed"],
-								"plates": ["8", "9", "0", "1", "2", "3"]
-							}, {
-								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
-								"days": ["thu"],
-								"plates": ["0", "1", "2", "3", "4", "5"]
-							}, {
-								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
-								"days": ["fri"],
-								"plates": ["2", "3", "4", "5", "6", "7"]
 							}
 						]
 					},
