@@ -348,24 +348,6 @@
 			"restrictions": [
 				{
 					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
-					"days": ["20190311"],
-					"hours": [
-						{
-							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
-							"from": "360",
-							"to": "1170"
-						}
-					],
-					"validator": {
-						"object-type": "com.twelvestars.pipla.daos.validators.PairImpairValidator",
-						"parameters": {
-							"evaluator": "DAY_OF_MONTH",
-							"pair-if-pair": "true"
-						}
-					},
-					"vehicles": ["particular", "moto-2t", "moto-4t"]
-				}, {
-					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
 						{
