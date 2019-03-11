@@ -82,7 +82,7 @@
 		{
 			"object-type": "com.twelvestars.pipla.daos.model.City",
 			"aliases": [
-				"bello", "envigado", "itagui", "sabaneta", "barbosa", "caldas", "la estrella", "girardota", "copacabana"
+				"bello", "envigado", "itagüi", "sabaneta", "barbosa", "caldas", "la estrella", "girardota", "copacabana"
 			],
 			"name": "medellin",
 			"restrictions": [
