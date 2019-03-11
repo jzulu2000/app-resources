@@ -8,20 +8,6 @@
 			"title": "Ampliado horario PyP del Miercoles 6 al Viernes 8.",
 			"text": "La medida regirá de 5am a 10am y de 4pm a 8pm.",
 			"url": "https://www.elcolombiano.com/antioquia/pico-y-placa-en-medellin-por-contaminacion-del-aire-NA10329411"
-		},{
-			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
-			"dates": ["2019-03-08"],
-			"city": "cartagena",
-			"title": "Nueva rotación del Pico y Placa en Cartagena el 4 de Marzo.",
-			"text": "Desde el 4 de marzo nueva rotación del pico y placa para particulares; la rotación que estará vigente hasta el 31 de mayo, empezará los días Lunes con los vehículos con las placas terminadas en 1 y 2.",
-			"url": "https://www.eluniversal.com.co/cartagena/atento-este-4-de-marzo-rota-el-pico-y-placa-para-vehiculos-particulares-CF799370"
-		}, {
-			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
-			"dates": ["2019-03-08"],
-			"city": "santa marta",
-			"title": "Cambio Pico y Placa en Santa Marta el 1 de Marzo.",
-			"text": "El 1 de Marzo comienza y habrá 15 días para socialización y sanciones pedagógicas. ",
-			"url": "http://www.elinformador.com.co/index.php/el-magdalena/81-distrito/197539-distrito-renueva-pico-y-placa-para-vehiculos-particulares"
 		}
 	],
 	"vehicles": [
