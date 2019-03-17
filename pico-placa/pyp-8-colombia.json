@@ -1,0 +1,838 @@
+{
+	"registry" : {
+		"StaticRestriction": "com.twelvestars.daos.validators.StaticValidator$StaticRestriction",
+		"Schedule": "com.twelvestars.daos.model.Schedule",
+		"Vehicle": "com.twelvestars.daos.model.Vehicle",
+		"SpecialEvent": "com.twelvestars.daos.model.SpecialEvent",
+		"LastDigitExtractor": "com.twelvestars.daos.model.LastDigitExtractor",
+		"FirstDigitFoundExtractor": "com.twelvestars.daos.model.FirstDigitFoundExtractor",
+		"Restriction": "com.twelvestars.daos.model.Restriction",
+		"City": "com.twelvestars.daos.model.City",
+		"PlatesByDayValidator": "com.twelvestars.daos.validators.PlatesByDayValidator",
+		"PairImpairValidator": "com.twelvestars.daos.validators.PairImpairValidator",
+		"YearSecuenceValidator": "com.twelvestars.daos.validators.YearSecuenceValidator",
+		"StaticValidator": "com.twelvestars.daos.validators.StaticValidator"
+	},
+	"registry" : {
+		"06:00-20:00": {"object-type": "Schedule", "from": "360", "to": "1200"},
+		"06:00-24:00": {"object-type": "Schedule", "from": "360", "to": "1440"},
+		"06:30-19:30": {"object-type": "Schedule", "from": "390", "to": "1170"},
+		"07:00-08:30": {"object-type": "Schedule", "from": "420", "to": "510"},
+		"07:30-19:30": {"object-type": "Schedule", "from": "450", "to": "1170"},
+		"17:30-19:00": {"object-type": "Schedule", "from": "1050", "to": "1140"},
+		"17:30-19:30": {"object-type": "Schedule", "from": "1050", "to": "1170"}
+	},
+	"registry" : {
+		"medellin-hours" : [
+			{"registry-ref": "07:00-08:30"}, {"registry-ref": "17:30-19:00"}
+		],
+		"medellin-hours-oldest" : [
+			{"object-type": "Schedule", "from": "300", "to": "510"},
+			{"object-type": "Schedule", "from": "990", "to": "1260"}
+		],
+		"monday:0/2" : {
+			"object-type": "PlatesByDayValidator",
+			"parameters": {"plates-by-day": "2", "monday-start": "0"}
+		},"monday:1/2" : {
+			"object-type": "PlatesByDayValidator",
+			"parameters": {"plates-by-day": "2", "monday-start": "1"}
+		}, "monday:1/4" : {
+			"object-type": "PlatesByDayValidator",
+			"parameters": {"plates-by-day": "4", "monday-start": "1"}
+		}, "monday:4/2" : {
+			"object-type": "PlatesByDayValidator",
+			"parameters": {"plates-by-day": "2", "monday-start": "4"}
+		}, "monday:7/2" : {
+			"object-type": "PlatesByDayValidator",
+			"parameters": {"plates-by-day": "2", "monday-start": "7"}
+		}, "monday:3/2" : {
+			"object-type": "PlatesByDayValidator",
+			"parameters": {"plates-by-day": "2", "monday-start": "3"}
+		}
+	},
+	"registry" : {
+		"medellin-particular-restrictions" : [
+			{
+				"object-type": "StaticRestriction",
+				"days": ["mon"],
+				"plates": ["6", "7", "8", "9", "0", "1"]
+			}, {
+				"object-type": "StaticRestriction",
+				"days": ["tue"],
+				"plates": ["0", "1", "2", "3", "4", "5"]
+			}, {
+				"object-type": "StaticRestriction",
+				"days": ["wed"],
+				"plates": ["4", "5", "6", "7", "8", "9"]
+			}, {
+				"object-type": "StaticRestriction",
+				"days": ["thu"],
+				"plates": ["8", "9", "0", "1", "2", "3"]
+			}, {
+				"object-type": "StaticRestriction",
+				"days": ["fri"],
+				"plates": ["2", "3", "4", "5", "6", "7"]
+			}
+		],
+		"medellin-moto-restrictions" : [
+			{
+				"object-type": "StaticRestriction",
+				"days": ["mon"],
+				"plates": ["4", "5", "6", "7", "8", "9"]
+			}, {
+				"object-type": "StaticRestriction",
+				"days": ["tue"],
+				"plates": ["6", "7", "8", "9", "0", "1"]
+			}, {
+				"object-type": "StaticRestriction",
+				"days": ["wed"],
+				"plates": ["8", "9", "0", "1", "2", "3"]
+			}, {
+				"object-type": "StaticRestriction",
+				"days": ["thu"],
+				"plates": ["0", "1", "2", "3", "4", "5"]
+			}, {
+				"object-type": "StaticRestriction",
+				"days": ["fri"],
+				"plates": ["2", "3", "4", "5", "6", "7"]
+			}
+		]
+	},
+	"object-type": "com.twelvestars.daos.model.PyPModel",
+	"specialEvents": [
+		{
+			"object-type": "SpecialEvent",
+			"id" : "9",
+			"dates": ["2019-03-20"],
+			"city": "medellin",
+			"title": "Ampliado horario por contingencia ambiental.",
+			"text": "La medida regirá de 5am a 10am y de 4pm a 8pm los días Lunes 18, Martes 19 y Miercoles 20 de Marzo.",
+			"url": "https://www.elcolombiano.com/antioquia/calidad-del-aire-declaran-estado-de-alerta-por-mala-calidad-del-aire-en-medellin-y-el-valle-de-aburra-CK10388208"
+		}
+	],
+	"vehicles": [
+		{
+			"object-type": "Vehicle",
+			"iconRef": "car",
+			"nameRef": "vehicle_type_particular",
+			"plateColorRef": "plate_color_yellow",
+			"plateExtractor": {
+				"object-type": "LastDigitExtractor"
+			},
+			"textColorRef": "plate_color_black",
+			"type": "particular"
+		}, {
+			"object-type": "Vehicle",
+			"iconRef": "taxi",
+			"nameRef": "vehicle_type_taxi",
+			"plateColorRef": "plate_color_white",
+			"plateExtractor": {
+				"object-type": "LastDigitExtractor"
+			},
+			"textColorRef": "plate_color_black",
+			"type": "taxi"
+		}, {
+			"object-type": "Vehicle",
+			"iconRef": "car",
+			"nameRef": "vehicle_type_especial",
+			"plateColorRef": "plate_color_white",
+			"plateExtractor": {
+				"object-type": "LastDigitExtractor"
+			},
+			"textColorRef": "plate_color_black",
+			"type": "especial"
+		}, {
+			"object-type": "Vehicle",
+			"iconRef": "bus",
+			"nameRef": "vehicle_type_publico",
+			"plateColorRef": "plate_color_white",
+			"plateExtractor": {
+				"object-type": "LastDigitExtractor"
+			},
+			"textColorRef": "plate_color_black",
+			"type": "publico"
+		}, {
+			"object-type": "Vehicle",
+			"iconRef": "motorcycle",
+			"nameRef": "vehicle_type_moto_2t",
+			"plateColorRef": "plate_color_yellow",
+			"plateExtractor": {
+				"object-type": "FirstDigitFoundExtractor"
+			},
+			"textColorRef": "plate_color_black",
+			"type": "moto-2t"
+		}, {
+			"object-type": "Vehicle",
+			"iconRef": "motorcycle",
+			"nameRef": "vehicle_type_moto_4t",
+			"plateColorRef": "plate_color_yellow",
+			"plateExtractor": {
+				"object-type": "FirstDigitFoundExtractor"
+			},
+			"textColorRef": "plate_color_black",
+			"type": "moto-4t"
+		}, {
+          "object-type": "Vehicle",
+          "iconRef": "car",
+          "name": "Part. Anterior a 1996",
+          "plateColorRef": "plate_color_yellow",
+          "plateExtractor": {
+            "object-type": "LastDigitExtractor"
+          },
+          "textColorRef": "plate_color_black",
+          "type": "particular-1996"
+        }, {
+			"object-type": "Vehicle",
+			"iconRef": "motorcycle",
+			"name": "Moto Anterior a 1996",
+			"plateColorRef": "plate_color_yellow",
+			"plateExtractor": {
+				"object-type": "FirstDigitFoundExtractor"
+			},
+			"textColorRef": "plate_color_black",
+			"type": "moto-1996"
+		}
+	],
+	"country": "colombia",
+	"holidays": [
+		"20190101", "20190107", "20190325", "20190418", "20190429", "20190501", "20190603", "20190624", "20190701",
+		"20190720", "20190807", "20190819", "20191014", "20191104", "20191111", "20191208", "20191225"
+	],
+	"cities": [
+		{
+			"object-type": "City",
+			"aliases": [
+				"bello", "envigado", "itagüi", "sabaneta", "barbosa", "caldas", "la estrella", "girardota", "copacabana"
+			],
+			"name": "medellin",
+			"restrictions": [
+				{
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": {"registry-ref" : "medellin-hours-oldest"},
+					"validFrom" : "2019-02-18",
+					"validThrough" : "2019-03-30",
+					"validator": {
+						"object-type": "StaticValidator",
+						"parameters": {},
+						"staticRestrictions": {"registry-ref" : "medellin-particular-restrictions"}
+					},
+					"vehicles": ["particular-1996"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["20190318", "20190319", "20190320"],
+					"hours": [
+						{"object-type": "Schedule", "from": "300", "to": "600"},
+						{"object-type": "Schedule", "from": "960", "to": "1200"}
+					],
+					"validator": {
+						"object-type": "StaticValidator",
+						"parameters": {},
+						"staticRestrictions": {"registry-ref" : "medellin-particular-restrictions"}
+					},
+					"vehicles": ["particular"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": {"registry-ref" : "medellin-hours"},
+					"validFrom" : "2019-02-18",
+					"validThrough" : "2019-03-30",
+					"validator": {
+						"object-type": "StaticValidator",
+						"parameters": {},
+						"staticRestrictions": {"registry-ref" : "medellin-particular-restrictions"}
+					},
+					"vehicles": ["particular"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": {"registry-ref" : "medellin-hours"},
+					"validFrom" : "2019-02-18",
+					"validThrough" : "2019-03-30",
+					"validator": {
+						"object-type": "StaticValidator",
+						"parameters": {},
+						"staticRestrictions": {"registry-ref" : "medellin-moto-restrictions"}
+					},
+					"vehicles": ["moto-2t", "moto-4t"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": {"registry-ref" : "medellin-hours-oldest"},
+					"validFrom" : "2019-02-18",
+					"validThrough" : "2019-03-30",
+					"validator": {
+						"object-type": "StaticValidator",
+						"parameters": {},
+						"staticRestrictions": {"registry-ref" : "medellin-moto-restrictions"}
+					},
+					"vehicles": ["moto-1996"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["sat"],
+					"hours": {"registry-ref" : "medellin-hours"},
+					"validFrom" : "2019-02-18",
+					"validThrough" : "2019-03-30",
+					"validator": {
+						"object-type": "PairImpairValidator",
+						"parameters": {
+							"evaluator": "DAY_OF_MONTH",
+							"pair-if-pair": "true"
+						}
+					},
+					"vehicles": ["particular", "moto-2t", "moto-4t"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["sat"],
+					"hours": {"registry-ref" : "medellin-hours-oldest"},
+					"validFrom" : "2019-02-18",
+					"validThrough" : "2019-03-30",
+					"validator": {
+						"object-type": "PairImpairValidator",
+						"parameters": {
+							"evaluator": "DAY_OF_MONTH",
+							"pair-if-pair": "true"
+						}
+					},
+					"vehicles": ["particular-1996", "moto-1996"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": {"registry-ref" : "medellin-hours"},
+					"validator": {
+						"object-type": "PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "4",
+							"monday-start": "6"
+						}
+					},
+					"vehicles": ["particular", "particular-1996"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": {"registry-ref" : "medellin-hours"},
+					"validator": {"registry-ref" : "monday:4/2"},
+					"vehicles": ["moto-2t"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{ "registry-ref" : "06:00-20:00"}
+					],
+					"validator": {
+						"object-type": "StaticValidator",
+						"parameters": {},
+						"staticRestrictions": [
+							{
+								"object-type": "StaticRestriction",
+								"days": [
+									"20190214", "20190228", "20190315", "20190329", "20190408", "20190422", "20190507", "20190521",
+									"20190605", "20190619", "20190704", "20190718"
+								],
+								"plates": ["0"]
+							}, {
+								"object-type": "StaticRestriction",
+								"days": [
+									"20190208", "20190222", "20190304", "20190318", "20190402", "20190416", "20190430", "20190515", "20190529",
+									"20190613", "20190627", "20190712", "20190726"
+								],
+								"plates": ["1"]
+							}, {
+								"object-type": "StaticRestriction",
+								"days": [
+									"20190201", "20190211", "20190225", "20190312", "20190326", "20190410", "20190424", "20190516", "20190530",
+									"20190614", "20190628", "20190708", "20190722"
+								],
+								"plates": ["2"]
+							}, {
+								"object-type": "StaticRestriction",
+								"days": [
+									"20190205", "20190219", "20190306", "20190320", "20190404", "20190502", "20190517", "20190531",
+									"20190610", "20190709", "20190723"
+								],
+								"plates": ["3"]
+							}, {
+								"object-type": "StaticRestriction",
+								"days": [
+									"20190206", "20190220", "20190307", "20190321", "20190405", "20190503", "20190513", "20190527",
+									"20190611", "20190625", "20190710", "20190714"
+								],
+								"plates": ["4"]
+							}, {
+								"object-type": "StaticRestriction",
+								"days": [
+									"20190207", "20190221", "20190308", "20190322", "20190401", "20190415", "20190419", "20190514", "20190528",
+									"20190612", "20190626", "20190711", "20190725"
+								],
+								"plates": ["5"]
+							}, {
+								"object-type": "StaticRestriction",
+								"days": [
+									"20190215", "20190301", "20190311", "20190409", "20190423", "20190508", "20190522",
+									"20190606", "20190620", "20190705", "20190719"
+								],
+								"plates": ["6"]
+							}, {
+								"object-type": "StaticRestriction",
+								"days": [
+									"20190204", "20190218", "20190305", "20190319", "20190403", "20190417", "20190509", "20190523",
+									"20190607", "20190621", "20190715", "20190729"
+								],
+								"plates": ["7"]
+							}, {
+								"object-type": "StaticRestriction",
+								"days": [
+									"20190212", "20190226", "20190313", "20190327", "20190411", "20190425", "20190510", "20190524",
+									"20190617", "20190702", "20190716", "20190730"
+								],
+								"plates": ["8"]
+							}, {
+								"object-type": "StaticRestriction",
+								"days": [
+									"20190213", "20190227", "20190314", "20190328", "20190412", "20190426", "20190506", "20190520",
+									"20190604", "20190618", "20190703", "20190717", "20190731"
+								],
+								"plates": ["9"]
+							}
+						]
+					},
+					"vehicles": ["taxi"]
+				}
+			],
+			"unrestrictedDays": []
+		}, {
+			"object-type": "City",
+			"aliases": [],
+			"name": "bogota",
+			"restrictions": [
+				{
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{"object-type": "Schedule", "from": "360", "to": "510"},
+						{"object-type": "Schedule", "from": "900", "to": "1170"}
+					],
+					"validator": {
+						"object-type": "PairImpairValidator",
+						"parameters": {
+							"evaluator": "DAY_OF_MONTH",
+							"pair-if-pair": "true"
+						}
+					},
+					"vehicles": ["particular"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+					"hours": [
+						{"object-type": "Schedule", "from": "330", "to": "1260"}
+					],
+					"validator": {
+						"object-type": "YearSecuenceValidator",
+						"parameters": {
+							"include-saturdays": "true",
+							"plates-by-day": "2",
+							"first-monday-start": "3",
+							"include-sundays": "false"
+						}
+					},
+					"vehicles": ["taxi", "especial"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+					"hours": [
+						{ "registry-ref" : "06:00-20:00"}
+					],
+					"validator": {
+						"object-type": "YearSecuenceValidator",
+						"parameters": {
+							"include-saturdays": "true",
+							"plates-by-day": "2",
+							"first-monday-start": "1",
+							"include-sundays": "false"
+						}
+					},
+					"vehicles": ["publico"]
+				}
+			],
+			"unrestrictedDays": []
+		}, {
+			"object-type": "City",
+			"aliases": [],
+			"name": "pereira",
+			"restrictions": [
+				{
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{"object-type": "Schedule", "from": "420", "to": "1140"}
+					],
+					"validator": {"registry-ref" : "monday:0/2"},
+					"vehicles": ["particular"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{"object-type": "Schedule", "from": "420", "to": "1140"}
+					],
+					"validator": {"registry-ref" : "monday:0/2"},
+					"vehicles": ["moto-2t", "moto-4t"]
+				}
+			],
+			"unrestrictedDays": []
+		}, {
+			"object-type": "City",
+			"aliases": [],
+			"name": "bucaramanga",
+			"restrictions": [
+				{
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{ "registry-ref" : "06:00-20:00"}
+					],
+					"validator": {"registry-ref" : "monday:7/2"},
+					"vehicles": ["particular"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{ "registry-ref" : "06:00-20:00"}
+					],
+					"validator": {"registry-ref" : "monday:7/2"},
+					"vehicles": ["moto-2t", "moto-4t"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{"object-type": "Schedule", "from": "420", "to": "1260"}
+					],
+					"validator": {
+						"object-type": "YearSecuenceValidator",
+						"parameters": {
+							"include-saturdays": "true",
+							"plates-by-day": "2",
+							"first-monday-start": "9",
+							"include-sundays": "false"
+						}
+					},
+					"vehicles": ["taxi"]
+				}
+			],
+			"unrestrictedDays": []
+		}, {
+			"object-type": "City",
+			"aliases": [],
+			"name": "cartagena",
+			"restrictions": [
+				{
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{"object-type": "Schedule", "from": "420", "to": "600"},
+						{"object-type": "Schedule", "from": "1020", "to": "1200"}
+					],
+					"validator": {"registry-ref" : "monday:1/2"},
+					"vehicles": ["particular"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{"registry-ref" : "06:00-24:00"}
+					],
+					"validator": {"registry-ref" : "monday:3/2"},
+					"vehicles": ["taxi"]
+				}
+			],
+			"unrestrictedDays": []
+		}, {
+			"object-type": "City",
+			"aliases": [],
+			"name": "cali",
+			"restrictions": [
+				{
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{"object-type": "Schedule", "from": "360", "to": "600"},
+						{"object-type": "Schedule", "from": "960", "to": "1200"}
+					],
+					"validator": {
+						"object-type": "PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "2",
+							"monday-start": "9"
+						}
+					},
+					"vehicles": ["particular", "especial"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+					"hours": [
+						{"registry-ref" : "06:00-24:00"}
+					],
+					"skipOnHolidays": false,
+					"validator": {
+						"object-type": "YearSecuenceValidator",
+						"parameters": {
+							"include-saturdays": "true",
+							"plates-by-day": "2",
+							"first-monday-start": "7",
+							"include-sundays": "true"
+						}
+					},
+					"vehicles": ["taxi"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+					"hours": [
+						{"object-type": "Schedule", "from": "300", "to": "600"}
+					],
+					"skipOnHolidays": false,
+					"validator": {
+						"object-type": "YearSecuenceValidator",
+						"parameters": {
+							"include-saturdays": "true",
+							"plates-by-day": "2",
+							"first-monday-start": "6",
+							"include-sundays": "true"
+						}
+					},
+					"vehicles": ["publico"]
+				}
+			],
+			"unrestrictedDays": ["20190102", "20190103", "20190104", "20190106", "20190107", "20190108", "20190109", "20190110", "20190111"]
+		}, {
+			"object-type": "City",
+			"aliases": [],
+			"name": "barranquilla",
+			"restrictions": [
+				{
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{"object-type": "Schedule", "from": "450", "to": "540"},
+						{"registry-ref" : "17:30-19:00"}
+					],
+					"validator": {"registry-ref" : "monday:1/4"},
+					"vehicles": ["particular"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{ "registry-ref" : "06:00-20:00"}
+					],
+					"validator": {
+						"object-type": "YearSecuenceValidator",
+						"parameters": {
+							"include-saturdays": "true",
+							"plates-by-day": "2",
+							"first-monday-start": "5",
+							"include-sundays": "false"
+						}
+					},
+					"vehicles": ["taxi"]
+				}
+			],
+			"unrestrictedDays": []
+		}, {
+			"object-type": "City",
+			"aliases": [],
+			"name": "armenia",
+			"restrictions": [
+				{
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{"object-type": "Schedule", "from": "450", "to": "570"},
+						{"object-type": "Schedule", "from": "690", "to": "870"},
+						{"registry-ref" : "17:30-19:30"}
+					],
+					"validator": {"registry-ref" : "monday:1/2"},
+					"vehicles": ["particular"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{"object-type": "Schedule", "from": "450", "to": "570"},
+						{"object-type": "Schedule", "from": "690", "to": "870"},
+						{"registry-ref" : "17:30-19:30"}
+					],
+					"validator": {"registry-ref" : "monday:1/2"},
+					"vehicles": ["moto-2t", "moto-4t"]
+				}
+			],
+			"unrestrictedDays": []
+		}, {
+			"object-type": "City",
+			"aliases": [],
+			"name": "santa marta",
+			"restrictions": [
+				{
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{"object-type": "Schedule", "from": "420", "to": "1140"}
+					],
+					"validator": {
+						"object-type": "PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "2",
+							"monday-start": "6"
+						}
+					},
+					"vehicles": ["particular"]
+				}, {
+					"object-type": "Restriction",
+					"days": [
+						"20190120", "20190220", "20190320", "20190420", "20190520", "20190620", "20190720", "20190820", "20190920",
+						"20191020", "20191120", "20191220"
+					],
+					"hours": [
+						{"object-type": "Schedule", "from": "240", "to": "1440"}
+					],
+					"validator": {
+						"object-type": "PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "10",
+							"monday-start": "0"
+						}
+					},
+					"vehicles": ["moto-2t", "moto-4t"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{"object-type": "Schedule", "from": "420", "to": "1140"}
+					],
+					"validator": {"registry-ref" : "monday:1/4"},
+					"vehicles": ["moto-2t", "moto-4t"]
+				}
+			],
+			"unrestrictedDays": []
+		}, {
+			"object-type": "City",
+			"aliases": [],
+			"name": "pasto",
+			"restrictions": [
+				{
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{"object-type": "Schedule", "from": "450", "to": "1140"}
+					],
+					"validator": {"registry-ref" : "monday:4/2"},
+					"vehicles": ["particular"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{"object-type": "Schedule", "from": "450", "to": "1140"}
+					],
+					"validator": {"registry-ref" : "monday:4/2"},
+					"vehicles": ["moto-2t", "moto-4t"]
+				}
+			],
+			"unrestrictedDays": []
+		}, {
+			"object-type": "City",
+			"aliases": [],
+			"name": "villavicencio",
+			"restrictions": [
+				{
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{"registry-ref" : "06:30-19:30"}
+					],
+					"validator": {"registry-ref" : "monday:7/2"},
+					"vehicles": ["particular"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{"registry-ref" : "06:30-19:30"}
+					],
+					"validator": {"registry-ref" : "monday:7/2"},
+					"vehicles": ["moto-2t", "moto-4t"]
+				}
+			],
+			"unrestrictedDays": []
+		}, {
+			"object-type": "City",
+			"aliases": [],
+			"name": "tunja",
+			"restrictions": [
+				{
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{"object-type": "Schedule", "from": "420", "to": "1140"}
+					],
+					"validator": {"registry-ref" : "monday:3/2"},
+					"vehicles": ["particular"]
+				}
+			],
+			"unrestrictedDays": []
+		}, {
+			"object-type": "City",
+			"aliases": [],
+			"name": "ibague",
+			"restrictions": [
+				{
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{"object-type": "Schedule", "from": "360", "to": "540"},
+						{"object-type": "Schedule", "from": "690", "to": "870"},
+						{"object-type": "Schedule", "from": "1020", "to": "1170"}
+					],
+					"validator": {"registry-ref" : "monday:0/2"},
+					"vehicles": ["particular"]
+				}
+			],
+			"unrestrictedDays": []
+		}, {
+			"object-type": "City",
+			"aliases": [],
+			"name": "quibdo",
+			"restrictions": [
+				{
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{"registry-ref" : "07:30-19:30"}
+					],
+					"validator": {"registry-ref" : "monday:1/4"},
+					"vehicles": ["moto-2t", "moto-4t"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{"registry-ref" : "07:30-19:30"}
+					],
+					"validator": {"registry-ref" : "monday:1/2"},
+					"vehicles": ["particular"]
+				}
+			],
+			"unrestrictedDays": []
+		}, {
+			"object-type": "City",
+			"aliases": [],
+			"name": "cucuta",
+			"restrictions": [
+				{
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{"object-type": "Schedule", "from": "450", "to": "540"}, 
+						{"object-type": "Schedule", "from": "690", "to": "810"},
+						{"object-type": "Schedule", "from": "1069", "to": "1140"}
+					],
+					"validator": {"registry-ref" : "monday:1/2"},
+					"vehicles": ["particular"]
+				}
+			],
+			"unrestrictedDays": []
+		}
+	]
+}
