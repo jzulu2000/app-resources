@@ -3,11 +3,11 @@
 	"specialEvents": [
 		{
 			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
-			"dates": ["2019-03-08"],
+			"dates": ["2019-03-20"],
 			"city": "medellin",
-			"title": "Ampliado horario PyP del Miercoles 6 al Viernes 8.",
-			"text": "La medida regirá de 5am a 10am y de 4pm a 8pm.",
-			"url": "https://www.elcolombiano.com/antioquia/pico-y-placa-en-medellin-por-contaminacion-del-aire-NA10329411"
+			"title": "Ampliado horario por contingencia ambiental.",
+			"text": "La medida regirá de 5am a 10am y de 4pm a 8pm los días Lunes 18, Martes 19 y Miercoles 20 de Marzo.",
+			"url": "https://www.elcolombiano.com/antioquia/calidad-del-aire-declaran-estado-de-alerta-por-mala-calidad-del-aire-en-medellin-y-el-valle-de-aburra-CK10388208"
 		}
 	],
 	"vehicles": [
