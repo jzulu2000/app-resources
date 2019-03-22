@@ -102,12 +102,12 @@
 	"specialEvents": [
 		{
 			"object-type": "SpecialEvent",
-			"id" : "9",
-			"dates": ["2019-03-20"],
+			"id" : "10",
+			"dates": ["2019-03-30"],
 			"city": "medellin",
-			"title": "Ampliado horario por contingencia ambiental.",
-			"text": "La medida regirá de 5am a 10am y de 4pm a 8pm los días Lunes 18, Martes 19 y Miercoles 20 de Marzo.",
-			"url": "https://www.elcolombiano.com/antioquia/calidad-del-aire-declaran-estado-de-alerta-por-mala-calidad-del-aire-en-medellin-y-el-valle-de-aburra-CK10388208"
+			"title": "Estado de la Calidad del Aire.",
+			"text": "Te interesa conocer la calidad del aire? Puedes ingresar al sitio del SIATA para validar el estado de las estaciones en cualquier momento. Haz click en el enlace para ir al sitio.",
+			"url": "https://siata.gov.co/siata_nuevo/"
 		}
 	],
 	"vehicles": [
@@ -172,19 +172,19 @@
 			"textColorRef": "plate_color_black",
 			"type": "moto-4t"
 		}, {
-          "object-type": "Vehicle",
-          "iconRef": "car",
-          "name": "Part. Anterior a 1996",
-          "plateColorRef": "plate_color_yellow",
-          "plateExtractor": {
-            "object-type": "LastDigitExtractor"
-          },
-          "textColorRef": "plate_color_black",
-          "type": "particular-1996"
-        }, {
+			"object-type": "Vehicle",
+			"iconRef": "car",
+			"name": "Particular 1996",
+			"plateColorRef": "plate_color_yellow",
+			"plateExtractor": {
+				"object-type": "LastDigitExtractor"
+			},
+			"textColorRef": "plate_color_black",
+			"type": "particular-1996"
+		}, {
 			"object-type": "Vehicle",
 			"iconRef": "motorcycle",
-			"name": "Moto Anterior a 1996",
+			"name": "Moto 1996",
 			"plateColorRef": "plate_color_yellow",
 			"plateExtractor": {
 				"object-type": "FirstDigitFoundExtractor"
