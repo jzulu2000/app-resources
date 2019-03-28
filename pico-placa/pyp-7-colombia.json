@@ -5,6 +5,13 @@
 			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
 			"dates": ["2019-03-30"],
 			"city": "medellin",
+			"title": "Estado de Alerta Medellin. Viernes 29 - Sabado 30",
+			"text": "Regresa pico y placa extendido por dañina calidad del aire a solo dos días de terminar el estado de prevención ambiental.",
+			"url": "https://www.elcolombiano.com/antioquia/pico-y-placa-ambiental-en-medellin-y-el-valle-de-aburra-EB10447993"
+		}, {
+			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
+			"dates": ["2019-03-30"],
+			"city": "medellin",
 			"title": "Estado de la Calidad del Aire.",
 			"text": "Te interesa conocer la calidad del aire? Puedes ingresar al sitio del SIATA para validar el estado de las estaciones en cualquier momento. Haz click en el enlace para ir al sitio.",
 			"url": "https://siata.gov.co/siata_nuevo/"
@@ -88,7 +95,7 @@
 			"restrictions": [
 				{
 					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
-					"days": ["20190318", "20190319", "20190320"],
+					"days": ["20190329", "20190330"],
 					"hours": [
 						{
 							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
@@ -124,13 +131,17 @@
 								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
 								"days": ["fri"],
 								"plates": ["2", "3", "4", "5", "6", "7"]
+							}, {
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": ["sat"],
+								"plates": ["0", "2", "4", "6", "8"]
 							}
 						]
 					},
 					"vehicles": ["particular"]
 				}, {
 					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
-					"days": ["20190318", "20190319", "20190320"],
+					"days": ["20190329", "20190330"],
 					"hours": [
 						{
 							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
@@ -166,6 +177,10 @@
 								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
 								"days": ["fri"],
 								"plates": ["2", "3", "4", "5", "6", "7"]
+							}, {
+								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
+								"days": ["sat"],
+								"plates": ["0", "2", "4", "6", "8"]
 							}
 						]
 					},
