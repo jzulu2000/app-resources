@@ -30,6 +30,10 @@
 			{"object-type": "Schedule", "from": "300", "to": "510"},
 			{"object-type": "Schedule", "from": "990", "to": "1260"}
 		],
+		"medellin-hours-extended" : [
+			{"object-type": "Schedule", "from": "300", "to": "600"},
+			{"object-type": "Schedule", "from": "960", "to": "1200"}
+		],
 		"monday:0/2" : {
 			"object-type": "PlatesByDayValidator",
 			"parameters": {"plates-by-day": "2", "monday-start": "0"}
@@ -108,6 +112,14 @@
 			"title": "Estado de la Calidad del Aire.",
 			"text": "Te interesa conocer la calidad del aire? Puedes ingresar al sitio del SIATA para validar el estado de las estaciones en cualquier momento. Haz click en el enlace para ir al sitio.",
 			"url": "https://siata.gov.co/siata_nuevo/"
+		}, {
+			"object-type": "SpecialEvent",
+			"id" : "11",
+			"dates": ["2019-03-30"],
+			"city": "medellin",
+			"title": "Estado de Alerta Medellin. Viernes 29 - Sabado 30",
+			"text": "Regresa pico y placa extendido por dañina calidad del aire a solo dos días de terminar el estado de prevención ambiental.",
+			"url": "https://www.elcolombiano.com/antioquia/pico-y-placa-ambiental-en-medellin-y-el-valle-de-aburra-EB10447993"
 		}
 	],
 	"vehicles": [
@@ -220,11 +232,8 @@
 					"vehicles": ["particular-1996"]
 				}, {
 					"object-type": "Restriction",
-					"days": ["20190318", "20190319", "20190320"],
-					"hours": [
-						{"object-type": "Schedule", "from": "300", "to": "600"},
-						{"object-type": "Schedule", "from": "960", "to": "1200"}
-					],
+					"days": ["20190329"],
+					"hours": {"registry-ref" :  "medellin-hours-extended"},
 					"validator": {
 						"object-type": "StaticValidator",
 						"parameters": {},
@@ -243,6 +252,28 @@
 						"staticRestrictions": {"registry-ref" : "medellin-particular-restrictions"}
 					},
 					"vehicles": ["particular"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": {"registry-ref" : "medellin-hours-oldest"},
+					"validFrom" : "2019-02-18",
+					"validThrough" : "2019-03-30",
+					"validator": {
+						"object-type": "StaticValidator",
+						"parameters": {},
+						"staticRestrictions": {"registry-ref" : "medellin-moto-restrictions"}
+					},
+					"vehicles": ["moto-1996"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["20190329"],
+					"hours": {"registry-ref" :  "medellin-hours-extended"},
+					"validator": {
+						"object-type": "StaticValidator",
+						"parameters": {},
+						"staticRestrictions": {"registry-ref" : "medellin-moto-restrictions"}
+					},
+					"vehicles": ["moto-2t", "moto-4t"]
 				}, {
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
@@ -257,16 +288,16 @@
 					"vehicles": ["moto-2t", "moto-4t"]
 				}, {
 					"object-type": "Restriction",
-					"days": ["mon", "tue", "wed", "thu", "fri"],
-					"hours": {"registry-ref" : "medellin-hours-oldest"},
-					"validFrom" : "2019-02-18",
-					"validThrough" : "2019-03-30",
+					"days": ["20190330"],
+					"hours": {"registry-ref" : "medellin-hours-extended"},
 					"validator": {
-						"object-type": "StaticValidator",
-						"parameters": {},
-						"staticRestrictions": {"registry-ref" : "medellin-moto-restrictions"}
+						"object-type": "PairImpairValidator",
+						"parameters": {
+							"evaluator": "DAY_OF_MONTH",
+							"pair-if-pair": "true"
+						}
 					},
-					"vehicles": ["moto-1996"]
+					"vehicles": ["particular", "moto-2t", "moto-4t"]
 				}, {
 					"object-type": "Restriction",
 					"days": ["sat"],
