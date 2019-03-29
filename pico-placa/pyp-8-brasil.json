@@ -1,0 +1,66 @@
+{
+	"registry" : {
+		"Schedule": "com.twelvestars.daos.model.Schedule",
+		"Vehicle": "com.twelvestars.daos.model.Vehicle",
+		"LastDigitExtractor": "com.twelvestars.daos.model.LastDigitExtractor",
+		"Restriction": "com.twelvestars.daos.model.Restriction",
+		"City": "com.twelvestars.daos.model.City",
+		"PlatesByDayValidator": "com.twelvestars.daos.validators.PlatesByDayValidator"
+	},
+	"object-type": "com.twelvestars.daos.model.PyPModel",
+	"specialEvents": [],
+	"vehicles": [
+		{
+			"object-type": "Vehicle",
+			"iconRef": "car",
+			"nameRef": "vehicle_type_particular",
+			"plateColorRef": "plate_color_white",
+			"plateExtractor": {
+				"object-type": "LastDigitExtractor"
+			},
+			"textColorRef": "plate_color_black",
+			"type": "particular"
+		}, {
+			"object-type": "Vehicle",
+			"iconRef": "car",
+			"nameRef": "vehicle_type_publico",
+			"plateColorRef": "plate_color_red",
+			"plateExtractor": {
+				"object-type": "LastDigitExtractor"
+			},
+			"textColorRef": "plate_color_black",
+			"type": "publico"
+		}
+	],
+	"country": "brasil",
+	"holidays": [
+		"20190101", "20190501", "20190907", "20191012", "20191102", "20191115", "20191225"
+	],
+	"cities": [
+		{
+			"object-type": "City",
+			"aliases": [],
+			"name": "sao paulo",
+			"restrictions": [
+				{
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{"object-type": "Schedule", "from": "420", "to": "600"},
+						{"object-type": "Schedule", "from": "1020", "to": "1200"}
+					],
+					"skipOnHolidays": true,
+					"validator": {
+						"object-type": "PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "2",
+							"monday-start": "1"
+						}
+					},
+					"vehicles": ["particular", "publico"]
+				}
+			],
+			"unrestrictedDays": []
+		}
+	]
+}

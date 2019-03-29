@@ -1,0 +1,55 @@
+{
+	"registry" : {
+		"Schedule": "com.twelvestars.daos.model.Schedule",
+		"Vehicle": "com.twelvestars.daos.model.Vehicle",
+		"LastDigitExtractor": "com.twelvestars.daos.model.LastDigitExtractor",
+		"Restriction": "com.twelvestars.daos.model.Restriction",
+		"City": "com.twelvestars.daos.model.City",
+		"PlatesByDayValidator": "com.twelvestars.daos.validators.PlatesByDayValidator"
+	},
+	"object-type": "com.twelvestars.daos.model.PyPModel",
+	"specialEvents": [],
+	"vehicles": [
+		{
+			"object-type": "Vehicle",
+			"iconRef": "car",
+			"nameRef": "vehicle_type_particular",
+			"plateColorRef": "plate_color_white",
+			"plateExtractor": {
+				"object-type": "LastDigitExtractor"
+			},
+			"textColorRef": "plate_color_blue",
+			"type": "particular"
+		}
+	],
+	"country": "costarica",
+	"holidays": [
+		"20190101", "20190411", "20190418", "20190419", "20190501", "20190725", "20190802", "20190815", "20191012", "20191225"
+	],
+	"cities": [
+		{
+			"object-type": "City",
+			"aliases": [],
+			"name": "san jose",
+			"restrictions": [
+				{
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{"object-type": "Schedule", "from": "360", "to": "1140"}
+					],
+					"skipOnHolidays": true,
+					"validator": {
+						"object-type": "PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "2",
+							"monday-start": "1"
+						}
+					},
+					"vehicles": ["particular"]
+				}
+			],
+			"unrestrictedDays": []
+		}
+	]
+}

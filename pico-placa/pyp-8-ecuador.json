@@ -1,0 +1,56 @@
+{
+	"registry" : {
+		"Schedule": "com.twelvestars.daos.model.Schedule",
+		"Vehicle": "com.twelvestars.daos.model.Vehicle",
+		"LastDigitExtractor": "com.twelvestars.daos.model.LastDigitExtractor",
+		"Restriction": "com.twelvestars.daos.model.Restriction",
+		"City": "com.twelvestars.daos.model.City",
+		"PlatesByDayValidator": "com.twelvestars.daos.validators.PlatesByDayValidator"
+	},
+	"object-type": "com.twelvestars.daos.model.PyPModel",
+	"specialEvents": [],
+	"vehicles": [
+		{
+			"object-type": "Vehicle",
+			"iconRef": "car",
+			"nameRef": "vehicle_type_particular",
+			"plateColorRef": "plate_color_white",
+			"plateExtractor": {
+				"object-type": "LastDigitExtractor"
+			},
+			"textColorRef": "plate_color_black",
+			"type": "particular"
+		}
+	],
+	"country": "ecuador",
+	"holidays": [
+		"20190101", "20190304", "20190305", "20190419", "20190501", "20190524", "20190810", "20191011", "20191102", "20191225"
+	],
+	"cities": [
+		{
+			"object-type": "City",
+			"aliases": [],
+			"name": "quito",
+			"restrictions": [
+				{
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{"object-type": "Schedule", "from": "420", "to": "570"},
+						{"object-type": "Schedule", "from": "960", "to": "1170"}
+					],
+					"skipOnHolidays": true,
+					"validator": {
+						"object-type": "PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "2",
+							"monday-start": "1"
+						}
+					},
+					"vehicles": ["particular"]
+				}
+			],
+			"unrestrictedDays": []
+		}
+	]
+}

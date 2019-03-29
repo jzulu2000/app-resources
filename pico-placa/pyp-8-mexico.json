@@ -1,0 +1,152 @@
+{
+	"registry" : {
+		"StaticRestriction": "com.twelvestars.daos.validators.StaticValidator$StaticRestriction",
+		"Schedule": "com.twelvestars.daos.model.Schedule",
+		"Vehicle": "com.twelvestars.daos.model.Vehicle",
+		"LastDigitExtractor": "com.twelvestars.daos.model.LastDigitExtractor",
+		"Restriction": "com.twelvestars.daos.model.Restriction",
+		"City": "com.twelvestars.daos.model.City",
+		"PlatesByDayValidator": "com.twelvestars.daos.validators.PlatesByDayValidator",
+		"StaticValidator": "com.twelvestars.daos.validators.StaticValidator"
+	},
+	"registry" : {
+		"06:00-22:00" : [{"object-type": "Schedule", "from": "300", "to": "1320"}]
+	},
+	"object-type": "com.twelvestars.daos.model.PyPModel",
+	"specialEvents": [
+	],
+	"vehicles": [
+		{
+			"object-type": "Vehicle",
+			"iconRef": "h1",
+			"nameRef": "vehicle_type_h1",
+			"plateColorRef": "plate_color_white",
+			"plateExtractor": {
+				"object-type": "LastDigitExtractor"
+			},
+			"textColorRef": "plate_color_black",
+			"type": "holograma-1"
+		}, {
+			"object-type": "Vehicle",
+			"iconRef": "h2",
+			"nameRef": "vehicle_type_h2",
+			"plateColorRef": "plate_color_white",
+			"plateExtractor": {
+				"object-type": "LastDigitExtractor"
+			},
+			"textColorRef": "plate_color_black",
+			"type": "holograma-2"
+		}
+	],
+	"country": "mexico",
+	"holidays": [
+		"20190101", "20190204", "20190318", "20190501", "20190916", "20191118", "20191225"
+	],
+	"cities": [
+		{
+			"object-type": "City",
+			"aliases": [
+				"valle del chalco solidaridad", "tlalnepantla", "villa nicolas romero", "nezahualcoyotl", "benito juarez",
+				"los reyes acaquilpan", "huixquilucan de degollado", "chimalhuacan", "cuautitlan izcalli",
+				"san francisco coacalco", "tultitlan de mariano escobedo", "tecamac de felipe villanueva",
+				"chicoloapan de juarez", "naucalpan de juarez", "ixtapaluca", "ecatepec de morelos",
+				"chalco de diaz covarrubias", "cuautitlan"
+			],
+			"name": "ciudad de mexico",
+			"restrictions": [
+				{
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": {"registry-ref" :  "06:00-22:00"},
+					"skipOnHolidays": true,
+					"validator": {
+						"object-type": "StaticValidator",
+						"parameters": {},
+						"staticRestrictions": [
+							{
+								"object-type": "StaticRestriction",
+								"days": ["mon"],
+								"plates": ["5", "6"]
+							}, {
+								"object-type": "StaticRestriction",
+								"days": ["tue"],
+								"plates": ["7", "8"]
+							}, {
+								"object-type": "StaticRestriction",
+								"days": ["wed"],
+								"plates": ["3", "4"]
+							}, {
+								"object-type": "StaticRestriction",
+								"days": ["thu"],
+								"plates": ["1", "2"]
+							}, {
+								"object-type": "StaticRestriction",
+								"days": ["fri"],
+								"plates": ["9", "0"]
+							}
+						]
+					},
+					"vehicles": ["holograma-1", "holograma-2"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["sat"],
+					"hours": {"registry-ref" :  "06:00-22:00"},
+					"skipOnHolidays": true,
+					"validator": {
+						"object-type": "StaticValidator",
+						"parameters": {},
+						"staticRestrictions": [
+							{
+								"object-type": "StaticRestriction",
+								"days": [
+									"20190105", "20190119", "20190202", "20190216", "20190302", "20190316", "20190406", "20190420",
+									"20190504", "20190518", "20190601", "20190622"
+								],
+								"plates": ["1", "3", "5", "7", "9"]
+							}, {
+								"object-type": "StaticRestriction",
+								"days": [
+									"20190112", "20190126", "20190209", "20190223", "20190309", "20190323", "20190413", "20190427",
+									"20190511", "20190525", "20190608", "20190622"
+								],
+								"plates": ["0", "2", "4", "6", "8"]
+							}
+						]
+					},
+					"vehicles": ["holograma-1"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["sat"],
+					"hours": {"registry-ref" :  "06:00-22:00"},
+					"skipOnHolidays": true,
+					"validator": {
+						"object-type": "StaticValidator",
+						"parameters": {},
+						"staticRestrictions": [
+							{
+								"object-type": "StaticRestriction",
+								"days": ["sat"],
+								"plates": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+							}
+						]
+					},
+					"vehicles": ["holograma-2"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["20190922", "20200922", "20210922", "20220922"],
+					"hours": {"registry-ref" :  "06:00-22:00"},
+					"skipOnHolidays": true,
+					"validator": {
+						"object-type": "PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "10",
+							"monday-start": "0"
+						}
+					},
+					"vehicles": ["holograma-1", "holograma-2"]
+				}
+			],
+			"unrestrictedDays": []
+		}
+	]
+}
