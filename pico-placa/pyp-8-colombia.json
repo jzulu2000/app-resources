@@ -308,7 +308,7 @@
 						"object-type": "PairImpairValidator",
 						"parameters": {
 							"evaluator": "DAY_OF_MONTH",
-							"pair-if-pair": "true"
+							"pair-if-pair": "false"
 						}
 					},
 					"vehicles": ["particular", "moto-2t", "moto-4t"]
@@ -322,7 +322,7 @@
 						"object-type": "PairImpairValidator",
 						"parameters": {
 							"evaluator": "DAY_OF_MONTH",
-							"pair-if-pair": "true"
+							"pair-if-pair": "false"
 						}
 					},
 					"vehicles": ["particular-1996", "moto-1996"]
