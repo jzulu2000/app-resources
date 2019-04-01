@@ -223,7 +223,7 @@
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": {"registry-ref" : "medellin-hours-oldest"},
 					"validFrom" : "2019-02-18",
-					"validThrough" : "2019-03-30",
+					"validThrough" : "2019-04-06",
 					"validator": {
 						"object-type": "StaticValidator",
 						"parameters": {},
@@ -245,7 +245,7 @@
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": {"registry-ref" : "medellin-hours"},
 					"validFrom" : "2019-02-18",
-					"validThrough" : "2019-03-30",
+					"validThrough" : "2019-04-06",
 					"validator": {
 						"object-type": "StaticValidator",
 						"parameters": {},
@@ -257,7 +257,7 @@
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": {"registry-ref" : "medellin-hours-oldest"},
 					"validFrom" : "2019-02-18",
-					"validThrough" : "2019-03-30",
+					"validThrough" : "2019-04-06",
 					"validator": {
 						"object-type": "StaticValidator",
 						"parameters": {},
@@ -279,7 +279,7 @@
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": {"registry-ref" : "medellin-hours"},
 					"validFrom" : "2019-02-18",
-					"validThrough" : "2019-03-30",
+					"validThrough" : "2019-04-06",
 					"validator": {
 						"object-type": "StaticValidator",
 						"parameters": {},
@@ -303,7 +303,7 @@
 					"days": ["sat"],
 					"hours": {"registry-ref" : "medellin-hours"},
 					"validFrom" : "2019-02-18",
-					"validThrough" : "2019-03-30",
+					"validThrough" : "2019-04-06",
 					"validator": {
 						"object-type": "PairImpairValidator",
 						"parameters": {
@@ -317,7 +317,7 @@
 					"days": ["sat"],
 					"hours": {"registry-ref" : "medellin-hours-oldest"},
 					"validFrom" : "2019-02-18",
-					"validThrough" : "2019-03-30",
+					"validThrough" : "2019-04-06",
 					"validator": {
 						"object-type": "PairImpairValidator",
 						"parameters": {
@@ -521,16 +521,42 @@
 					"hours": [
 						{ "registry-ref" : "06:00-20:00"}
 					],
-					"validator": {"registry-ref" : "monday:7/2"},
-					"vehicles": ["particular"]
+					"validator": {"registry-ref" : "monday:3/2"},
+					"vehicles": ["particular", "moto-2t", "moto-4t"]
 				}, {
 					"object-type": "Restriction",
-					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"days": ["sat"],
 					"hours": [
-						{ "registry-ref" : "06:00-20:00"}
+						{"object-type": "Schedule", "from": "540", "to": "780"}
 					],
-					"validator": {"registry-ref" : "monday:7/2"},
-					"vehicles": ["moto-2t", "moto-4t"]
+					"validator": {
+						"object-type": "StaticValidator",
+						"parameters": {},
+						"staticRestrictions": [
+							{
+								"object-type": "StaticRestriction",
+								"days": ["20190406", "20190511", "20190615"],
+								"plates": ["3", "4"]
+							}, {
+								"object-type": "StaticRestriction",
+								"days": ["20190413", "20190518", "20190622"],
+								"plates": ["5", "6"]
+							}, {
+								"object-type": "StaticRestriction",
+								"days": ["20190420", "20190525", "20190629"],
+								"plates": ["7", "8"]
+							}, {
+								"object-type": "StaticRestriction",
+								"days": ["20190427", "20190601"],
+								"plates": ["9", "0"]
+							}, {
+								"object-type": "StaticRestriction",
+								"days": ["20190504", "20190608"],
+								"plates": ["1", "2"]
+							}
+						]
+					},
+					"vehicles": ["particular", "moto-2t", "moto-4t"]
 				}, {
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
