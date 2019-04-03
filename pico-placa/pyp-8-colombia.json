@@ -35,71 +35,35 @@
 			{"object-type": "Schedule", "from": "960", "to": "1200"}
 		],
 		"monday:0/2" : {
-			"object-type": "PlatesByDayValidator",
-			"parameters": {"plates-by-day": "2", "monday-start": "0"}
+			"object-type": "PlatesByDayValidator", "parameters": {"plates-by-day": "2", "monday-start": "0"}
 		},"monday:1/2" : {
-			"object-type": "PlatesByDayValidator",
-			"parameters": {"plates-by-day": "2", "monday-start": "1"}
+			"object-type": "PlatesByDayValidator", "parameters": {"plates-by-day": "2", "monday-start": "1"}
 		}, "monday:1/4" : {
-			"object-type": "PlatesByDayValidator",
-			"parameters": {"plates-by-day": "4", "monday-start": "1"}
+			"object-type": "PlatesByDayValidator", "parameters": {"plates-by-day": "4", "monday-start": "1"}
 		}, "monday:4/2" : {
-			"object-type": "PlatesByDayValidator",
-			"parameters": {"plates-by-day": "2", "monday-start": "4"}
+			"object-type": "PlatesByDayValidator", "parameters": {"plates-by-day": "2", "monday-start": "4"}
 		}, "monday:7/2" : {
-			"object-type": "PlatesByDayValidator",
-			"parameters": {"plates-by-day": "2", "monday-start": "7"}
+			"object-type": "PlatesByDayValidator", "parameters": {"plates-by-day": "2", "monday-start": "7"}
 		}, "monday:3/2" : {
-			"object-type": "PlatesByDayValidator",
-			"parameters": {"plates-by-day": "2", "monday-start": "3"}
+			"object-type": "PlatesByDayValidator", "parameters": {"plates-by-day": "2", "monday-start": "3"}
+		}, "dia-sin-carro:0/10" : {
+			"object-type": "PlatesByDayValidator", "parameters": {"plates-by-day": "10", "monday-start": "0"}
 		}
 	},
 	"registry" : {
 		"medellin-particular-restrictions" : [
-			{
-				"object-type": "StaticRestriction",
-				"days": ["mon"],
-				"plates": ["6", "7", "8", "9", "0", "1"]
-			}, {
-				"object-type": "StaticRestriction",
-				"days": ["tue"],
-				"plates": ["0", "1", "2", "3", "4", "5"]
-			}, {
-				"object-type": "StaticRestriction",
-				"days": ["wed"],
-				"plates": ["4", "5", "6", "7", "8", "9"]
-			}, {
-				"object-type": "StaticRestriction",
-				"days": ["thu"],
-				"plates": ["8", "9", "0", "1", "2", "3"]
-			}, {
-				"object-type": "StaticRestriction",
-				"days": ["fri"],
-				"plates": ["2", "3", "4", "5", "6", "7"]
-			}
+			{"object-type": "StaticRestriction", "days": ["mon"], "plates": ["6", "7", "8", "9", "0", "1"]},
+			{"object-type": "StaticRestriction", "days": ["tue"], "plates": ["0", "1", "2", "3", "4", "5"]},
+			{"object-type": "StaticRestriction", "days": ["wed"], "plates": ["4", "5", "6", "7", "8", "9"]},
+			{"object-type": "StaticRestriction", "days": ["thu"], "plates": ["8", "9", "0", "1", "2", "3"]},
+			{"object-type": "StaticRestriction", "days": ["fri"], "plates": ["2", "3", "4", "5", "6", "7"]}
 		],
 		"medellin-moto-restrictions" : [
-			{
-				"object-type": "StaticRestriction",
-				"days": ["mon"],
-				"plates": ["4", "5", "6", "7", "8", "9"]
-			}, {
-				"object-type": "StaticRestriction",
-				"days": ["tue"],
-				"plates": ["6", "7", "8", "9", "0", "1"]
-			}, {
-				"object-type": "StaticRestriction",
-				"days": ["wed"],
-				"plates": ["8", "9", "0", "1", "2", "3"]
-			}, {
-				"object-type": "StaticRestriction",
-				"days": ["thu"],
-				"plates": ["0", "1", "2", "3", "4", "5"]
-			}, {
-				"object-type": "StaticRestriction",
-				"days": ["fri"],
-				"plates": ["2", "3", "4", "5", "6", "7"]
-			}
+			{"object-type": "StaticRestriction", "days": ["mon"], "plates": ["4", "5", "6", "7", "8", "9"]},
+			{"object-type": "StaticRestriction", "days": ["tue"], "plates": ["6", "7", "8", "9", "0", "1"]},
+			{"object-type": "StaticRestriction", "days": ["wed"], "plates": ["8", "9", "0", "1", "2", "3"]},
+			{"object-type": "StaticRestriction", "days": ["thu"], "plates": ["0", "1", "2", "3", "4", "5"]},
+			{"object-type": "StaticRestriction", "days": ["fri"], "plates": ["2", "3", "4", "5", "6", "7"]}
 		]
 	},
 	"object-type": "com.twelvestars.daos.model.PyPModel",
@@ -107,19 +71,19 @@
 		{
 			"object-type": "SpecialEvent",
 			"id" : "10",
-			"dates": ["2019-03-30"],
+			"dates": ["2019-04-06"],
 			"city": "medellin",
 			"title": "Estado de la Calidad del Aire.",
 			"text": "Te interesa conocer la calidad del aire? Puedes ingresar al sitio del SIATA para validar el estado de las estaciones en cualquier momento. Haz click en el enlace para ir al sitio.",
 			"url": "https://siata.gov.co/siata_nuevo/"
 		}, {
 			"object-type": "SpecialEvent",
-			"id" : "11",
-			"dates": ["2019-03-30"],
-			"city": "medellin",
-			"title": "Estado de Alerta Medellin. Viernes 29 - Sabado 30",
-			"text": "Regresa pico y placa extendido por dañina calidad del aire a solo dos días de terminar el estado de prevención ambiental.",
-			"url": "https://www.elcolombiano.com/antioquia/pico-y-placa-ambiental-en-medellin-y-el-valle-de-aburra-EB10447993"
+			"id" : "12",
+			"dates": ["2019-04-10"],
+			"city": "neiva",
+			"title": "Día sin carro y motos el 10 de abril en Neiva.",
+			"text": "Día de la Bicicleta y sin carro ni motos el próximo 10 de abril en Neiva. La  Administración Municipal incentiva el uso de la bicicleta para mejorar la movilidad, la preservación del medio ambiente, la recreación y el deporte en Neiva.",
+			"url": "https://www.lanacion.com.co/2019/04/01/tenga-en-cuenta-las-disposiciones-del-decreto-del-dia-sin-carro/"
 		}
 	],
 	"vehicles": [
@@ -887,6 +851,22 @@
 					],
 					"validator": {"registry-ref" : "monday:1/2"},
 					"vehicles": ["particular"]
+				}
+			],
+			"unrestrictedDays": []
+		}, {
+			"object-type": "City",
+			"aliases": [],
+			"name": "neiva",
+			"restrictions": [
+				{
+					"object-type": "Restriction",
+					"days": ["20190410"],
+					"hours": [
+						{"object-type": "Schedule", "from": "420", "to": "1140"}
+					],
+					"validator": {"registry-ref" : "dia-sin-carro:0/10"},
+					"vehicles": ["particular", "moto-2t", "moto-4t"]
 				}
 			],
 			"unrestrictedDays": []

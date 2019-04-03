@@ -3,14 +3,14 @@
 	"specialEvents": [
 		{
 			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
-			"dates": ["2019-03-30"],
-			"city": "medellin",
-			"title": "Estado de Alerta Medellin. Viernes 29 - Sabado 30",
-			"text": "Regresa pico y placa extendido por dañina calidad del aire a solo dos días de terminar el estado de prevención ambiental.",
-			"url": "https://www.elcolombiano.com/antioquia/pico-y-placa-ambiental-en-medellin-y-el-valle-de-aburra-EB10447993"
+			"dates": ["2019-04-10"],
+			"city": "neiva",
+			"title": "Día sin carro y motos el 10 de abril en Neiva.",
+			"text": "Día de la Bicicleta y sin carro ni motos el próximo 10 de abril en Neiva. La  Administración Municipal incentiva el uso de la bicicleta para mejorar la movilidad, la preservación del medio ambiente, la recreación y el deporte en Neiva.",
+			"url": "https://www.lanacion.com.co/2019/04/01/tenga-en-cuenta-las-disposiciones-del-decreto-del-dia-sin-carro/"
 		}, {
 			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
-			"dates": ["2019-03-30"],
+			"dates": ["2019-04-06"],
 			"city": "medellin",
 			"title": "Estado de la Calidad del Aire.",
 			"text": "Te interesa conocer la calidad del aire? Puedes ingresar al sitio del SIATA para validar el estado de las estaciones en cualquier momento. Haz click en el enlace para ir al sitio.",
@@ -1142,6 +1142,32 @@
 						}
 					},
 					"vehicles": ["particular"]
+				}
+			],
+			"unrestrictedDays": []
+		}, {
+			"object-type": "com.twelvestars.pipla.daos.model.City",
+			"aliases": [],
+			"name": "neiva",
+			"restrictions": [
+				{
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["20190410"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "420",
+							"to": "1140"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "10",
+							"monday-start": "0"
+						}
+					},
+					"vehicles": ["particular", "moto-2t", "moto-4t"]
 				}
 			],
 			"unrestrictedDays": []
