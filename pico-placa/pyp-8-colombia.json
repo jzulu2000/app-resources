@@ -84,6 +84,14 @@
 			"title": "Día sin carro y motos el 10 de abril en Neiva.",
 			"text": "Día de la Bicicleta y sin carro ni motos el próximo 10 de abril en Neiva. La  Administración Municipal incentiva el uso de la bicicleta para mejorar la movilidad, la preservación del medio ambiente, la recreación y el deporte en Neiva.",
 			"url": "https://www.lanacion.com.co/2019/04/01/tenga-en-cuenta-las-disposiciones-del-decreto-del-dia-sin-carro/"
+		}, {
+			"object-type": "SpecialEvent",
+			"id" : "13",
+			"dates": ["2019-04-12"],
+			"city": "medellin",
+			"title": "Pico y placa vuelve a la normalidad desde el Lunes 8 de Abríl.",
+			"text": "El Área Metropolitana del Valle de Aburrá, anunció el levantamiento del estado de prevención ambiental en el territorio. A partir del lunes 8 de abril de 2019, la medida retornará a su estado normal con cuatro dígitos, de 7:00 a.m. a 8:30 a.m. y de 5:30 p.m. a 7:00 p.m.",
+			"url": "https://www.elcolombiano.com/antioquia/pico-y-placa-en-medellin-vuelve-a-la-normalidad-abril-2019-LM10495835"
 		}
 	],
 	"vehicles": [

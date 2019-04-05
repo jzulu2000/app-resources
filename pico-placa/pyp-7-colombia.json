@@ -15,6 +15,13 @@
 			"title": "Estado de la Calidad del Aire.",
 			"text": "Te interesa conocer la calidad del aire? Puedes ingresar al sitio del SIATA para validar el estado de las estaciones en cualquier momento. Haz click en el enlace para ir al sitio.",
 			"url": "https://siata.gov.co/siata_nuevo/"
+		}, {
+			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
+			"dates": ["2019-04-12"],
+			"city": "medellin",
+			"title": "Pico y placa vuelve a la normalidad desde el Lunes 8 de Abríl.",
+			"text": "El Área Metropolitana del Valle de Aburrá, anunció el levantamiento del estado de prevención ambiental en el territorio. A partir del lunes 8 de abril de 2019, la medida retornará a su estado normal con cuatro dígitos, de 7:00 a.m. a 8:30 a.m. y de 5:30 p.m. a 7:00 p.m.",
+			"url": "https://www.elcolombiano.com/antioquia/pico-y-placa-en-medellin-vuelve-a-la-normalidad-abril-2019-LM10495835"
 		}
 	],
 	"vehicles": [
