@@ -7,7 +7,7 @@
       "descriptions": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "Notifica el pico y placa para Colombia."
+          "text": "Obten notificaciones del pico y placa para Colombia."
         }
       ],
       "icon": "pipla_round",
@@ -24,7 +24,7 @@
       "descriptions": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "Music player for LRC lyrics downloading, displaying and edition."
+          "text": "Music player with lyrics downloading, displaying and edition."
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
@@ -158,12 +158,12 @@
       "titles": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "MoCa Motion Spy Camera"
+          "text": "MoCa Motion Detection Camera and Dashcam"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "es",
-          "text": "MoCa Camara espía detección Movimiento"
+          "text": "MoCa Camara de detección Movimiento y Dashcam"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
@@ -184,7 +184,7 @@
       "descriptions": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "Notifica el pico y placa para Ecuador."
+          "text": "Obten notificaciones del pico y placa para Ecuador."
         }
       ],
       "icon": "pipla_ecuador_round",
