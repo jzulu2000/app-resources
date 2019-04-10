@@ -92,6 +92,14 @@
 			"title": "Pico y placa vuelve a la normalidad desde el Lunes 8 de Abríl.",
 			"text": "El Área Metropolitana del Valle de Aburrá, anunció el levantamiento del estado de prevención ambiental en el territorio. A partir del lunes 8 de abril de 2019, la medida retornará a su estado normal con cuatro dígitos, de 7:00 a.m. a 8:30 a.m. y de 5:30 p.m. a 7:00 p.m.",
 			"url": "https://www.elcolombiano.com/antioquia/pico-y-placa-en-medellin-vuelve-a-la-normalidad-abril-2019-LM10495835"
+		}, {
+			"object-type": "SpecialEvent",
+			"id" : "14",
+			"dates": ["2019-04-22"],
+			"city": "manizales",
+			"title": "El 22 de Abríl en Manizales, dia sin carro y sin moto.",
+			"text": "A partir de las 6:00 a.m. y hasta las 7:30 p.m., propios y visitantes harán uso del transporte alternativo en Manizales, pues se llevará a cabo el día sin carro y sin moto en la ciudad.",
+			"url": "http://www.bcnoticias.com.co/el-22-de-abril-sera-el-dia-sin-carro-y-sin-moto-en-manizales/"
 		}
 	],
 	"vehicles": [
@@ -762,6 +770,30 @@
 				{
 					"object-type": "Restriction",
 					"days": ["20190410"],
+					"hours": [
+						{"object-type": "Schedule", "from": "420", "to": "1140"}
+					],
+					"validator": {"registry-ref" : "dia-sin-carro:0/10"},
+					"vehicles": ["particular", "moto-2t", "moto-4t"]
+				}
+			],
+			"unrestrictedDays": []
+		}, {
+			"object-type": "City",
+			"aliases": [],
+			"name": "manizales",
+			"restrictions": [
+				{
+					"object-type": "Restriction",
+					"days": ["20190422"],
+					"hours": [
+						{"object-type": "Schedule", "from": "360", "to": "1170"}
+					],
+					"validator": {"registry-ref" : "monday:0/2"},
+					"vehicles": ["particular"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
 						{"object-type": "Schedule", "from": "420", "to": "1140"}
 					],
