@@ -3,18 +3,11 @@
 	"specialEvents": [
 		{
 			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
-			"dates": ["2019-04-10"],
-			"city": "neiva",
-			"title": "Día sin carro y motos el 10 de abril en Neiva.",
-			"text": "Día de la Bicicleta y sin carro ni motos el próximo 10 de abril en Neiva. La  Administración Municipal incentiva el uso de la bicicleta para mejorar la movilidad, la preservación del medio ambiente, la recreación y el deporte en Neiva.",
-			"url": "https://www.lanacion.com.co/2019/04/01/tenga-en-cuenta-las-disposiciones-del-decreto-del-dia-sin-carro/"
-		}, {
-			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
-			"dates": ["2019-04-06"],
+			"dates": ["2019-04-23"],
 			"city": "medellin",
-			"title": "Estado de la Calidad del Aire.",
-			"text": "Te interesa conocer la calidad del aire? Puedes ingresar al sitio del SIATA para validar el estado de las estaciones en cualquier momento. Haz click en el enlace para ir al sitio.",
-			"url": "https://siata.gov.co/siata_nuevo/"
+			"title": "Abríl 23, Día sin Carro en Medellín y Valle de Aburrá.",
+			"text": "El martes 23 de abril se realizará en el Valle de Aburrá el Día sin carro metropolitano, que se cumplirá en los diez municipios de la subregión. El Día sin carro se cumple durante 12 horas, entre las 7:00 a.m. y las 7:00 p.m.",
+			"url": "https://www.elcolombiano.com/antioquia/movilidad/dia-sin-carro-en-medellin-2019-martes-23-de-abril-IG10528055"
 		}, {
 			"object-type": "com.twelvestars.pipla.daos.model.SpecialEvent",
 			"dates": ["2019-04-12"],
@@ -108,6 +101,24 @@
 			"name": "medellin",
 			"restrictions": [
 				{
+					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
+					"days": ["20190423"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla.daos.model.Schedule",
+							"from": "420",
+							"to": "1140"
+						}
+					],
+					"validator": {
+						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "10",
+							"monday-start": "0"
+						}
+					},
+					"vehicles": ["particular", "moto-2t", "moto-4t"]
+				}, {
 					"object-type": "com.twelvestars.pipla.daos.model.Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [

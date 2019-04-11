@@ -100,6 +100,14 @@
 			"title": "El 22 de Abríl en Manizales, dia sin carro y sin moto.",
 			"text": "A partir de las 6:00 a.m. y hasta las 7:30 p.m., propios y visitantes harán uso del transporte alternativo en Manizales, pues se llevará a cabo el día sin carro y sin moto en la ciudad.",
 			"url": "http://www.bcnoticias.com.co/el-22-de-abril-sera-el-dia-sin-carro-y-sin-moto-en-manizales/"
+		}, {
+			"object-type": "SpecialEvent",
+			"id" : "15",
+			"dates": ["2019-04-23"],
+			"city": "medellin",
+			"title": "Abríl 23, Día sin Carro en Medellín y Valle de Aburrá.",
+			"text": "El martes 23 de abril se realizará en el Valle de Aburrá el Día sin carro metropolitano, que se cumplirá en los diez municipios de la subregión. El Día sin carro se cumple durante 12 horas, entre las 7:00 a.m. y las 7:00 p.m.",
+			"url": "https://www.elcolombiano.com/antioquia/movilidad/dia-sin-carro-en-medellin-2019-martes-23-de-abril-IG10528055"
 		}
 	],
 	"vehicles": [
@@ -199,6 +207,14 @@
 			"name": "medellin",
 			"restrictions": [
 				{
+					"object-type": "Restriction",
+					"days": ["20190422"],
+					"hours": [
+						{"object-type": "Schedule", "from": "420", "to": "1140"}
+					],
+					"validator": {"registry-ref" : "dia-sin-carro:0/10"},
+					"vehicles": ["particular", "particular-1996", "moto-2t", "moto-4t"]
+				}, {
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": {"registry-ref" : "medellin-hours"},
