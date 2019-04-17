@@ -50,7 +50,7 @@
 					"vehicles": ["particular"]
 				}
 			],
-			"unrestrictedDays": []
+			"unrestrictedDays": ["20190417", "20190418", "20190419"]
 		}, {
 			"object-type": "com.twelvestars.pipla_philippines.daos.model.City",
 			"aliases": [],
@@ -77,7 +77,7 @@
 					"vehicles": ["particular"]
 				}
 			],
-			"unrestrictedDays": []
+			"unrestrictedDays": ["20190417", "20190418", "20190419"]
 		}, {
 			"object-type": "com.twelvestars.pipla_philippines.daos.model.City",
 			"aliases": [],
@@ -104,7 +104,7 @@
 					"vehicles": ["particular"]
 				}
 			],
-			"unrestrictedDays": []
+			"unrestrictedDays": ["20190417", "20190418", "20190419"]
 		}, {
 			"object-type": "com.twelvestars.pipla_philippines.daos.model.City",
 			"aliases": [],
@@ -140,7 +140,7 @@
 					"vehicles": ["particular"]
 				}
 			],
-			"unrestrictedDays": []
+			"unrestrictedDays": ["20190417", "20190418", "20190419"]
 		}, {
 			"object-type": "com.twelvestars.pipla_philippines.daos.model.City",
 			"aliases": [],
@@ -171,7 +171,7 @@
 					"vehicles": ["particular"]
 				}
 			],
-			"unrestrictedDays": []
+			"unrestrictedDays": ["20190417", "20190418", "20190419"]
 		}, {
 			"object-type": "com.twelvestars.pipla_philippines.daos.model.City",
 			"aliases": [],
@@ -202,7 +202,7 @@
 					"vehicles": ["particular"]
 				}
 			],
-			"unrestrictedDays": []
+			"unrestrictedDays": ["20190417", "20190418", "20190419"]
 		}, {
 			"object-type": "com.twelvestars.pipla_philippines.daos.model.City",
 			"aliases": [],
@@ -233,7 +233,7 @@
 					"vehicles": ["particular"]
 				}
 			],
-			"unrestrictedDays": []
+			"unrestrictedDays": ["20190417", "20190418", "20190419"]
 		}, {
 			"object-type": "com.twelvestars.pipla_philippines.daos.model.City",
 			"aliases": [],
@@ -264,7 +264,7 @@
 					"vehicles": ["particular"]
 				}
 			],
-			"unrestrictedDays": []
+			"unrestrictedDays": ["20190417", "20190418", "20190419"]
 		}, {
 			"object-type": "com.twelvestars.pipla_philippines.daos.model.City",
 			"aliases": [],
@@ -295,7 +295,7 @@
 					"vehicles": ["particular"]
 				}
 			],
-			"unrestrictedDays": []
+			"unrestrictedDays": ["20190417", "20190418", "20190419"]
 		}, {
 			"object-type": "com.twelvestars.pipla_philippines.daos.model.City",
 			"aliases": [],
@@ -326,7 +326,7 @@
 					"vehicles": ["particular"]
 				}
 			],
-			"unrestrictedDays": []
+			"unrestrictedDays": ["20190417", "20190418", "20190419"]
 		}, {
 			"object-type": "com.twelvestars.pipla_philippines.daos.model.City",
 			"aliases": [],
@@ -357,7 +357,7 @@
 					"vehicles": ["particular"]
 				}
 			],
-			"unrestrictedDays": []
+			"unrestrictedDays": ["20190417", "20190418", "20190419"]
 		}, {
 			"object-type": "com.twelvestars.pipla_philippines.daos.model.City",
 			"aliases": [],
@@ -388,7 +388,7 @@
 					"vehicles": ["particular"]
 				}
 			],
-			"unrestrictedDays": []
+			"unrestrictedDays": ["20190417", "20190418", "20190419"]
 		}, {
 			"object-type": "com.twelvestars.pipla_philippines.daos.model.City",
 			"aliases": [],
@@ -419,7 +419,7 @@
 					"vehicles": ["particular"]
 				}
 			],
-			"unrestrictedDays": []
+			"unrestrictedDays": ["20190417", "20190418", "20190419"]
 		}
 	]
 }

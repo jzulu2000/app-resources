@@ -91,7 +91,7 @@
 			"restrictions": [
 				{ "registry-ref" : "mon-fry:7-10;15-19"}
 			],
-			"unrestrictedDays": []
+			"unrestrictedDays": ["20190417", "20190418", "20190419"]
 		}, {
 			"object-type": "City",
 			"aliases": [],
@@ -99,7 +99,7 @@
 			"restrictions": [
 				{ "registry-ref" : "mon-fry:7-19"}
 			],
-			"unrestrictedDays": []
+			"unrestrictedDays": ["20190417", "20190418", "20190419"]
 		}, {
 			"object-type": "City",
 			"aliases": [],
@@ -107,7 +107,7 @@
 			"restrictions": [
 				{ "registry-ref" : "mon-fry:7-19"}
 			],
-			"unrestrictedDays": []
+			"unrestrictedDays": ["20190417", "20190418", "20190419"]
 		}, {
 			"object-type": "City",
 			"aliases": [],
@@ -143,7 +143,7 @@
 					"vehicles": ["particular"]
 				}
 			],
-			"unrestrictedDays": []
+			"unrestrictedDays": ["20190417", "20190418", "20190419"]
 		}, {
 			"object-type": "City",
 			"aliases": [],
@@ -151,7 +151,7 @@
 			"restrictions": [
 				{ "registry-ref" : "mon-fry:7-10;15-19"}
 			],
-			"unrestrictedDays": []
+			"unrestrictedDays": ["20190417", "20190418", "20190419"]
 		}, {
 			"object-type": "City",
 			"aliases": [],
@@ -159,7 +159,7 @@
 			"restrictions": [
 				{ "registry-ref" : "mon-fry:7-10;15-19"}
 			],
-			"unrestrictedDays": []
+			"unrestrictedDays": ["20190417", "20190418", "20190419"]
 		}, {
 			"object-type": "City",
 			"aliases": [],
@@ -167,7 +167,7 @@
 			"restrictions": [
 				{ "registry-ref" : "mon-fry:7-10;15-19"}
 			],
-			"unrestrictedDays": []
+			"unrestrictedDays": ["20190417", "20190418", "20190419"]
 		}, {
 			"object-type": "City",
 			"aliases": [],
@@ -175,7 +175,7 @@
 			"restrictions": [
 				{ "registry-ref" : "mon-fry:7-10;15-19"}
 			],
-			"unrestrictedDays": []
+			"unrestrictedDays": ["20190417", "20190418", "20190419"]
 		}, {
 			"object-type": "City",
 			"aliases": [],
@@ -183,7 +183,7 @@
 			"restrictions": [
 				{ "registry-ref" : "mon-fry:7-10;15-19"}
 			],
-			"unrestrictedDays": []
+			"unrestrictedDays": ["20190417", "20190418", "20190419"]
 		}, {
 			"object-type": "City",
 			"aliases": [],
@@ -191,7 +191,7 @@
 			"restrictions": [
 				{ "registry-ref" : "mon-fry:7-10;15-19"}
 			],
-			"unrestrictedDays": []
+			"unrestrictedDays": ["20190417", "20190418", "20190419"]
 		}, {
 			"object-type": "City",
 			"aliases": [],
@@ -199,7 +199,7 @@
 			"restrictions": [
 				{ "registry-ref" : "mon-fry:7-10;15-19"}
 			],
-			"unrestrictedDays": []
+			"unrestrictedDays": ["20190417", "20190418", "20190419"]
 		}, {
 			"object-type": "City",
 			"aliases": [],
@@ -207,7 +207,7 @@
 			"restrictions": [
 				{ "registry-ref" : "mon-fry:7-10;15-19"}
 			],
-			"unrestrictedDays": []
+			"unrestrictedDays": ["20190417", "20190418", "20190419"]
 		}, {
 			"object-type": "City",
 			"aliases": [],
@@ -215,7 +215,7 @@
 			"restrictions": [
 				{ "registry-ref" : "mon-fry:7-10;15-19"}
 			],
-			"unrestrictedDays": []
+			"unrestrictedDays": ["20190417", "20190418", "20190419"]
 		}
 	]
 }
