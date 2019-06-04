@@ -476,7 +476,7 @@
 						{"object-type": "Schedule", "from": "420", "to": "600"},
 						{"object-type": "Schedule", "from": "1020", "to": "1200"}
 					],
-					"validator": {"registry-ref" : "monday:1/2"},
+					"validator": {"registry-ref" : "monday:3/2"},
 					"vehicles": ["particular"]
 				}, {
 					"object-type": "Restriction",
@@ -484,7 +484,7 @@
 					"hours": [
 						{"registry-ref" : "06:00-24:00"}
 					],
-					"validator": {"registry-ref" : "monday:7/2"},
+					"validator": {"registry-ref" : "monday:9/2"},
 					"vehicles": ["taxi"]
 				}
 			],
@@ -801,20 +801,14 @@
 			"restrictions": [
 				{
 					"object-type": "Restriction",
-					"days": ["20190422"],
-					"hours": [
-						{"object-type": "Schedule", "from": "360", "to": "1170"}
-					],
-					"validator": {"registry-ref" : "monday:0/2"},
-					"vehicles": ["particular"]
-				}, {
-					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
-						{"object-type": "Schedule", "from": "420", "to": "1140"}
+						{"object-type": "Schedule", "from": "390", "to": "510"},
+						{"object-type": "Schedule", "from": "690", "to": "870"},
+						{"object-type": "Schedule", "from": "1050", "to": "1170"}
 					],
-					"validator": {"registry-ref" : "dia-sin-carro:0/10"},
-					"vehicles": ["particular", "moto-2t", "moto-4t"]
+					"validator": {"registry-ref" : "monday:1/2"},
+					"vehicles": ["particular"]
 				}
 			],
 			"unrestrictedDays": []
