@@ -474,7 +474,7 @@
 						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
 						"parameters": {
 							"plates-by-day": "2",
-							"monday-start": "1"
+							"monday-start": "3"
 						}
 					},
 					"vehicles": ["particular"]
