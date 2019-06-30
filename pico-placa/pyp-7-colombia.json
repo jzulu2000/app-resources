@@ -522,7 +522,7 @@
 						"object-type": "com.twelvestars.pipla.daos.validators.PlatesByDayValidator",
 						"parameters": {
 							"plates-by-day": "2",
-							"monday-start": "9"
+							"monday-start": "7"
 						}
 					},
 					"vehicles": ["particular", "especial"]
