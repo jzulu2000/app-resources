@@ -406,23 +406,23 @@
 						"staticRestrictions": [
 							{
 								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
-								"days": ["20190406", "20190511", "20190615"],
+								"days": ["20190720", "20190824", "20190928", "20191102", "20191207"],
 								"plates": ["3", "4"]
 							}, {
 								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
-								"days": ["20190413", "20190518", "20190622"],
+								"days": ["20190727", "20190831", "20191005", "20191109", "20191214"],
 								"plates": ["5", "6"]
 							}, {
 								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
-								"days": ["20190420", "20190525", "20190629"],
+								"days": ["20190803", "20190907", "20191012", "20191116", "20191221"],
 								"plates": ["7", "8"]
 							}, {
 								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
-								"days": ["20190427", "20190601"],
+								"days": ["20190706", "20190810", "20190914", "20191019", "20191123"],
 								"plates": ["9", "0"]
 							}, {
 								"object-type": "com.twelvestars.pipla.daos.validators.StaticValidator$StaticRestriction",
-								"days": ["20190504", "20190608"],
+								"days": ["20190713", "20190817", "20190921", "20191026", "20191130"],
 								"plates": ["1", "2"]
 							}
 						]
