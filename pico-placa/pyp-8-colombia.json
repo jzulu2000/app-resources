@@ -46,6 +46,8 @@
 			"object-type": "PlatesByDayValidator", "parameters": {"plates-by-day": "2", "monday-start": "5"}
 		}, "monday:7/2" : {
 			"object-type": "PlatesByDayValidator", "parameters": {"plates-by-day": "2", "monday-start": "7"}
+		}, "monday:9/2" : {
+			"object-type": "PlatesByDayValidator", "parameters": {"plates-by-day": "2", "monday-start": "9"}
 		}, "monday:3/2" : {
 			"object-type": "PlatesByDayValidator", "parameters": {"plates-by-day": "2", "monday-start": "3"}
 		}, "dia-sin-carro:0/10" : {
