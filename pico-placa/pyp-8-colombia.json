@@ -40,6 +40,8 @@
 			"object-type": "PlatesByDayValidator", "parameters": {"plates-by-day": "2", "monday-start": "1"}
 		}, "monday:1/4" : {
 			"object-type": "PlatesByDayValidator", "parameters": {"plates-by-day": "4", "monday-start": "1"}
+		}, "monday:2/2" : {
+			"object-type": "PlatesByDayValidator", "parameters": {"plates-by-day": "2", "monday-start": "2"}
 		}, "monday:4/2" : {
 			"object-type": "PlatesByDayValidator", "parameters": {"plates-by-day": "2", "monday-start": "4"}
 		}, "monday:5/2" : {
@@ -74,44 +76,12 @@
 	"specialEvents": [
 		{
 			"object-type": "SpecialEvent",
-			"id" : "10",
-			"dates": ["2019-04-06"],
+			"id" : "16",
+			"dates": ["2019-08-09"],
 			"city": "medellin",
-			"title": "Estado de la Calidad del Aire.",
-			"text": "Te interesa conocer la calidad del aire? Puedes ingresar al sitio del SIATA para validar el estado de las estaciones en cualquier momento. Haz click en el enlace para ir al sitio.",
-			"url": "https://siata.gov.co/siata_nuevo/"
-		}, {
-			"object-type": "SpecialEvent",
-			"id" : "12",
-			"dates": ["2019-04-10"],
-			"city": "neiva",
-			"title": "Día sin carro y motos el 10 de abril en Neiva.",
-			"text": "Día de la Bicicleta y sin carro ni motos el próximo 10 de abril en Neiva. La  Administración Municipal incentiva el uso de la bicicleta para mejorar la movilidad, la preservación del medio ambiente, la recreación y el deporte en Neiva.",
-			"url": "https://www.lanacion.com.co/2019/04/01/tenga-en-cuenta-las-disposiciones-del-decreto-del-dia-sin-carro/"
-		}, {
-			"object-type": "SpecialEvent",
-			"id" : "13",
-			"dates": ["2019-04-12"],
-			"city": "medellin",
-			"title": "Pico y placa vuelve a la normalidad desde el Lunes 8 de Abríl.",
-			"text": "El Área Metropolitana del Valle de Aburrá, anunció el levantamiento del estado de prevención ambiental en el territorio. A partir del lunes 8 de abril de 2019, la medida retornará a su estado normal con cuatro dígitos, de 7:00 a.m. a 8:30 a.m. y de 5:30 p.m. a 7:00 p.m.",
-			"url": "https://www.elcolombiano.com/antioquia/pico-y-placa-en-medellin-vuelve-a-la-normalidad-abril-2019-LM10495835"
-		}, {
-			"object-type": "SpecialEvent",
-			"id" : "14",
-			"dates": ["2019-04-22"],
-			"city": "manizales",
-			"title": "El 22 de Abríl en Manizales, dia sin carro y sin moto.",
-			"text": "A partir de las 6:00 a.m. y hasta las 7:30 p.m., propios y visitantes harán uso del transporte alternativo en Manizales, pues se llevará a cabo el día sin carro y sin moto en la ciudad.",
-			"url": "http://www.bcnoticias.com.co/el-22-de-abril-sera-el-dia-sin-carro-y-sin-moto-en-manizales/"
-		}, {
-			"object-type": "SpecialEvent",
-			"id" : "15",
-			"dates": ["2019-04-23"],
-			"city": "medellin",
-			"title": "Abríl 23, Día sin Carro en Medellín y Valle de Aburrá.",
-			"text": "El martes 23 de abril se realizará en el Valle de Aburrá el Día sin carro metropolitano, que se cumplirá en los diez municipios de la subregión. El Día sin carro se cumple durante 12 horas, entre las 7:00 a.m. y las 7:00 p.m.",
-			"url": "https://www.elcolombiano.com/antioquia/movilidad/dia-sin-carro-en-medellin-2019-martes-23-de-abril-IG10528055"
+			"title": "Lunes 5 de Agosto, rotación Pico y Placa Medellín.",
+			"text": "El lunes 5 de agosto comienza la rotación del Pico y Placa para vehículos particulares en Medellín. La primera semana de rotación será pedagógica. A partir del 12 de agosto la medida será sancionatoria.",
+			"url": "https://www.medellin.gov.co/movilidad/component/k2/el-lunes-5-de-agosto-comienza-la-rotacion-del-pico-y-placa-para-vehiculos-particulares-en-medellin"
 		}
 	],
 	"vehicles": [
@@ -212,13 +182,25 @@
 			"restrictions": [
 				{
 					"object-type": "Restriction",
-					"days": ["20190423"],
-					"hours": [
-						{"object-type": "Schedule", "from": "420", "to": "1140"}
-					],
-					"validator": {"registry-ref" : "dia-sin-carro:0/10"},
-					"vehicles": ["particular", "particular-1996", "moto-2t", "moto-4t"]
+					"validFrom" : "2019-08-05",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": {"registry-ref" : "medellin-hours"},
+					"validator": {
+						"object-type": "PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "4",
+							"monday-start": "2"
+						}
+					},
+					"vehicles": ["particular", "particular-1996"]
 				}, {
+					"object-type": "Restriction",
+					"validFrom" : "2019-08-05",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": {"registry-ref" : "medellin-hours"},
+					"validator": {"registry-ref" : "monday:2/2"},
+					"vehicles": ["moto-2t"]
+				} ,{
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": {"registry-ref" : "medellin-hours"},
