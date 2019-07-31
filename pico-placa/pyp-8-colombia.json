@@ -506,8 +506,8 @@
 						"object-type": "YearSecuenceValidator",
 						"parameters": {
 							"include-saturdays": "true",
-							"plates-by-day": "2",
-							"first-monday-start": "7",
+							"plates-by-day": "1",
+							"first-monday-start": "8",
 							"include-sundays": "true"
 						}
 					},
