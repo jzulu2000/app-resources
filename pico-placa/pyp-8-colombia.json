@@ -507,7 +507,7 @@
 						"parameters": {
 							"include-saturdays": "true",
 							"plates-by-day": "1",
-							"first-monday-start": "8",
+							"first-monday-start": "5",
 							"include-sundays": "true"
 						}
 					},
