@@ -32,45 +32,11 @@
 		"20191101", "20191224", "20191225", "20191230", "20191231"
 	],
 	"registry" : {
-		"mon-fry:7-10;15-19" : {
+		"mon-fry:7-20" : {
 			"object-type": "Restriction",
 			"days": ["mon", "tue", "wed", "thu", "fri"],
 			"hours": [
-				{"object-type": "Schedule", "from": "420", "to": "600"},
-				{"object-type": "Schedule", "from": "900", "to": "1140"}
-			],
-			"skipOnHolidays": true,
-			"validator": {
-				"object-type": "PlatesByDayValidator",
-				"parameters": {
-					"plates-by-day": "2",
-					"monday-start": "1"
-				}
-			},
-			"vehicles": ["particular"]
-		},
-		"mon-fry:7-9;16-19" : {
-			"object-type": "Restriction",
-			"days": ["mon", "tue", "wed", "thu", "fri"],
-			"hours": [
-				{"object-type": "Schedule", "from": "420", "to": "540"},
-				{"object-type": "Schedule", "from": "960", "to": "1140"}
-			],
-			"skipOnHolidays": true,
-			"validator": {
-				"object-type": "PlatesByDayValidator",
-				"parameters": {
-					"plates-by-day": "2",
-					"monday-start": "1"
-				}
-			},
-			"vehicles": ["particular"]
-		},
-		"mon-fry:7-19" : {
-			"object-type": "Restriction",
-			"days": ["mon", "tue", "wed", "thu", "fri"],
-			"hours": [
-				{"object-type": "Schedule", "from": "420", "to": "1140"}
+				{"object-type": "Schedule", "from": "420", "to": "1200"}
 			],
 			"skipOnHolidays": true,
 			"validator": {
@@ -86,134 +52,11 @@
 	"cities": [
 		{
 			"object-type": "City",
-			"aliases": [],
+			"aliases": ["makati", "las pinas", "pasig", "quezon city", "san juan", "malabon",
+				"mandaluyong", "valenzuela", "caloocan", "pasay", "las piñas", "parañaque"],
 			"name": "manila",
 			"restrictions": [
-				{ "registry-ref" : "mon-fry:7-10;15-19"}
-			],
-			"unrestrictedDays": ["20190417", "20190418", "20190419"]
-		}, {
-			"object-type": "City",
-			"aliases": [],
-			"name": "makati",
-			"restrictions": [
-				{ "registry-ref" : "mon-fry:7-19"}
-			],
-			"unrestrictedDays": ["20190417", "20190418", "20190419"]
-		}, {
-			"object-type": "City",
-			"aliases": [],
-			"name": "las pinas",
-			"restrictions": [
-				{ "registry-ref" : "mon-fry:7-19"}
-			],
-			"unrestrictedDays": ["20190417", "20190418", "20190419"]
-		}, {
-			"object-type": "City",
-			"aliases": [],
-			"name": "pasig",
-			"restrictions": [
-				{
-					"object-type": "Restriction",
-					"days": ["mon", "tue", "wed", "thu", "fri", "sat"],
-					"hours": [
-						{
-							"object-type": "Schedule",
-							"from": "420",
-							"to": "1320"
-						}
-					],
-					"skipOnHolidays": true,
-					"validator": {
-						"object-type": "StaticValidator",
-						"parameters": {
-						},
-						"staticRestrictions": [
-							{
-								"object-type": "StaticRestriction",
-								"days": ["mon", "wed", "fri"],
-								"plates": ["0", "2", "4", "6", "8"]
-							}, {
-								"object-type": "StaticRestriction",
-								"days": ["tue", "thu", "sat"],
-								"plates": ["1", "3", "5", "7", "9"]
-							}
-						]
-					},
-					"vehicles": ["particular"]
-				}
-			],
-			"unrestrictedDays": ["20190417", "20190418", "20190419"]
-		}, {
-			"object-type": "City",
-			"aliases": [],
-			"name": "quezon city",
-			"restrictions": [
-				{ "registry-ref" : "mon-fry:7-10;15-19"}
-			],
-			"unrestrictedDays": ["20190417", "20190418", "20190419"]
-		}, {
-			"object-type": "City",
-			"aliases": [],
-			"name": "san juan",
-			"restrictions": [
-				{ "registry-ref" : "mon-fry:7-10;15-19"}
-			],
-			"unrestrictedDays": ["20190417", "20190418", "20190419"]
-		}, {
-			"object-type": "City",
-			"aliases": [],
-			"name": "malabon",
-			"restrictions": [
-				{ "registry-ref" : "mon-fry:7-10;15-19"}
-			],
-			"unrestrictedDays": ["20190417", "20190418", "20190419"]
-		}, {
-			"object-type": "City",
-			"aliases": [],
-			"name": "navotas",
-			"restrictions": [
-				{ "registry-ref" : "mon-fry:7-10;15-19"}
-			],
-			"unrestrictedDays": ["20190417", "20190418", "20190419"]
-		}, {
-			"object-type": "City",
-			"aliases": [],
-			"name": "mandaluyong",
-			"restrictions": [
-				{ "registry-ref" : "mon-fry:7-10;15-19"}
-			],
-			"unrestrictedDays": ["20190417", "20190418", "20190419"]
-		}, {
-			"object-type": "City",
-			"aliases": [],
-			"name": "valenzuela",
-			"restrictions": [
-				{ "registry-ref" : "mon-fry:7-10;15-19"}
-			],
-			"unrestrictedDays": ["20190417", "20190418", "20190419"]
-		}, {
-			"object-type": "City",
-			"aliases": [],
-			"name": "caloocan",
-			"restrictions": [
-				{ "registry-ref" : "mon-fry:7-10;15-19"}
-			],
-			"unrestrictedDays": ["20190417", "20190418", "20190419"]
-		}, {
-			"object-type": "City",
-			"aliases": [],
-			"name": "pateros",
-			"restrictions": [
-				{ "registry-ref" : "mon-fry:7-10;15-19"}
-			],
-			"unrestrictedDays": ["20190417", "20190418", "20190419"]
-		}, {
-			"object-type": "City",
-			"aliases": [],
-			"name": "pasay",
-			"restrictions": [
-				{ "registry-ref" : "mon-fry:7-10;15-19"}
+				{ "registry-ref" : "mon-fry:7-20"}
 			],
 			"unrestrictedDays": ["20190417", "20190418", "20190419"]
 		}
