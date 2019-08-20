@@ -462,6 +462,16 @@
 						{"object-type": "Schedule", "from": "420", "to": "600"},
 						{"object-type": "Schedule", "from": "1020", "to": "1200"}
 					],
+					"validator": {"registry-ref" : "monday:5/2"},
+					"validFrom" : "2019-09-02",
+					"vehicles": ["particular"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{"object-type": "Schedule", "from": "420", "to": "600"},
+						{"object-type": "Schedule", "from": "1020", "to": "1200"}
+					],
 					"validator": {"registry-ref" : "monday:3/2"},
 					"vehicles": ["particular"]
 				}, {
