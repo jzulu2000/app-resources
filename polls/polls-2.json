@@ -168,6 +168,49 @@
 					}
 				}
 			]
+		}, {
+			"object-type": "Poll",
+			"id" : "speechy-promo",
+			"appsRegex" : ".*webmonitor.*|.*best.*|.*gmplayer.*|.*moca.*|.*pipla.*|.*screen.*",
+			"lapse" : 1,
+			"title" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "Speechy: our new app you'll enjoy!",
+					"es" : "Speechy: nuestra nueva app que disfrutarás!"
+				}
+			},
+			"description" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "By Twelve Stars Software.\n\nWe've just launched Speechy... a text to speech app for listening PDF books or any text while doing some other activities. We have a FREE and a paid version (with no Ads).\n\nDo you want to install it from the Google Playstore?",
+					"es" : "De Twelve Stars Software.\n\nAcabamos de lanzar Speechy... una app texto a audio para escuchar libros PDF o cualquier texto mientras haces otras actividades. Tenemos una versión GRATIS y una paga (libre de Ads).\n\nDeseas instalarla desde el Google Playstore?"
+				}
+			}, "neutralOption" : {
+				"registry-ref": "ask-later-option"
+			}, "noOption" : {
+				"object-type": "PollOption",
+				"action" : "dont-ask-again",
+				"texts" : {
+					"en" : "No, thank you!",
+					"es" : "No, gracias!"
+				}
+			}, "okOption" : {
+				"object-type": "PollOption",
+				"action" : "open-url",
+				"texts" : {
+					"en" : "Yes, of course!",
+					"es" : "Si me gustaría!"
+				},
+				"actionParameters" : {
+					"address": {
+						"object-type": "Translatable",
+						"texts" : {
+							"en": "https://play.google.com/store/apps/details?id=com.twelvestars.pdfreader_free"
+						}
+					}
+				}
+			}
 		}
 	]
 }
