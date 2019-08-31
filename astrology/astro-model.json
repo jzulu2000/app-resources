@@ -1,0 +1,579 @@
+{
+  "registry" : {
+    "Translatable" : "co.com.twelvestars.commons.polls.Translatable"
+  },
+  "numerology-model": {
+    "aspects" : {
+      "life" : {
+        "title" : {
+          "object-type": "Translatable",
+          "texts" : {
+            "en" : "Life (mission) number",
+            "es" : "Número de vida (misión)"
+          }
+        },
+        "description" : {
+          "object-type": "Translatable",
+          "texts" : {
+            "en" : "It's our guide number. What I brought into this life and what I'm lacking of for serving humanity.",
+            "es" : "Es nuestro número guía. Lo que traigo y lo que me falta para servir a la humanidad."
+          }
+        },
+				"qualities" : {
+					"1" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Debe enseñar al mundo la Humildad y Creatividad por medio del ejemplo.\nDecreto: YO SOY comprensión y generosidad.\nRecomendación: aprender humildad, fidelidad, lealtad y amor de los perros. Usar cristal transparente para activar chakras 4 y 6 y para disolverse en transparencia."
+						}
+					},
+					"2" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Deben lograr obediencia a la lúz, amarse, amar y servir. Vienen a ser mediadores y consciliadores.\nDecreto: YO SOY hijo de la lúz, protegido e iluminado por la lúz. Bendigo la luz.\nAcciones: trabajar en la independencia y la decisión de afirmarse y creer en la Divinidad. Usar cristal azul, Topacio o Amatista en chakras 2 y 6 para transmutación y sabiduría."
+						}
+					},
+					"3" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Ser que debe fomentar la creatividad, el arte, lograr ser amoroso y justo. Compartir con los demás y enseñar alegría.\nDecreto: YO SOY el Amor Divino, llenando mi Mente y mi Corazón. Acciones:  Usar cuarzo rosa en el chakra 6 y en el 4. Adquirir perro, gato, ave o una planta, para despertar el amor, la compasión y la igualdad"
+						}
+					},
+					"4" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Debe lograr desarrollar mente clara, objetiva, organizada y práctica. Debe ser servicial, compartir más con los otros, aprender del desapego.\nDecreto: YO SOY mi equilibrio mental, físico y emocional.\nAcciones: Decretar visualizando el cuerpo en una luz verde y una banda verde circundando la cabeza, para dar Claridad y Verdad a la mente objetiva. Usar un cristal verde en distintos puntos de la cabeza"
+						}
+					},
+					"5" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Debe alcanzar el equilibrio entre cielo y tierra, interno-externo. Debe enseñar con ejemplo. Debe lograr la perseverancia, lealtad y paciencia, aprender a adaptarse a nuevas circunstancias, la lealtad y a usar correctamente la libertad.\nDecreto: YO SOY mi pleno equilibrio en todos mis planos. YO SOY mi cuerpo sano y perfecto en plena libertad.\nAcciones: ejercicios físicos para disciplinar el cuerpo; una alimentación que incluya frutas y verduras crudas. Usar cristal verde o transparente en chacra 2 y 3."
+						}
+					},
+					"6" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Un ser familiar, protector, noble, profundo para percibir la vida, místico. Debe Orar, tener fe, línea del arco y la intuición.\nDecreto: YO SOY mi intuición despierta y activa. YO SOY mi palabra justa, equilibrada y armoniosa.\nAcciones: Aprender el arte de la Oración constante y espontanea. Una oración diferente durante 33 días seguidos como acción de Gracias. Usar cristal de amatista con topacio en el chakra 4, para que la voz surja desde allí y se haga la capacidad de orar. También puede usarse un cristal verde que ayuda a restaurar la Línea del Arco y sellar el aura."
+						}
+					},
+					"7" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Debe elevarse a sí mismo y a los demás. Si es duro, debe aprender a tener misericordia. Si es blando, su misión es aprender a guiar. Debe trabajar su EGO, ya que los 7 y los 9 tienen un fuerte ego. Debe influenciar en forma positiva a los demás.\nDecretos: YO SOY mi plena elevación misericordiosa. YO SOY mi aura luminosa.\nAcciones: Usar un cristal rosa y/o amatista en chakras 2 y 6. Limpiar el aura con el cristal."
+						}
+					},
+					"8" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Debe lograr la purificación de sus cuerpos, vencer la melancolía y el temor, controlar la mente, lograr la Maestría del éter. Con poder de sanación. Debe lograr una conciencia infinita.\nDecretos: YO SOY mi respiración perfecta. YO SOY mi ausencia de temor. YO SOY mi salud perfecta.\nAcciones: Hacer ejercicios de respiración 3 veces al día, visualizando el color verde al inhalar y exhalar. Usar cristal verde en esternón o boca del estómago. En chakra 3 y chakra 7 para sellar el aura."
+						}
+					},
+					"9" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Debe alcanzar la constancia, la Maestría de sí mismo, con calma total en todo lo que realice. Tranquilizar a los que lo rodean. Alcanzar los dones de la Bondad y la Comprensión. Ser un entrenador espiritual, mensajero de luz. Si no logra la Maestría será un ser muy crítico con las demás personas, intolerante, sin paciencia, perseverancia e infeliz.\nDecreto: YO SOY mi calma y sutil perseverancia.\nAcciones: meditación, yoga, tai-chi, Reiki, etc para aquietar. Usar un cristal para masajear los pies y conectar la tierra. También aplicarlo en chakras 5 y 2."
+						}
+					},
+					"10" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Debe manifestar coraje real y la Maestría, o la Maestría a través de la valentía; controlar el temor dentro de sí, dejar de temer al amor, a la vida, para lograr expresar el esplendor.\nDecretos: YO SOY el Creador de mis decretos. YO SOY mi perfecta valentía.\nAcciones: para cada decreto inhalar, retener, hacer el decreto y exhalar... 21 veces, 3 veces al día. Hacerse masajes en el cuero cabelludo en forma circular, con cristal de base redondeada o con los dedos, diario y varias veces al día."
+						}
+					},
+					"11" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Con su presencia transmutan, elevando la consciencia de los demás. Debe ser ejemplo de vida espiritual, expandirse hasta el infinito, desarrollar talentos, buscar nuevos principios, confiar en su intuición. Con tremenda energía para salvar o destruir.\nDecretos: YO SOY la intuición despierta en mí que me eleva y transforma. YO SOY mi expansión infinita.\nAcciones: Meditando, buscar la conexión con el Maestro Interno usando una esfera de cristal (blanca o violeta), sobre chakra 7."
+						}
+					}
+				}
+      },
+      "cycle" : {
+        "title" : {
+          "object-type": "Translatable",
+          "texts" : {
+            "en" : "Current cycle",
+            "es" : "Ciclo actual"
+          }
+        },
+        "description" : {
+          "object-type": "Translatable",
+          "texts" : {
+            "en" : "The current cycle in this year",
+            "es" : "El ciclo actual del ser en este año"
+          }
+        },
+				"qualities" : {
+					"1" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : ""
+						}
+					},
+					"2" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : ""
+						}
+					},
+					"3" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : ""
+						}
+					},
+					"4" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : ""
+						}
+					},
+					"5" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : ""
+						}
+					},
+					"6" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : ""
+						}
+					},
+					"7" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : ""
+						}
+					},
+					"8" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : ""
+						}
+					},
+					"9" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : ""
+						}
+					},
+					"10" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : ""
+						}
+					},
+					"11" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : ""
+						}
+					}
+				}
+      },
+      "soul" : {
+        "title" : {
+          "object-type": "Translatable",
+          "texts" : {
+            "en" : "Soul number",
+            "es" : "Número del Alma"
+          }
+        },
+        "description" : {
+          "object-type": "Translatable",
+          "texts" : {
+            "en" : "The relationship with ourselves. What's written in us.",
+            "es" : "La relación con sigo mismo. Lo que traemos escrito."
+          }
+        },
+        "qualities" : {
+          "1" : {
+            "object-type": "Translatable",
+            "texts" : {
+              "en" : "A leader, independent, free, autosuficient, imperalist and egocentric being. Sometimes with no creativity and blocking th soul's flow when centered in mind, rage and fear.",
+              "es" : "Un ser líder, independiente, libre, autosuficiente, imperalista y egocentrico. Algunas veces sin creatividad y bloqueando el flujo del alma cuando se centran en mente, rabias y temores."
+            }
+          },
+          "2" : {
+            "object-type": "Translatable",
+            "texts" : {
+              "en" : "A lovely, given, noble, dual, giving and sacrified being",
+              "es" : "Un ser amoroso, entregado, noble, dual, dador y sacrificado por los demás. Buena persona; se sienten mal al actuar mal. No se dejan dominar por la depresión. Emocional y afectivo. Algunas veces quejosos y aburridos."
+            }
+          },
+          "3" : {
+            "object-type": "Translatable",
+            "texts" : {
+              "en" : "A joyful, fun, with communications power, traveler, merchant and strategist being.",
+              "es" : "Un ser alegre, divertido, gran poder de comunicación, viajero, buen mercader y estratega. Algunas veces quejosos y aburridos"
+            }
+          },
+          "4" : {
+            "object-type": "Translatable",
+            "texts" : {
+              "en" : "A protector, given to others, familiar, working and entrepreneur being.",
+              "es" : "Un ser protector, entregado a los demás, familiar, trabajador y emprendedor. Mente filosófica y psicologica. Debe servir al prójimo."
+            }
+          },
+          "5" : {
+            "object-type": "Translatable",
+            "texts" : {
+              "en" : "A joyful, intelligent, guiding, teaching and volatile being.",
+              "es" : "Un ser alegre, inteligente, guía, maestro, volátil, viajero. Equilibrado y activo. Disciplinados, por lo que tienen contacto con su alma. Deben verse bien para sentirse bien. "
+            }
+          },
+          "6" : {
+            "object-type": "Translatable",
+            "texts" : {
+              "en" : "A noble, given, dedicated, no limits in love, given being",
+              "es" : "Un ser noble, entregado, dedicado, sin límites en el enamoramiento, entrega más de la cuenta. A veces superficial, egoísta; debe trabajar la línea del arco."
+            }
+          },
+          "7" : {
+            "object-type": "Translatable",
+            "texts" : {
+              "en" : "An extraterrestrial, spiritual, psychic, clairvoyant, egocentric, fun, intelligent, theaching and guide being",
+              "es" : "Un ser extraterrestre, espiritual, psíquico, clarividente, egocéntrico, introvertido, inteligente, maestro y guía."
+            }
+          },
+          "8" : {
+            "object-type": "Translatable",
+            "texts" : {
+              "en" : "A family, home given, materialist, ambitious and possessive being",
+              "es" : "Un ser familiar, entregado al hogar, materialista, ambicioso y posesivo. Con alma pura, energía divina con poder de auto sanación, sin temor y persistentes. Expansivos, protectores, emprendedores, exitosos. Sueña en grande y si es en familia, mejor. A veces llegan al exceso. En busca del progreso material sin permitir que nadie se interponga en su camino. Su ambición lo puede corromper."
+            }
+          },
+          "9" : {
+            "object-type": "Translatable",
+            "texts" : {
+              "en" : "An extraterrestrial, spiritual, psychic, clairvoyant, egocentric, fun, intelligent, theaching and guide being",
+              "es" : "Un ser extraterrestre, espiritual, psíquico, clarividente, egocéntrico, introvertido, inteligente, maestro y guía. En paz consigo mismo cuando logre profundizar en su YO. Debe ser constante en lo que emprende. Fluye, está en armonía. Es maestro, guía, psíquico, clarividente. A veces es duro consigo mismo. Su alma será un misterio para él. No se conocerá en tanto siga siendo superficial. Ingenuo, despreocupado y/o holgazán."
+            }
+          },
+          "10" : {
+            "object-type": "Translatable",
+            "texts" : {
+              "en" : "A leader and entrepreneur, autentic, intelligent and strategist being",
+              "es" : "Un ser líder y emprendedor. auténtico, inteligente y estratega. Tremenda energía. Perfeccionistas consigo mismos. Poder del verbo, su palabra se plasma. Puede decretar. Poseen una tremenda fuerza interior. Inspiran mucho respeto. Emprendedores"
+            }
+          },
+          "11" : {
+            "object-type": "Translatable",
+            "texts" : {
+              "en" : "A spiritually powerful, passionate, obstacle winner, and with great capacity being",
+              "es" : "Un ser con poder espiritual, apasionado, vencedor de obsáculos con gran capacidad. Fluyen, gran conexión con Dios. Gran poder para transformar, vencer los instintos y obstáculos, apasionados. A veces con gran confusión interna, conflictivo, instintivo."
+            }
+          }
+        }
+      },
+      "karma" : {
+        "title" : {
+          "object-type": "Translatable",
+          "texts" : {
+            "en" : "Karma - personality number",
+            "es" : "Número del karma - personalidad"
+          }
+        },
+        "description" : {
+          "object-type": "Translatable",
+          "texts" : {
+            "en" : "The aspect I brought for showing... personality. The relationship with outer world.",
+            "es" : "El aspecto que traigo para mostrar... personalidad. La relación con el mundo externo."
+          }
+        },
+				"qualities" : {
+					"1" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Ser silencioso, transparente, pasa inadvertido, no molesta, la relación de pareja es muy importante. Líder, autonomo y líbre. A veces poco creativo, autoritario y prepotente."
+						}
+					},
+					"2" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Un ser amistoso, tierno, afectuoso, entregado... inspira confianza. Buen comerciante y hábil para trabajo en equipo. No compite... es dual. A veces se aprovechan y manipulan en el trabajo y el amor; no le importa perder dinero para ganar un amigo."
+						}
+					},
+					"3" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Ser simpático, creativo, gusta de la popularidad, es buen anfitrion, ama niños y animales; positivos y de comunicación asertiva. Algunos son retraidos, huraños, con problemas con la autoridad, pesimistas, aburridos."
+						}
+					},
+					"4" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Ser servicial, objetivo, buen consejero buen psicólogo, atrae y tranquiliza a los demás. De visión objetiva. A veces no puede ser neutral ni perseverar; de pocos amigos... Inquieto, terco, impaciente, adicto al trabajo. Psicorrigido y normativo."
+						}
+					},
+					"5" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Ser que quiere experimentar toda posibilidad que se les presente en la vida. Poco convencional, atractivo para los demás. Fino, amable, simpático, buen actor y excelente en relaciones públicas. A veces con falta de concentración y con falta de consideración con los demás. Pueden tener 2 ó 3 amores."
+						}
+					},
+					"6" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Ser idealista, espiritual, justo. Ansía amor, amigos, compañía. Agradable a los demás, benévolo y tolerante. Se deleita decorando artísticamente su casa. A veces su palabra no tiene poder, no cumple compromisos, infiel."
+						}
+					},
+					"7" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Ser de gran capacidad para enfrentar nuevas situaciones, para la acción. Pensador, sabio, ejecutivo, líder. No lo afecta la negatividad externa debido a su aura. Idealista. A veces Incapaz de hablar frente a la gente, aura permeable, duda de su propia capacidad, le desagrada la labor manual, le disgustan las sugerencias ajenas, adictos y/o egocentricos."
+						}
+					},
+					"8" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Ser que sabe cómo ser uno con el PRANA (energía vital). Planificador a largo plazo, cumpliendo sus objetivos. Incansable en el trabajo. Doctores o buenos sanadores por su energía pránica. A veces tienen temor o no tienen energía para cumplir con lo que se propone. Dominantes, tercos. Ambiciosos, inescrupulosos, prepotentes y/o materialistas."
+						}
+					},
+					"9" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Es un ser constante en su trabajo y relaciones, delicado, domina las situaciones. A veces se ve duro e insensible, pero no lo es. Cuida el verbo. A veces es mediocre, saben de todo un poco, pero nada bien en realidad. Cambia de actividad constantemente, hiere a las personas, es solitario, depresivo."
+						}
+					},
+					"10" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Ser que da el cien por ciento en todo aquello que decidan hacer. Cuando no quieren hacer algo, nadie los puede convencer de lo contrario. Nunca se atemorizan. A veces con exceso de libertad, de independencia, autoritarismo, prepotencia."
+						}
+					},
+					"11" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Ser que inspira y elevan la consciencia de los demás. Si no logra la Maestría en el plano físico, siempre estará preocupados del dinero, la apariencia ilusoria de los sentidos. Quieren tener la mejor casa, autos, etc. Preocupado de lo que otros opinan . Logra bastantes cosas, pero nunca está satisfecho."
+						}
+					}
+				}
+      },
+      "gift" : {
+        "title" : {
+          "object-type": "Translatable",
+          "texts" : {
+            "en" : "God's Divine gift number",
+            "es" : "Número regalo divino de Dios"
+          }
+        },
+        "description" : {
+          "object-type": "Translatable",
+          "texts" : {
+            "en" : "Gifts and sacred impulses given by God",
+            "es" : "Dones e impulsos sagrados dados por Dios"
+          }
+        },
+				"qualities" : {
+					"1" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Ser que encuentra su llave maestra en la creatividad. Amoroso, líder y auténtico."
+						}
+					},
+					"2" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Ser calculador, amistoso, bondadoso, obediente como hijo y alúmno. Se conectan fácilmente con las personas. Amorosos, tiernos y afectuosos."
+						}
+					},
+					"3" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Ser que ama al prójimo, positivos, con actitud de seguir adelante. escuchan y ayudan al ser más negativo, sin que esto los influya."
+						}
+					},
+					"4" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Ser con mente yóguica. Neutral, humilde y servidor. Ver el centro de cada circunstancia."
+						}
+					},
+					"5" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Persona que domina el cuerpo físico. Artista y con gran habilidad para enseñar."
+						}
+					},
+					"6" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Un ser que siempre tiene fe en Dios, Místico, pone todas sus energías en un centro y a partir de ese punto vive, respira y se mueve."
+						}
+					},
+					"7" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Ser que todo lo eleva en vibración; genera buenas energías con facilidad; líder que brilla. Maestro, guia"
+						}
+					},
+					"8" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Ser que nunca teme y le resultan sus proyectos. Va hacia adelante ayudando a otros a alcanzar sus proyectos. Familiares."
+						}
+					},
+					"9" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Ser que puede obtener la Maestría de una manera rápida y con mayor facilidad que los demás. Capta rápidamente lo que ocurre a su alrededor. Humanista, intuitivo, altruista."
+						}
+					},
+					"10" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Ser radiante con aura luminosa. Veloz en la acción. Ilumina donde esté."
+						}
+					},
+					"11" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "El 11 contiene al 6, por lo tanto el 6 también es su regalo, es decir, la Línea del Arco. Cuando toma consciencia será puente entre  hombres y otros planos, expresando la energía de cualquiera de sus cuerpos espirituales."
+						}
+					}
+				}
+      },
+      "destiny" : {
+        "title" : {
+          "object-type": "Translatable",
+          "texts" : {
+            "en" : "Destiny and past lives number",
+            "es" : "Número del destino y vidas pasadas"
+          }
+        },
+        "description" : {
+          "object-type": "Translatable",
+          "texts" : {
+            "en" : "What needs to be polished from past lives. This is how peeople see us.",
+            "es" : "Lo que falta por pulir de vidas pasadas. Es como nos ven los demás."
+          }
+        },
+				"qualities" : {
+					"1" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Ser que quiere parecer humilde aún si no lo es. Percibido como muy creativo. Líder, emprendedor y ama la soledad."
+						}
+					},
+					"2" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Son seres dadivosos y obedientes. Discípulos en vidas pasadas. Encuentran múltiples maestros en la encarnación. La vida en pareja es muy importante. Pacíficos y Nobles. "
+						}
+					},
+					"3" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Ser alegre, positivo, dinámico, amistoso, independiente. A veces intolerante."
+						}
+					},
+					"4" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Ser que ya desarrolló su cuerpo mental. Neutral, Visto como fuente de consejos y servicial. Objetivos y sin juicio. El padre protector"
+						}
+					},
+					"5" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Persona bella físicamente o simpática. Maestra, guías, influenciadora."
+						}
+					},
+					"6" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Ser que ha cultivado Misticismo en vidas pasadas. Persona correcta, profunda. meditador y ora mucho. Buena pareja, excelente socio."
+						}
+					},
+					"7" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Ser que ha venido cultivando la misericordia o liderazgo, es inspirador y elevador de cosciencia; guia."
+						}
+					},
+					"8" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Ser que se proyecta como una persona pura, sin temor. Perseverante. Ambicioso, materialista, líder, protector, entregado."
+						}
+					},
+					"9" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "La gente lo verá como un ser sabio, profundo. Ermitaño, generoso, altruista, guia."
+						}
+					},
+					"10" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Fuente energética inagotable. Si es negativo, tiende a ser egoísta. Gran capacidad de realización, hace que los otros ejecuten acciones que los llevan a realizarse, produciéndose evolución. Tercos."
+						}
+					},
+					"11" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "",
+							"es" : "Recuerda a los demás la existencia de Dios. Debe tomar consciencia de sus encarnaciones anteriores. Les corresponde liderar, asumir retos de Luz para sus semejantes."
+						}
+					}
+				}
+      }
+    }
+  }
+}
