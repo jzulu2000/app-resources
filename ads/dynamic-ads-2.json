@@ -14,15 +14,15 @@
           "text": "Escucha libros Epub, PDF y más mientras haces otras actividades."
         }
       ],
-      "icon": "lrcplayer_round",
+      "icon": "pdfreader_round",
       "titles": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "Speechy - Listen books."
+          "text": "Speechy - Listen PDF books and EPUB."
         }, {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "es",
-          "text": "Speechy - Escucha libros."
+          "text": "Speechy - Escucha libros PDF y EPUB."
         }
       ],
       "url": "com.twelvestars.pdfreader_free"

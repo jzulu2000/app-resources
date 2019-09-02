@@ -1,7 +1,9 @@
 {
  "amazon-extractor.json" : "2018-11-22 15:30:00", 
  "amazon-extractor-2.json" : "2019-04-09 11:30:00",
- "dynamic-ads.json" : "2019-04-05 08:00:00",
+ "dynamic-ads.json" : "2019-09-02 11:10:00",
+ "dynamic-ads-2.json" : "2019-09-02 11:10:00",
+ "applications-ads-config.json" : "2019-09-02 11:10:00",
  "lrc-models-2.json" : "2018-12-27 13:04:00",
  "lrc-models-3.json" : "2018-12-27 13:04:00",
  "pyp-7-brasil.json" : "2019-01-14 14:20:00",
@@ -18,6 +20,6 @@
  "pyp-8-philippines.json" : "2019-08-06 11:25:00",
  "polls-1.json": "2019-02-26 14:00:00",
  "polls-2.json": "2019-08-23 16:05:00",
- "astro-model.json": "2019-09-02 09:30:00",
+ "astro-model.json": "2019-09-02 11:10:00",
  "updates-index.json" : "2019-01-12 11:00:00"
 }
