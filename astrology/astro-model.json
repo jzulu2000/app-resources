@@ -110,8 +110,8 @@
         "description" : {
           "object-type": "Translatable",
           "texts" : {
-            "en" : "The current cycle in this year",
-            "es" : "El ciclo actual del ser en este año"
+            "en" : "The current cycle in this year, since new Moon on September",
+            "es" : "El ciclo actual del ser en este año, desde la luna nueva de Septiembre"
           }
         },
 				"qualities" : {
@@ -119,63 +119,63 @@
 						"object-type": "Translatable",
 						"texts" : {
 							"en" : "",
-							"es" : ""
+							"es" : "El primer año del ciclo de 9 años. Comienza algo diferente, sacudete de lo negativo y comienza algo nuevo. Ten coraje para aceptar los retos nuevos. Tienes claridad mental y se abren muchas puertas nuevas. Siembra para los proximos 9 años."
 						}
 					},
 					"2" : {
 						"object-type": "Translatable",
 						"texts" : {
 							"en" : "",
-							"es" : ""
+							"es" : "Segundo año del ciclo de 9 años. 2 es el número de la dualidad. Debes ser paciente con los demás. Buen año para comenzar relaciones de pareja y laborales. Inicio o rompimiento de matrimonios. Buen año para la salud, mejoras económicas y regalos inesperados."
 						}
 					},
 					"3" : {
 						"object-type": "Translatable",
 						"texts" : {
 							"en" : "",
-							"es" : ""
+							"es" : "Tercer año del ciclo de 9 años. Año de los viajes y desarrollo interno. Muestra tu capacidad inventiva para tener exitos laborales o en el estudio. Año muy social. Ten siempre presente los planes futuros. Año para viajar o cambiar de vivienda a otro país."
 						}
 					},
 					"4" : {
 						"object-type": "Translatable",
 						"texts" : {
 							"en" : "",
-							"es" : ""
+							"es" : "Cuarto año del ciclo de 9 años. El año del trabajo, de lograr cosas gracias al esfuerzo personal. Si trabajas mucho y no obtienes resultados, estarás sembrando para el futuro. Poco tiempo para viajar o estar en casa. Debes controlar bien tus finanzas. Es tiempo de invertir. En este año se puede fundar un hogar estable."
 						}
 					},
 					"5" : {
 						"object-type": "Translatable",
 						"texts" : {
 							"en" : "",
-							"es" : ""
+							"es" : "El intermedio del ciclo de 9 años. El año del cambio. Nuevos rostros, nuevas ideas, nuevos empleos, nuevos retos. Se incrementa la impaciencia por lo que se debe pensar bien las decisiones y se debe dar prioridad y foco a las cosas más importantes y no hacer muchas cosas al mismo tiempo."
 						}
 					},
 					"6" : {
 						"object-type": "Translatable",
 						"texts" : {
 							"en" : "",
-							"es" : ""
+							"es" : "Sexto año del ciclo de 9 años. El año del amor y la responsabilidad doméstica; vibración de la pareja felíz, matrimonios, uniones libres, noviazgos, compra de casa. Sirve desinteresadamente. Consciencia de recursos naturales."
 						}
 					},
 					"7" : {
 						"object-type": "Translatable",
 						"texts" : {
 							"en" : "",
-							"es" : ""
+							"es" : "Septimo año del ciclo de 9 años. El año del conocimiento. Estudia y analiza todo del lado espiritual, cuida la salud, mejora tu mente con estudios, viaja a lugares que enriquezcan el conocimiento. Hay inclinacion a lo oculto, espiritual o religioso."
 						}
 					},
 					"8" : {
 						"object-type": "Translatable",
 						"texts" : {
 							"en" : "",
-							"es" : ""
+							"es" : "Octavo año del ciclo de 9 años. El año del dinero y logros materiales. Se recojen los frutos del trabajo de años anteriores. Requieres buen juicio. Hay que poner cuidado a la salud y no dejar afectarse por preocupaciones materiales. Invierte en cosas imprescindibles. Piensa en la humanidad y tendrás recompensa."
 						}
 					},
 					"9" : {
 						"object-type": "Translatable",
 						"texts" : {
 							"en" : "",
-							"es" : ""
+							"es" : "Concluye el ciclo de 9 años. También te preparas para el nuevo ciclo. Se termina lo que no sirve, se aprende de los errores y experiencias. Se debe terminar lo pendiente, consolidar lo logrado y prepararse para el proximo ciclo. No comiences nada nuevo, no te cambies de casa."
 						}
 					},
 					"10" : {
