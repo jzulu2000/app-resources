@@ -87,6 +87,16 @@
 
   "com.twelvestars.pipla_brasil": [
     {
+      "places": ["activities.notificationactivity", "activities.restrictionsactivity"],
+      "implementation": "facebook",
+      "enabled": "true",
+      "appId": "",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "470581890340073_470582683673327",
+        "ADDS_DEFAULT_INTERSTITIAL": "470581890340073_470582563673339",
+        "ADDS_DEFAULT_VIDEO_REWARD": "470581890340073_470582313673364"
+      }
+    }, {
       "places": ["notificationactivity", "restrictionsactivity"],
       "implementation": "admob",
       "enabled": "false",
@@ -113,6 +123,16 @@
 
   "com.twelvestars.pipla_ecuador": [
     {
+      "places": ["activities.notificationactivity", "activities.restrictionsactivity"],
+      "implementation": "facebook",
+      "enabled": "true",
+      "appId": "",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "470581890340073_470582683673327",
+        "ADDS_DEFAULT_INTERSTITIAL": "470581890340073_470582563673339",
+        "ADDS_DEFAULT_VIDEO_REWARD": "470581890340073_470582313673364"
+      }
+    }, {
       "places": ["notificationactivity", "restrictionsactivity"],
       "implementation": "admob",
       "enabled": "false",
@@ -139,6 +159,16 @@
 
   "com.twelvestars.pipla_costarica": [
     {
+      "places": ["activities.notificationactivity", "activities.restrictionsactivity"],
+      "implementation": "facebook",
+      "enabled": "true",
+      "appId": "",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "470581890340073_470582683673327",
+        "ADDS_DEFAULT_INTERSTITIAL": "470581890340073_470582563673339",
+        "ADDS_DEFAULT_VIDEO_REWARD": "470581890340073_470582313673364"
+      }
+    }, {
       "places": ["notificationactivity", "restrictionsactivity"],
       "implementation": "admob",
       "enabled": "false",
@@ -201,6 +231,16 @@
 
   "com.twelvestars.pipla_philippines": [
     {
+      "places": ["activities.notificationactivity", "activities.restrictionsactivity"],
+      "implementation": "facebook",
+      "enabled": "true",
+      "appId": "",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "470581890340073_470582683673327",
+        "ADDS_DEFAULT_INTERSTITIAL": "470581890340073_470582563673339",
+        "ADDS_DEFAULT_VIDEO_REWARD": "470581890340073_470582313673364"
+      }
+    }, {
       "places": ["notificationactivity", "restrictionsactivity"],
       "implementation": "admob",
       "enabled": "false",
