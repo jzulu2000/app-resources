@@ -30,12 +30,8 @@
 					"hours": [
 						{
 							"object-type": "com.twelvestars.pipla_ecuador.daos.model.Schedule",
-							"from": "420",
-							"to": "570"
-						}, {
-							"object-type": "com.twelvestars.pipla_ecuador.daos.model.Schedule",
-							"from": "960",
-							"to": "1170"
+							"from": "300",
+							"to": "1200"
 						}
 					],
 					"skipOnHolidays": true,
