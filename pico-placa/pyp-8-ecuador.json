@@ -36,7 +36,8 @@
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
-						{"object-type": "Schedule", "from": "300", "to": "1200"}
+						{"object-type": "Schedule", "from": "420", "to": "570"},
+						{"object-type": "Schedule", "from": "960", "to": "1170"}
 					],
 					"skipOnHolidays": true,
 					"validator": {
