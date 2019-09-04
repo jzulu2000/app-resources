@@ -27,11 +27,35 @@
 				{
 					"object-type": "com.twelvestars.pipla_ecuador.daos.model.Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"validFrom" : "2019-09-09",
 					"hours": [
 						{
 							"object-type": "com.twelvestars.pipla_ecuador.daos.model.Schedule",
 							"from": "300",
 							"to": "1200"
+						}
+					],
+					"skipOnHolidays": true,
+					"validator": {
+						"object-type": "com.twelvestars.pipla_ecuador.daos.validators.PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "2",
+							"monday-start": "1"
+						}
+					},
+					"vehicles": ["particular"]
+				}, {
+					"object-type": "com.twelvestars.pipla_ecuador.daos.model.Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{
+							"object-type": "com.twelvestars.pipla_ecuador.daos.model.Schedule",
+							"from": "300",
+							"to": "570"
+						}, {
+							"object-type": "com.twelvestars.pipla_ecuador.daos.model.Schedule",
+							"from": "960",
+							"to": "1170"
 						}
 					],
 					"skipOnHolidays": true,
