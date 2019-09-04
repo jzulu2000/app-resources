@@ -8,7 +8,17 @@
 		"PlatesByDayValidator": "com.twelvestars.daos.validators.PlatesByDayValidator"
 	},
 	"object-type": "com.twelvestars.daos.model.PyPModel",
-	"specialEvents": [],
+	"specialEvents": [
+		{
+			"object-type": "SpecialEvent",
+			"id" : "16",
+			"dates": ["2019-09-13"],
+			"city": "quito",
+			"title": "Desde el 9 de Sep, habrá Hoy no Circula.",
+			"text": "La restricción de circulación vehicular en Quito que se denominaba Pico y placa empieza el lunes 9 de septiembre como Hoy no Circula. Habrá restricción durante 15 horas, de 05:00 a 20:00.",
+			"url": "https://www.eluniverso.com/noticias/2019/09/02/nota/7500762/quito-se-acaba-pico-placa-cambio-habra-hoy-no-circula"
+		}
+	],
 	"vehicles": [
 		{
 			"object-type": "Vehicle",
