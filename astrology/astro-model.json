@@ -1,24 +1,312 @@
 {
-  "registry" : {
-    "Translatable" : "co.com.twelvestars.commons.polls.Translatable"
-  },
-  "numerology-model": {
-    "aspects" : {
-      "life" : {
-        "title" : {
-          "object-type": "Translatable",
-          "texts" : {
-            "en" : "Life (mission) number",
-            "es" : "Número de vida (misión)"
-          }
-        },
-        "description" : {
-          "object-type": "Translatable",
-          "texts" : {
-            "en" : "It's our guide number. What I brought into this life and what I'm lacking of for serving humanity.",
-            "es" : "Es nuestro número guía. Lo que traigo y lo que me falta para servir a la humanidad."
-          }
-        },
+	"registry" : {
+		"Translatable" : "co.com.twelvestars.commons.polls.Translatable"
+	},
+	"registry" : {
+		"vibration-24" : {
+			"object-type": "Translatable",
+			"texts" : {
+				"en" : "This number is fortunate; it promises the assistance and association of those of rank and position with one’s plans; it also denotes gain through love and the opposite sex; it is a favourable number when it comes out in relation to future events.",
+				"es" : "Este número también es afortunado; promete la asistencia y asociación de aquellos de rango y posición con los planes de uno; también denota ganancia a través del amor y el sexo opuesto; Es un número favorable cuando sale en relación con eventos futuros."
+			}
+		},
+		"vibration-25" : {
+			"object-type": "Translatable",
+			"texts" : {
+				"en" : "This is a number denoting strength gained through experience, and benefits obtained through observation of people and things. It is not deemed exactly “lucky”, as its success is given through strife and trials in an earlier life. It is favourable when it appears in regard to the future.",
+				"es" : "Este es un número que denota la fuerza adquirida a través de la experiencia y los beneficios obtenidos a través de la observación de personas y cosas. No se considera exactamente \"afortunado\", ya que su éxito se obtiene a través de conflictos y pruebas en una vida anterior. Es favorable cuando aparece en relación con el futuro."
+			}
+		},
+		"vibration-26" : {
+			"object-type": "Translatable",
+			"texts" : {
+				"en" : "This number is full of the gravest warnings for the future. It foreshadows disasters brought about by association with others; ruin by bad speculations, by partnerships, unions and bad advice. If it comes out in connection with future events one should carefully consider the path one is treading.",
+				"es" : "Este número está lleno de las advertencias más graves para el futuro. Presagia los desastres provocados por la asociación con otros; ruina por malas especulaciones, por asociaciones, sindicatos y malos consejos. Si surge en relación con eventos futuros, uno debe considerar cuidadosamente el camino que está siguiendo."
+			}
+		},
+		"vibration-27" : {
+			"object-type": "Translatable",
+			"texts" : {
+				"en" : "This is a good number and is symbolized as “the Sceptre.” It is a promise of authority, power and command. It indicates that reward will come from the productive intellect; that the creative faculties have sown good seeds that will reap a harvest. Persons with this “command” number at their back should carry out their own ideas and plans. It is a fortunate number if it appears in any connection with future events.",
+				"es" : "Este es un buen número y está simbolizado como \"el Cetro\". Es una promesa de autoridad, poder y comando. Indica que la recompensa vendrá del intelecto productivo; que las facultades creativas han sembrado buenas semillas que cosecharán. Las personas con este número de \"comando\" a sus espaldas deben llevar a cabo sus propias ideas y planes. Es un número afortunado si aparece en alguna conexión con eventos futuros."
+			}
+		},
+		"vibration-29" : {
+			"object-type": "Translatable",
+			"texts" : {
+				"en" : "It is not a fortunate number for the indication of future events. This number indicates uncertainties, treachery, and deception of others; it foreshadows trials, tribulation, and unexpected dangers, unreliable friends, and grief and deception caused by members of the opposite sex. It gives grave warning if it comes out in anything concerning future events.",
+				"es" : "No es un número afortunado para indicar eventos futuros. Este número indica incertidumbres, traiciones y engaños de otros; presagia pruebas, tribulaciones y peligros inesperados, amigos poco confiables y dolor y engaño causados \u200B\u200Bpor miembros del sexo opuesto. Da una advertencia grave si sale en algo relacionado con eventos futuros."
+			}
+		},
+		"vibration-30" : {
+			"object-type": "Translatable",
+			"texts" : {
+				"en" : "This is a number of thoughtful deduction, retrospection, and mental superiority over one’s fellows, but as it seems to belong completely to the mental plane, the persons it represents, are likely to put all material things on one side — not because they have to, but because they wish to do so. For this reason it is neither fortunate nor unfortunate, for either depends on the mental outlook of the person it represents. It can be all powerful, but it is just as often indifferent according to the will or desire of the person.",
+				"es" : "Esta es una serie de deducciones reflexivas, retrospección y superioridad mental sobre los compañeros, pero como parece pertenecer completamente al plano mental, las personas que representa es probable que pongan todas las cosas materiales de un lado, no porque tengan que hacerlo. , pero porque desean hacerlo. Por esta razón, no es ni afortunado ni desafortunado, ya que depende de la perspectiva mental de la persona que representa. Puede ser todo poderoso, pero a menudo es indiferente según la voluntad o el deseo de la persona."
+			}
+		},
+		"vibration-31" : {
+			"object-type": "Translatable",
+			"texts" : {
+				"en" : "This number is very similar to the preceding one, except that the person it represents is even more self-contacted, lonely, and isolated from his fellows. It is not a fortunate number from a worldly or material standpoint.",
+				"es" : "Este número es muy similar al anterior, excepto que la persona que representa es aún más autocontactada, solitaria y aislada de sus compañeros. No es un número afortunado desde un punto de vista mundano o material."
+			}
+		},
+		"vibration-32" : {
+			"object-type": "Translatable",
+			"texts" : {
+				"en" : "This number has a magical power like the single 5, or the “command” numbers 14 and 23. It is usually associated with combinations of people or nations. It is a fortunate number if the person it represents holds to his own judgment and opinions; if not, his plans are likely to be wrecked by the stubbornness and stupidity of others. It is a favourable number if it appears in connection with future events.",
+				"es" : "Este número tiene un poder mágico como el solo 5, o el \"comando\" números 14 y 23. Por lo general, se asocia con combinaciones de personas o naciones. Es un número afortunado si la persona que representa tiene su propio juicio y opiniones; si no, es probable que sus planes se vean afectados por la terquedad y la estupidez de los demás. Es un número favorable si aparece en relación con eventos futuros."
+			}
+		},
+		"vibration-37" : {
+			"object-type": "Translatable",
+			"texts" : {
+				"en" : "This number has a distinct potency of its own. It is a number of good and fortunate friendships in love, and in combinations connected with the opposite sex. It is also good for partnerships of all kinds. It is a fortunate indication if it appears in connection with future events.",
+				"es" : "Este número tiene una potencia distinta propia. Es una serie de buenas y afortunadas amistades en el amor, y en combinaciones relacionadas con el sexo opuesto. También es bueno para asociaciones de todo tipo. Es una indicación afortunada si aparece en relación con eventos futuros."
+			}
+		},
+		"vibration-43" : {
+			"object-type": "Translatable",
+			"texts" : {
+				"en" : "This is an unfortunate number. It is symbolized by the signs of revolution, upheaval, strife, failure, and prevention and is not a fortunate number if it comes out in calculation relating to future events.",
+				"es" : "Este es un número desafortunado. Está simbolizado por los signos de revolución, agitación, lucha, fracaso y prevención y no es un número afortunado si sale en el cálculo relacionado con eventos futuros."
+			}
+		}
+	},
+	"registry" : {
+		"number-vibrations" : {
+			"1" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "One represents the male principle, the yang. It is self-consciousness. It is original, independent, aggressive, individualistic, creative, dominate; the first in a series, the leader. In standard Tarot One is the Magician or Magus – Divine Purpose",
+					"es" : "Uno representa el principio masculino, el yang. Es la autoconciencia. Es original, independiente, agresivo, individualista, creativo, dominante; El primero de una serie, el líder. En el Tarot Uno estándar está el Mago o el Mago - Propósito Divino."
+				}
+			},
+			"2" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "Two is the pair, the duo, representing the feminine principle of receptivity, the yin, which seeks a union of two distinct entities, thus the development of choice began between good and evil, true and false, and positive and negative. It is adaptable, tactful, understanding, gentle, cautious; a follower rather than a leader. In standard Tarot Two is The High Priestess – Divine Feminine.",
+					"es" : "Dos es la pareja, el dúo, que representa el principio femenino de receptividad, el yin, que busca la unión de dos entidades distintas, por lo que el desarrollo de la elección comenzó entre el bien y el mal, lo verdadero y lo falso, y lo positivo y lo negativo. Es adaptable, discreto, comprensivo, gentil, cauteloso; un seguidor en lugar de un líder. En el Tarot estándar dos está La Suma Sacerdotisa - Divina Femenina."
+				}
+			},
+			"3" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "Three is manifestation and expansion. It is the performer who possesses an innate appreciation of pleasure, romance, art, and beauty. Its creative imagination allows all things to be possible. It is expansive, sociable, dramatic, communicative, diversified, and creative. In standard Tarot it is The Empress – Divine Activity.",
+					"es" : "Tres es manifestación y expansión. Es el artista que posee una innata apreciación del placer, el romance, el arte y la belleza. Su imaginación creativa permite que todo sea posible. Es expansivo, sociable, dramático, comunicativo, diversificado y creativo. En el Tarot estándar es The Empress - Divine Activity."
+				}
+			},
+			"4" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "Four is square consciousness, representing the 4 seasons. The symbol of law, system and order. It is firmness, security, stability and consortiums. Four is nature and relates to the earth, therefore develops a practical nature, and through self-discipline, binds itself to a conventional routine excretes of its energy. It is form, work order, practicality, construction, stability, endurance, and discipline. In standard Tarot it is The Emperor – Divine Overcoming.",
+					"es" : "Cuatro es conciencia cuadrada, que representa las 4 estaciones. El símbolo de la ley, el sistema y el orden. Es firmeza, seguridad, estabilidad y consorcios. Cuatro es la naturaleza y se relaciona con la tierra, por lo tanto, desarrolla una naturaleza práctica y, a través de la autodisciplina, se une a una rutina convencional que excreta su energía. Es forma, orden de trabajo, practicidad, construcción, estabilidad, resistencia y disciplina. En el Tarot estándar es El Emperador - Superación Divina."
+				}
+			},
+			"5" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "Five represents vital force. Five is freedom, change and adventure. Five attracts the opposite sex because of the irresistible magnetism, and this attraction set the stage for the domestic responsibilities. It is versatility, resourcefulness, adaptability, change, activity, travel, adventure, promotion, and speculation. In standard Tarot it is The Hierophant – Divine Voice.",
+					"es" : "Cinco representa la fuerza vital. Cinco es libertad, cambio y aventura. Cinco atrae al sexo opuesto debido al magnetismo irresistible, y esta atracción preparó el escenario para las responsabilidades domésticas. Es versatilidad, ingenio, adaptabilidad, cambio, actividad, viaje, aventura, promoción y especulación. En el Tarot estándar es El Hierofante - Voz Divina."
+				}
+			},
+			"6" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "On the sixth day, GOD made human beings. “In the image of GOD created He him, male and female created He them,” (Genesis 1:27) Six is conscientious; it desires to bring harmony, truth, justice and a sense of balance into its environment. Love and compassion are uppermost in its mind, and it can therefore be an effective teacher, counsellor or healer. Others are drawn to it because of the understanding, which emanates from it. It is family and social responsibility, service, love, compassion, counselling, healing, and creativity. In standard Tarot it is The Lovers – Divine Path.",
+					"es" : "En el sexto día, DIOS hizo seres humanos. \"A imagen de DIOS lo creó, hombre y mujer los creó\" (Génesis 1:27) Seis es concienzudo; desea traer armonía, verdad, justicia y un sentido de equilibrio a su entorno. El amor y la compasión son lo más importante en su mente, y por lo tanto puede ser un maestro, consejero o sanador efectivo. Otros se sienten atraídos por el entendimiento que emana de él. Es la responsabilidad familiar y social, el servicio, el amor, la compasión, el asesoramiento, la curación y la creatividad. En el Tarot estándar es The Lovers - Divine Path."
+				}
+			},
+			"7" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "Seven seeks answers. It tries to establish a philosophy by which to live and attempts to penetrate the mystery behind its existence, which it never questioned to this point. Because solitude is necessary for analysis, the seven feels the need to spend time alone, away from the crowds, in touch with nature. It looks for friendship with those of an elevated consciousness that can match its own. It is quiet, introspective, intuitive, analytical, inspirational, reclusive, philosophical, and mystical. In standard Tarot it is The Chariot – Divine Victory.",
+					"es" : "Siete busca respuestas. Intenta establecer una filosofía por la cual vivir e intenta penetrar el misterio detrás de su existencia, que nunca cuestionó hasta este punto. Debido a que la soledad es necesaria para el análisis, los siete sienten la necesidad de pasar tiempo solos, lejos de las multitudes, en contacto con la naturaleza. Busca amistad con los de una conciencia elevada que puede igualar la suya. Es tranquilo, introspectivo, intuitivo, analítico, inspirador, solitario, filosófico y místico. En el Tarot estándar es El carro - Victoria divina."
+				}
+			},
+			"8" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "Eight is infinity – that of eternal and continuous spiral motions, which is constant throughout the universe. Eight will always assume power, for it has achieved control and responsibility in its chosen field. Recognition and financial rewards are bestowed and expansion and growth in the business world take place. Eight is power, responsibility, financial rewards, good judgment, and recognition. In standard Tarot it is Justice – Divine Balance",
+					"es" : "Ocho es infinito, el de los movimientos espirales eternos y continuos, que es constante en todo el universo. Ocho siempre asumirá el poder, ya que ha logrado el control y la responsabilidad en el campo elegido. Se otorgan reconocimientos y recompensas financieras y se lleva a cabo la expansión y el crecimiento en el mundo de los negocios. Ocho es poder, responsabilidad, recompensas financieras, buen juicio y reconocimiento. En el Tarot estándar es Justicia - Equilibrio Divino"
+				}
+			},
+			"9" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "Nine contains the forces of all the other numbers. It stands for complete cycle of growth. Nine is Selflessness and Compassion. Encompassing a love for all, it desires to apply its energy to universal service. Nine is love, compassion, patience, universality, tolerance, selfless service, and endings. In standard Tarot it is The Hermit – Divine Light",
+					"es" : "Nueve contiene las fuerzas de todos los otros números. Es sinónimo de ciclo completo de crecimiento. Nueve es desinterés y compasión. Abarcando un amor por todos, desea aplicar su energía al servicio universal. Nueve es amor, compasión, paciencia, universalidad, tolerancia, servicio desinteresado y finales. En el Tarot estándar es El Ermitaño - Luz Divina"
+				}
+			},
+			"10" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "“Wheel of Fortune”. It is a number of honour, of faith and self-confidence, of rise and fall; one’s name will be known for good or evil, according to one’s desires; it is a fortunate number in the sense that one’s plans are likely to be carried out.",
+					"es" : "\"Rueda de la fortuna\". Es un número de honor, de fe y confianza en sí mismo, de ascenso y caída; el nombre de uno será conocido para bien o para mal, de acuerdo con los deseos de uno; es un número afortunado en el sentido de que es probable que se lleven a cabo los planes."
+				}
+			},
+			"11" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "This is an ominous number to occultists. It gives warning of hidden dangers, trial, and treachery from others. It has a symbol of a “Clenched Hand”, and “a Lion Muzzled”, and of a person who will have great difficulties to contend against.",
+					"es" : "Este es un número siniestro para los ocultistas. Advierte sobre peligros ocultos, juicios y traiciones de otros. Tiene el símbolo de una \"Mano Apretada\", y \"un León Muzzled\", y de una persona que tendrá grandes dificultades para luchar."
+				}
+			},
+			"12" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "The symbolism of this number is suffering and anxiety of mind. It is also indicated as “the Sacrifice” or “the Victim” and generally foreshadows one being sacrificed for the plans or intrigues of others.",
+					"es" : "El simbolismo de este número es sufrimiento y ansiedad mental. También se indica como \"el Sacrificio\" o \"la Víctima\" y generalmente presagia el sacrificio de uno por los planes o intrigas de los demás."
+				}
+			},
+			"13" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "This is a number indicating change of plans, place and such-like and is not unfortunate, as is generally supposed. In some of the ancient writings it is said, “He who understands the number 13 will be given power and dominion”. It is symbolized by the picture of a “Skeleton” of “Death,” with a scythe reaping down men, in a field of new-grown grass where young faces and heads appear crop ping up on every side. It is a number of upheaval and destruction. It is a symbol of “Power” which if wrongly used will wreak destruction upon oneself. It is a number of warning of the unknown or unexpected, if it becomes a “compound” number in one’s calculations.",
+					"es" : "Este es un número que indica un cambio de planes, lugar y similares, y no es desafortunado, como generalmente se supone. En algunos de los escritos antiguos se dice: \"Al que entiende el número 13 se le dará poder y dominio\". Está simbolizado por la imagen de un \"Esqueleto\" de \"Muerte\", con una guadaña cosechando a los hombres, en un campo de hierba recién crecida donde aparecen rostros y cabezas jóvenes que surgen a cada lado. Es una serie de trastornos y destrucción. Es un símbolo de \"Poder\" que, si se usa incorrectamente, causará destrucción sobre uno mismo. Es un número de advertencia de lo desconocido o inesperado, si se convierte en un número \"compuesto\" en los cálculos de uno."
+				}
+			},
+			"14" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "This is a number of movements, combination of people and things, and danger from natural forces such as tempests, water, air or fire. This number is fortunate for dealings with money, speculation and changes in business, but there is always a strong element of risk and danger attached to it, but generally owing   to the actions and fool hardiness of others. If this number comes out in calculations of future events the person should be warned to act with caution and prudence.",
+					"es" : "Este es un número de movimientos, combinación de personas y cosas, y peligro de fuerzas naturales como tempestades, agua, aire o fuego. Este número es afortunado por los tratos con el dinero, la especulación y los cambios en los negocios, pero siempre hay un fuerte elemento de riesgo y peligro asociado, pero generalmente debido a las acciones y la insensatez de otros. Si este número sale en los cálculos de eventos futuros, se debe advertir a la persona que actúe con precaución y prudencia."
+				}
+			},
+			"15" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "This is a number of occult significance, of magic and mystery; but as a rule it does not represent the higher side of occultism, its meaning being that the persons represented by it will use every art of magic they can to carry out their purpose. If associated with a good or fortunate single number, it can be very lucky and powerful, but if associated with one of the peculiar numbers, such as a 4 or an 8, the person it represents will not hesitate to use any sort of art, or even ”black-magic,” to gain what he or she desires.\nIt is peculiarly associated with “good talkers,” often with eloquence, gifts of music and art and a dramatic personality, combined with a certain voluptuous temperament and strong personal magnetism. For obtaining money, gifts, and favours from others it is a fortunate number.",
+					"es" : "Este es un número de significado oculto, de magia y misterio; pero, por regla general, no representa el lado superior del ocultismo, lo que significa que las personas representadas por él utilizarán todo el arte de la magia que puedan para llevar a cabo su propósito. Si se asocia con un número único bueno o afortunado, puede ser muy afortunado y poderoso, pero si se asocia con uno de los números peculiares, como un 4 o un 8, la persona que representa no dudará en utilizar cualquier tipo de arte, o incluso \"magia negra\", para obtener lo que él o ella desea.\nSe asocia peculiarmente con \"buenos conversadores\", a menudo con elocuencia, dones de música y arte y una personalidad dramática, combinada con cierto temperamento voluptuoso y fuerte magnetismo personal. Para obtener dinero, regalos y favores de otros, es un número afortunado."
+				}
+			},
+			"16" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "This number has a most peculiar occult symbolism. It is pictured by “a Tower Struck by Lightning from which a man is falling with a Crown on his head.” It is also called “the Shattered Citadel”.It gives warning of some strange fatality awaiting one, also danger of accidents and defeat of one’s plans. If it appears as a “compound” number relating to the future, it is a warning sign that should be carefully noted and plans made in advance in the endeavour to avert its fatalistic tendency.",
+					"es" : "Este número tiene un simbolismo oculto muy peculiar. Está representada por \"una torre golpeada por un rayo desde la cual un hombre cae con una corona sobre su cabeza\". También se le llama \"la ciudadela destrozada\".\nAdvierte de una extraña fatalidad en espera de uno, también peligro de accidentes y derrota de los planes. Si aparece como un número \"compuesto\" relacionado con el futuro, es una señal de advertencia que debe tenerse en cuenta cuidadosamente y se deben hacer planes de antemano en el esfuerzo por evitar su tendencia fatalista."
+				}
+			},
+			"17" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "This is a highly spiritual number, and is expressed in symbolism by the 8-pointed Star of Venus; a symbol of “Peace and love”. It is also called “the Star of the Magi” and expresses that the person it represents has risen superior in spirit to the trials and difficulties of his life or his career. It is considered a “Number of immortality” and that the person’s name “lives after him”. It is a fortunate number if it works out in relation to future events, provided it is not associated with the single number of fours and eights.",
+					"es" : "Este es un número altamente espiritual, y se expresa en simbolismo por la Estrella de Venus de 8 puntas; un símbolo de \"paz y amor\". También se le llama \"la Estrella de los Magos\" y expresa que la persona que representa se ha elevado en espíritu a las pruebas y dificultades de su vida o su carrera. Se considera un \"Número de inmortalidad\" y que el nombre de la persona \"vive después de él\". Es un número afortunado si funciona en relación con eventos futuros, siempre que no esté asociado con el número único de cuatro o ocho."
+				}
+			},
+			"18" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "This number has a difficult symbolism to translate. It is pictured as “a rayed moon from which drops of blood are falling; a wolf and a hungry dog are seen below catching the falling drops of blood in their opened mouths, while still lower a crab is seen hastening to join them.” It is symbolic of materialism striving to destroy the spiritual side of the nature. It generally associates a person with bitter quarrels, even family ones, also with war, social upheavals, revolutions; and in some cases it indicates making money and position thorough wars or by wars. It is however a warning of treachery, deception by others, also danger from the elements such as storms, danger from water, fires and explosions. When this “compound” number appears in working out dates in advance, such a date should be taken with a great amount of care, caution and circumspection.",
+					"es" : "Este número tiene un simbolismo difícil de traducir. Se representa como \"una luna radiante de la que caen gotas de sangre; debajo se ve un lobo y un perro hambriento atrapando las gotas de sangre que caen en sus bocas abiertas, mientras que aún se ve a un cangrejo apresurándose a unirse a ellos ”. Es un símbolo del materialismo que se esfuerza por destruir el lado espiritual de la naturaleza. Generalmente asocia a una persona con disputas amargas, incluso familiares, también con guerras, trastornos sociales, revoluciones; y en algunos casos indica ganar dinero y posicionarse en guerras completas o guerras. Sin embargo, es una advertencia de traición, engaño por parte de otros, también peligro de elementos tales como tormentas, peligro de agua, incendios y explosiones. Cuando este número \"compuesto\" aparece en las fechas de trabajo por adelantado, dicha fecha debe tomarse con mucho cuidado, precaución y circunspección."
+				}
+			},
+			"19" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "This number is regarded as fortunate and extremely favourable. It is symbolized as “the Sun” and is called “the Prince of Heaven.” It is a number promising happiness, success, esteem and honour and promises success in one’s plan for the future.",
+					"es" : "Este número se considera afortunado y extremadamente favorable. Está simbolizado como \"el Sol\" y se llama \"el Príncipe del Cielo\". Es un número prometedor de felicidad, éxito, estima y honor y promete éxito en el plan para el futuro."
+				}
+			},
+			"20" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "This number is called “the Awakening”; also “the Judgement”. It is symbolized by the figure of a winged angel sounding a trumpet, while from below a man, a woman, and a child are seen rising from a tomb with their hands clasped in prayer.\nThis number has a peculiar interpretation; the call to action, but for some great purpose, cause or duty. It is not a material number and consequently is a doubtful one as far as worldly success is concerned. If used in relation to a future event, it denotes delays, hindrances to one’s plans, which can only be conquered through the development of the spiritual side of nature.",
+					"es" : "Este número se llama \"el Despertar\"; también \"el juicio\". Está simbolizado por la figura de un ángel alado que toca una trompeta, mientras que desde abajo se ve a un hombre, una mujer y un niño saliendo de una tumba con las manos juntas en oración. \nEste número tiene una interpretación peculiar; El llamado a la acción, pero por algún gran propósito, causa u obligación. No es un número material y, en consecuencia, es dudoso en lo que respecta al éxito mundial. Si se usa en relación con un evento futuro, denota demoras, obstáculos para los planes de uno, que solo pueden ser conquistados a través del desarrollo del lado espiritual de la naturaleza."
+				}
+			},
+			"21" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "This number is symbolized by the picture of “the Universe”, and it is also called “the Crown of the Magi”. It is a number of advancement, honours, elevation in life and general success. It means victory after long initiation and tests of determination. It is a fortunate number of promise if it appears in any connection with future events.",
+					"es" : "Este número está simbolizado por la imagen del \"Universo\", y también se llama \"la Corona de los Magos\". Es una serie de avances, honores, elevación en la vida y éxito general. Significa victoria después de una larga iniciación y pruebas de determinación. Es una suerte de promesa si aparece en relación con eventos futuros."
+				}
+			},
+			"22" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "This number is symbolized by a “a Good Man blinded by the folly of others, with a knapsack on his back full of Arrows”. In this picture he appears to offer no defence against a ferocious tiger which is attacking him. It is a warning number of illusion and delusion, a good person who lives in a fool’s paradise; a dreamer of dreams who awakens only when surrounded by danger. It is also a number of false judgment owing to the influence of others. As a number in connection with future events, it is a warning and its meaning should be carefully noted.",
+					"es" : "Este número está simbolizado por un \"un buen hombre cegado por la locura de los demás, con una mochila en la espalda llena de flechas\". En esta imagen, parece no ofrecer defensa contra un tigre feroz que lo está atacando. Es un número de advertencia de ilusión e ilusión, una buena persona que vive en el paraíso de los tontos; un soñador de sueños que despierta solo cuando está rodeado de peligro. También es una serie de juicios falsos debido a la influencia de otros. Como un número relacionado con eventos futuros, es una advertencia y su significado debe tenerse en cuenta."
+				}
+			},
+			"23" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "This number is called “the Royal Star of the Lion.” It is a promise of success, help from superiors and protection from those in high places. In dealing with future events it is a most fortunate number and a promise of success of one’s plans.",
+					"es" : "Este número se llama \"la Estrella Real del León\". Es una promesa de éxito, ayuda de los superiores y protección de los que están en lugares altos. Al tratar con eventos futuros es un número muy afortunado y una promesa de éxito de los planes de uno."
+				}
+			},
+			"24" : {"registry-ref" : "vibration-24"},
+			"25" : {"registry-ref" : "vibration-25"},
+			"26" : {"registry-ref" : "vibration-26"},
+			"27" : {"registry-ref" : "vibration-27"},
+			"28" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "This number is full of contradictions. It indicates a person of great promise and possibilities who is likely to see all taken away from him unless he carefully provides for the future. It indicates loss through trust in others, opposition and competition in trade, danger of loss through law, and the likelihood of having to begin life’s road over and over again.",
+					"es" : "Este número está lleno de contradicciones. Indica a una persona con grandes promesas y posibilidades que es probable que vea que le quiten todo a menos que él prevea cuidadosamente el futuro. Indica pérdida por la confianza en los demás, oposición y competencia en el comercio, peligro de pérdida por ley y la probabilidad de tener que comenzar el camino de la vida una y otra vez."
+				}
+			},
+			"29" : {"registry-ref" : "vibration-29"},
+			"30" : {"registry-ref" : "vibration-30"},
+			"31" : {"registry-ref" : "vibration-31"},
+			"32" : {"registry-ref" : "vibration-32"},
+			"33" : {"registry-ref" : "vibration-24"},
+			"34" : {"registry-ref" : "vibration-25"},
+			"35" : {"registry-ref" : "vibration-26"},
+			"36" : {"registry-ref" : "vibration-27"},
+			"37" : {"registry-ref" : "vibration-37"},
+			"38" : {"registry-ref" : "vibration-29"},
+			"39" : {"registry-ref" : "vibration-30"},
+			"40" : {"registry-ref" : "vibration-31"},
+			"41" : {"registry-ref" : "vibration-32"},
+			"42" : {"registry-ref" : "vibration-24"},
+			"43" : {"registry-ref" : "vibration-43"},
+			"44" : {"registry-ref" : "vibration-26"},
+			"45" : {"registry-ref" : "vibration-27"},
+			"46" : {"registry-ref" : "vibration-37"},
+			"47" : {"registry-ref" : "vibration-29"},
+			"48" : {"registry-ref" : "vibration-30"},
+			"49" : {"registry-ref" : "vibration-31"},
+			"50" : {"registry-ref" : "vibration-32"},
+			"51" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "This number has a very powerful potency of its own. It represents the nature of the warrior; it promises sudden advancement in whatever one undertakes; it is especially favourable for those in military or naval life and for leaders in any cause. At the same time it threatens enemies, dangers and the likelihood of assassination.",
+					"es" : "Este número tiene una potencia muy poderosa propia. Representa la naturaleza del guerrero; promete un avance repentino en cualquier cosa que uno emprenda; Es especialmente favorable para aquellos en la vida militar o naval y para los líderes en cualquier causa. Al mismo tiempo, amenaza a los enemigos, los peligros y la probabilidad de asesinato."
+				}
+			},
+			"52" : {"registry-ref" : "vibration-43"}
+		}
+	},
+	"numerology-model": {
+		"char-numbers" : {
+			"a":  "1", "i":  "1", "j":  "1", "q":  "1", "y":  "1",
+			"b":  "2", "k":  "2", "r":  "2",
+			"c":  "3", "g":  "3", "l":  "3", "s":  "3",
+			"d":  "4", "m":  "4", "t":  "4",
+			"e":  "5", "h":  "5", "n":  "5", "x":  "5",
+			"u":  "6", "v":  "6", "w":  "6",
+			"o":  "7", "z":  "7",
+			"f":  "8", "p":  "8"
+		},
+		"aspects" : {
+			"life" : {
+				"title" : {
+					"object-type": "Translatable",
+					"texts" : {
+						"en" : "Tantric - Life (mission) number",
+						"es" : "Tantrica - Número de vida (misión)"
+					}
+				},
+				"description" : {
+					"object-type": "Translatable",
+					"texts" : {
+						"en" : "It's our guide number. What I brought into this life and what I'm lacking of for serving humanity.",
+						"es" : "Es nuestro número guía. Lo que traigo y lo que me falta para servir a la humanidad."
+					}
+				},
 				"qualities" : {
 					"1" : {
 						"object-type": "Translatable",
@@ -38,7 +326,7 @@
 						"object-type": "Translatable",
 						"texts" : {
 							"en" : "Being that should encourage creativity, art, achieve being loving and fair. Share with others and teach joy.\nDecree: I AM Divine Love, filling my Mind and my Heart. Actions: Use pink quartz in chakra 6 and 4. Acquire dog, cat, bird or a plant to awaken love, compassion and equality.",
-							"es" : "Ser que debe fomentar la creatividad, el arte, lograr ser amoroso y justo. Compartir con los demás y enseñar alegría.\nDecreto: YO SOY el Amor Divino, llenando mi Mente y mi Corazón. Acciones:  Usar cuarzo rosa en el chakra 6 y en el 4. Adquirir perro, gato, ave o una planta, para despertar el amor, la compasión y la igualdad."
+							"es" : "Ser que debe fomentar la creatividad, el arte, lograr ser amoroso y justo. Compartir con los demás y enseñar alegría.\nDecreto: YO SOY el Amor Divino, llenando mi Mente y mi Corazón.\nAcciones: Usar cuarzo rosa en el chakra 6 y en el 4. Adquirir perro, gato, ave o una planta, para despertar el amor, la compasión y la igualdad."
 						}
 					},
 					"4" : {
@@ -98,22 +386,22 @@
 						}
 					}
 				}
-      },
-      "cycle" : {
-        "title" : {
-          "object-type": "Translatable",
-          "texts" : {
-            "en" : "Current cycle",
-            "es" : "Ciclo actual"
-          }
-        },
-        "description" : {
-          "object-type": "Translatable",
-          "texts" : {
-            "en" : "The current cycle in this year, since new Moon on September",
-            "es" : "El ciclo actual del ser en este año, desde la luna nueva de Septiembre"
-          }
-        },
+			},
+			"cycle" : {
+				"title" : {
+					"object-type": "Translatable",
+					"texts" : {
+						"en" : "Tantric - Current cycle",
+						"es" : "Tantrica - Ciclo actual"
+					}
+				},
+				"description" : {
+					"object-type": "Translatable",
+					"texts" : {
+						"en" : "The current cycle in this year, since new Moon on September",
+						"es" : "El ciclo actual del ser en este año, desde la luna nueva de Septiembre"
+					}
+				},
 				"qualities" : {
 					"1" : {
 						"object-type": "Translatable",
@@ -179,117 +467,117 @@
 						}
 					}
 				}
-      },
-      "soul" : {
-        "title" : {
-          "object-type": "Translatable",
-          "texts" : {
-            "en" : "Soul number",
-            "es" : "Número del Alma"
-          }
-        },
-        "description" : {
-          "object-type": "Translatable",
-          "texts" : {
-            "en" : "The relationship with ourselves. What's written in us.",
-            "es" : "La relación con sigo mismo. Lo que traemos escrito."
-          }
-        },
-        "qualities" : {
-          "1" : {
-            "object-type": "Translatable",
-            "texts" : {
-              "en" : "A leader, independent, free, autosuficient, imperalist and egocentric being. Sometimes with no creativity and blocking th soul's flow when centered in mind, rage and fear.",
-              "es" : "Un ser líder, independiente, libre, autosuficiente, imperalista y egocentrico. Algunas veces sin creatividad y bloqueando el flujo del alma cuando se centran en mente, rabias y temores."
-            }
-          },
-          "2" : {
-            "object-type": "Translatable",
-            "texts" : {
-              "en" : "A lovely, given, noble, dual, giving and sacrified being. Good person; They feel bad acting badly. They don't let themselves be dominated by depression. Emotional and emotional. Sometimes complaining and boring.",
-              "es" : "Un ser amoroso, entregado, noble, dual, dador y sacrificado por los demás. Buena persona; se sienten mal al actuar mal. No se dejan dominar por la depresión. Emocional y afectivo. Algunas veces quejosos y aburridos."
-            }
-          },
-          "3" : {
-            "object-type": "Translatable",
-            "texts" : {
-              "en" : "A joyful, fun, with communications power, traveler, merchant and strategist being. Sometimes complaining and boring",
-              "es" : "Un ser alegre, divertido, gran poder de comunicación, viajero, buen mercader y estratega. Algunas veces quejosos y aburridos"
-            }
-          },
-          "4" : {
-            "object-type": "Translatable",
-            "texts" : {
-              "en" : "A protector, given to others, familiar, working and entrepreneur being. Philosophical and psychological mind. You must serve your neighbor.",
-              "es" : "Un ser protector, entregado a los demás, familiar, trabajador y emprendedor. Mente filosófica y psicologica. Debe servir al prójimo."
-            }
-          },
-          "5" : {
-            "object-type": "Translatable",
-            "texts" : {
-              "en" : "A joyful, intelligent, guiding, teaching and volatile being. Balanced and active. Disciplined, so they have contact with their soul. They should look good to feel good.",
-              "es" : "Un ser alegre, inteligente, guía, maestro, volátil, viajero. Equilibrado y activo. Disciplinados, por lo que tienen contacto con su alma. Deben verse bien para sentirse bien."
-            }
-          },
-          "6" : {
-            "object-type": "Translatable",
-            "texts" : {
-              "en" : "A noble, given, dedicated, no limits in love, given being. Sometimes superficial, selfish; The arc line must work.",
-              "es" : "Un ser noble, entregado, dedicado, sin límites en el enamoramiento, entrega más de la cuenta. A veces superficial, egoísta; debe trabajar la línea del arco."
-            }
-          },
-          "7" : {
-            "object-type": "Translatable",
-            "texts" : {
-              "en" : "An extraterrestrial, spiritual, psychic, clairvoyant, egocentric, fun, intelligent, theaching and guide being",
-              "es" : "Un ser extraterrestre, espiritual, psíquico, clarividente, egocéntrico, introvertido, inteligente, maestro y guía."
-            }
-          },
-          "8" : {
-            "object-type": "Translatable",
-            "texts" : {
-              "en" : "A family, home given, materialist, ambitious and possessive being. With pure soul, divine energy with power of self healing, without fear and persistent. Expansive, protective, enterprising, successful. Dream big and if it's family, better. Sometimes they get to excess. In search of material progress without allowing anyone to stand in his way. His ambition can corrupt him.",
-              "es" : "Un ser familiar, entregado al hogar, materialista, ambicioso y posesivo. Con alma pura, energía divina con poder de auto sanación, sin temor y persistentes. Expansivos, protectores, emprendedores, exitosos. Sueña en grande y si es en familia, mejor. A veces llegan al exceso. En busca del progreso material sin permitir que nadie se interponga en su camino. Su ambición lo puede corromper."
-            }
-          },
-          "9" : {
-            "object-type": "Translatable",
-            "texts" : {
-              "en" : "An extraterrestrial, spiritual, psychic, clairvoyant, egocentric, fun, intelligent, theaching and guide being. In peace with himself when he manages to deepen his self. He must be constant in what he undertakes. It flows, it is in harmony. He is a teacher, guide, psychic, clairvoyant. Sometimes it is hard on itself. His soul will be a mystery to him. It will not be known as long as it remains superficial. Naive, carefree and/or lazy.",
-              "es" : "Un ser extraterrestre, espiritual, psíquico, clarividente, egocéntrico, introvertido, inteligente, maestro y guía. En paz consigo mismo cuando logre profundizar en su YO. Debe ser constante en lo que emprende. Fluye, está en armonía. Es maestro, guía, psíquico, clarividente. A veces es duro consigo mismo. Su alma será un misterio para él. No se conocerá en tanto siga siendo superficial. Ingenuo, despreocupado y/o holgazán."
-            }
-          },
-          "10" : {
-            "object-type": "Translatable",
-            "texts" : {
-              "en" : "A leader and entrepreneur, autentic, intelligent and strategist being. Tremendous energy. Perfectionists with themselves. Power of the verb, its word is embodied. You can decree. They have tremendous inner strength. They inspire a lot of respect. Entrepreneurs.",
-              "es" : "Un ser líder y emprendedor. auténtico, inteligente y estratega. Tremenda energía. Perfeccionistas consigo mismos. Poder del verbo, su palabra se plasma. Puede decretar. Poseen una tremenda fuerza interior. Inspiran mucho respeto. Emprendedores."
-            }
-          },
-          "11" : {
-            "object-type": "Translatable",
-            "texts" : {
-              "en" : "A spiritually powerful, passionate, obstacle winner, and with great capacity being. They flow, great connection with God. Great power to transform, overcome instincts and obstacles, passionate. Sometimes with great internal confusion, conflicting, instinctive.",
-              "es" : "Un ser con poder espiritual, apasionado, vencedor de obsáculos con gran capacidad. Fluyen, gran conexión con Dios. Gran poder para transformar, vencer los instintos y obstáculos, apasionados. A veces con gran confusión interna, conflictivo, instintivo."
-            }
-          }
-        }
-      },
-      "karma" : {
-        "title" : {
-          "object-type": "Translatable",
-          "texts" : {
-            "en" : "Karma - personality number",
-            "es" : "Número del karma - personalidad"
-          }
-        },
-        "description" : {
-          "object-type": "Translatable",
-          "texts" : {
-            "en" : "The aspect I brought for showing... personality. The relationship with outer world.",
-            "es" : "El aspecto que traigo para mostrar... personalidad. La relación con el mundo externo."
-          }
-        },
+			},
+			"soul" : {
+				"title" : {
+					"object-type": "Translatable",
+					"texts" : {
+						"en" : "Tantric - Soul number",
+						"es" : "Tantrica - Número del Alma"
+					}
+				},
+				"description" : {
+					"object-type": "Translatable",
+					"texts" : {
+						"en" : "The relationship with ourselves. What's written in us.",
+						"es" : "La relación con sigo mismo. Lo que traemos escrito."
+					}
+				},
+				"qualities" : {
+					"1" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "A leader, independent, free, autosuficient, imperalist and egocentric being. Sometimes with no creativity and blocking th soul's flow when centered in mind, rage and fear.",
+							"es" : "Un ser líder, independiente, libre, autosuficiente, imperalista y egocentrico. Algunas veces sin creatividad y bloqueando el flujo del alma cuando se centran en mente, rabias y temores."
+						}
+					},
+					"2" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "A lovely, given, noble, dual, giving and sacrified being. Good person; They feel bad acting badly. They don't let themselves be dominated by depression. Emotional and emotional. Sometimes complaining and boring.",
+							"es" : "Un ser amoroso, entregado, noble, dual, dador y sacrificado por los demás. Buena persona; se sienten mal al actuar mal. No se dejan dominar por la depresión. Emocional y afectivo. Algunas veces quejosos y aburridos."
+						}
+					},
+					"3" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "A joyful, fun, with communications power, traveler, merchant and strategist being. Sometimes complaining and boring",
+							"es" : "Un ser alegre, divertido, gran poder de comunicación, viajero, buen mercader y estratega. Algunas veces quejosos y aburridos"
+						}
+					},
+					"4" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "A protector, given to others, familiar, working and entrepreneur being. Philosophical and psychological mind. You must serve your neighbor.",
+							"es" : "Un ser protector, entregado a los demás, familiar, trabajador y emprendedor. Mente filosófica y psicologica. Debe servir al prójimo."
+						}
+					},
+					"5" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "A joyful, intelligent, guiding, teaching and volatile being. Balanced and active. Disciplined, so they have contact with their soul. They should look good to feel good.",
+							"es" : "Un ser alegre, inteligente, guía, maestro, volátil, viajero. Equilibrado y activo. Disciplinados, por lo que tienen contacto con su alma. Deben verse bien para sentirse bien."
+						}
+					},
+					"6" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "A noble, given, dedicated, no limits in love, given being. Sometimes superficial, selfish; The arc line must work.",
+							"es" : "Un ser noble, entregado, dedicado, sin límites en el enamoramiento, entrega más de la cuenta. A veces superficial, egoísta; debe trabajar la línea del arco."
+						}
+					},
+					"7" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "An extraterrestrial, spiritual, psychic, clairvoyant, egocentric, fun, intelligent, theaching and guide being",
+							"es" : "Un ser extraterrestre, espiritual, psíquico, clarividente, egocéntrico, introvertido, inteligente, maestro y guía."
+						}
+					},
+					"8" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "A family, home given, materialist, ambitious and possessive being. With pure soul, divine energy with power of self healing, without fear and persistent. Expansive, protective, enterprising, successful. Dream big and if it's family, better. Sometimes they get to excess. In search of material progress without allowing anyone to stand in his way. His ambition can corrupt him.",
+							"es" : "Un ser familiar, entregado al hogar, materialista, ambicioso y posesivo. Con alma pura, energía divina con poder de auto sanación, sin temor y persistentes. Expansivos, protectores, emprendedores, exitosos. Sueña en grande y si es en familia, mejor. A veces llegan al exceso. En busca del progreso material sin permitir que nadie se interponga en su camino. Su ambición lo puede corromper."
+						}
+					},
+					"9" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "An extraterrestrial, spiritual, psychic, clairvoyant, egocentric, fun, intelligent, theaching and guide being. In peace with himself when he manages to deepen his self. He must be constant in what he undertakes. It flows, it is in harmony. He is a teacher, guide, psychic, clairvoyant. Sometimes it is hard on itself. His soul will be a mystery to him. It will not be known as long as it remains superficial. Naive, carefree and/or lazy.",
+							"es" : "Un ser extraterrestre, espiritual, psíquico, clarividente, egocéntrico, introvertido, inteligente, maestro y guía. En paz consigo mismo cuando logre profundizar en su YO. Debe ser constante en lo que emprende. Fluye, está en armonía. Es maestro, guía, psíquico, clarividente. A veces es duro consigo mismo. Su alma será un misterio para él. No se conocerá en tanto siga siendo superficial. Ingenuo, despreocupado y/o holgazán."
+						}
+					},
+					"10" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "A leader and entrepreneur, autentic, intelligent and strategist being. Tremendous energy. Perfectionists with themselves. Power of the verb, its word is embodied. You can decree. They have tremendous inner strength. They inspire a lot of respect. Entrepreneurs.",
+							"es" : "Un ser líder y emprendedor. auténtico, inteligente y estratega. Tremenda energía. Perfeccionistas consigo mismos. Poder del verbo, su palabra se plasma. Puede decretar. Poseen una tremenda fuerza interior. Inspiran mucho respeto. Emprendedores."
+						}
+					},
+					"11" : {
+						"object-type": "Translatable",
+						"texts" : {
+							"en" : "A spiritually powerful, passionate, obstacle winner, and with great capacity being. They flow, great connection with God. Great power to transform, overcome instincts and obstacles, passionate. Sometimes with great internal confusion, conflicting, instinctive.",
+							"es" : "Un ser con poder espiritual, apasionado, vencedor de obsáculos con gran capacidad. Fluyen, gran conexión con Dios. Gran poder para transformar, vencer los instintos y obstáculos, apasionados. A veces con gran confusión interna, conflictivo, instintivo."
+						}
+					}
+				}
+			},
+			"karma" : {
+				"title" : {
+					"object-type": "Translatable",
+					"texts" : {
+						"en" : "Tantric - Karma - personality number",
+						"es" : "Tantrica - Número del karma - personalidad"
+					}
+				},
+				"description" : {
+					"object-type": "Translatable",
+					"texts" : {
+						"en" : "The aspect I brought for showing... personality. The relationship with outer world.",
+						"es" : "El aspecto que traigo para mostrar... personalidad. La relación con el mundo externo."
+					}
+				},
 				"qualities" : {
 					"1" : {
 						"object-type": "Translatable",
@@ -369,22 +657,22 @@
 						}
 					}
 				}
-      },
-      "gift" : {
-        "title" : {
-          "object-type": "Translatable",
-          "texts" : {
-            "en" : "God's Divine gift number",
-            "es" : "Número regalo divino de Dios"
-          }
-        },
-        "description" : {
-          "object-type": "Translatable",
-          "texts" : {
-            "en" : "Gifts and sacred impulses given by God",
-            "es" : "Dones e impulsos sagrados dados por Dios"
-          }
-        },
+			},
+			"gift" : {
+				"title" : {
+					"object-type": "Translatable",
+					"texts" : {
+						"en" : "Tantric - God's Divine gift number",
+						"es" : "Tantrica - Número regalo divino de Dios"
+					}
+				},
+				"description" : {
+					"object-type": "Translatable",
+					"texts" : {
+						"en" : "Gifts and sacred impulses given by God",
+						"es" : "Dones e impulsos sagrados dados por Dios"
+					}
+				},
 				"qualities" : {
 					"1" : {
 						"object-type": "Translatable",
@@ -460,26 +748,26 @@
 						"object-type": "Translatable",
 						"texts" : {
 							"en" : "11 contains 6, therefore 6 is also his gift, that is, the Arc Line. When he becomes aware he will be a bridge between men and other planes, expressing the energy of any of his spiritual bodies.",
-							"es" : "El 11 contiene al 6, por lo tanto el 6 también es su regalo, es decir, la Línea del Arco. Cuando toma consciencia será puente entre  hombres y otros planos, expresando la energía de cualquiera de sus cuerpos espirituales."
+							"es" : "El 11 contiene al 6, por lo tanto el 6 también es su regalo, es decir, la Línea del Arco. Cuando toma consciencia será puente entre hombres y otros planos, expresando la energía de cualquiera de sus cuerpos espirituales."
 						}
 					}
 				}
-      },
-      "destiny" : {
-        "title" : {
-          "object-type": "Translatable",
-          "texts" : {
-            "en" : "Destiny and past lives number",
-            "es" : "Número del destino y vidas pasadas"
-          }
-        },
-        "description" : {
-          "object-type": "Translatable",
-          "texts" : {
-            "en" : "What needs to be polished from past lives. This is how peeople see us.",
-            "es" : "Lo que falta por pulir de vidas pasadas. Es como nos ven los demás."
-          }
-        },
+			},
+			"destiny" : {
+				"title" : {
+					"object-type": "Translatable",
+					"texts" : {
+						"en" : "Tantric - Destiny and past lives number",
+						"es" : "Tantrica - Número del destino y vidas pasadas"
+					}
+				},
+				"description" : {
+					"object-type": "Translatable",
+					"texts" : {
+						"en" : "What needs to be polished from past lives. This is how peeople see us.",
+						"es" : "Lo que falta por pulir de vidas pasadas. Es como nos ven los demás."
+					}
+				},
 				"qualities" : {
 					"1" : {
 						"object-type": "Translatable",
@@ -559,7 +847,75 @@
 						}
 					}
 				}
-      }
-    }
-  }
+			},
+			"name-total" : {
+				"title" : {
+					"object-type": "Translatable",
+					"texts" : {
+						"en" : "Name - Compound Number / Namank",
+						"es" : "Nombre - Numerología compuesta/ Namank"
+					}
+				},
+				"description" : {
+					"object-type": "Translatable",
+					"texts" : {
+						"en" : "Numerology total of the Name / Namank",
+						"es" : "Numerología total del Nombre / Namank"
+					}
+				},
+				"qualities" : { "registry-ref" : "number-vibrations" }
+			},
+			"name-destiny" : {
+				"title" : {
+					"object-type": "Translatable",
+					"texts" : {
+						"en" : "Name -destiny/expression number / Namanak",
+						"es" : "Nombre - Número de destino/expresión / Namanak"
+					}
+				},
+				"description" : {
+					"object-type": "Translatable",
+					"texts" : {
+						"en" : "The number which describes who you are, what you are, what you become.",
+						"es" : "El número que describe quien eres, que eres, en qué te conviertes."
+					}
+				},
+				"qualities" : { "registry-ref" : "number-vibrations" }
+			},
+			"name-soul-urge" : {
+				"title" : {
+					"object-type": "Translatable",
+					"texts" : {
+						"en" : "Name -Soul Urge/Heart Desire Number",
+						"es" : "Nombre - Número de impulso del alma"
+					}
+				},
+				"description" : {
+					"object-type": "Translatable",
+					"texts" : {
+						"en" : "The number which describes your inner potentials and inner resources.",
+						"es" : "El  número que describe tus potenciales internos y recursos internos."
+					}
+				},
+				"qualities" : { "registry-ref" : "number-vibrations" }
+			},
+			"name-dream" : {
+				"title" : {
+					"object-type": "Translatable",
+					"texts" : {
+						"en" : "Name -Dream/Personality Number",
+						"es" : "Nombre - Número de Sueño/Personalidad"
+					}
+				},
+				"description" : {
+					"object-type": "Translatable",
+					"texts" : {
+						"en" : "The number which describes personality, your first impression on others.",
+						"es" : "El número que describe la personalidad, tu primer impresión en los demás."
+					}
+				},
+				"qualities" : { "registry-ref" : "number-vibrations" }
+			}
+		}
+	}
 }
