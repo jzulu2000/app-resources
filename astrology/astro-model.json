@@ -3,301 +3,92 @@
 		"Translatable" : "co.com.twelvestars.commons.polls.Translatable"
 	},
 	"registry" : {
-		"vibration-24" : {
-			"object-type": "Translatable",
-			"texts" : {
-				"en" : "This number is fortunate; it promises the assistance and association of those of rank and position with one’s plans; it also denotes gain through love and the opposite sex; it is a favourable number when it comes out in relation to future events.",
-				"es" : "Este número también es afortunado; promete la asistencia y asociación de aquellos de rango y posición con los planes de uno; también denota ganancia a través del amor y el sexo opuesto; Es un número favorable cuando sale en relación con eventos futuros."
-			}
-		},
-		"vibration-25" : {
-			"object-type": "Translatable",
-			"texts" : {
-				"en" : "This is a number denoting strength gained through experience, and benefits obtained through observation of people and things. It is not deemed exactly “lucky”, as its success is given through strife and trials in an earlier life. It is favourable when it appears in regard to the future.",
-				"es" : "Este es un número que denota la fuerza adquirida a través de la experiencia y los beneficios obtenidos a través de la observación de personas y cosas. No se considera exactamente \"afortunado\", ya que su éxito se obtiene a través de conflictos y pruebas en una vida anterior. Es favorable cuando aparece en relación con el futuro."
-			}
-		},
-		"vibration-26" : {
-			"object-type": "Translatable",
-			"texts" : {
-				"en" : "This number is full of the gravest warnings for the future. It foreshadows disasters brought about by association with others; ruin by bad speculations, by partnerships, unions and bad advice. If it comes out in connection with future events one should carefully consider the path one is treading.",
-				"es" : "Este número está lleno de las advertencias más graves para el futuro. Presagia los desastres provocados por la asociación con otros; ruina por malas especulaciones, por asociaciones, sindicatos y malos consejos. Si surge en relación con eventos futuros, uno debe considerar cuidadosamente el camino que está siguiendo."
-			}
-		},
-		"vibration-27" : {
-			"object-type": "Translatable",
-			"texts" : {
-				"en" : "This is a good number and is symbolized as “the Sceptre.” It is a promise of authority, power and command. It indicates that reward will come from the productive intellect; that the creative faculties have sown good seeds that will reap a harvest. Persons with this “command” number at their back should carry out their own ideas and plans. It is a fortunate number if it appears in any connection with future events.",
-				"es" : "Este es un buen número y está simbolizado como \"el Cetro\". Es una promesa de autoridad, poder y comando. Indica que la recompensa vendrá del intelecto productivo; que las facultades creativas han sembrado buenas semillas que cosecharán. Las personas con este número de \"comando\" a sus espaldas deben llevar a cabo sus propias ideas y planes. Es un número afortunado si aparece en alguna conexión con eventos futuros."
-			}
-		},
-		"vibration-29" : {
-			"object-type": "Translatable",
-			"texts" : {
-				"en" : "It is not a fortunate number for the indication of future events. This number indicates uncertainties, treachery, and deception of others; it foreshadows trials, tribulation, and unexpected dangers, unreliable friends, and grief and deception caused by members of the opposite sex. It gives grave warning if it comes out in anything concerning future events.",
-				"es" : "No es un número afortunado para indicar eventos futuros. Este número indica incertidumbres, traiciones y engaños de otros; presagia pruebas, tribulaciones y peligros inesperados, amigos poco confiables y dolor y engaño causados \u200B\u200Bpor miembros del sexo opuesto. Da una advertencia grave si sale en algo relacionado con eventos futuros."
-			}
-		},
-		"vibration-30" : {
-			"object-type": "Translatable",
-			"texts" : {
-				"en" : "This is a number of thoughtful deduction, retrospection, and mental superiority over one’s fellows, but as it seems to belong completely to the mental plane, the persons it represents, are likely to put all material things on one side — not because they have to, but because they wish to do so. For this reason it is neither fortunate nor unfortunate, for either depends on the mental outlook of the person it represents. It can be all powerful, but it is just as often indifferent according to the will or desire of the person.",
-				"es" : "Esta es una serie de deducciones reflexivas, retrospección y superioridad mental sobre los compañeros, pero como parece pertenecer completamente al plano mental, las personas que representa es probable que pongan todas las cosas materiales de un lado, no porque tengan que hacerlo. , pero porque desean hacerlo. Por esta razón, no es ni afortunado ni desafortunado, ya que depende de la perspectiva mental de la persona que representa. Puede ser todo poderoso, pero a menudo es indiferente según la voluntad o el deseo de la persona."
-			}
-		},
-		"vibration-31" : {
-			"object-type": "Translatable",
-			"texts" : {
-				"en" : "This number is very similar to the preceding one, except that the person it represents is even more self-contacted, lonely, and isolated from his fellows. It is not a fortunate number from a worldly or material standpoint.",
-				"es" : "Este número es muy similar al anterior, excepto que la persona que representa es aún más autocontactada, solitaria y aislada de sus compañeros. No es un número afortunado desde un punto de vista mundano o material."
-			}
-		},
-		"vibration-32" : {
-			"object-type": "Translatable",
-			"texts" : {
-				"en" : "This number has a magical power like the single 5, or the “command” numbers 14 and 23. It is usually associated with combinations of people or nations. It is a fortunate number if the person it represents holds to his own judgment and opinions; if not, his plans are likely to be wrecked by the stubbornness and stupidity of others. It is a favourable number if it appears in connection with future events.",
-				"es" : "Este número tiene un poder mágico como el solo 5, o el \"comando\" números 14 y 23. Por lo general, se asocia con combinaciones de personas o naciones. Es un número afortunado si la persona que representa tiene su propio juicio y opiniones; si no, es probable que sus planes se vean afectados por la terquedad y la estupidez de los demás. Es un número favorable si aparece en relación con eventos futuros."
-			}
-		},
-		"vibration-37" : {
-			"object-type": "Translatable",
-			"texts" : {
-				"en" : "This number has a distinct potency of its own. It is a number of good and fortunate friendships in love, and in combinations connected with the opposite sex. It is also good for partnerships of all kinds. It is a fortunate indication if it appears in connection with future events.",
-				"es" : "Este número tiene una potencia distinta propia. Es una serie de buenas y afortunadas amistades en el amor, y en combinaciones relacionadas con el sexo opuesto. También es bueno para asociaciones de todo tipo. Es una indicación afortunada si aparece en relación con eventos futuros."
-			}
-		},
-		"vibration-43" : {
-			"object-type": "Translatable",
-			"texts" : {
-				"en" : "This is an unfortunate number. It is symbolized by the signs of revolution, upheaval, strife, failure, and prevention and is not a fortunate number if it comes out in calculation relating to future events.",
-				"es" : "Este es un número desafortunado. Está simbolizado por los signos de revolución, agitación, lucha, fracaso y prevención y no es un número afortunado si sale en el cálculo relacionado con eventos futuros."
-			}
-		}
-	},
-	"registry" : {
 		"number-vibrations" : {
 			"1" : {
 				"object-type": "Translatable",
 				"texts" : {
-					"en" : "One represents the male principle, the yang. It is self-consciousness. It is original, independent, aggressive, individualistic, creative, dominate; the first in a series, the leader. In standard Tarot One is the Magician or Magus – Divine Purpose",
-					"es" : "Uno representa el principio masculino, el yang. Es la autoconciencia. Es original, independiente, agresivo, individualista, creativo, dominante; El primero de una serie, el líder. En el Tarot Uno estándar está el Mago o el Mago - Propósito Divino."
+					"en" : "LEADER.\n\nPositive characteristics: with strength, ambition, ability to occupy command posts. Enthusiasts, creative, original and act to make their ideas productive. With skills to develop their potential in all areas. They believe in themselves, are ambitious and live intensely. Always in search of perfection. Quick to typecast events.\n\nNegative characteristics: It can become dictators and reckless in the deal which can lead to failure. His achievements and successes can transform him into self-centered, vain, individualistic, unable to listen to advice by becoming stubborn and stubborn.\n\nPossible professions: inventor, aviator, military, engineer, teacher, company director.",
+					"es" : "LÍDER.\n\nCaracterísticas positivas: con fuerza, ambición, habilidad para ocupar puestos de mandos. Entusiastas, creativos, originales y accionan para que sus ideas sean productivas. Con dotes para desarrollar su potencial en todos los ámbitos. Creen en si mismos, son ambiciosos y viven intensamente. Siempre en búsqueda de la perfección. Rápidos para encasillar los acontecimientos.\n\nCaracterísticas negativas: Puede volverse dictadores e imprudentes en el trato lo cual puede llevarle al fracaso. Sus logros y éxitos pueden transformarlo en egocéntrico, vanidoso, individualista, incapaz de escuchar consejos volviéndose terco y obstinado.\n\nPosibles profesiones: inventor, aviador, militar, ingeniero, profesor, director de empresa."
 				}
 			},
 			"2" : {
 				"object-type": "Translatable",
 				"texts" : {
-					"en" : "Two is the pair, the duo, representing the feminine principle of receptivity, the yin, which seeks a union of two distinct entities, thus the development of choice began between good and evil, true and false, and positive and negative. It is adaptable, tactful, understanding, gentle, cautious; a follower rather than a leader. In standard Tarot Two is The High Priestess – Divine Feminine.",
-					"es" : "Dos es la pareja, el dúo, que representa el principio femenino de receptividad, el yin, que busca la unión de dos entidades distintas, por lo que el desarrollo de la elección comenzó entre el bien y el mal, lo verdadero y lo falso, y lo positivo y lo negativo. Es adaptable, discreto, comprensivo, gentil, cauteloso; un seguidor en lugar de un líder. En el Tarot estándar dos está La Suma Sacerdotisa - Divina Femenina."
+					"en" : "FRIEND.\n\nPositive features: The great friend, The ideal employee, The perfect couple. They show great interest and consideration for others; good friends. Cooperatives, the ideal employees; great organizers and perfectly meet the guidelines. With power of concentration. You can take over temporarily with spontaneity, responsibility and ease. They do not tolerate the lack of harmony and aggressive situations irreparably alter it, but will seek to correct the situation. The most marked facet focuses on the search for peace; a peacemaker will always be a number two; You must learn to take life less seriously, cultivate a sense of humor.\n\nNegative characteristics: Their need to please others can lead them to follow or be influenced against their principles. Their indecision or uncertainty makes them vulnerable to others who can take advantage; They must master their mood swings and hypersensitivity.\n\nPossible professions: diplomat, musician or painter, accountant, analyst, librarian,\npolitical, human resources, conflict mediator.",
+					"es" : "AMIGO.\n\nCaracterísticas positivas: El amigo estupendo, El empleado ideal, La pareja perfecta. Demuestran gran interés y consideración por los demás; buenos amigos. Cooperativos, los empleados ideales; grandes organizadores y cumplen a la perfección las pautas trazadas. Con poder de concentración. Puede asumir el mando temporalmente con espontaneidad, responsabilidad y facilidad. No toleran la falta de armonía y las situaciones agresivas lo alteran irremediablemente, pero buscará subsanar la situación. La faceta más marcada se centra en la búsqueda de la paz; un pacificador será siempre un numero dos; debe aprender a tomarse la vida con menos seriedad, cultivar el sentido del humor.\n\nCaracterísticas negativas: Su necesidad de agradar a los demás puede llevarlos a seguir o dejarse influir en contra de sus principios. Su indecisión o incertidumbre les hace vulnerables frente a otros que pueden aprovecharse; deben dominar sus cambios de humor y su hipersensibilidad.\n\nPosibles profesiones: diplomático, músico o pintor, contador, analista, bibliotecario,\npolítico, recursos humanos, mediador de conflictos."
 				}
 			},
 			"3" : {
 				"object-type": "Translatable",
 				"texts" : {
-					"en" : "Three is manifestation and expansion. It is the performer who possesses an innate appreciation of pleasure, romance, art, and beauty. Its creative imagination allows all things to be possible. It is expansive, sociable, dramatic, communicative, diversified, and creative. In standard Tarot it is The Empress – Divine Activity.",
-					"es" : "Tres es manifestación y expansión. Es el artista que posee una innata apreciación del placer, el romance, el arte y la belleza. Su imaginación creativa permite que todo sea posible. Es expansivo, sociable, dramático, comunicativo, diversificado y creativo. En el Tarot estándar es The Empress - Divine Activity."
+					"en" : "COMMUNICATOR.\n\nPositive characteristics: they solve their problems through the word, the expression of itself is true happiness, because life and interactions are inspired by its inner being. They develop artistic activities, such as music, theater or dance. Friendship is very important, but their introspection and strong external image prevents others from accepting them as they are. Able to see beauty and charm in all things.\n\nNegative characteristics: Its great enemy is loneliness, its tendency to extreme manias as its demand with order, cleanliness and personal neatness make the number 3 a difficult couple. They flee from prolonged and deep relationships for fear of abandonment. Many links, but none true.\n\nPossible professions: journalist, writer, actor, humorist, producer, seller,\npublic relations, singer.",
+					"es" : "COMUNICADOR.\n\nCaracterísticas positivas: resuelven sus problemas a través de la palabra, la expresión de si mismo es la verdadera felicidad, pues la vida y las interacciones están inspiradas por su ser interior. Desarrollan actividades artísticas, como la música, teatro o danza. La amistad es muy importante, pero su introspección y fuerte imagen exterior impide que los demás les acepten como son. Capaces de ver la belleza y el encanto en todas las cosas.\n\nCaracterísticas negativas: Su gran enemigo es la soledad, su tendencia a las manías extremas como su exigencia con el orden, la limpieza y la pulcritud personal hacen del número 3 una pareja difícil. Huyen de las relaciones prolongadas y profundas por miedo al abandono. Muchos vínculos, pero ninguno verdadero.\n\nPosibles profesiones: periodista, escritor, actor, humorista, productor, vendedor,\nrelaciones públicas, cantante."
 				}
 			},
 			"4" : {
 				"object-type": "Translatable",
 				"texts" : {
-					"en" : "Four is square consciousness, representing the 4 seasons. The symbol of law, system and order. It is firmness, security, stability and consortiums. Four is nature and relates to the earth, therefore develops a practical nature, and through self-discipline, binds itself to a conventional routine excretes of its energy. It is form, work order, practicality, construction, stability, endurance, and discipline. In standard Tarot it is The Emperor – Divine Overcoming.",
-					"es" : "Cuatro es conciencia cuadrada, que representa las 4 estaciones. El símbolo de la ley, el sistema y el orden. Es firmeza, seguridad, estabilidad y consorcios. Cuatro es la naturaleza y se relaciona con la tierra, por lo tanto, desarrolla una naturaleza práctica y, a través de la autodisciplina, se une a una rutina convencional que excreta su energía. Es forma, orden de trabajo, practicidad, construcción, estabilidad, resistencia y disciplina. En el Tarot estándar es El Emperador - Superación Divina."
+					"en" : "BUILDER.\n\nPositive characteristics: they create in the professional fields, in family life and in social relationships. Respect the established order and laws; his mottos are sincerity and truth; Playing fair represents them. Highly valued, both in their work or by their friends for being willing to give accurate and sincere advice. Constant travelers in search of strong emotions. With a solid criterion of reality, they use their full potential to achieve the desired goals. They stand out in commercial activities and all activities that do not need concentration.\n\nNegative characteristics: Their tendency to get bored easily makes contingencies a motivation to investigate and feel alive; but they also fall into excesses and dangerous situations. Tendency to omnipotent behaviors finding the rejection of others.\n\nPossible professions: company director, judge, lawyer, engineer, administration economist, builder, operator, mechanic, farmer.",
+					"es" : "CONSTRUCTOR.\n\nCaracterísticas positivas: crean en los ámbitos profesional, en la vida familiar y las relaciones sociales. Respetan el orden y las leyes establecidas; sus lemas son la sinceridad y la verdad; jugar limpio los representa. Muy valorados, tanto en sus trabajos o por sus amigos por estar dispuestos a dar un consejo certero y sincero. Viajeros constantes en busca de fuertes emociones. Con un sólido criterio de realidad, usan todo su potencial para alcanzar las metas deseadas. Se destacan en las actividades comerciales y todas actividades que no necesiten concentración.\n\nCaracterísticas negativas: Su tendencia a aburrirse con facilidad hacen de los imprevistos una motivación para investigar y sentirse vivos; pero también caen en excesos y situaciones peligrosas. Tendencia a comportamientos omnipotentes encontrando el rechazo de los demás.\n\nPosibles profesiones: director de empresa, juez, abogado, ingeniero, economista administración, constructor, operario, mecánico, agricultor."
 				}
 			},
 			"5" : {
 				"object-type": "Translatable",
 				"texts" : {
-					"en" : "Five represents vital force. Five is freedom, change and adventure. Five attracts the opposite sex because of the irresistible magnetism, and this attraction set the stage for the domestic responsibilities. It is versatility, resourcefulness, adaptability, change, activity, travel, adventure, promotion, and speculation. In standard Tarot it is The Hierophant – Divine Voice.",
-					"es" : "Cinco representa la fuerza vital. Cinco es libertad, cambio y aventura. Cinco atrae al sexo opuesto debido al magnetismo irresistible, y esta atracción preparó el escenario para las responsabilidades domésticas. Es versatilidad, ingenio, adaptabilidad, cambio, actividad, viaje, aventura, promoción y especulación. En el Tarot estándar es El Hierofante - Voz Divina."
+					"en" : "FREE SPIRIT.\n\nPositive characteristics: they symbolize freedom; He feels loose, free to experiment and browse freely. Receptive ability to enjoy beauty, appreciate art and its perceptual talent. His restless spirit will lead him to travel in search of new experiences, which will be the seeds to create new ideas, knowledge and advanced concepts. Everything you believe will be out of the ordinary. Turn the page easily, because there is always something new to think about, you have to go light luggage to receive the new challenges. His thinking is analytical and tries to find the reason for things. You need to have few ties to fully develop.\n\nNegative characteristics: Their need for freedom makes them behave inconsiderately with others. In their relationships they are selfish, have a bad character and very emotional and can get violent. If he loses his temper in public, he will be impulsive, blaspheming verbal insults, humiliating, rude, loud and defiant. His great lesson is to learn to control his temper, cultivate patience, tolerance, understanding and respect for others. You need more self-criticism.\n\nPossible professions: psychiatrist, psychologist, salesperson, team leader, promoter, producer, tour guide, correspondent.",
+					"es" : "ESPÍRITU LIBRE.\n\nCaracterísticas positivas: simbolizan la libertad; se siente suelto, libre para experimentar y curiosear libremente. Capacidad receptiva para disfrutar de la belleza, apreciar el arte y su talento perceptivo. Su espíritu inquieto lo llevara a viajar en busca de nuevas experiencias, que serán las semillas para crear nuevas ideas, conocimientos y conceptos de avanzada. Todo lo que cree estará fuera de lo común. Pasa página con facilidad, pues siempre hay algo nuevo en que pensar, hay que ir ligero de equipaje para recibir los nuevos desafíos. Su pensamiento es analítico y trata de encontrar el porqué de las cosas. Necesita tener pocas ataduras para poder desarrollarse con plenitud.\n\nCaracterísticas negativas: Su necesidad de libertad los hace comportarse de forma desconsiderada con los demás. En sus relaciones son egoístas, tienen mal carácter y muy emotivos y pueden ponerse violentos. Si pierde los estribos en público, se mostrara impulsivo, blasfemando injurias verbales, humillando, grosero, gritón y desafiante. Su gran lección es aprender a controlar su temperamento, cultivar la paciencia, tolerancia, la comprensión y el respeto por los otros. Necesita más autocrítica.\n\nPosibles profesiones: psiquiatra, psicólogo, vendedor, jefe de equipo, promotor, productor, guía turístico, corresponsal."
 				}
 			},
 			"6" : {
 				"object-type": "Translatable",
 				"texts" : {
-					"en" : "On the sixth day, GOD made human beings. “In the image of GOD created He him, male and female created He them,” (Genesis 1:27) Six is conscientious; it desires to bring harmony, truth, justice and a sense of balance into its environment. Love and compassion are uppermost in its mind, and it can therefore be an effective teacher, counsellor or healer. Others are drawn to it because of the understanding, which emanates from it. It is family and social responsibility, service, love, compassion, counselling, healing, and creativity. In standard Tarot it is The Lovers – Divine Path.",
-					"es" : "En el sexto día, DIOS hizo seres humanos. \"A imagen de DIOS lo creó, hombre y mujer los creó\" (Génesis 1:27) Seis es concienzudo; desea traer armonía, verdad, justicia y un sentido de equilibrio a su entorno. El amor y la compasión son lo más importante en su mente, y por lo tanto puede ser un maestro, consejero o sanador efectivo. Otros se sienten atraídos por el entendimiento que emana de él. Es la responsabilidad familiar y social, el servicio, el amor, la compasión, el asesoramiento, la curación y la creatividad. En el Tarot estándar es The Lovers - Divine Path."
+					"en" : "RESPONSABLE.\n\nPositive characteristics: they symbolize idealism, responsibility, justice and truth; their maternal / paternal instinct guides them as heads of family who take care of their own, a characteristic that they fully develop as bosses in their work or with responsibilities within their community. His life focuses on home and his family. The influence of the number 6 is in the humanitarian service; develop counseling, support or service to others. Your sympathy, generosity, wisdom and understanding are the foundations of your life and define how you interpret it. Good works are part of everyday life and enjoy arts, music or a beautiful landscape. They are excellent conflict mediators; His good advice and intelligent conclusions illuminate and persuade a conciliation.\n\nNegative characteristics: excess responsibilities can make you a slave, especially from your own family or friends. His wisdom should serve to teach the weakest to cope with their problems. They have a tendency to emotional ups and downs and negativity.\n\nPossible professions: doctor, nurse, social worker, official\npublic, musician, homeowner, teacher, religious, designer, interior decorator.",
+					"es" : "RESPONSABLE.\n\nCaracterísticas positivas: simbolizan el idealismo, la responsabilidad, la justicia y la verdad; su instinto maternal/paternal los guía como jefes de familia que cuidan de los suyos, característica que desarrollan plenamente como jefes en su trabajo o con responsabilidades dentro de su comunidad. Su vida se centra el hogar y su familia. La influencia del número 6 se encuentra en el servicio humanitario; desarrollan actividades de asesoramiento, apoyo o servicio al prójimo. Su simpatía, generosidad, sabiduría y comprensión son los fundamentos de su vida y definen como la interpretan. Las buenas obras forman parte de lo cotidiano y disfrutan con las artes, la música o un bello paisaje. Son excelentes mediadores de conflictos; sus buenos consejos e inteligentes conclusiones iluminan y persuaden para una conciliación.\n\nCaracterísticas negativas: el exceso de responsabilidades lo pueden convertir en esclavo, especialmente de su propia familia o amigos. Su sabiduría debe servirle para enseñar a los más débiles a sobrellevar sus problemas. Tienen tendencia a los altibajos emocionales y la negatividad.\n\nPosibles profesiones: médico, enfermero, asistente social, funcionario\npúblico, músico, dueña de casa, profesor, religioso, diseñador, decorador de interiores."
 				}
 			},
 			"7" : {
 				"object-type": "Translatable",
 				"texts" : {
-					"en" : "Seven seeks answers. It tries to establish a philosophy by which to live and attempts to penetrate the mystery behind its existence, which it never questioned to this point. Because solitude is necessary for analysis, the seven feels the need to spend time alone, away from the crowds, in touch with nature. It looks for friendship with those of an elevated consciousness that can match its own. It is quiet, introspective, intuitive, analytical, inspirational, reclusive, philosophical, and mystical. In standard Tarot it is The Chariot – Divine Victory.",
-					"es" : "Siete busca respuestas. Intenta establecer una filosofía por la cual vivir e intenta penetrar el misterio detrás de su existencia, que nunca cuestionó hasta este punto. Debido a que la soledad es necesaria para el análisis, los siete sienten la necesidad de pasar tiempo solos, lejos de las multitudes, en contacto con la naturaleza. Busca amistad con los de una conciencia elevada que puede igualar la suya. Es tranquilo, introspectivo, intuitivo, analítico, inspirador, solitario, filosófico y místico. En el Tarot estándar es El carro - Victoria divina."
+					"en" : "PERFECTIONIST.\n\nPositive characteristics: they have the gift for research, observation and acute analysis; They have mental speed to analyze situations, demanding perfection. Because of their ability to capture knowledge, they represent researchers, students or scientists who reach their own conclusions. His soul is peaceful and affectionate, very intuitive immediately recognizes the one who is not sincere; His few friends are for life. Little sociable, its reserve is interpreted as a distancing, but in reality they hide a sense of insecurity. They need time to be calm with their own thoughts and their dearest dreams. The 7 is a spiritual number, connected with the mystic clings to intuition and its experience as a spiritual guide; He doesn't like advice; trust your inner voice more. Of few words. His thoughts and opinions are saved, although if he finds a valid interlocutor, he will draw his knowledge and speak with authority.\n\nNegative characteristics: it can be pessimistic, selfish and spoiled. Lonely He prefers to read a book than being with uninteresting people.\n\nPossible professions: scientist, professor, analyst, writer, judge, lawyer, psychologist, musician, religious, historian, archaeologist, mystic or related to esoteric activities.",
+					"es" : "PERFECCIONISTA.\n\nCaracterísticas positivas: tienen el don para la investigación, la observación y el análisis agudo; poseen rapidez mental para analizar las situaciones, exigiéndose la perfección. Por su capacidad para captar conocimientos, representan a los investigadores, estudiantes o científicos que llegan a sus propias conclusiones. Su alma es pacífica y cariñosa, muy intuitivo reconoce de inmediato aquel que no es sincero; sus pocos amigos son para toda la vida. Poco sociable, su reserva es interpretada como un distanciamiento, pero en realidad esconden una sensación de inseguridad. Necesitan tiempo para estar tranquilos con sus propios pensamientos y sus sueños más queridos. El 7 es un número espiritual, conectado con lo místico se aferra a la intuición y a su experiencia como guía espiritual; no le gustan los consejos; confía más en su voz interior. De pocas palabras. Se guarda su pensamiento y opiniones, aunque si encuentra un interlocutor válido, sacara su conocimiento y hablara con autoridad.\n\nCaracterísticas negativas: puede ser pesimista, egoísta y malcriado. Solitarios. Prefiere leer un libro que estar con personas poco interesantes.\n\nPosibles profesiones: científico, profesor, analista, escritor, juez, abogado, psicólogo, músico, religioso, historiador, arqueólogo, místico o relacionado a actividades esotéricas."
 				}
 			},
 			"8" : {
 				"object-type": "Translatable",
 				"texts" : {
-					"en" : "Eight is infinity – that of eternal and continuous spiral motions, which is constant throughout the universe. Eight will always assume power, for it has achieved control and responsibility in its chosen field. Recognition and financial rewards are bestowed and expansion and growth in the business world take place. Eight is power, responsibility, financial rewards, good judgment, and recognition. In standard Tarot it is Justice – Divine Balance",
-					"es" : "Ocho es infinito, el de los movimientos espirales eternos y continuos, que es constante en todo el universo. Ocho siempre asumirá el poder, ya que ha logrado el control y la responsabilidad en el campo elegido. Se otorgan reconocimientos y recompensas financieras y se lleva a cabo la expansión y el crecimiento en el mundo de los negocios. Ocho es poder, responsabilidad, recompensas financieras, buen juicio y reconocimiento. En el Tarot estándar es Justicia - Equilibrio Divino"
+					"en" : "SUCCESSFUL.\n\nPositive characteristics: they have the ambition to achieve objectives. Their organizational skills, tenacity and independence are appropriate to lead, govern and direct long-range plans to their success. They represent executives with the capacity to encourage their people to use their full potential for their own benefit. His enthusiasm is contagious and causes inspiration to be followed. Practical and constant in their objectives, they do not miss the opportunities that life offers them. They seek to be recognized for their work and achievements. They perform excellently in the competition of the business world or in the political sphere. In their relationships they are open, honest and firm, but their occupations and concerns keep them away from them; they must seek love to mitigate and soften their character, affection and affection open their hearts whenever they manage to place it within one of the projects of their lives.\n\nNegative characteristics: They can be dictatorial, overshadowing the fundamental contribution they need to achieve their goals in the people around them. The strength of your personality can scare people who want to approach. Dedication to work in search of success and recognition can become an obsession, leading to isolation and loneliness.\n\nPossible professions: stockbroker, business executive, politician, military, manager, lawyer, industrial, expert, industrial, editor, publicist, film or theater director, critic.",
+					"es" : "EXITOSO.\n\nCaracterísticas positivas: tienen la ambición para lograr objetivos. Sus dotes organizativas, su tenacidad e independencia son las apropiadas para conducir, gobernar y dirigir planes de largo alcance hasta su éxito. Representan a los ejecutivos con capacidad para impulsar a que su gente use su máximo potencial en su propio beneficio. Su entusiasmo es contagioso y provoca la inspiración para que le sigan. Prácticos y constantes en sus objetivos, no dejan pasar las oportunidades que la vida les ofrece. Buscan ser reconocidos por su labor y sus logros. Se desempeñan estupendamente en la competencia del mundo de los negocios o en el ámbito político. En sus relaciones se muestran abiertos, honestos y firmes, pero sus ocupaciones y preocupaciones los mantienen alejado de ellas; deben buscar el amor para mitigar y suavizar su carácter, el afecto y cariño abren su corazón siempre que logren ubicarlo dentro de uno de los proyectos de sus vidas.\n\nCaracterísticas negativas: Pueden ser dictatoriales, ensombreciendo el aporte fundamental que necesitan para lograr sus objetivos en la gente que les rodea. La fuerza de su personalidad puede espantar a gente que desea acercarse. La dedicación al trabajo en busca del éxito y el reconocimiento puede convertirse en una obsesión, llevándole al aislamiento y la soledad.\n\nPosibles profesiones: corredor de bolsa, ejecutivo de negocios, político, militar, gerente, abogado, industrial, perito, industrial, editor, publicista, director de cine o de teatro, crítico."
 				}
 			},
 			"9" : {
 				"object-type": "Translatable",
 				"texts" : {
-					"en" : "Nine contains the forces of all the other numbers. It stands for complete cycle of growth. Nine is Selflessness and Compassion. Encompassing a love for all, it desires to apply its energy to universal service. Nine is love, compassion, patience, universality, tolerance, selfless service, and endings. In standard Tarot it is The Hermit – Divine Light",
-					"es" : "Nueve contiene las fuerzas de todos los otros números. Es sinónimo de ciclo completo de crecimiento. Nueve es desinterés y compasión. Abarcando un amor por todos, desea aplicar su energía al servicio universal. Nueve es amor, compasión, paciencia, universalidad, tolerancia, servicio desinteresado y finales. En el Tarot estándar es El Ermitaño - Luz Divina"
+					"en" : "PHILOSOPHER.\n\nPositive characteristics: great qualities for the mystic and occult sciences; their fine sensitivity allows them to perceive the moods of others. They enjoy music, colors and beautiful things. They have very developed generosity and compassion. They inspire confidence and feel responsible for people less fortunate than them. Their generosity leads them to put their assets in projects that have to do with the common good or in humanitarian works. Its friendly, friendly and pleasant character attracts others, making friends almost immediately. In their relationships, their kind behavior and openness prevail. They are spiritual guides, teachers or educators.\n\nNegative features: Beware of drama. You must find a balance between doing and giving for others.\n\nPossible professions: doctor, history teacher, nurse, lawyer, writer, photographer, archaeologist, actor, dancer, politician, mesenas, art specialist, philanthropist.",
+					"es" : "FILÓSOFO.\n\nCaracterísticas positivas: grandes cualidades para lo místico y las ciencias ocultas; su sensibilidad fina les permite percibir los estados de ánimos de los otros. Gozan con la música, los colores y las cosas bellas. Tienen muy desarrollada la generosidad y la compasión. Inspiran confianza y se sienten responsable por las personas menos afortunadas que ellos. Su generosidad los lleva a poner sus bienes en proyectos que tengan que ver con el bien común o en obras de carácter humanitario. Su carácter simpático, amistoso y agradable atrae a los demás, entablando amistad casi de inmediato. En sus relaciones prevalece su comportamiento amable y su franqueza. Son guías espirituales, maestros o educadores.\n\nCaracterísticas negativas: Cuidado con el dramatismo. Deberá encontrar un equilibrio entre el hacer y el dar por los demás.\n\nPosibles profesiones: médico, profesor de historia, enfermero, abogado, escritor, fotógrafo, arqueólogo, actor, bailarín, político, mesenas, especialista en arte, filántropo."
 				}
-			},
-			"10" : {
-				"object-type": "Translatable",
-				"texts" : {
-					"en" : "“Wheel of Fortune”. It is a number of honour, of faith and self-confidence, of rise and fall; one’s name will be known for good or evil, according to one’s desires; it is a fortunate number in the sense that one’s plans are likely to be carried out.",
-					"es" : "\"Rueda de la fortuna\". Es un número de honor, de fe y confianza en sí mismo, de ascenso y caída; el nombre de uno será conocido para bien o para mal, de acuerdo con los deseos de uno; es un número afortunado en el sentido de que es probable que se lleven a cabo los planes."
-				}
-			},
-			"11" : {
-				"object-type": "Translatable",
-				"texts" : {
-					"en" : "This is an ominous number to occultists. It gives warning of hidden dangers, trial, and treachery from others. It has a symbol of a “Clenched Hand”, and “a Lion Muzzled”, and of a person who will have great difficulties to contend against.",
-					"es" : "Este es un número siniestro para los ocultistas. Advierte sobre peligros ocultos, juicios y traiciones de otros. Tiene el símbolo de una \"Mano Apretada\", y \"un León Muzzled\", y de una persona que tendrá grandes dificultades para luchar."
-				}
-			},
-			"12" : {
-				"object-type": "Translatable",
-				"texts" : {
-					"en" : "The symbolism of this number is suffering and anxiety of mind. It is also indicated as “the Sacrifice” or “the Victim” and generally foreshadows one being sacrificed for the plans or intrigues of others.",
-					"es" : "El simbolismo de este número es sufrimiento y ansiedad mental. También se indica como \"el Sacrificio\" o \"la Víctima\" y generalmente presagia el sacrificio de uno por los planes o intrigas de los demás."
-				}
-			},
-			"13" : {
-				"object-type": "Translatable",
-				"texts" : {
-					"en" : "This is a number indicating change of plans, place and such-like and is not unfortunate, as is generally supposed. In some of the ancient writings it is said, “He who understands the number 13 will be given power and dominion”. It is symbolized by the picture of a “Skeleton” of “Death,” with a scythe reaping down men, in a field of new-grown grass where young faces and heads appear crop ping up on every side. It is a number of upheaval and destruction. It is a symbol of “Power” which if wrongly used will wreak destruction upon oneself. It is a number of warning of the unknown or unexpected, if it becomes a “compound” number in one’s calculations.",
-					"es" : "Este es un número que indica un cambio de planes, lugar y similares, y no es desafortunado, como generalmente se supone. En algunos de los escritos antiguos se dice: \"Al que entiende el número 13 se le dará poder y dominio\". Está simbolizado por la imagen de un \"Esqueleto\" de \"Muerte\", con una guadaña cosechando a los hombres, en un campo de hierba recién crecida donde aparecen rostros y cabezas jóvenes que surgen a cada lado. Es una serie de trastornos y destrucción. Es un símbolo de \"Poder\" que, si se usa incorrectamente, causará destrucción sobre uno mismo. Es un número de advertencia de lo desconocido o inesperado, si se convierte en un número \"compuesto\" en los cálculos de uno."
-				}
-			},
-			"14" : {
-				"object-type": "Translatable",
-				"texts" : {
-					"en" : "This is a number of movements, combination of people and things, and danger from natural forces such as tempests, water, air or fire. This number is fortunate for dealings with money, speculation and changes in business, but there is always a strong element of risk and danger attached to it, but generally owing   to the actions and fool hardiness of others. If this number comes out in calculations of future events the person should be warned to act with caution and prudence.",
-					"es" : "Este es un número de movimientos, combinación de personas y cosas, y peligro de fuerzas naturales como tempestades, agua, aire o fuego. Este número es afortunado por los tratos con el dinero, la especulación y los cambios en los negocios, pero siempre hay un fuerte elemento de riesgo y peligro asociado, pero generalmente debido a las acciones y la insensatez de otros. Si este número sale en los cálculos de eventos futuros, se debe advertir a la persona que actúe con precaución y prudencia."
-				}
-			},
-			"15" : {
-				"object-type": "Translatable",
-				"texts" : {
-					"en" : "This is a number of occult significance, of magic and mystery; but as a rule it does not represent the higher side of occultism, its meaning being that the persons represented by it will use every art of magic they can to carry out their purpose. If associated with a good or fortunate single number, it can be very lucky and powerful, but if associated with one of the peculiar numbers, such as a 4 or an 8, the person it represents will not hesitate to use any sort of art, or even ”black-magic,” to gain what he or she desires.\nIt is peculiarly associated with “good talkers,” often with eloquence, gifts of music and art and a dramatic personality, combined with a certain voluptuous temperament and strong personal magnetism. For obtaining money, gifts, and favours from others it is a fortunate number.",
-					"es" : "Este es un número de significado oculto, de magia y misterio; pero, por regla general, no representa el lado superior del ocultismo, lo que significa que las personas representadas por él utilizarán todo el arte de la magia que puedan para llevar a cabo su propósito. Si se asocia con un número único bueno o afortunado, puede ser muy afortunado y poderoso, pero si se asocia con uno de los números peculiares, como un 4 o un 8, la persona que representa no dudará en utilizar cualquier tipo de arte, o incluso \"magia negra\", para obtener lo que él o ella desea.\nSe asocia peculiarmente con \"buenos conversadores\", a menudo con elocuencia, dones de música y arte y una personalidad dramática, combinada con cierto temperamento voluptuoso y fuerte magnetismo personal. Para obtener dinero, regalos y favores de otros, es un número afortunado."
-				}
-			},
-			"16" : {
-				"object-type": "Translatable",
-				"texts" : {
-					"en" : "This number has a most peculiar occult symbolism. It is pictured by “a Tower Struck by Lightning from which a man is falling with a Crown on his head.” It is also called “the Shattered Citadel”.It gives warning of some strange fatality awaiting one, also danger of accidents and defeat of one’s plans. If it appears as a “compound” number relating to the future, it is a warning sign that should be carefully noted and plans made in advance in the endeavour to avert its fatalistic tendency.",
-					"es" : "Este número tiene un simbolismo oculto muy peculiar. Está representada por \"una torre golpeada por un rayo desde la cual un hombre cae con una corona sobre su cabeza\". También se le llama \"la ciudadela destrozada\".\nAdvierte de una extraña fatalidad en espera de uno, también peligro de accidentes y derrota de los planes. Si aparece como un número \"compuesto\" relacionado con el futuro, es una señal de advertencia que debe tenerse en cuenta cuidadosamente y se deben hacer planes de antemano en el esfuerzo por evitar su tendencia fatalista."
-				}
-			},
-			"17" : {
-				"object-type": "Translatable",
-				"texts" : {
-					"en" : "This is a highly spiritual number, and is expressed in symbolism by the 8-pointed Star of Venus; a symbol of “Peace and love”. It is also called “the Star of the Magi” and expresses that the person it represents has risen superior in spirit to the trials and difficulties of his life or his career. It is considered a “Number of immortality” and that the person’s name “lives after him”. It is a fortunate number if it works out in relation to future events, provided it is not associated with the single number of fours and eights.",
-					"es" : "Este es un número altamente espiritual, y se expresa en simbolismo por la Estrella de Venus de 8 puntas; un símbolo de \"paz y amor\". También se le llama \"la Estrella de los Magos\" y expresa que la persona que representa se ha elevado en espíritu a las pruebas y dificultades de su vida o su carrera. Se considera un \"Número de inmortalidad\" y que el nombre de la persona \"vive después de él\". Es un número afortunado si funciona en relación con eventos futuros, siempre que no esté asociado con el número único de cuatro o ocho."
-				}
-			},
-			"18" : {
-				"object-type": "Translatable",
-				"texts" : {
-					"en" : "This number has a difficult symbolism to translate. It is pictured as “a rayed moon from which drops of blood are falling; a wolf and a hungry dog are seen below catching the falling drops of blood in their opened mouths, while still lower a crab is seen hastening to join them.” It is symbolic of materialism striving to destroy the spiritual side of the nature. It generally associates a person with bitter quarrels, even family ones, also with war, social upheavals, revolutions; and in some cases it indicates making money and position thorough wars or by wars. It is however a warning of treachery, deception by others, also danger from the elements such as storms, danger from water, fires and explosions. When this “compound” number appears in working out dates in advance, such a date should be taken with a great amount of care, caution and circumspection.",
-					"es" : "Este número tiene un simbolismo difícil de traducir. Se representa como \"una luna radiante de la que caen gotas de sangre; debajo se ve un lobo y un perro hambriento atrapando las gotas de sangre que caen en sus bocas abiertas, mientras que aún se ve a un cangrejo apresurándose a unirse a ellos ”. Es un símbolo del materialismo que se esfuerza por destruir el lado espiritual de la naturaleza. Generalmente asocia a una persona con disputas amargas, incluso familiares, también con guerras, trastornos sociales, revoluciones; y en algunos casos indica ganar dinero y posicionarse en guerras completas o guerras. Sin embargo, es una advertencia de traición, engaño por parte de otros, también peligro de elementos tales como tormentas, peligro de agua, incendios y explosiones. Cuando este número \"compuesto\" aparece en las fechas de trabajo por adelantado, dicha fecha debe tomarse con mucho cuidado, precaución y circunspección."
-				}
-			},
-			"19" : {
-				"object-type": "Translatable",
-				"texts" : {
-					"en" : "This number is regarded as fortunate and extremely favourable. It is symbolized as “the Sun” and is called “the Prince of Heaven.” It is a number promising happiness, success, esteem and honour and promises success in one’s plan for the future.",
-					"es" : "Este número se considera afortunado y extremadamente favorable. Está simbolizado como \"el Sol\" y se llama \"el Príncipe del Cielo\". Es un número prometedor de felicidad, éxito, estima y honor y promete éxito en el plan para el futuro."
-				}
-			},
-			"20" : {
-				"object-type": "Translatable",
-				"texts" : {
-					"en" : "This number is called “the Awakening”; also “the Judgement”. It is symbolized by the figure of a winged angel sounding a trumpet, while from below a man, a woman, and a child are seen rising from a tomb with their hands clasped in prayer.\nThis number has a peculiar interpretation; the call to action, but for some great purpose, cause or duty. It is not a material number and consequently is a doubtful one as far as worldly success is concerned. If used in relation to a future event, it denotes delays, hindrances to one’s plans, which can only be conquered through the development of the spiritual side of nature.",
-					"es" : "Este número se llama \"el Despertar\"; también \"el juicio\". Está simbolizado por la figura de un ángel alado que toca una trompeta, mientras que desde abajo se ve a un hombre, una mujer y un niño saliendo de una tumba con las manos juntas en oración. \nEste número tiene una interpretación peculiar; El llamado a la acción, pero por algún gran propósito, causa u obligación. No es un número material y, en consecuencia, es dudoso en lo que respecta al éxito mundial. Si se usa en relación con un evento futuro, denota demoras, obstáculos para los planes de uno, que solo pueden ser conquistados a través del desarrollo del lado espiritual de la naturaleza."
-				}
-			},
-			"21" : {
-				"object-type": "Translatable",
-				"texts" : {
-					"en" : "This number is symbolized by the picture of “the Universe”, and it is also called “the Crown of the Magi”. It is a number of advancement, honours, elevation in life and general success. It means victory after long initiation and tests of determination. It is a fortunate number of promise if it appears in any connection with future events.",
-					"es" : "Este número está simbolizado por la imagen del \"Universo\", y también se llama \"la Corona de los Magos\". Es una serie de avances, honores, elevación en la vida y éxito general. Significa victoria después de una larga iniciación y pruebas de determinación. Es una suerte de promesa si aparece en relación con eventos futuros."
-				}
-			},
-			"22" : {
-				"object-type": "Translatable",
-				"texts" : {
-					"en" : "This number is symbolized by a “a Good Man blinded by the folly of others, with a knapsack on his back full of Arrows”. In this picture he appears to offer no defence against a ferocious tiger which is attacking him. It is a warning number of illusion and delusion, a good person who lives in a fool’s paradise; a dreamer of dreams who awakens only when surrounded by danger. It is also a number of false judgment owing to the influence of others. As a number in connection with future events, it is a warning and its meaning should be carefully noted.",
-					"es" : "Este número está simbolizado por un \"un buen hombre cegado por la locura de los demás, con una mochila en la espalda llena de flechas\". En esta imagen, parece no ofrecer defensa contra un tigre feroz que lo está atacando. Es un número de advertencia de ilusión e ilusión, una buena persona que vive en el paraíso de los tontos; un soñador de sueños que despierta solo cuando está rodeado de peligro. También es una serie de juicios falsos debido a la influencia de otros. Como un número relacionado con eventos futuros, es una advertencia y su significado debe tenerse en cuenta."
-				}
-			},
-			"23" : {
-				"object-type": "Translatable",
-				"texts" : {
-					"en" : "This number is called “the Royal Star of the Lion.” It is a promise of success, help from superiors and protection from those in high places. In dealing with future events it is a most fortunate number and a promise of success of one’s plans.",
-					"es" : "Este número se llama \"la Estrella Real del León\". Es una promesa de éxito, ayuda de los superiores y protección de los que están en lugares altos. Al tratar con eventos futuros es un número muy afortunado y una promesa de éxito de los planes de uno."
-				}
-			},
-			"24" : {"registry-ref" : "vibration-24"},
-			"25" : {"registry-ref" : "vibration-25"},
-			"26" : {"registry-ref" : "vibration-26"},
-			"27" : {"registry-ref" : "vibration-27"},
-			"28" : {
-				"object-type": "Translatable",
-				"texts" : {
-					"en" : "This number is full of contradictions. It indicates a person of great promise and possibilities who is likely to see all taken away from him unless he carefully provides for the future. It indicates loss through trust in others, opposition and competition in trade, danger of loss through law, and the likelihood of having to begin life’s road over and over again.",
-					"es" : "Este número está lleno de contradicciones. Indica a una persona con grandes promesas y posibilidades que es probable que vea que le quiten todo a menos que él prevea cuidadosamente el futuro. Indica pérdida por la confianza en los demás, oposición y competencia en el comercio, peligro de pérdida por ley y la probabilidad de tener que comenzar el camino de la vida una y otra vez."
-				}
-			},
-			"29" : {"registry-ref" : "vibration-29"},
-			"30" : {"registry-ref" : "vibration-30"},
-			"31" : {"registry-ref" : "vibration-31"},
-			"32" : {"registry-ref" : "vibration-32"},
-			"33" : {"registry-ref" : "vibration-24"},
-			"34" : {"registry-ref" : "vibration-25"},
-			"35" : {"registry-ref" : "vibration-26"},
-			"36" : {"registry-ref" : "vibration-27"},
-			"37" : {"registry-ref" : "vibration-37"},
-			"38" : {"registry-ref" : "vibration-29"},
-			"39" : {"registry-ref" : "vibration-30"},
-			"40" : {"registry-ref" : "vibration-31"},
-			"41" : {"registry-ref" : "vibration-32"},
-			"42" : {"registry-ref" : "vibration-24"},
-			"43" : {"registry-ref" : "vibration-43"},
-			"44" : {"registry-ref" : "vibration-26"},
-			"45" : {"registry-ref" : "vibration-27"},
-			"46" : {"registry-ref" : "vibration-37"},
-			"47" : {"registry-ref" : "vibration-29"},
-			"48" : {"registry-ref" : "vibration-30"},
-			"49" : {"registry-ref" : "vibration-31"},
-			"50" : {"registry-ref" : "vibration-32"},
-			"51" : {
-				"object-type": "Translatable",
-				"texts" : {
-					"en" : "This number has a very powerful potency of its own. It represents the nature of the warrior; it promises sudden advancement in whatever one undertakes; it is especially favourable for those in military or naval life and for leaders in any cause. At the same time it threatens enemies, dangers and the likelihood of assassination.",
-					"es" : "Este número tiene una potencia muy poderosa propia. Representa la naturaleza del guerrero; promete un avance repentino en cualquier cosa que uno emprenda; Es especialmente favorable para aquellos en la vida militar o naval y para los líderes en cualquier causa. Al mismo tiempo, amenaza a los enemigos, los peligros y la probabilidad de asesinato."
-				}
-			},
-			"52" : {"registry-ref" : "vibration-43"}
+			}
 		}
 	},
 	"numerology-model": {
 		"char-numbers" : {
-			"a":  "1", "i":  "1", "j":  "1", "q":  "1", "y":  "1",
-			"b":  "2", "k":  "2", "r":  "2",
-			"c":  "3", "g":  "3", "l":  "3", "s":  "3",
-			"d":  "4", "m":  "4", "t":  "4",
-			"e":  "5", "h":  "5", "n":  "5", "x":  "5",
-			"u":  "6", "v":  "6", "w":  "6",
-			"o":  "7", "z":  "7",
-			"f":  "8", "p":  "8"
+			"a": "1", "j": "1", "s": "1",
+			"b": "2", "k": "2", "t": "2",
+			"c": "3", "l": "3", "u": "3",
+			"d": "4", "m": "4", "v": "4",
+			"e": "5", "n": "5", "w": "5", "ñ": "5",
+			"f": "6", "o": "6", "x": "6",
+			"g": "7", "p": "7", "y": "7",
+			"h": "8", "q": "8", "z": "8",
+			"i": "9", "r": "9"
+
 		},
 		"aspects" : {
 			"life" : {
 				"title" : {
 					"object-type": "Translatable",
 					"texts" : {
-						"en" : "Tantric - Life (mission) number",
-						"es" : "Tantrica - Número de vida (misión)"
+						"en" : "Tantric - Life or mission number",
+						"es" : "Tantrica - Número de vida o misión"
 					}
 				},
 				"description" : {
@@ -852,66 +643,49 @@
 				"title" : {
 					"object-type": "Translatable",
 					"texts" : {
-						"en" : "Name - Compound Number / Namank",
-						"es" : "Nombre - Numerología compuesta/ Namank"
+						"en" : "Name Numerology - Life Goals",
+						"es" : "Numerología Pitagorica de Nombre - Metas de Vida"
 					}
 				},
 				"description" : {
 					"object-type": "Translatable",
 					"texts" : {
-						"en" : "Numerology total of the Name / Namank",
-						"es" : "Numerología total del Nombre / Namank"
+						"en" : "It is calculated with the full Name. It indicates the role in society, the conscious or subconscious objectives that the person brings as a purpose.",
+						"es" : "Se calcula con el Nombre completo. Indica el papel en la sociedad, los objetivos conscientes o subconscientes que la persona trae como finalidad."
 					}
 				},
 				"qualities" : { "registry-ref" : "number-vibrations" }
 			},
-			"name-destiny" : {
+			"name-inner" : {
 				"title" : {
 					"object-type": "Translatable",
 					"texts" : {
-						"en" : "Name -destiny/expression number / Namanak",
-						"es" : "Nombre - Número de destino/expresión / Namanak"
+						"en" : "Pitagoric Name Numerology - Inner Vibration",
+						"es" : "Numerología Pitagorica de Nombre - Vibración Interior"
 					}
 				},
 				"description" : {
 					"object-type": "Translatable",
 					"texts" : {
-						"en" : "The number which describes who you are, what you are, what you become.",
-						"es" : "El número que describe quien eres, que eres, en qué te conviertes."
+						"en" : "Calculated using the vowels. The internal strength, inclinations and motivations deeply moving us, but not perceptive to the others.",
+						"es" : "Se caclula usando las vocales. La fuerza interna, inclinaciones y motivaciones que nos mueven profundamente pero que no son percibidas por los demás."
 					}
 				},
 				"qualities" : { "registry-ref" : "number-vibrations" }
 			},
-			"name-soul-urge" : {
+			"name-outter" : {
 				"title" : {
 					"object-type": "Translatable",
 					"texts" : {
-						"en" : "Name -Soul Urge/Heart Desire Number",
-						"es" : "Nombre - Número de impulso del alma"
+						"en" : "Pitagoric Name Numerology - External Vibration",
+						"es" : "Numerología Pitagorica de Nombre - Vibración Externa"
 					}
 				},
 				"description" : {
 					"object-type": "Translatable",
 					"texts" : {
-						"en" : "The number which describes your inner potentials and inner resources.",
-						"es" : "El  número que describe tus potenciales internos y recursos internos."
-					}
-				},
-				"qualities" : { "registry-ref" : "number-vibrations" }
-			},
-			"name-dream" : {
-				"title" : {
-					"object-type": "Translatable",
-					"texts" : {
-						"en" : "Name -Dream/Personality Number",
-						"es" : "Nombre - Número de Sueño/Personalidad"
-					}
-				},
-				"description" : {
-					"object-type": "Translatable",
-					"texts" : {
-						"en" : "The number which describes personality, your first impression on others.",
-						"es" : "El número que describe la personalidad, tu primer impresión en los demás."
+						"en" : "Calculated using consonants. It reveals the external projection of personality; the impression it produces on others.",
+						"es" : "Se calcula usando las consonantes. Revela la proyección externa de la personalidad; la impresión que produce en los demás."
 					}
 				},
 				"qualities" : { "registry-ref" : "number-vibrations" }

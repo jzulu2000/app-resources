@@ -76,12 +76,12 @@
 	"specialEvents": [
 		{
 			"object-type": "SpecialEvent",
-			"id" : "16",
-			"dates": ["2019-08-09"],
+			"id" : "17",
+			"dates": ["2019-11-01"],
 			"city": "medellin",
-			"title": "Lunes 5 de Agosto, rotación Pico y Placa Medellín.",
-			"text": "El lunes 5 de agosto comienza la rotación del Pico y Placa para vehículos particulares en Medellín. La primera semana de rotación será pedagógica. A partir del 12 de agosto la medida será sancionatoria.",
-			"url": "https://www.medellin.gov.co/movilidad/component/k2/el-lunes-5-de-agosto-comienza-la-rotacion-del-pico-y-placa-para-vehiculos-particulares-en-medellin"
+			"title": "Se decreta el #EstadoDePrevención en Medellín.",
+			"text": "Se declara el #EstadoDePrevención desde el 30 de Septiembre hasta el 1 de Noviembre de 2019 en los 10 municipios del Valle de Aburrá. Al pico y placa actual se adiciona el día Sábado y además se incluyen las motos 4 tiempos.",
+			"url": "https://www.elcolombiano.com/antioquia/pico-y-placa-en-medellin-cambia-por-contaminacion-del-aire-en-valle-de-aburra-AC11646240"
 		}
 	],
 	"vehicles": [
@@ -182,7 +182,26 @@
 			"restrictions": [
 				{
 					"object-type": "Restriction",
-					"validFrom" : "2019-08-05",
+					"days": ["20191005", "20191012", "20191019", "20191026"],
+					"hours": {"registry-ref" : "medellin-hours"},
+					"validator": {
+						"object-type": "PairImpairValidator",
+						"parameters": {
+							"evaluator": "WEEK_OF_YEAR",
+							"pair-if-pair": "true"
+						}
+					},
+					"vehicles": ["particular", "particular-1996", "moto-2t", "moto-4t"]
+				}, {
+					"object-type": "Restriction",
+					"validFrom" : "2019-09-30",
+					"validThrough" : "2019-11-01",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": {"registry-ref" : "medellin-hours"},
+					"validator": {"registry-ref" : "monday:2/2"},
+					"vehicles": ["moto-4t"]
+				}, {
+					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": {"registry-ref" : "medellin-hours"},
 					"validator": {
@@ -195,30 +214,11 @@
 					"vehicles": ["particular", "particular-1996"]
 				}, {
 					"object-type": "Restriction",
-					"validFrom" : "2019-08-05",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": {"registry-ref" : "medellin-hours"},
 					"validator": {"registry-ref" : "monday:2/2"},
 					"vehicles": ["moto-2t"]
 				} ,{
-					"object-type": "Restriction",
-					"days": ["mon", "tue", "wed", "thu", "fri"],
-					"hours": {"registry-ref" : "medellin-hours"},
-					"validator": {
-						"object-type": "PlatesByDayValidator",
-						"parameters": {
-							"plates-by-day": "4",
-							"monday-start": "6"
-						}
-					},
-					"vehicles": ["particular", "particular-1996"]
-				}, {
-					"object-type": "Restriction",
-					"days": ["mon", "tue", "wed", "thu", "fri"],
-					"hours": {"registry-ref" : "medellin-hours"},
-					"validator": {"registry-ref" : "monday:4/2"},
-					"vehicles": ["moto-2t"]
-				}, {
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
@@ -231,71 +231,61 @@
 							{
 								"object-type": "StaticRestriction",
 								"days": [
-									"20190214", "20190228", "20190315", "20190329", "20190408", "20190422", "20190507", "20190521",
-									"20190605", "20190619", "20190704", "20190718"
+									"20191008", "20191022", "20191106", "20191120", "20191205", "20191219", "20200102", "20200117", "20200131"
 								],
 								"plates": ["0"]
 							}, {
 								"object-type": "StaticRestriction",
 								"days": [
-									"20190208", "20190222", "20190304", "20190318", "20190402", "20190416", "20190430", "20190515", "20190529",
-									"20190613", "20190627", "20190712", "20190726"
+									"20191001", "20191016", "20191030", "20191114", "20191128", "20191213", "20191227", "20200120"
 								],
 								"plates": ["1"]
 							}, {
 								"object-type": "StaticRestriction",
 								"days": [
-									"20190201", "20190211", "20190225", "20190312", "20190326", "20190410", "20190424", "20190516", "20190530",
-									"20190614", "20190628", "20190708", "20190722"
+									"20191002", "20191017", "20191031", "20191115", "20191129", "20191209", "20191223", "20200107", "20200121"
 								],
 								"plates": ["2"]
 							}, {
 								"object-type": "StaticRestriction",
 								"days": [
-									"20190205", "20190219", "20190306", "20190320", "20190404", "20190502", "20190517", "20190531",
-									"20190610", "20190709", "20190723"
+									"20191003", "20191018", "20191101", "20191125", "20191210", "20191224", "20200108", "20200122"
 								],
 								"plates": ["3"]
 							}, {
 								"object-type": "StaticRestriction",
 								"days": [
-									"20190206", "20190220", "20190307", "20190321", "20190405", "20190503", "20190513", "20190527",
-									"20190611", "20190625", "20190710", "20190714"
+									"20191004", "20191028", "20191112", "20191126", "201912", "20191211", "20200116", "20200130"
 								],
 								"plates": ["4"]
 							}, {
 								"object-type": "StaticRestriction",
 								"days": [
-									"20190207", "20190221", "20190308", "20190322", "20190401", "20190415", "20190419", "20190514", "20190528",
-									"20190612", "20190626", "20190711", "20190725"
+									"20190930", "20191015", "20191029", "20191113", "20191127", "20191212", "20191226", "20200110", "20200124"
 								],
 								"plates": ["5"]
 							}, {
 								"object-type": "StaticRestriction",
 								"days": [
-									"20190215", "20190301", "20190311", "20190409", "20190423", "20190508", "20190522",
-									"20190606", "20190620", "20190705", "20190719"
+									"20191009", "20191023", "20191107", "20191121", "20191206", "20191220", "20200103", "20200113", "20200127"
 								],
 								"plates": ["6"]
 							}, {
 								"object-type": "StaticRestriction",
 								"days": [
-									"20190204", "20190218", "20190305", "20190319", "20190403", "20190417", "20190509", "20190523",
-									"20190607", "20190621", "20190715", "20190729"
+									"20190925", "20191010", "20191024", "2019118", "20191122", "20191202", "20191216", "20191230", "20200114", "20200128"
 								],
 								"plates": ["7"]
 							}, {
 								"object-type": "StaticRestriction",
 								"days": [
-									"20190212", "20190226", "20190313", "20190327", "20190411", "20190425", "20190510", "20190524",
-									"20190617", "20190702", "20190716", "20190730"
+									"20190926", "20191011", "20191025", "20191118", "20191203", "20191217", "20191231", "20200115", "20200129"
 								],
 								"plates": ["8"]
 							}, {
 								"object-type": "StaticRestriction",
 								"days": [
-									"20190213", "20190227", "20190314", "20190328", "20190412", "20190426", "20190506", "20190520",
-									"20190604", "20190618", "20190703", "20190717", "20190731"
+									"20190927", "20191007", "20191021", "20191105", "20191119", "20191204", "20191218", "20200109", "20200123"
 								],
 								"plates": ["9"]
 							}

@@ -1,65 +1,17 @@
 {
 	"object-type": "com.twelvestars.pipla_brasil.daos.model.PyPModel",
-	"specialEvents": [],
-	"vehicles": [
+	"specialEvents": [
 		{
-			"object-type": "com.twelvestars.pipla_brasil.daos.model.Vehicle",
-			"iconRef": "car",
-			"nameRef": "vehicle_type_particular",
-			"plateColorRef": "plate_color_white",
-			"plateExtractor": {
-				"object-type": "com.twelvestars.pipla_brasil.daos.model.LastDigitExtractor"
-			},
-			"textColorRef": "plate_color_black",
-			"type": "particular"
-		}, {
-			"object-type": "com.twelvestars.pipla_brasil.daos.model.Vehicle",
-			"iconRef": "car",
-			"nameRef": "vehicle_type_publico",
-			"plateColorRef": "plate_color_red",
-			"plateExtractor": {
-				"object-type": "com.twelvestars.pipla_brasil.daos.model.LastDigitExtractor"
-			},
-			"textColorRef": "plate_color_black",
-			"type": "publico"
+			"object-type": "com.twelvestars.pipla_brasil.daos.model.SpecialEvent",
+			"dates": ["2030-01-01"],
+			"city": "sao paulo",
+			"title": "Você deve atualizar o Pipla para a versão mais recente.",
+			"text": "Não há mais suporte para a versão atual. Você deve entrar no playstore para baixar a versão mais recente do aplicativo.",
+			"url": "https://play.google.com/store/apps/details?id=com.twelvestars.pipla_brasil"
 		}
 	],
+	"vehicles": [],
 	"country": "brasil",
-	"holidays": [
-		"20190101", "20190501", "20190907", "20191012", "20191102", "20191115", "20191225"
-	],
-	"cities": [
-		{
-			"object-type": "com.twelvestars.pipla_brasil.daos.model.City",
-			"aliases": [],
-			"name": "sao paulo",
-			"restrictions": [
-				{
-					"object-type": "com.twelvestars.pipla_brasil.daos.model.Restriction",
-					"days": ["mon", "tue", "wed", "thu", "fri"],
-					"hours": [
-						{
-							"object-type": "com.twelvestars.pipla_brasil.daos.model.Schedule",
-							"from": "420",
-							"to": "600"
-						}, {
-							"object-type": "com.twelvestars.pipla_brasil.daos.model.Schedule",
-							"from": "1020",
-							"to": "1200"
-						}
-					],
-					"skipOnHolidays": true,
-					"validator": {
-						"object-type": "com.twelvestars.pipla_brasil.daos.validators.PlatesByDayValidator",
-						"parameters": {
-							"plates-by-day": "2",
-							"monday-start": "1"
-						}
-					},
-					"vehicles": ["particular", "publico"]
-				}
-			],
-			"unrestrictedDays": []
-		}
-	]
+	"holidays": [],
+	"cities": []
 }

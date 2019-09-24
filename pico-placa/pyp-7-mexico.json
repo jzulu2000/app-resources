@@ -1,163 +1,17 @@
 {
 	"object-type": "com.twelvestars.pipla_mexico.daos.model.PyPModel",
 	"specialEvents": [
-	],
-	"vehicles": [
 		{
-			"object-type": "com.twelvestars.pipla_mexico.daos.model.Vehicle",
-			"iconRef": "h1",
-			"nameRef": "vehicle_type_h1",
-			"plateColorRef": "plate_color_white",
-			"plateExtractor": {
-				"object-type": "com.twelvestars.pipla_mexico.daos.model.LastDigitExtractor"
-			},
-			"textColorRef": "plate_color_black",
-			"type": "holograma-1"
-		}, {
-			"object-type": "com.twelvestars.pipla_mexico.daos.model.Vehicle",
-			"iconRef": "h2",
-			"nameRef": "vehicle_type_h2",
-			"plateColorRef": "plate_color_white",
-			"plateExtractor": {
-				"object-type": "com.twelvestars.pipla_mexico.daos.model.LastDigitExtractor"
-			},
-			"textColorRef": "plate_color_black",
-			"type": "holograma-2"
+			"object-type": "com.twelvestars.pipla_brasil.daos.model.SpecialEvent",
+			"dates": ["2030-01-01"],
+			"city": "ciudad de mexico",
+			"title": "Debes actualizar Pipla a la última versión.",
+			"text": "Ya no hay soporte para la versión actual. Debes ingresar al playstore para descargar la última versión de la aplicación.",
+			"url": "https://play.google.com/store/apps/details?id=com.twelvestars.pipla_brasil"
 		}
 	],
+	"vehicles": [],
 	"country": "mexico",
-	"holidays": [
-		"20190101", "20190204", "20190318", "20190501", "20190916", "20191118", "20191225"
-	],
-	"cities": [
-		{
-			"object-type": "com.twelvestars.pipla_mexico.daos.model.City",
-			"aliases": [
-				"valle del chalco solidaridad", "tlalnepantla", "villa nicolas romero", "nezahualcoyotl", "benito juarez",
-				"los reyes acaquilpan", "huixquilucan de degollado", "chimalhuacan", "cuautitlan izcalli",
-				"san francisco coacalco", "tultitlan de mariano escobedo", "tecamac de felipe villanueva",
-				"chicoloapan de juarez", "naucalpan de juarez", "ixtapaluca", "ecatepec de morelos",
-				"chalco de diaz covarrubias", "cuautitlan"
-			],
-			"name": "ciudad de mexico",
-			"restrictions": [
-				{
-					"object-type": "com.twelvestars.pipla_mexico.daos.model.Restriction",
-					"days": ["mon", "tue", "wed", "thu", "fri"],
-					"hours": [
-						{
-							"object-type": "com.twelvestars.pipla_mexico.daos.model.Schedule",
-							"from": "300",
-							"to": "1320"
-						}
-					],
-					"skipOnHolidays": true,
-					"validator": {
-						"object-type": "com.twelvestars.pipla_mexico.daos.validators.StaticValidator",
-						"parameters": {},
-						"staticRestrictions": [
-							{
-								"object-type": "com.twelvestars.pipla_mexico.daos.validators.StaticValidator$StaticRestriction",
-								"days": ["mon"],
-								"plates": ["5", "6"]
-							}, {
-								"object-type": "com.twelvestars.pipla_mexico.daos.validators.StaticValidator$StaticRestriction",
-								"days": ["tue"],
-								"plates": ["7", "8"]
-							}, {
-								"object-type": "com.twelvestars.pipla_mexico.daos.validators.StaticValidator$StaticRestriction",
-								"days": ["wed"],
-								"plates": ["3", "4"]
-							}, {
-								"object-type": "com.twelvestars.pipla_mexico.daos.validators.StaticValidator$StaticRestriction",
-								"days": ["thu"],
-								"plates": ["1", "2"]
-							}, {
-								"object-type": "com.twelvestars.pipla_mexico.daos.validators.StaticValidator$StaticRestriction",
-								"days": ["fri"],
-								"plates": ["9", "0"]
-							}
-						]
-					},
-					"vehicles": ["holograma-1", "holograma-2"]
-				}, {
-					"object-type": "com.twelvestars.pipla_mexico.daos.model.Restriction",
-					"days": ["sat"],
-					"hours": [
-						{
-							"object-type": "com.twelvestars.pipla_mexico.daos.model.Schedule",
-							"from": "300",
-							"to": "1320"
-						}
-					],
-					"skipOnHolidays": true,
-					"validator": {
-						"object-type": "com.twelvestars.pipla_mexico.daos.validators.StaticValidator",
-						"parameters": {},
-						"staticRestrictions": [
-							{
-								"object-type": "com.twelvestars.pipla_mexico.daos.validators.StaticValidator$StaticRestriction",
-								"days": [
-									"20190105", "20190119", "20190202", "20190216", "20190302", "20190316", "20190406", "20190420",
-									"20190504", "20190518", "20190601", "20190622"
-								],
-								"plates": ["1", "3", "5", "7", "9"]
-							}, {
-								"object-type": "com.twelvestars.pipla_mexico.daos.validators.StaticValidator$StaticRestriction",
-								"days": [
-									"20190112", "20190126", "20190209", "20190223", "20190309", "20190323", "20190413", "20190427",
-									"20190511", "20190525", "20190608", "20190622"
-								],
-								"plates": ["0", "2", "4", "6", "8"]
-							}
-						]
-					},
-					"vehicles": ["holograma-1"]
-				}, {
-					"object-type": "com.twelvestars.pipla_mexico.daos.model.Restriction",
-					"days": ["sat"],
-					"hours": [
-						{
-							"object-type": "com.twelvestars.pipla_mexico.daos.model.Schedule",
-							"from": "300",
-							"to": "1320"
-						}
-					],
-					"skipOnHolidays": true,
-					"validator": {
-						"object-type": "com.twelvestars.pipla_mexico.daos.validators.StaticValidator",
-						"parameters": {},
-						"staticRestrictions": [
-							{
-								"object-type": "com.twelvestars.pipla_mexico.daos.validators.StaticValidator$StaticRestriction",
-								"days": ["sat"],
-								"plates": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
-							}
-						]
-					},
-					"vehicles": ["holograma-2"]
-				}, {
-					"object-type": "com.twelvestars.pipla_mexico.daos.model.Restriction",
-					"days": ["20190922", "20200922", "20210922", "20220922"],
-					"hours": [
-						{
-							"object-type": "com.twelvestars.pipla_mexico.daos.model.Schedule",
-							"from": "300",
-							"to": "1320"
-						}
-					],
-					"skipOnHolidays": true,
-					"validator": {
-						"object-type": "com.twelvestars.pipla_mexico.daos.validators.PlatesByDayValidator",
-						"parameters": {
-							"plates-by-day": "10",
-							"monday-start": "0"
-						}
-					},
-					"vehicles": ["holograma-1", "holograma-2"]
-				}
-			],
-			"unrestrictedDays": []
-		}
-	]
+	"holidays": [],
+	"cities": []
 }

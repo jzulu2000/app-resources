@@ -1,51 +1,17 @@
 {
 	"object-type": "com.twelvestars.pipla_costarica.daos.model.PyPModel",
-	"specialEvents": [],
-	"vehicles": [
+	"specialEvents": [
 		{
-			"object-type": "com.twelvestars.pipla_costarica.daos.model.Vehicle",
-			"iconRef": "car",
-			"nameRef": "vehicle_type_particular",
-			"plateColorRef": "plate_color_white",
-			"plateExtractor": {
-				"object-type": "com.twelvestars.pipla_costarica.daos.model.LastDigitExtractor"
-			},
-			"textColorRef": "plate_color_blue",
-			"type": "particular"
+			"object-type": "com.twelvestars.pipla_brasil.daos.model.SpecialEvent",
+			"dates": ["2030-01-01"],
+			"city": "san jose",
+			"title": "Debes actualizar Pipla a la última versión.",
+			"text": "Ya no hay soporte para la versión actual. Debes ingresar al playstore para descargar la última versión de la aplicación.",
+			"url": "https://play.google.com/store/apps/details?id=com.twelvestars.pipla_costarica"
 		}
 	],
+	"vehicles": [],
 	"country": "costarica",
-	"holidays": [
-		"20190101", "20190411", "20190418", "20190419", "20190501", "20190725", "20190802", "20190815", "20191012", "20191225"
-	],
-	"cities": [
-		{
-			"object-type": "com.twelvestars.pipla_costarica.daos.model.City",
-			"aliases": [],
-			"name": "san jose",
-			"restrictions": [
-				{
-					"object-type": "com.twelvestars.pipla_costarica.daos.model.Restriction",
-					"days": ["mon", "tue", "wed", "thu", "fri"],
-					"hours": [
-						{
-							"object-type": "com.twelvestars.pipla_costarica.daos.model.Schedule",
-							"from": "360",
-							"to": "1140"
-						}
-					],
-					"skipOnHolidays": true,
-					"validator": {
-						"object-type": "com.twelvestars.pipla_costarica.daos.validators.PlatesByDayValidator",
-						"parameters": {
-							"plates-by-day": "2",
-							"monday-start": "1"
-						}
-					},
-					"vehicles": ["particular"]
-				}
-			],
-			"unrestrictedDays": []
-		}
-	]
+	"holidays": [],
+	"cities": []
 }

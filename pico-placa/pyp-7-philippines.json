@@ -1,53 +1,18 @@
 {
 	"object-type": "com.twelvestars.pipla_philippines.daos.model.PyPModel",
-	"specialEvents": [],
-	"vehicles": [
+	"specialEvents": [
 		{
-			"object-type": "com.twelvestars.pipla_philippines.daos.model.Vehicle",
-			"iconRef": "car",
-			"nameRef": "vehicle_type_particular",
-			"plateColorRef": "plate_color_white",
-			"plateExtractor": {
-				"object-type": "com.twelvestars.pipla_philippines.daos.model.LastDigitExtractor"
-			},
-			"textColorRef": "plate_color_black",
-			"type": "particular"
+			"object-type": "com.twelvestars.pipla_brasil.daos.model.SpecialEvent",
+			"dates": ["2030-01-01"],
+			"city": "manila",
+			"title": "You need to update Pipla to the last version.",
+			"text": "We no longer support the current version. You need to go to the playstore and update to the last version.",
+			"url": "https://play.google.com/store/apps/details?id=com.twelvestars.pipla_philippines"
 		}
 	],
+	"vehicles": [],
 	"country": "philippines",
-	"holidays": [
-		"20190101", "20190205", "20190409", "20190418", "20190419", "20190501", "20190612", "20190821", "20190826",
-		"20191101", "20191224", "20191225", "20191230", "20191231"
-	],
-	"cities": [
-		{
-			"object-type": "com.twelvestars.pipla_philippines.daos.model.City",
-			"aliases": ["makati", "las pinas", "pasig", "quezon city", "san juan", "malabon",
-				"mandaluyong", "valenzuela", "caloocan", "pasay", "las piñas", "parañaque"],
-			"name": "manila",
-			"restrictions": [
-				{
-					"object-type": "com.twelvestars.pipla_philippines.daos.model.Restriction",
-					"days": ["mon", "tue", "wed", "thu", "fri"],
-					"hours": [
-						{
-							"object-type": "com.twelvestars.pipla_philippines.daos.model.Schedule",
-							"from": "420",
-							"to": "1200"
-						}
-					],
-					"skipOnHolidays": true,
-					"validator": {
-						"object-type": "com.twelvestars.pipla_philippines.daos.validators.PlatesByDayValidator",
-						"parameters": {
-							"plates-by-day": "2",
-							"monday-start": "1"
-						}
-					},
-					"vehicles": ["particular"]
-				}
-			],
-			"unrestrictedDays": ["20190417", "20190418", "20190419"]
-		}
-	]
+	"holidays": [],
+	"cities": []
+
 }
