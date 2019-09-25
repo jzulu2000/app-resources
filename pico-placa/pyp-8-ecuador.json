@@ -1,11 +1,17 @@
 {
 	"registry" : {
+		"StaticRestriction": "com.twelvestars.daos.validators.StaticValidator$StaticRestriction",
 		"Schedule": "com.twelvestars.daos.model.Schedule",
 		"Vehicle": "com.twelvestars.daos.model.Vehicle",
+		"SpecialEvent": "com.twelvestars.daos.model.SpecialEvent",
 		"LastDigitExtractor": "com.twelvestars.daos.model.LastDigitExtractor",
+		"FirstDigitFoundExtractor": "com.twelvestars.daos.model.FirstDigitFoundExtractor",
 		"Restriction": "com.twelvestars.daos.model.Restriction",
 		"City": "com.twelvestars.daos.model.City",
-		"PlatesByDayValidator": "com.twelvestars.daos.validators.PlatesByDayValidator"
+		"PlatesByDayValidator": "com.twelvestars.daos.validators.PlatesByDayValidator",
+		"PairImpairValidator": "com.twelvestars.daos.validators.PairImpairValidator",
+		"YearSecuenceValidator": "com.twelvestars.daos.validators.YearSecuenceValidator",
+		"StaticValidator": "com.twelvestars.daos.validators.StaticValidator"
 	},
 	"object-type": "com.twelvestars.daos.model.PyPModel",
 	"specialEvents": [
