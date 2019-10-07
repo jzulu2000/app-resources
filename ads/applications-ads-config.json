@@ -28,12 +28,12 @@
     }, {
       "places": ["ui.fullscreenplayeractivity", "ui.musicplayeractivity"],
       "implementation": "admob",
-      "enabled": "false",
-      "appId": "ca-app-pub-1152574200163807~3916021130",
+      "enabled": "true",
+      "appId": "ca-app-pub-1152574200163807~1721031195",
       "adsIds": {
-        "ADDS_DEFAULT_BANNER": "ca-app-pub-1152574200163807/4254932480",
-        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1152574200163807/8976776126",
-        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1152574200163807/8087092636"
+        "ADDS_DEFAULT_BANNER": "",
+        "ADDS_DEFAULT_INTERSTITIAL": "",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1152574200163807/3755672757"
       }
     }, {
       "places": ["ui.fullscreenplayeractivity", "ui.musicplayeractivity"],
