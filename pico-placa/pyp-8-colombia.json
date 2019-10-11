@@ -675,7 +675,7 @@
 					"hours": [
 						{"registry-ref" : "06:30-19:30"}
 					],
-					"validator": {"registry-ref" : "monday:7/2"},
+					"validator": {"registry-ref" : "monday:1/2"},
 					"vehicles": ["particular"]
 				}, {
 					"object-type": "Restriction",
@@ -683,7 +683,7 @@
 					"hours": [
 						{"registry-ref" : "06:30-19:30"}
 					],
-					"validator": {"registry-ref" : "monday:7/2"},
+					"validator": {"registry-ref" : "monday:1/2"},
 					"vehicles": ["moto-2t", "moto-4t"]
 				}
 			],
