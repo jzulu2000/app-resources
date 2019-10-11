@@ -52,8 +52,8 @@
 			},"mail.send.title" : {
 				"object-type": "Translatable",
 				"texts" : {
-					"en" : "I'm rating with %s your app %s.",
-					"es" : "Estoy dando %s a su aplicación %s."
+					"en" : "%s %s.",
+					"es" : "%s %s."
 				}
 			},"mail.send.message" : {
 				"object-type": "Translatable",
@@ -114,8 +114,8 @@
 			"title" : {
 				"object-type": "Translatable",
 				"texts" : {
-					"en" : "Would you like to rate our app?",
-					"es" : "Te gustaría puntuar nuestra app?"
+					"en" : "What do you think about our app?",
+					"es" : "Qué piensas de nuestra aplicación?"
 				}
 			}, "okOption" : {
 				"registry-ref": "ask-later-option"
@@ -126,42 +126,15 @@
 					"object-type": "PollOption",
 					"action" : "playstore",
 					"texts" : {
-						"en" : "5 Stars",
-						"es" : "5 Estrellas"
-					}
-				},{
-					"object-type": "PollOption",
-					"action" : "playstore",
-					"texts" : {
-						"en" : "4 Stars",
-						"es" : "4 Estrellas"
+						"en" : "I like this app and wolud like to rate it in the playstore!",
+						"es" : "Me gusta esta aplicación y me gustaría calificarla en el playstore!"
 					}
 				}, {
 					"object-type": "PollOption",
 					"action" : "email",
 					"texts" : {
-						"en" : "3 Stars",
-						"es" : "3 Estrellas"
-					},
-					"actionParameters" : {
-						"registry-ref" : "send-email-dialog"
-					}
-				},{
-					"object-type": "PollOption",
-					"action" : "email",
-					"texts" : {
-						"en" : "2 Stars",
-						"es" : "2 Estrellas"
-					},
-					"actionParameters" : {
-						"registry-ref" : "send-email-dialog"
-					}
-				},{
-					"object-type": "PollOption",
-					"action" : "email",
-					"texts" : {
-						"en" : "1 Star",
-						"es" : "1 Estrella"
+						"en" : "I have some comments or report a problem when using the app!",
+						"es" : "Quiero hacer sugerencias o reportar problemas al usar la app!"
 					},
 					"actionParameters" : {
 						"registry-ref" : "send-email-dialog"
