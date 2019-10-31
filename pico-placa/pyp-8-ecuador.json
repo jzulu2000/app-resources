@@ -17,12 +17,12 @@
 	"specialEvents": [
 		{
 			"object-type": "SpecialEvent",
-			"id" : "16",
-			"dates": ["2019-09-13"],
+			"id" : "17",
+			"dates": ["2019-11-04"],
 			"city": "quito",
-			"title": "Desde el 9 de Sep, habrá Hoy no Circula.",
-			"text": "La restricción de circulación vehicular en Quito que se denominaba Pico y placa empieza el lunes 9 de septiembre como Hoy no Circula. Habrá restricción durante 15 horas, de 05:00 a 20:00.",
-			"url": "https://www.eluniverso.com/noticias/2019/09/02/nota/7500762/quito-se-acaba-pico-placa-cambio-habra-hoy-no-circula"
+			"title": "Se suspende el Hoy no Circula Viernes y Lunes.",
+			"text": "La AMT suspende la medida Hoy no circula durante el viernes 1 y lunes 4 de noviembre de feriado.",
+			"url": "https://www.elcomercio.com/actualidad/suspension-restriccion-vehiculos-feriado-quito.html"
 		}
 	],
 	"vehicles": [
@@ -40,7 +40,7 @@
 	],
 	"country": "ecuador",
 	"holidays": [
-		"20190101", "20190304", "20190305", "20190419", "20190501", "20190524", "20190810", "20191011", "20191102", "20191225"
+		"20191101", "20191104", "20191225"
 	],
 	"cities": [
 		{
@@ -51,25 +51,8 @@
 				{
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
-					"validFrom" : "2019-09-09",
 					"hours": [
 						{"object-type": "Schedule", "from": "300", "to": "1200"}
-					],
-					"skipOnHolidays": true,
-					"validator": {
-						"object-type": "PlatesByDayValidator",
-						"parameters": {
-							"plates-by-day": "2",
-							"monday-start": "1"
-						}
-					},
-					"vehicles": ["particular"]
-				}, {
-					"object-type": "Restriction",
-					"days": ["mon", "tue", "wed", "thu", "fri"],
-					"hours": [
-						{"object-type": "Schedule", "from": "420", "to": "570"},
-						{"object-type": "Schedule", "from": "960", "to": "1170"}
 					],
 					"skipOnHolidays": true,
 					"validator": {
