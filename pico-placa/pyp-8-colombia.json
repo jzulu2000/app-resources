@@ -169,8 +169,7 @@
 	],
 	"country": "colombia",
 	"holidays": [
-		"20190101", "20190107", "20190419", "20190418", "20190501", "20190603", "20190624", "20190701",
-		"20190720", "20190807", "20190819", "20191014", "20191104", "20191111", "20191208", "20191225"
+		"20191104", "20191111", "20191208", "20191225"
 	],
 	"cities": [
 		{
@@ -192,14 +191,6 @@
 						}
 					},
 					"vehicles": ["particular", "particular-1996", "moto-2t", "moto-4t"]
-				}, {
-					"object-type": "Restriction",
-					"validFrom" : "2019-09-30",
-					"validThrough" : "2019-11-01",
-					"days": ["mon", "tue", "wed", "thu", "fri"],
-					"hours": {"registry-ref" : "medellin-hours"},
-					"validator": {"registry-ref" : "monday:2/2"},
-					"vehicles": ["moto-4t"]
 				}, {
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
@@ -453,16 +444,6 @@
 						{"object-type": "Schedule", "from": "1020", "to": "1200"}
 					],
 					"validator": {"registry-ref" : "monday:5/2"},
-					"validFrom" : "2019-09-02",
-					"vehicles": ["particular"]
-				}, {
-					"object-type": "Restriction",
-					"days": ["mon", "tue", "wed", "thu", "fri"],
-					"hours": [
-						{"object-type": "Schedule", "from": "420", "to": "600"},
-						{"object-type": "Schedule", "from": "1020", "to": "1200"}
-					],
-					"validator": {"registry-ref" : "monday:3/2"},
 					"vehicles": ["particular"]
 				}, {
 					"object-type": "Restriction",
@@ -531,7 +512,7 @@
 					"vehicles": ["publico"]
 				}
 			],
-			"unrestrictedDays": ["20190102", "20190103", "20190104", "20190106", "20190107", "20190108", "20190109", "20190110", "20190111"]
+			"unrestrictedDays": []
 		}, {
 			"object-type": "City",
 			"aliases": [],
@@ -615,8 +596,7 @@
 				}, {
 					"object-type": "Restriction",
 					"days": [
-						"20190120", "20190220", "20190320", "20190420", "20190520", "20190620", "20190720", "20190820", "20190920",
-						"20191020", "20191120", "20191220"
+						"20191120", "20191220"
 					],
 					"hours": [
 						{"object-type": "Schedule", "from": "240", "to": "1440"}
@@ -761,22 +741,6 @@
 					],
 					"validator": {"registry-ref" : "monday:1/2"},
 					"vehicles": ["particular"]
-				}
-			],
-			"unrestrictedDays": []
-		}, {
-			"object-type": "City",
-			"aliases": [],
-			"name": "neiva",
-			"restrictions": [
-				{
-					"object-type": "Restriction",
-					"days": ["20190410"],
-					"hours": [
-						{"object-type": "Schedule", "from": "420", "to": "1140"}
-					],
-					"validator": {"registry-ref" : "dia-sin-carro:0/10"},
-					"vehicles": ["particular", "moto-2t", "moto-4t"]
 				}
 			],
 			"unrestrictedDays": []
