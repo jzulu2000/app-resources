@@ -76,12 +76,12 @@
 	"specialEvents": [
 		{
 			"object-type": "SpecialEvent",
-			"id" : "17",
-			"dates": ["2019-11-01"],
+			"id" : "18",
+			"dates": ["2020-01-03"],
 			"city": "medellin",
-			"title": "Se decreta el #EstadoDePrevención en Medellín.",
-			"text": "Se declara el #EstadoDePrevención desde el 30 de Septiembre hasta el 1 de Noviembre de 2019 en los 10 municipios del Valle de Aburrá. Al pico y placa actual se adiciona el día Sábado y además se incluyen las motos 4 tiempos.",
-			"url": "https://www.elcolombiano.com/antioquia/pico-y-placa-en-medellin-cambia-por-contaminacion-del-aire-en-valle-de-aburra-AC11646240"
+			"title": "Bogotá - Fechas sin pico y placa para fin de año.",
+			"text": "la medida de pico y placa se levantará para los vehículos particulares desde el próximo 26 de diciembre de 2019 hasta el 6 de enero de 2020",
+			"url": "https://www.colombia.com/actualidad/nacionales/distrito-bogota-anuncia-fechas-sin-pico-placa-para-fin-de-ano-2019-249090"
 		}
 	],
 	"vehicles": [
@@ -340,7 +340,7 @@
 					"vehicles": ["publico"]
 				}
 			],
-			"unrestrictedDays": []
+			"unrestrictedDays": [ "20191226", "20191227", "20191230", "20191231", "20200102", "20200103"]
 		}, {
 			"object-type": "City",
 			"aliases": [],
