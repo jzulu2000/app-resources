@@ -80,8 +80,17 @@
 			"dates": ["2020-01-03"],
 			"city": "medellin",
 			"title": "Bogotá - Fechas sin pico y placa para fin de año.",
-			"text": "la medida de pico y placa se levantará para los vehículos particulares desde el próximo 26 de diciembre de 2019 hasta el 6 de enero de 2020",
+			"text": "La medida de pico y placa se levantará para los vehículos particulares desde el próximo 26 de diciembre de 2019 hasta el 6 de enero de 2020",
 			"url": "https://www.colombia.com/actualidad/nacionales/distrito-bogota-anuncia-fechas-sin-pico-placa-para-fin-de-ano-2019-249090"
+		},
+		{
+			"object-type": "SpecialEvent",
+			"id" : "19",
+			"dates": ["2020-01-10"],
+			"city": "bucaramanga",
+			"title": "Bucaramanga - A partir del 16, se suspende Pico y Placa.",
+			"text": "La medida del pico y placa en Bucaramanga, según informaron las autoridades de Tránsito, se suspenderá a partir del 16 de diciembre para carros y motocicletas.",
+			"url": "https://www.bluradio.com/nacion/pendientes-no-habra-pico-y-placa-desde-el-16-de-diciembre-en-bucaramanga-stds-234475-ie6526264"
 		}
 	],
 	"vehicles": [
@@ -430,7 +439,9 @@
 					"vehicles": ["taxi"]
 				}
 			],
-			"unrestrictedDays": []
+			"unrestrictedDays": [ "20191216", "20191217", "20191218", "20191219", "20191220",
+				"20191223", "20191224", "20191226", "20191227", "20191230", "20191231", "20200101", "20200102", "20200103",
+				"20200106", "20200107", "20200108", "20200109", "20200110"]
 		}, {
 			"object-type": "City",
 			"aliases": [],
