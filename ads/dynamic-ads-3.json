@@ -31,7 +31,7 @@
       "descriptions": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "Know your Natal chart, Solar and Lunar returns, Transits Progressions, Synastries and Numerology."
+          "text": "Know your Natal chart, Solar and Lunar returns, Transits, Progressions, Synastries and Numerology."
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
@@ -93,8 +93,24 @@
         }
       ],
       "url": "com.twelvestars.pipla"
-    },
-    {
+    }, {
+      "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
+      "country": "pe",
+      "descriptions": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Obten notificaciones del pico y placa para Peru."
+        }
+      ],
+      "icon": "pipla_peru_round:https://raw.githubusercontent.com/jzulu2000/app-resources/master/pico-placa/pipla_peru_round.png",
+      "titles": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Pipla - Pico y Placa Lima Peru"
+        }
+      ],
+      "url": "com.twelvestars.pipla_peru"
+    }, {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
       "descriptions": [
         {

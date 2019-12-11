@@ -43,8 +43,24 @@
         }
       ],
       "url": "com.twelvestars.pipla"
-    },
-    {
+    }, {
+      "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
+      "country": "pe",
+      "descriptions": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Obten notificaciones del pico y placa para Peru."
+        }
+      ],
+      "icon": "pipla_round",
+      "titles": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Pipla - Pico y Placa Lima Peru"
+        }
+      ],
+      "url": "com.twelvestars.pipla_peru"
+    }, {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
       "descriptions": [
         {
