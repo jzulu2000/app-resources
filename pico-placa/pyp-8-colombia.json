@@ -178,7 +178,8 @@
 	],
 	"country": "colombia",
 	"holidays": [
-		"20191104", "20191111", "20191208", "20191225"
+		"20200101", "20200106", "20200323", "20200409", "20200410", "20200501", "20200525", "20200615", "20200622", "20200629",
+		"20200720", "20200807", "20200817", "20201012", "20201102", "20201116", "20201208", "20201225"
 	],
 	"cities": [
 		{
@@ -189,18 +190,6 @@
 			"name": "medellin",
 			"restrictions": [
 				{
-					"object-type": "Restriction",
-					"days": ["20191005", "20191012", "20191019", "20191026"],
-					"hours": {"registry-ref" : "medellin-hours"},
-					"validator": {
-						"object-type": "PairImpairValidator",
-						"parameters": {
-							"evaluator": "WEEK_OF_YEAR",
-							"pair-if-pair": "true"
-						}
-					},
-					"vehicles": ["particular", "particular-1996", "moto-2t", "moto-4t"]
-				}, {
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": {"registry-ref" : "medellin-hours"},
@@ -349,7 +338,7 @@
 					"vehicles": ["publico"]
 				}
 			],
-			"unrestrictedDays": [ "20191226", "20191227", "20191230", "20191231", "20200102", "20200103"]
+			"unrestrictedDays": [ "20191230", "20191231", "20200102", "20200103"]
 		}, {
 			"object-type": "City",
 			"aliases": [],
@@ -439,8 +428,7 @@
 					"vehicles": ["taxi"]
 				}
 			],
-			"unrestrictedDays": [ "20191216", "20191217", "20191218", "20191219", "20191220",
-				"20191223", "20191224", "20191226", "20191227", "20191230", "20191231", "20200101", "20200102", "20200103",
+			"unrestrictedDays": [ "20191230", "20191231", "20200101", "20200102", "20200103",
 				"20200106", "20200107", "20200108", "20200109", "20200110"]
 		}, {
 			"object-type": "City",
@@ -462,7 +450,7 @@
 					"hours": [
 						{"registry-ref" : "06:00-24:00"}
 					],
-					"validator": {"registry-ref" : "monday:9/2"},
+					"validator": {"registry-ref" : "monday:3/2"},
 					"vehicles": ["taxi"]
 				}
 			],
@@ -607,7 +595,7 @@
 				}, {
 					"object-type": "Restriction",
 					"days": [
-						"20191120", "20191220"
+						"20200120","20200220","20200320","20200420","20200520","20200620","20200720","20200820","20200920","20201020","20201120","20201220"
 					],
 					"hours": [
 						{"object-type": "Schedule", "from": "240", "to": "1440"}
