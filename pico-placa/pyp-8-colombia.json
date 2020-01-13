@@ -76,15 +76,6 @@
 	"specialEvents": [
 		{
 			"object-type": "SpecialEvent",
-			"id" : "18",
-			"dates": ["2020-01-03"],
-			"city": "bogota",
-			"title": "Bogotá - Fechas sin pico y placa para fin de año.",
-			"text": "La medida de pico y placa se levantará para los vehículos particulares desde el próximo 26 de diciembre de 2019 hasta el 6 de enero de 2020",
-			"url": "https://www.colombia.com/actualidad/nacionales/distrito-bogota-anuncia-fechas-sin-pico-placa-para-fin-de-ano-2019-249090"
-		},
-		{
-			"object-type": "SpecialEvent",
 			"id" : "19",
 			"dates": ["2020-01-10"],
 			"city": "bucaramanga",
@@ -220,61 +211,61 @@
 							{
 								"object-type": "StaticRestriction",
 								"days": [
-									"20191008", "20191022", "20191106", "20191120", "20191205", "20191219", "20200102", "20200117", "20200131"
+									"20200117", "20200131"
 								],
 								"plates": ["0"]
 							}, {
 								"object-type": "StaticRestriction",
 								"days": [
-									"20191001", "20191016", "20191030", "20191114", "20191128", "20191213", "20191227", "20200120"
+									"20200120"
 								],
 								"plates": ["1"]
 							}, {
 								"object-type": "StaticRestriction",
 								"days": [
-									"20191002", "20191017", "20191031", "20191115", "20191129", "20191209", "20191223", "20200107", "20200121"
+									"20200121"
 								],
 								"plates": ["2"]
 							}, {
 								"object-type": "StaticRestriction",
 								"days": [
-									"20191003", "20191018", "20191101", "20191125", "20191210", "20191224", "20200108", "20200122"
+									"20200122"
 								],
 								"plates": ["3"]
 							}, {
 								"object-type": "StaticRestriction",
 								"days": [
-									"20191004", "20191028", "20191112", "20191126", "201912", "20191211", "20200116", "20200130"
+									"20200116", "20200130"
 								],
 								"plates": ["4"]
 							}, {
 								"object-type": "StaticRestriction",
 								"days": [
-									"20190930", "20191015", "20191029", "20191113", "20191127", "20191212", "20191226", "20200110", "20200124"
+									"20200124"
 								],
 								"plates": ["5"]
 							}, {
 								"object-type": "StaticRestriction",
 								"days": [
-									"20191009", "20191023", "20191107", "20191121", "20191206", "20191220", "20200103", "20200113", "20200127"
+									"20200127"
 								],
 								"plates": ["6"]
 							}, {
 								"object-type": "StaticRestriction",
 								"days": [
-									"20190925", "20191010", "20191024", "2019118", "20191122", "20191202", "20191216", "20191230", "20200114", "20200128"
+									"20200114", "20200128"
 								],
 								"plates": ["7"]
 							}, {
 								"object-type": "StaticRestriction",
 								"days": [
-									"20190926", "20191011", "20191025", "20191118", "20191203", "20191217", "20191231", "20200115", "20200129"
+									"20200115", "20200129"
 								],
 								"plates": ["8"]
 							}, {
 								"object-type": "StaticRestriction",
 								"days": [
-									"20190927", "20191007", "20191021", "20191105", "20191119", "20191204", "20191218", "20200109", "20200123"
+									"20200123"
 								],
 								"plates": ["9"]
 							}
@@ -315,7 +306,7 @@
 						"parameters": {
 							"include-saturdays": "true",
 							"plates-by-day": "2",
-							"first-monday-start": "3",
+							"first-monday-start": "7",
 							"include-sundays": "false"
 						}
 					},
@@ -331,14 +322,14 @@
 						"parameters": {
 							"include-saturdays": "true",
 							"plates-by-day": "2",
-							"first-monday-start": "1",
+							"first-monday-start": "5",
 							"include-sundays": "false"
 						}
 					},
 					"vehicles": ["publico"]
 				}
 			],
-			"unrestrictedDays": [ "20191230", "20191231", "20200102", "20200103"]
+			"unrestrictedDays": [ ]
 		}, {
 			"object-type": "City",
 			"aliases": [],
@@ -388,23 +379,23 @@
 						"staticRestrictions": [
 							{
 								"object-type": "StaticRestriction",
-								"days": ["20191102", "20191207", "20200111", "20200215"],
+								"days": ["20200215"],
 								"plates": ["3", "4"]
 							}, {
 								"object-type": "StaticRestriction",
-								"days": ["20191005", "20191109", "20191214", "20200118"],
+								"days": ["20200118"],
 								"plates": ["5", "6"]
 							}, {
 								"object-type": "StaticRestriction",
-								"days": ["20191012", "20191116", "20191221", "20200125"],
+								"days": ["20200125"],
 								"plates": ["7", "8"]
 							}, {
 								"object-type": "StaticRestriction",
-								"days": ["20191019", "20191123", "20191228", "20200201"],
+								"days": ["20200201"],
 								"plates": ["9", "0"]
 							}, {
 								"object-type": "StaticRestriction",
-								"days": ["20191026", "20191130", "20200104", "20200208"],
+								"days": ["20200208"],
 								"plates": ["1", "2"]
 							}
 						]
@@ -428,8 +419,7 @@
 					"vehicles": ["taxi"]
 				}
 			],
-			"unrestrictedDays": [ "20191230", "20191231", "20200101", "20200102", "20200103",
-				"20200106", "20200107", "20200108", "20200109", "20200110"]
+			"unrestrictedDays": [ ]
 		}, {
 			"object-type": "City",
 			"aliases": [],
@@ -442,7 +432,7 @@
 						{"object-type": "Schedule", "from": "420", "to": "600"},
 						{"object-type": "Schedule", "from": "1020", "to": "1200"}
 					],
-					"validator": {"registry-ref" : "monday:5/2"},
+					"validator": {"registry-ref" : "monday:7/2"},
 					"vehicles": ["particular"]
 				}, {
 					"object-type": "Restriction",
@@ -536,15 +526,6 @@
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
-						{"object-type": "Schedule", "from": "450", "to": "540"},
-						{"registry-ref" : "17:30-19:00"}
-					],
-					"validator": {"registry-ref" : "monday:1/4"},
-					"vehicles": ["particular"]
-				}, {
-					"object-type": "Restriction",
-					"days": ["mon", "tue", "wed", "thu", "fri"],
-					"hours": [
 						{ "registry-ref" : "06:00-20:00"}
 					],
 					"validator": {
@@ -574,17 +555,7 @@
 						{"registry-ref" : "17:30-19:30"}
 					],
 					"validator": {"registry-ref" : "monday:1/2"},
-					"vehicles": ["particular"]
-				}, {
-					"object-type": "Restriction",
-					"days": ["mon", "tue", "wed", "thu", "fri"],
-					"hours": [
-						{"object-type": "Schedule", "from": "450", "to": "570"},
-						{"object-type": "Schedule", "from": "690", "to": "870"},
-						{"registry-ref" : "17:30-19:30"}
-					],
-					"validator": {"registry-ref" : "monday:1/2"},
-					"vehicles": ["moto-2t", "moto-4t"]
+					"vehicles": ["particular", "moto-2t", "moto-4t"]
 				}
 			],
 			"unrestrictedDays": []
