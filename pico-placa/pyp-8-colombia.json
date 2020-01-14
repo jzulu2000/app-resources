@@ -76,12 +76,12 @@
 	"specialEvents": [
 		{
 			"object-type": "SpecialEvent",
-			"id" : "19",
-			"dates": ["2020-01-10"],
-			"city": "bucaramanga",
-			"title": "Bucaramanga - A partir del 16, se suspende Pico y Placa.",
-			"text": "La medida del pico y placa en Bucaramanga, según informaron las autoridades de Tránsito, se suspenderá a partir del 16 de diciembre para carros y motocicletas.",
-			"url": "https://www.bluradio.com/nacion/pendientes-no-habra-pico-y-placa-desde-el-16-de-diciembre-en-bucaramanga-stds-234475-ie6526264"
+			"id" : "20",
+			"dates": ["2020-01-24"],
+			"city": "cali",
+			"title": "Cali - Vuelve el pico y placa a partir del 16 de Enero.",
+			"text": "La medida del pico y placa en Cali, según informaron las autoridades de Tránsito, comonzará a partir del 16 de enero.",
+			"url": "https://90minutos.co/listo-decreto-pico-placa-cali-mire-aqui-dia-que-comenzara-medida-08-01-2020/"
 		}
 	],
 	"vehicles": [
@@ -476,7 +476,7 @@
 						"object-type": "PlatesByDayValidator",
 						"parameters": {
 							"plates-by-day": "2",
-							"monday-start": "7"
+							"monday-start": "5"
 						}
 					},
 					"vehicles": ["particular", "especial"]
