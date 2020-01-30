@@ -46,6 +46,8 @@
 			"object-type": "PlatesByDayValidator", "parameters": {"plates-by-day": "2", "monday-start": "4"}
 		}, "monday:5/2" : {
 			"object-type": "PlatesByDayValidator", "parameters": {"plates-by-day": "2", "monday-start": "5"}
+		}, "monday:6/2" : {
+			"object-type": "PlatesByDayValidator", "parameters": {"plates-by-day": "2", "monday-start": "6"}
 		}, "monday:7/2" : {
 			"object-type": "PlatesByDayValidator", "parameters": {"plates-by-day": "2", "monday-start": "7"}
 		}, "monday:9/2" : {
@@ -660,16 +662,8 @@
 					"hours": [
 						{"object-type": "Schedule", "from": "450", "to": "1140"}
 					],
-					"validator": {"registry-ref" : "monday:2/2"},
-					"vehicles": ["particular"]
-				}, {
-					"object-type": "Restriction",
-					"days": ["mon", "tue", "wed", "thu", "fri"],
-					"hours": [
-						{"object-type": "Schedule", "from": "450", "to": "1140"}
-					],
-					"validator": {"registry-ref" : "monday:2/2"},
-					"vehicles": ["moto-2t", "moto-4t"]
+					"validator": {"registry-ref" : "monday:6/2"},
+					"vehicles": ["particular", "moto-2t", "moto-4t"]
 				}
 			],
 			"unrestrictedDays": []
