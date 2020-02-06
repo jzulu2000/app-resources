@@ -126,15 +126,15 @@
 					"object-type": "PollOption",
 					"action" : "playstore",
 					"texts" : {
-						"en" : "I like this app and wolud like to rate it in the playstore!",
-						"es" : "Me gusta esta aplicación y me gustaría calificarla en el playstore!"
+						"en" : "I like this app and want to rate it in the playstore!",
+						"es" : "Me gusta esta aplicación quiero calificarla en playstore!"
 					}
 				}, {
 					"object-type": "PollOption",
 					"action" : "email",
 					"texts" : {
-						"en" : "I have some comments or report a problem when using the app!",
-						"es" : "Quiero hacer sugerencias o reportar problemas al usar la app!"
+						"en" : "I have some comments or report a problem!",
+						"es" : "Quiero hacer sugerencias o reportar problemas!"
 					},
 					"actionParameters" : {
 						"registry-ref" : "send-email-dialog"
@@ -145,7 +145,7 @@
 			"object-type": "Poll",
 			"id" : "speechy-promo",
 			"appsRegex" : ".*webmonitor.*|.*best.*|.*gmplayer.*|.*moca.*|.*pipla.*|.*screen.*",
-			"lapse" : 1,
+			"lapse" : 3,
 			"title" : {
 				"object-type": "Translatable",
 				"texts" : {

@@ -227,7 +227,7 @@
       "descriptions": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "Records video in background when motion is detected or by user request."
+          "text": "Records video when motion is detected or by user request, even with screen off ."
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",

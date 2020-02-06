@@ -314,6 +314,20 @@
 			"restrictions": [
 				{
 					"object-type": "Restriction",
+					"days": ["20200206"],
+					"hours": [
+						{"object-type": "Schedule", "from": "300", "to": "1260"}
+					],
+					"validator": {
+						"object-type": "PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "10",
+							"monday-start": "0"
+						}
+					},
+					"vehicles": ["particular", "particular-1996", "moto-2t", "moto-4t"]
+				}, {
+					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
 						{"object-type": "Schedule", "from": "360", "to": "510"},
@@ -691,6 +705,20 @@
 			"name": "ibague",
 			"restrictions": [
 				{
+					"object-type": "Restriction",
+					"days": ["20200212"],
+					"hours": [
+						{"object-type": "Schedule", "from": "360", "to": "1200"}
+					],
+					"validator": {
+						"object-type": "PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "10",
+							"monday-start": "0"
+						}
+					},
+					"vehicles": ["particular", "particular-1996", "moto-2t", "moto-4t"]
+				}, {
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [

@@ -6,6 +6,31 @@
       "descriptions": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Know your Natal chart, Solar and Lunar returns, Transits Progressions, Synastries and Numerology."
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "es",
+          "text": "Conoce tu carta natal, revolución solar y lunar, tránsitos, progresiones, sinastrías y numerología."
+        }
+      ],
+      "icon": "astro_mate_round",
+      "titles": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Astro Mate - Astrology charts."
+        }, {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "es",
+          "text": "Astro Mate - Cartas de Astrología."
+        }
+      ],
+      "url": "com.twelvestars.myastros_free"
+    }, {
+      "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
+      "descriptions": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "text": "Listen to PDF, Epub and more books while doing other activities."
         },
         {
@@ -87,22 +112,22 @@
       "titles": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "Lyra Music Player"
+          "text": "Lyra - Music Player"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "es",
-          "text": "Reproductor de Música Lyra"
+          "text": "Lyra - Reproductor de Música"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "fr",
-          "text": "Lyra Lecteur de musique"
+          "text": "Lyra - Lecteur de musique"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "pt",
-          "text": "Lyra Leitor de música"
+          "text": "Lyra - Leitor de música"
         }
       ],
       "url": "co.com.twelvestars.best_free"
@@ -134,22 +159,22 @@
       "titles": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "Lyra Plugin"
+          "text": "Lyra - Lyrics Plugin"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "es",
-          "text": "Lyra Plugin para letras"
+          "text": "Lyra - Plugin para letras"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "fr",
-          "text": "Lyra Plugin"
+          "text": "Lyra - Plugin de paroles"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "pt",
-          "text": "Lyra plugin"
+          "text": "Lyra - Plugin para letras"
         }
       ],
       "url": "co.com.twelvestars.gmplayer"
@@ -177,12 +202,12 @@
       "descriptions": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "Records video in background when motion is detected or by user request."
+          "text": "Records video when motion is detected or by user request, even with screen off ."
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "es",
-          "text": "Graba video en segundo plano cuando se detecta movimiento o cuando el usuario lo requiera."
+          "text": "Graba video al detectar movimiento o cuando el usuario lo requiera, incluso con pantalla apagada ."
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
@@ -199,22 +224,22 @@
       "titles": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "MoCa Motion Detection Camera and Dashcam"
+          "text": "MoCa - Motion Detection Camera and Dashcam"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "es",
-          "text": "MoCa Camara de detección Movimiento y Dashcam"
+          "text": "MoCa - Camara de detección Movimiento y Dashcam"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "fr",
-          "text": "MoCa Spy Caméra détection mouvement"
+          "text": "MoCa - Spy Caméra détection mouvement"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "pt",
-          "text": "MoCa Spy Detecção de movimento"
+          "text": "MoCa - Spy Detecção de movimento"
         }
       ],
       "url": "twelvestars.moca"
@@ -225,17 +250,35 @@
       "descriptions": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "Obten notificaciones del pico y placa para Ecuador."
+          "text": "Obten notificaciones del Hoy No Circula para Ecuador."
         }
       ],
       "icon": "pipla_ecuador_round",
       "titles": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "Pipla - Pico y Placa Ecuador"
+          "text": "Pipla - Hoy No Circula Ecuador"
         }
       ],
       "url": "com.twelvestars.pipla_ecuador"
+    },
+    {
+      "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
+      "country": "pe",
+      "descriptions": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Obten notificaciones del Pico y Placa para Perú."
+        }
+      ],
+      "icon": "pipla_peru_round",
+      "titles": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Pipla - Pico y Placa Peru"
+        }
+      ],
+      "url": "com.twelvestars.pipla_peru"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
@@ -407,7 +450,7 @@
       "descriptions": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "Applies a customizable screen shade."
+          "text": "Applies a dark, light or customizable screen shade."
         }
       ],
       "icon": "screen_filter_round",

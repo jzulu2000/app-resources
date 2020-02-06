@@ -1,4 +1,18 @@
 {
+  "com.twelvestars.myastros" : [
+    {
+      "places": ["chartactivity"],
+      "implementation": "facebook",
+      "enabled": "true",
+      "appId": "",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "2639192702799759_2639193426133020",
+        "ADDS_DEFAULT_INTERSTITIAL": "2639192702799759_2639196506132712",
+        "ADDS_DEFAULT_VIDEO_REWARD": "452391805606863_452392498940127"
+      }
+    }
+  ],
+
   "com.twelvestars.pdfreader_free" : [
     {
       "places": ["texttospeechactivity", "settings.settingsactivity"],
@@ -8,7 +22,17 @@
       "adsIds": {
         "ADDS_DEFAULT_BANNER": "452391805606863_452392055606838",
         "ADDS_DEFAULT_INTERSTITIAL": "452391805606863_452392378940139",
-        "ADDS_DEFAULT_VIDEO_REWARD": "452391805606863_452392498940127"
+        "ADDS_DEFAULT_VIDEO_REWARD": ""
+      }
+    }, {
+      "places": ["texttospeechactivity", "settings.settingsactivity"],
+      "implementation": "admob",
+      "enabled": "true",
+      "appId": "ca-app-pub-1152574200163807~9651455740",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "",
+        "ADDS_DEFAULT_INTERSTITIAL": "",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1152574200163807/9287180583"
       }
     }
   ],
@@ -152,6 +176,21 @@
         "ADDS_DEFAULT_BANNER": "00839b392fac489a8e66c775ef4078d2",
         "ADDS_DEFAULT_INTERSTITIAL": "",
         "ADDS_DEFAULT_VIDEO_REWARD": ""
+      }
+    }
+  ],
+
+
+  "com.twelvestars.pipla_peru": [
+    {
+      "places": ["activities.notificationactivity", "activities.restrictionsactivity"],
+      "implementation": "facebook",
+      "enabled": "true",
+      "appId": "",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "470581890340073_470582683673327",
+        "ADDS_DEFAULT_INTERSTITIAL": "470581890340073_470582563673339",
+        "ADDS_DEFAULT_VIDEO_REWARD": "470581890340073_470582313673364"
       }
     }
   ],
