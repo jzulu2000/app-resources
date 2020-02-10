@@ -78,20 +78,20 @@
 	"specialEvents": [
 		{
 			"object-type": "SpecialEvent",
-			"id" : "21",
-			"dates": ["2020-02-14"],
-			"city": "medellin",
-			"title": "Medellín - El Lunes 3 de Febrero rotación de Pico y Placa.",
-			"text": "La medida del pico y placa en Medellín rotará a partir del 3 de Febrero y tendrá una semana pedagógica.",
-			"url": "https://www.elcolombiano.com/antioquia/movilidad/pico-y-placa-en-medellin-comenzara-a-rotar-el-proximo-lunes-3-de-febrero-PG12361824"
-		}, {
-			"object-type": "SpecialEvent",
 			"id" : "22",
 			"dates": ["2020-02-21"],
 			"city": "medellin",
 			"title": "Medellín - Vuelve el estado de prevención.",
 			"text": "Con el fin de mejorar la calidad del aire en el área metropolitana, la Junta Metropolitana decretó el estado de prevención que va desde el Lúnes 10 de Febrero hasta el Sábado 4 de Abríl.",
 			"url": "https://twitter.com/AlcaldiadeMed/status/1226246692405698560"
+		}, {
+			"object-type": "SpecialEvent",
+			"id" : "21",
+			"dates": ["2020-02-14"],
+			"city": "medellin",
+			"title": "Medellín - El Lunes 3 de Febrero rotación de Pico y Placa.",
+			"text": "La medida del pico y placa en Medellín rotará a partir del 3 de Febrero y tendrá una semana pedagógica.",
+			"url": "https://www.elcolombiano.com/antioquia/movilidad/pico-y-placa-en-medellin-comenzara-a-rotar-el-proximo-lunes-3-de-febrero-PG12361824"
 		}
 	],
 	"vehicles": [
@@ -581,6 +581,23 @@
 			"name": "barranquilla",
 			"restrictions": [
 				{
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"validFrom": "2020-02-10",
+					"validThrough": "2020-02-21",
+					"hours": [
+						{"object-type": "Schedule", "from": "450", "to": "540"},
+						{"registry-ref": "17:30-19:00"}
+					],
+					"validator": {
+						"object-type": "PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "4",
+							"monday-start": "1"
+						}
+					},
+					"vehicles": ["particular", "particular-1996"]
+				}, {
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
