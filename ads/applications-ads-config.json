@@ -6,11 +6,21 @@
       "enabled": "true",
       "appId": "",
       "adsIds": {
-        "ADDS_DEFAULT_BANNER": "2639192702799759_2639193426133020",
+        "ADDS_DEFAULT_BANNER": "2639192702799759_2639197386132624",
         "ADDS_DEFAULT_INTERSTITIAL": "2639192702799759_2639196506132712",
-        "ADDS_DEFAULT_VIDEO_REWARD": "452391805606863_452392498940127"
+        "ADDS_DEFAULT_VIDEO_REWARD": "2639192702799759_2639193426133020"
       }
-    }
+    }, {
+			"places": ["chartactivity"],
+			"implementation": "admob",
+			"enabled": "true",
+			"appId": "ca-app-pub-1152574200163807~9606765230",
+			"adsIds": {
+				"ADDS_DEFAULT_BANNER": "ca-app-pub-1152574200163807/6614265227",
+				"ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1152574200163807/2849785191",
+				"ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1152574200163807/1361938541"
+			}
+		}
   ],
 
   "com.twelvestars.pdfreader_free" : [
