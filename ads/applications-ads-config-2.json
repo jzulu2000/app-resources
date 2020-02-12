@@ -1,0 +1,445 @@
+{
+  "com.twelvestars.myastros" : [
+    {
+      "places": ["chartactivity"],
+      "implementation": "facebook",
+      "enabled": "true",
+      "appId": "",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "2639192702799759_2639197386132624",
+        "ADDS_DEFAULT_INTERSTITIAL": "2639192702799759_2639196506132712",
+        "ADDS_DEFAULT_VIDEO_REWARD": "2639192702799759_2639193426133020"
+      }
+    }, {
+			"places": ["chartactivity"],
+			"implementation": "admob",
+			"enabled": "true",
+			"appId": "ca-app-pub-1152574200163807~9606765230",
+			"adsIds": {
+				"ADDS_DEFAULT_BANNER": "ca-app-pub-1152574200163807/6614265227",
+				"ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1152574200163807/2849785191",
+				"ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1152574200163807/1361938541"
+			}
+		}
+  ],
+
+  "com.twelvestars.pdfreader_free" : [
+    {
+      "places": ["texttospeechactivity", "settings.settingsactivity"],
+      "implementation": "facebook",
+      "enabled": "true",
+      "appId": "",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "452391805606863_452392055606838",
+        "ADDS_DEFAULT_INTERSTITIAL": "452391805606863_452392378940139",
+        "ADDS_DEFAULT_VIDEO_REWARD": ""
+      }
+    }, {
+      "places": ["texttospeechactivity", "settings.settingsactivity"],
+      "implementation": "admob",
+      "enabled": "true",
+      "appId": "ca-app-pub-1152574200163807~9651455740",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "",
+        "ADDS_DEFAULT_INTERSTITIAL": "",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1152574200163807/9287180583"
+      }
+    }
+  ],
+
+
+  "co.com.twelvestars.best_free": [
+    {
+      "places": ["ui.fullscreenplayeractivity", "ui.musicplayeractivity"],
+      "implementation": "facebook",
+      "enabled": "true",
+      "appId": "",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "502997147159389_502998073825963",
+        "ADDS_DEFAULT_INTERSTITIAL": "502997147159389_502997950492642",
+        "ADDS_DEFAULT_VIDEO_REWARD": "502997147159389_502997597159344"
+      }
+    }, {
+      "places": ["ui.fullscreenplayeractivity", "ui.musicplayeractivity"],
+      "implementation": "admob",
+      "enabled": "true",
+      "appId": "ca-app-pub-1152574200163807~1721031195",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "",
+        "ADDS_DEFAULT_INTERSTITIAL": "",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1152574200163807/3755672757"
+      }
+    }, {
+      "places": ["ui.fullscreenplayeractivity", "ui.musicplayeractivity"],
+      "implementation": "mopub",
+      "enabled": "false",
+      "appId": "",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "0c05591612a74588895dbdb7bd105424",
+        "ADDS_DEFAULT_INTERSTITIAL": "403374ee134346b196175fe072c808cc",
+        "ADDS_DEFAULT_VIDEO_REWARD": "a52f877ebd5d45e6a9761dd5b3289690"
+      }
+    }
+  ],
+
+
+
+  "com.twelvestars.pipla": [
+    {
+      "places": ["activities.notificationactivity", "activities.restrictionsactivity"],
+      "implementation": "facebook",
+      "enabled": "true",
+      "appId": "",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "470581890340073_470582683673327",
+        "ADDS_DEFAULT_INTERSTITIAL": "470581890340073_470582563673339",
+        "ADDS_DEFAULT_VIDEO_REWARD": "470581890340073_470582313673364"
+      }
+    }, {
+      "places": ["notificationactivity", "restrictionsactivity"],
+      "implementation": "admob",
+      "enabled": "false",
+      "appId": "ca-app-pub-1338527873091383~8200259778",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "ca-app-pub-1338527873091383/5574096433",
+        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1338527873091383/3816547230",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1338527873091383/2812201722"
+      }
+    },
+    {
+      "places": ["notificationactivity", "restrictionsactivity"],
+      "implementation": "mopub",
+      "enabled": "false",
+      "appId": "",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "00839b392fac489a8e66c775ef4078d2",
+        "ADDS_DEFAULT_INTERSTITIAL": "",
+        "ADDS_DEFAULT_VIDEO_REWARD": ""
+      }
+    }
+  ],
+
+  "com.twelvestars.pipla_brasil": [
+    {
+      "places": ["activities.notificationactivity", "activities.restrictionsactivity"],
+      "implementation": "facebook",
+      "enabled": "true",
+      "appId": "",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "470581890340073_470582683673327",
+        "ADDS_DEFAULT_INTERSTITIAL": "470581890340073_470582563673339",
+        "ADDS_DEFAULT_VIDEO_REWARD": "470581890340073_470582313673364"
+      }
+    }, {
+      "places": ["notificationactivity", "restrictionsactivity"],
+      "implementation": "admob",
+      "enabled": "false",
+      "appId": "ca-app-pub-1338527873091383~8200259778",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "ca-app-pub-1338527873091383/5574096433",
+        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1338527873091383/3816547230",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1338527873091383/2812201722"
+      }
+    },
+    {
+      "places": ["notificationactivity", "restrictionsactivity"],
+      "implementation": "mopub",
+      "enabled": "false",
+      "appId": "",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "00839b392fac489a8e66c775ef4078d2",
+        "ADDS_DEFAULT_INTERSTITIAL": "",
+        "ADDS_DEFAULT_VIDEO_REWARD": ""
+      }
+    }
+  ],
+
+
+  "com.twelvestars.pipla_ecuador": [
+    {
+      "places": ["activities.notificationactivity", "activities.restrictionsactivity"],
+      "implementation": "facebook",
+      "enabled": "true",
+      "appId": "",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "470581890340073_470582683673327",
+        "ADDS_DEFAULT_INTERSTITIAL": "470581890340073_470582563673339",
+        "ADDS_DEFAULT_VIDEO_REWARD": "470581890340073_470582313673364"
+      }
+    }, {
+      "places": ["notificationactivity", "restrictionsactivity"],
+      "implementation": "admob",
+      "enabled": "false",
+      "appId": "ca-app-pub-1338527873091383~4606884729",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "ca-app-pub-1338527873091383/6686253158",
+        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1338527873091383/8162986350",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1338527873091383/3868518120"
+      }
+    },
+    {
+      "places": ["notificationactivity", "restrictionsactivity"],
+      "implementation": "mopub",
+      "enabled": "false",
+      "appId": "",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "00839b392fac489a8e66c775ef4078d2",
+        "ADDS_DEFAULT_INTERSTITIAL": "",
+        "ADDS_DEFAULT_VIDEO_REWARD": ""
+      }
+    }
+  ],
+
+
+  "com.twelvestars.pipla_peru": [
+    {
+      "places": ["activities.notificationactivity", "activities.restrictionsactivity"],
+      "implementation": "facebook",
+      "enabled": "true",
+      "appId": "",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "470581890340073_470582683673327",
+        "ADDS_DEFAULT_INTERSTITIAL": "470581890340073_470582563673339",
+        "ADDS_DEFAULT_VIDEO_REWARD": "470581890340073_470582313673364"
+      }
+    }
+  ],
+
+
+  "com.twelvestars.pipla_costarica": [
+    {
+      "places": ["activities.notificationactivity", "activities.restrictionsactivity"],
+      "implementation": "facebook",
+      "enabled": "true",
+      "appId": "",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "470581890340073_470582683673327",
+        "ADDS_DEFAULT_INTERSTITIAL": "470581890340073_470582563673339",
+        "ADDS_DEFAULT_VIDEO_REWARD": "470581890340073_470582313673364"
+      }
+    }, {
+      "places": ["notificationactivity", "restrictionsactivity"],
+      "implementation": "admob",
+      "enabled": "false",
+      "appId": "ca-app-pub-1338527873091383~2536869551",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "ca-app-pub-1338527873091383/6284542876",
+        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1338527873091383/1585135564",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1338527873091383/3466807845"
+      }
+    },
+    {
+      "places": ["notificationactivity", "restrictionsactivity"],
+      "implementation": "mopub",
+      "enabled": "false",
+      "appId": "",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "00839b392fac489a8e66c775ef4078d2",
+        "ADDS_DEFAULT_INTERSTITIAL": "",
+        "ADDS_DEFAULT_VIDEO_REWARD": ""
+      }
+    }
+  ],
+
+
+  "com.twelvestars.pipla_mexico": [
+		{
+			"places": ["activities.notificationactivity", "activities.restrictionsactivity"],
+			"implementation": "facebook",
+			"enabled": "true",
+			"appId": "",
+			"adsIds": {
+				"ADDS_DEFAULT_BANNER": "651207708731568_651208038731535",
+				"ADDS_DEFAULT_INTERSTITIAL": "651207708731568_651208122064860",
+				"ADDS_DEFAULT_VIDEO_REWARD": "651207708731568_651207888731550"
+			}
+		},{
+      "places": ["notificationactivity", "restrictionsactivity"],
+      "implementation": "admob",
+      "enabled": "false",
+      "appId": "ca-app-pub-1338527873091383~5678748651",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "ca-app-pub-1338527873091383/1547931954",
+        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1338527873091383/6225543569",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1338527873091383/9781645195"
+      }
+    },
+    {
+      "places": ["notificationactivity", "restrictionsactivity"],
+      "implementation": "mopub",
+      "enabled": "false",
+      "appId": "",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "00839b392fac489a8e66c775ef4078d2",
+        "ADDS_DEFAULT_INTERSTITIAL": "",
+        "ADDS_DEFAULT_VIDEO_REWARD": ""
+      }
+    }
+  ],
+
+
+  "com.twelvestars.pipla_philippines": [
+    {
+      "places": ["activities.notificationactivity", "activities.restrictionsactivity"],
+      "implementation": "facebook",
+      "enabled": "true",
+      "appId": "",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "470581890340073_470582683673327",
+        "ADDS_DEFAULT_INTERSTITIAL": "470581890340073_470582563673339",
+        "ADDS_DEFAULT_VIDEO_REWARD": "470581890340073_470582313673364"
+      }
+    }, {
+      "places": ["notificationactivity", "restrictionsactivity"],
+      "implementation": "admob",
+      "enabled": "false",
+      "appId": "ca-app-pub-1338527873091383~5678748651",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "ca-app-pub-1338527873091383/1547931954",
+        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1338527873091383/6225543569",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1338527873091383/9781645195"
+      }
+    },
+    {
+      "places": ["notificationactivity", "restrictionsactivity"],
+      "implementation": "mopub",
+      "enabled": "false",
+      "appId": "",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "00839b392fac489a8e66c775ef4078d2",
+        "ADDS_DEFAULT_INTERSTITIAL": "",
+        "ADDS_DEFAULT_VIDEO_REWARD": ""
+      }
+    }
+  ],
+
+
+  "co.com.twelvestars.gmplayer": [
+    {
+      "places": ["lyricsplayeractivity"],
+      "implementation": "admob",
+      "enabled": "false",
+      "appId": "ca-app-pub-1338527873091383~6309304043",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "ca-app-pub-1338527873091383/6117732359",
+        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1338527873091383/4613078991",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1338527873091383/8169180622"
+      }
+    }
+  ],
+
+
+  "twelvestars.moca": [
+    {
+      "places": ["co.com.twelvestars.moca.spicamactivity"],
+      "implementation": "facebook",
+      "enabled": "true",
+      "appId": "",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "647507325760571_647507682427202",
+        "ADDS_DEFAULT_INTERSTITIAL": "647507325760571_647507792427191",
+        "ADDS_DEFAULT_VIDEO_REWARD": "647507325760571_647507555760548"
+      }
+    }, {
+      "places": ["co.com.twelvestars.moca.cameraactivity"],
+      "implementation": "facebook",
+      "enabled": "true",
+      "appId": "",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "647507325760571_647507682427202",
+        "ADDS_DEFAULT_INTERSTITIAL": "647507325760571_647507792427191",
+        "ADDS_DEFAULT_VIDEO_REWARD": "647507325760571_647507555760548"
+      }
+    }, {
+      "places": ["co.com.twelvestars.moca.spicamactivity"],
+      "implementation": "admob",
+      "enabled": "false",
+      "appId": "ca-app-pub-1152574200163807~3854890506",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "ca-app-pub-1152574200163807/4886214225",
+        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1152574200163807/3532877752",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1152574200163807/6007724201"
+      }
+    }, {
+      "places": ["co.com.twelvestars.moca.cameraactivity"],
+      "implementation": "admob",
+      "enabled": "false",
+      "appId": "ca-app-pub-1152574200163807~3854890506",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "ca-app-pub-1152574200163807/4886214225",
+        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1152574200163807/3532877752",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1152574200163807/6007724201"
+      }
+    }
+  ],
+
+
+  "com.twelvestars.webmonitor": [
+    {
+      "places": ["editurlsactivity", "listurlsactivity"],
+      "implementation": "admob",
+      "enabled": "false",
+      "appId": "ca-app-pub-1338527873091383~5125759475",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "ca-app-pub-1338527873091383/4337746822",
+        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1338527873091383/4934187782",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1338527873091383/4934187782"
+      }
+    }
+  ],
+
+
+  "com.twelvestars.webmonitor_amz": [
+    {
+      "places": ["editurlsactivity", "listurlsactivity"],
+      "implementation": "admob",
+      "enabled": "false",
+      "appId": "ca-app-pub-1338527873091383~4770536257",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "ca-app-pub-1338527873091383/9892615393",
+        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1338527873091383/7074880364",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1338527873091383/7074880364"
+      }
+    }
+  ],
+
+
+  "com.twelvestars.screenFilter": [
+    {
+      "places": ["mainactivity"],
+      "implementation": "admob",
+      "enabled": "false",
+      "appId": "ca-app-pub-1338527873091383~3738270585",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "ca-app-pub-1338527873091383/3546698896",
+        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1338527873091383/4863649999",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1338527873091383/8415882193"
+      }
+    }, {
+      "places": ["mainactivity"],
+      "implementation": "mopub",
+      "enabled": "false",
+      "appId": "",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "00839b392fac489a8e66c775ef4078d2",
+        "ADDS_DEFAULT_INTERSTITIAL": "",
+        "ADDS_DEFAULT_VIDEO_REWARD": ""
+      }
+    }
+  ],
+
+
+  "com.twelvestars.screenRecorder" : [
+    {
+      "places": ["recorderactivity", "mainactivity"],
+      "implementation": "admob",
+      "enabled": "false",
+      "appId": "ca-app-pub-1338527873091383~4285065494",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "ca-app-pub-1338527873091383/7298241640",
+        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1338527873091383/3358996634",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1338527873091383/3649026276"
+      }
+    }
+  ]
+}
