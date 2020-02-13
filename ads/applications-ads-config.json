@@ -11,16 +11,16 @@
         "ADDS_DEFAULT_VIDEO_REWARD": "2639192702799759_2639193426133020"
       }
     }, {
-			"places": ["chartactivity"],
-			"implementation": "admob",
-			"enabled": "true",
-			"appId": "ca-app-pub-1152574200163807~9606765230",
-			"adsIds": {
-				"ADDS_DEFAULT_BANNER": "ca-app-pub-1152574200163807/6614265227",
-				"ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1152574200163807/2849785191",
-				"ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1152574200163807/1361938541"
-			}
-		}
+      "places": ["chartactivity"],
+      "implementation": "admob",
+      "enabled": "true",
+      "appId": "ca-app-pub-1152574200163807~9606765230",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "",
+        "ADDS_DEFAULT_INTERSTITIAL": "",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1152574200163807/1361938541"
+      }
+    }
   ],
 
   "com.twelvestars.pdfreader_free" : [
@@ -98,12 +98,12 @@
     }, {
       "places": ["notificationactivity", "restrictionsactivity"],
       "implementation": "admob",
-      "enabled": "false",
-      "appId": "ca-app-pub-1338527873091383~8200259778",
+      "enabled": "true",
+      "appId": "ca-app-pub-1152574200163807~3916021130",
       "adsIds": {
-        "ADDS_DEFAULT_BANNER": "ca-app-pub-1338527873091383/5574096433",
-        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1338527873091383/3816547230",
-        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1338527873091383/2812201722"
+        "ADDS_DEFAULT_BANNER": "",
+        "ADDS_DEFAULT_INTERSTITIAL": "",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1152574200163807/8087092636"
       }
     },
     {
@@ -121,24 +121,14 @@
 
   "com.twelvestars.pipla_brasil": [
     {
-      "places": ["activities.notificationactivity", "activities.restrictionsactivity"],
-      "implementation": "facebook",
-      "enabled": "true",
-      "appId": "",
-      "adsIds": {
-        "ADDS_DEFAULT_BANNER": "470581890340073_470582683673327",
-        "ADDS_DEFAULT_INTERSTITIAL": "470581890340073_470582563673339",
-        "ADDS_DEFAULT_VIDEO_REWARD": "470581890340073_470582313673364"
-      }
-    }, {
       "places": ["notificationactivity", "restrictionsactivity"],
       "implementation": "admob",
-      "enabled": "false",
-      "appId": "ca-app-pub-1338527873091383~8200259778",
+      "enabled": "true",
+      "appId": "ca-app-pub-1152574200163807~3975535070",
       "adsIds": {
-        "ADDS_DEFAULT_BANNER": "ca-app-pub-1338527873091383/5574096433",
-        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1338527873091383/3816547230",
-        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1338527873091383/2812201722"
+        "ADDS_DEFAULT_BANNER": "ca-app-pub-1152574200163807/4925654663",
+        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1152574200163807/2299491320",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1152574200163807/2662453408"
       }
     },
     {
@@ -157,27 +147,16 @@
 
   "com.twelvestars.pipla_ecuador": [
     {
-      "places": ["activities.notificationactivity", "activities.restrictionsactivity"],
-      "implementation": "facebook",
-      "enabled": "true",
-      "appId": "",
-      "adsIds": {
-        "ADDS_DEFAULT_BANNER": "470581890340073_470582683673327",
-        "ADDS_DEFAULT_INTERSTITIAL": "470581890340073_470582563673339",
-        "ADDS_DEFAULT_VIDEO_REWARD": "470581890340073_470582313673364"
-      }
-    }, {
       "places": ["notificationactivity", "restrictionsactivity"],
       "implementation": "admob",
-      "enabled": "false",
-      "appId": "ca-app-pub-1338527873091383~4606884729",
+      "enabled": "true",
+      "appId": "ca-app-pub-1152574200163807~2107919633",
       "adsIds": {
-        "ADDS_DEFAULT_BANNER": "ca-app-pub-1338527873091383/6686253158",
-        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1338527873091383/8162986350",
-        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1338527873091383/3868518120"
+        "ADDS_DEFAULT_BANNER": "ca-app-pub-1152574200163807/8481756299",
+        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1152574200163807/5855592954",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1152574200163807/4542511282"
       }
-    },
-    {
+    }, {
       "places": ["notificationactivity", "restrictionsactivity"],
       "implementation": "mopub",
       "enabled": "false",
@@ -193,14 +172,14 @@
 
   "com.twelvestars.pipla_peru": [
     {
-      "places": ["activities.notificationactivity", "activities.restrictionsactivity"],
-      "implementation": "facebook",
+      "places": ["notificationactivity", "restrictionsactivity"],
+      "implementation": "admob",
       "enabled": "true",
-      "appId": "",
+      "appId": "ca-app-pub-1152574200163807/5664021267",
       "adsIds": {
-        "ADDS_DEFAULT_BANNER": "470581890340073_470582683673327",
-        "ADDS_DEFAULT_INTERSTITIAL": "470581890340073_470582563673339",
-        "ADDS_DEFAULT_VIDEO_REWARD": "470581890340073_470582313673364"
+        "ADDS_DEFAULT_BANNER": "ca-app-pub-1152574200163807/5664021267",
+        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1152574200163807/3783963386",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1152574200163807/9411694582"
       }
     }
   ],
@@ -208,24 +187,14 @@
 
   "com.twelvestars.pipla_costarica": [
     {
-      "places": ["activities.notificationactivity", "activities.restrictionsactivity"],
-      "implementation": "facebook",
-      "enabled": "true",
-      "appId": "",
-      "adsIds": {
-        "ADDS_DEFAULT_BANNER": "470581890340073_470582683673327",
-        "ADDS_DEFAULT_INTERSTITIAL": "470581890340073_470582563673339",
-        "ADDS_DEFAULT_VIDEO_REWARD": "470581890340073_470582313673364"
-      }
-    }, {
       "places": ["notificationactivity", "restrictionsactivity"],
       "implementation": "admob",
-      "enabled": "false",
-      "appId": "ca-app-pub-1338527873091383~2536869551",
+      "enabled": "true",
+      "appId": "ca-app-pub-1152574200163807~8098612912",
       "adsIds": {
-        "ADDS_DEFAULT_BANNER": "ca-app-pub-1338527873091383/6284542876",
-        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1338527873091383/1585135564",
-        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1338527873091383/3466807845"
+        "ADDS_DEFAULT_BANNER": "ca-app-pub-1152574200163807/6785531249",
+        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1152574200163807/6785531249",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1152574200163807/7907041229"
       }
     },
     {
@@ -243,25 +212,25 @@
 
 
   "com.twelvestars.pipla_mexico": [
-		{
-			"places": ["activities.notificationactivity", "activities.restrictionsactivity"],
-			"implementation": "facebook",
-			"enabled": "true",
-			"appId": "",
-			"adsIds": {
-				"ADDS_DEFAULT_BANNER": "651207708731568_651208038731535",
-				"ADDS_DEFAULT_INTERSTITIAL": "651207708731568_651208122064860",
-				"ADDS_DEFAULT_VIDEO_REWARD": "651207708731568_651207888731550"
-			}
-		},{
+    {
+      "places": ["activities.notificationactivity", "activities.restrictionsactivity"],
+      "implementation": "facebook",
+      "enabled": "true",
+      "appId": "",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "651207708731568_651208038731535",
+        "ADDS_DEFAULT_INTERSTITIAL": "651207708731568_651208122064860",
+        "ADDS_DEFAULT_VIDEO_REWARD": "651207708731568_651207888731550"
+      }
+    },{
       "places": ["notificationactivity", "restrictionsactivity"],
       "implementation": "admob",
-      "enabled": "false",
-      "appId": "ca-app-pub-1338527873091383~5678748651",
+      "enabled": "true",
+      "appId": "ca-app-pub-1152574200163807~1185452996",
       "adsIds": {
-        "ADDS_DEFAULT_BANNER": "ca-app-pub-1338527873091383/1547931954",
-        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1338527873091383/6225543569",
-        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1338527873091383/9781645195"
+        "ADDS_DEFAULT_BANNER": "ca-app-pub-1152574200163807/8343448785",
+        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1152574200163807/4414498982",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1152574200163807/7559289655"
       }
     },
     {
@@ -280,24 +249,14 @@
 
   "com.twelvestars.pipla_philippines": [
     {
-      "places": ["activities.notificationactivity", "activities.restrictionsactivity"],
-      "implementation": "facebook",
-      "enabled": "true",
-      "appId": "",
-      "adsIds": {
-        "ADDS_DEFAULT_BANNER": "470581890340073_470582683673327",
-        "ADDS_DEFAULT_INTERSTITIAL": "470581890340073_470582563673339",
-        "ADDS_DEFAULT_VIDEO_REWARD": "470581890340073_470582313673364"
-      }
-    }, {
       "places": ["notificationactivity", "restrictionsactivity"],
       "implementation": "admob",
-      "enabled": "false",
-      "appId": "ca-app-pub-1338527873091383~5678748651",
+      "enabled": "true",
+      "appId": "ca-app-pub-1152574200163807~3967796215",
       "adsIds": {
-        "ADDS_DEFAULT_BANNER": "ca-app-pub-1338527873091383/1547931954",
-        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1338527873091383/6225543569",
-        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1338527873091383/9781645195"
+        "ADDS_DEFAULT_BANNER": "ca-app-pub-1152574200163807/2654714548",
+        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1152574200163807/4905473364",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1152574200163807/6402387868"
       }
     },
     {
@@ -318,12 +277,12 @@
     {
       "places": ["lyricsplayeractivity"],
       "implementation": "admob",
-      "enabled": "false",
-      "appId": "ca-app-pub-1338527873091383~6309304043",
+      "enabled": "true",
+      "appId": "ca-app-pub-1152574200163807~1150061186",
       "adsIds": {
-        "ADDS_DEFAULT_BANNER": "ca-app-pub-1338527873091383/6117732359",
-        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1338527873091383/4613078991",
-        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1338527873091383/8169180622"
+        "ADDS_DEFAULT_BANNER": "ca-app-pub-1152574200163807/8653146685",
+        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1152574200163807/7632257797",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1152574200163807/4622402330"
       }
     }
   ],
@@ -331,7 +290,7 @@
 
   "twelvestars.moca": [
     {
-      "places": ["co.com.twelvestars.moca.spicamactivity"],
+      "places": ["co.com.twelvestars.moca.spicamactivity", "co.com.twelvestars.moca.cameraactivity"],
       "implementation": "facebook",
       "enabled": "true",
       "appId": "",
@@ -341,29 +300,9 @@
         "ADDS_DEFAULT_VIDEO_REWARD": "647507325760571_647507555760548"
       }
     }, {
-      "places": ["co.com.twelvestars.moca.cameraactivity"],
-      "implementation": "facebook",
+      "places": ["co.com.twelvestars.moca.spicamactivity", "co.com.twelvestars.moca.cameraactivity"],
+      "implementation": "admob",
       "enabled": "true",
-      "appId": "",
-      "adsIds": {
-        "ADDS_DEFAULT_BANNER": "647507325760571_647507682427202",
-        "ADDS_DEFAULT_INTERSTITIAL": "647507325760571_647507792427191",
-        "ADDS_DEFAULT_VIDEO_REWARD": "647507325760571_647507555760548"
-      }
-    }, {
-      "places": ["co.com.twelvestars.moca.spicamactivity"],
-      "implementation": "admob",
-      "enabled": "false",
-      "appId": "ca-app-pub-1152574200163807~3854890506",
-      "adsIds": {
-        "ADDS_DEFAULT_BANNER": "ca-app-pub-1152574200163807/4886214225",
-        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1152574200163807/3532877752",
-        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1152574200163807/6007724201"
-      }
-    }, {
-      "places": ["co.com.twelvestars.moca.cameraactivity"],
-      "implementation": "admob",
-      "enabled": "false",
       "appId": "ca-app-pub-1152574200163807~3854890506",
       "adsIds": {
         "ADDS_DEFAULT_BANNER": "ca-app-pub-1152574200163807/4886214225",
@@ -378,12 +317,12 @@
     {
       "places": ["editurlsactivity", "listurlsactivity"],
       "implementation": "admob",
-      "enabled": "false",
-      "appId": "ca-app-pub-1338527873091383~5125759475",
+      "enabled": "true",
+      "appId": "ca-app-pub-1152574200163807~8645407823",
       "adsIds": {
-        "ADDS_DEFAULT_BANNER": "ca-app-pub-1338527873091383/4337746822",
-        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1338527873091383/4934187782",
-        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1338527873091383/4934187782"
+        "ADDS_DEFAULT_BANNER": "ca-app-pub-1152574200163807/1592914314",
+        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1152574200163807/6653669303",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1152574200163807/6019244481"
       }
     }
   ],
@@ -393,12 +332,12 @@
     {
       "places": ["editurlsactivity", "listurlsactivity"],
       "implementation": "admob",
-      "enabled": "false",
-      "appId": "ca-app-pub-1338527873091383~4770536257",
+      "enabled": "true",
+      "appId": "ca-app-pub-1152574200163807~8370075652",
       "adsIds": {
-        "ADDS_DEFAULT_BANNER": "ca-app-pub-1338527873091383/9892615393",
-        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1338527873091383/7074880364",
-        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1338527873091383/7074880364"
+        "ADDS_DEFAULT_BANNER": "ca-app-pub-1152574200163807/9088260950",
+        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1152574200163807/7056993984",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1152574200163807/1888427786"
       }
     }
   ],
@@ -408,12 +347,12 @@
     {
       "places": ["mainactivity"],
       "implementation": "admob",
-      "enabled": "false",
-      "appId": "ca-app-pub-1338527873091383~3738270585",
+      "enabled": "true",
+      "appId": "ca-app-pub-1152574200163807~7583607593",
       "adsIds": {
-        "ADDS_DEFAULT_BANNER": "ca-app-pub-1338527873091383/3546698896",
-        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1338527873091383/4863649999",
-        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1338527873091383/8415882193"
+        "ADDS_DEFAULT_BANNER": "ca-app-pub-1152574200163807/6949182773",
+        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1152574200163807/3009937762",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1152574200163807/4131447744"
       }
     }, {
       "places": ["mainactivity"],
@@ -433,12 +372,12 @@
     {
       "places": ["recorderactivity", "mainactivity"],
       "implementation": "admob",
-      "enabled": "false",
-      "appId": "ca-app-pub-1338527873091383~4285065494",
+      "enabled": "true",
+      "appId": "ca-app-pub-1152574200163807~6566039398",
       "adsIds": {
-        "ADDS_DEFAULT_BANNER": "ca-app-pub-1338527873091383/7298241640",
-        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1338527873091383/3358996634",
-        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1338527873091383/3649026276"
+        "ADDS_DEFAULT_BANNER": "ca-app-pub-1152574200163807/5252957729",
+        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1152574200163807/7687549371",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1152574200163807/5061386037"
       }
     }
   ]
