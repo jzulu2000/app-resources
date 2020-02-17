@@ -156,8 +156,8 @@
 			"description" : {
 				"object-type": "Translatable",
 				"texts" : {
-					"en" : "By Twelve Stars Software.\n\nWe've just launched Speechy... a text to speech app for listening PDF books or any text while doing some other activities. We have a FREE and a paid version (with no Ads).\n\nDo you want to install it from the Google Playstore?",
-					"es" : "De Twelve Stars Software.\n\nAcabamos de lanzar Speechy... una app texto a audio para escuchar libros PDF o cualquier texto mientras haces otras actividades. Tenemos una versión GRATIS y una paga (libre de Ads).\n\nDeseas instalarla desde el Google Playstore?"
+					"en" : "By Twelve Stars Software.\n\nWe've just launched Speechy... a text to speech app for listening PDF books or any text while doing some other activities. We have a FREE and a paid version (with no Ads).\n\nDo you want to try the free version?",
+					"es" : "De Twelve Stars Software.\n\nAcabamos de lanzar Speechy... una app texto a audio para escuchar libros PDF o cualquier texto mientras haces otras actividades. Tenemos una versión GRATIS y una paga (libre de Ads).\n\nDeseas probar la versión grátis?"
 				}
 			}, "neutralOption" : {
 				"registry-ref": "ask-later-option"
