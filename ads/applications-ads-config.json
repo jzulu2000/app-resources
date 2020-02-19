@@ -16,8 +16,8 @@
       "enabled": "true",
       "appId": "ca-app-pub-1152574200163807~9606765230",
       "adsIds": {
-        "ADDS_DEFAULT_BANNER": "",
-        "ADDS_DEFAULT_INTERSTITIAL": "",
+        "ADDS_DEFAULT_BANNER": "ca-app-pub-1152574200163807/6614265227",
+        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1152574200163807/2849785191",
         "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1152574200163807/1361938541"
       }
     }
