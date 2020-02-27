@@ -147,6 +147,16 @@
 			"type": "camion-volqueta"
 		}, {
 			"object-type": "Vehicle",
+			"iconRef": "bus",
+			"name": "Carga de más de 20 Años",
+			"plateColorRef": "plate_color_yellow",
+			"plateExtractor": {
+				"object-type": "LastDigitExtractor"
+			},
+			"textColorRef": "plate_color_black",
+			"type": "carga-20-years"
+		}, {
+			"object-type": "Vehicle",
 			"iconRef": "motorcycle",
 			"nameRef": "vehicle_type_moto_2t",
 			"plateColorRef": "plate_color_yellow",
@@ -334,9 +344,10 @@
 			"restrictions": [
 				{
 					"object-type": "Restriction",
-					"days": ["20200206"],
+					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
-						{"object-type": "Schedule", "from": "300", "to": "1260"}
+						{"object-type": "Schedule", "from": "330", "to": "480"},
+						{"object-type": "Schedule", "from": "990", "to": "1140"}
 					],
 					"validator": {
 						"object-type": "PlatesByDayValidator",
@@ -345,7 +356,7 @@
 							"monday-start": "0"
 						}
 					},
-					"vehicles": ["particular", "particular-1996", "moto-2t", "moto-4t"]
+					"vehicles": ["carga-20-years"]
 				}, {
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
