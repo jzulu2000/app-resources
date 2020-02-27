@@ -1,5 +1,5 @@
 {
-  "com.twelvestars.myastros" : [
+  "com.twelvestars.myastros_free" : [
     {
       "places": ["chartactivity"],
       "implementation": "facebook",
