@@ -689,7 +689,7 @@
 					"hours": [
 						{"object-type": "Schedule", "from": "450", "to": "1140"}
 					],
-					"validator": {"registry-ref" : "monday:6/2"},
+					"validator": {"registry-ref" : "monday:4/2"},
 					"vehicles": ["particular", "moto-2t", "moto-4t"]
 				}
 			],
