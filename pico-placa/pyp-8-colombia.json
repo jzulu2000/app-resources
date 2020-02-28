@@ -240,7 +240,7 @@
 							{
 								"object-type": "StaticRestriction",
 								"days": ["20200228"],
-								"plates": ["8", "9", "0", "1", "2", "4"]
+								"plates": ["8", "9", "0", "1", "2", "3"]
 							}, {
 								"object-type": "StaticRestriction",
 								"days": ["20200229"],
@@ -288,7 +288,7 @@
 							{
 								"object-type": "StaticRestriction",
 								"days": ["20200228"],
-								"plates": ["8", "9", "0", "1", "2", "4"]
+								"plates": ["8", "9", "0", "1", "2", "3"]
 							}, {
 								"object-type": "StaticRestriction",
 								"days": ["20200229"],
