@@ -207,7 +207,7 @@
 			"restrictions": [
 				{
 					"object-type": "Restriction",
-					"days": ["mon", "tue", "wed"],
+					"days": ["tue", "wed"],
 					"hours": {"registry-ref" : "medellin-hours-extended"},
 					"validator": {
 						"object-type": "StaticValidator",
@@ -247,7 +247,7 @@
 					"vehicles": ["particular", "camion-volqueta"]
 				}, {
 					"object-type": "Restriction",
-					"days": ["mon", "tue", "wed"],
+					"days": ["tue", "wed"],
 					"hours": {"registry-ref" : "medellin-hours-extended"},
 					"validator": {
 						"object-type": "StaticValidator",
@@ -287,7 +287,7 @@
 					"vehicles": ["moto-2t", "moto-4t"]
 				}, {
 					"object-type": "Restriction",
-					"days": ["mon", "tue", "wed"],
+					"days": ["tue", "wed"],
 					"hours": {"registry-ref" : "medellin-hours-extended-viejos"},
 					"validator": {
 						"object-type": "StaticValidator",
@@ -327,7 +327,7 @@
 					"vehicles": ["particular-1996"]
 				}, {
 					"object-type": "Restriction",
-					"days": ["mon", "tue", "wed"],
+					"days": ["tue", "wed"],
 					"hours": {"registry-ref" : "medellin-hours-extended-viejos"},
 					"validator": {
 						"object-type": "StaticValidator",
