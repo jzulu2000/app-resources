@@ -81,12 +81,12 @@
 	"specialEvents": [
 		{
 			"object-type": "SpecialEvent",
-			"id" : "25",
+			"id" : "26",
 			"dates": ["2020-03-04"],
 			"city": "medellin",
-			"title": "Medellín - Alerta se extiende hasta el Miercoles.",
-			"text": "La medida de pico y placa ambiental se extenderá un día más por el momento.",
-			"url": "https://www.elcolombiano.com/antioquia/estado-de-alerta-ambiental-en-el-valle-de-aburra-por-contaminacion-se-prolonga-un-dia-GD12553252"
+			"title": "Medellín - Alerta se extiende hasta Sábado.",
+			"text": "La medida de pico y placa ambiental se extenderá mínimo hasta el Sábado.",
+			"url": "https://www.elcolombiano.com/antioquia/movilidad/pico-y-placa-ambiental-se-extiende-por-contaminacion-en-medellin-MD12558765"
 		}
 	],
 	"vehicles": [
@@ -207,7 +207,7 @@
 			"restrictions": [
 				{
 					"object-type": "Restriction",
-					"days": ["20200303", "20200304"],
+					"days": ["20200303", "20200304", "20200305", "20200306", "20200307"],
 					"hours": {"registry-ref" : "medellin-hours-extended"},
 					"validator": {
 						"object-type": "StaticValidator",
@@ -247,7 +247,7 @@
 					"vehicles": ["particular", "camion-volqueta"]
 				}, {
 					"object-type": "Restriction",
-					"days": ["20200303", "20200304"],
+					"days": ["20200303", "20200304", "20200305", "20200306", "20200307"],
 					"hours": {"registry-ref" : "medellin-hours-extended"},
 					"validator": {
 						"object-type": "StaticValidator",
@@ -287,7 +287,7 @@
 					"vehicles": ["moto-2t", "moto-4t"]
 				}, {
 					"object-type": "Restriction",
-					"days": ["20200303", "20200304"],
+					"days": ["20200303", "20200304", "20200305", "20200306", "20200307"],
 					"hours": {"registry-ref" : "medellin-hours-extended-viejos"},
 					"validator": {
 						"object-type": "StaticValidator",
@@ -327,7 +327,7 @@
 					"vehicles": ["particular-1996"]
 				}, {
 					"object-type": "Restriction",
-					"days": ["20200303", "20200304"],
+					"days": ["20200303", "20200304", "20200305", "20200306", "20200307"],
 					"hours": {"registry-ref" : "medellin-hours-extended-viejos"},
 					"validator": {
 						"object-type": "StaticValidator",
