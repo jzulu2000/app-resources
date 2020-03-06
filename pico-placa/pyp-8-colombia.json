@@ -87,6 +87,14 @@
 			"title": "Medellín - Alerta se extiende hasta Sábado.",
 			"text": "La medida de pico y placa ambiental se extenderá mínimo hasta el Sábado.",
 			"url": "https://www.elcolombiano.com/antioquia/movilidad/pico-y-placa-ambiental-se-extiende-por-contaminacion-en-medellin-MD12558765"
+		}, {
+			"object-type": "SpecialEvent",
+			"id" : "27",
+			"dates": ["2020-03-08"],
+			"city": "bogota",
+			"title": "Bogotá - Pico y Placa Ambiental el fin de Semana.",
+			"text": "Se tendrá una nueva jornada de restricción vehicular el 7 y 8 de Marzo debido a la alerta amarilla decretada por la Secretaría Distrital de Ambiente. También se cambia el horario para la próxima semana.",
+			"url": "https://www.eltiempo.com/bogota/declaran-nueva-alerta-amarilla-por-calidad-del-aire-en-bogota-469590"
 		}
 	],
 	"vehicles": [
@@ -499,6 +507,42 @@
 			"restrictions": [
 				{
 					"object-type": "Restriction",
+					"days": ["20200307"],
+					"hours": [
+						{"object-type": "Schedule", "from": "900", "to": "1080"}
+					],
+					"validator": {
+						"object-type": "StaticValidator",
+						"parameters": {},
+						"staticRestrictions": [
+							{
+								"object-type": "StaticRestriction",
+								"days": ["sat"],
+								"plates": ["1", "3", "5", "7", "9"]
+							}
+						]
+					},
+					"vehicles": ["particular", "moto-2t", "moto-4t"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["20200308"],
+					"hours": [
+						{"object-type": "Schedule", "from": "900", "to": "840"}
+					],
+					"validator": {
+						"object-type": "StaticValidator",
+						"parameters": {},
+						"staticRestrictions": [
+							{
+								"object-type": "StaticRestriction",
+								"days": ["sun"],
+								"plates": ["0", "2", "4", "6", "8"]
+							}
+						]
+					},
+					"vehicles": ["particular", "moto-2t", "moto-4t"]
+				}, {
+					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
 						{"object-type": "Schedule", "from": "330", "to": "480"},
@@ -512,6 +556,21 @@
 						}
 					},
 					"vehicles": ["carga-20-years"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"validFrom" : "2020-03-09",
+					"hours": [
+						{"object-type": "Schedule", "from": "360", "to": "1170"}
+					],
+					"validator": {
+						"object-type": "PairImpairValidator",
+						"parameters": {
+							"evaluator": "DAY_OF_MONTH",
+							"pair-if-pair": "true"
+						}
+					},
+					"vehicles": ["particular"]
 				}, {
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
