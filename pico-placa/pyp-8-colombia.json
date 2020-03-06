@@ -81,12 +81,12 @@
 	"specialEvents": [
 		{
 			"object-type": "SpecialEvent",
-			"id" : "26",
-			"dates": ["2020-03-04"],
+			"id" : "28",
+			"dates": ["2020-03-10"],
 			"city": "medellin",
-			"title": "Medellín - Alerta se extiende hasta Sábado.",
-			"text": "La medida de pico y placa ambiental se extenderá mínimo hasta el Sábado.",
-			"url": "https://www.elcolombiano.com/antioquia/movilidad/pico-y-placa-ambiental-se-extiende-por-contaminacion-en-medellin-MD12558765"
+			"title": "Medellín - Alerta se extiende hasta el Mártes.",
+			"text": "La medida de pico y placa ambiental se extenderá hasta el Mártes 10 de Marzo.",
+			"url": "https://www.elcolombiano.com/antioquia/alerta-ambiental-y-pico-y-placa-en-el-valle-de-aburra-se-extiende-hasta-el-proximo-martes-HB12571204"
 		}, {
 			"object-type": "SpecialEvent",
 			"id" : "27",
@@ -215,7 +215,7 @@
 			"restrictions": [
 				{
 					"object-type": "Restriction",
-					"days": ["20200303", "20200304", "20200305", "20200306", "20200307"],
+					"days": ["20200306", "20200307", "20200308", "20200309", "20200310"],
 					"hours": {"registry-ref" : "medellin-hours-extended"},
 					"validator": {
 						"object-type": "StaticValidator",
@@ -255,7 +255,7 @@
 					"vehicles": ["particular", "camion-volqueta"]
 				}, {
 					"object-type": "Restriction",
-					"days": ["20200303", "20200304", "20200305", "20200306", "20200307"],
+					"days": ["20200306", "20200307", "20200308", "20200309", "20200310"],
 					"hours": {"registry-ref" : "medellin-hours-extended"},
 					"validator": {
 						"object-type": "StaticValidator",
@@ -295,7 +295,7 @@
 					"vehicles": ["moto-2t", "moto-4t"]
 				}, {
 					"object-type": "Restriction",
-					"days": ["20200303", "20200304", "20200305", "20200306", "20200307"],
+					"days": ["20200306", "20200307", "20200308", "20200309", "20200310"],
 					"hours": {"registry-ref" : "medellin-hours-extended-viejos"},
 					"validator": {
 						"object-type": "StaticValidator",
@@ -335,7 +335,7 @@
 					"vehicles": ["particular-1996"]
 				}, {
 					"object-type": "Restriction",
-					"days": ["20200303", "20200304", "20200305", "20200306", "20200307"],
+					"days": ["20200306", "20200307", "20200308", "20200309", "20200310"],
 					"hours": {"registry-ref" : "medellin-hours-extended-viejos"},
 					"validator": {
 						"object-type": "StaticValidator",
