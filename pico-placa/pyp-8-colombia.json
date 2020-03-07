@@ -509,7 +509,7 @@
 					"object-type": "Restriction",
 					"days": ["20200307"],
 					"hours": [
-						{"object-type": "Schedule", "from": "900", "to": "1080"}
+						{"object-type": "Schedule", "from": "360", "to": "1080"}
 					],
 					"validator": {
 						"object-type": "StaticValidator",
@@ -527,7 +527,7 @@
 					"object-type": "Restriction",
 					"days": ["20200308"],
 					"hours": [
-						{"object-type": "Schedule", "from": "900", "to": "840"}
+						{"object-type": "Schedule", "from": "360", "to": "840"}
 					],
 					"validator": {
 						"object-type": "StaticValidator",
