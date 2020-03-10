@@ -215,7 +215,7 @@
 			"restrictions": [
 				{
 					"object-type": "Restriction",
-					"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+					"days": ["mon", "tue", "wed", "thu", "fri", "sat"],
 					"validFrom" : "2020-03-11",
 					"validThrough" : "2020-04-03",
 					"hours": [
