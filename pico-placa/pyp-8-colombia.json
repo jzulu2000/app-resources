@@ -421,21 +421,6 @@
 				}, {
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
-					"validFrom" : "2020-03-09",
-					"hours": [
-						{"object-type": "Schedule", "from": "360", "to": "1170"}
-					],
-					"validator": {
-						"object-type": "PairImpairValidator",
-						"parameters": {
-							"evaluator": "DAY_OF_MONTH",
-							"pair-if-pair": "true"
-						}
-					},
-					"vehicles": ["particular"]
-				}, {
-					"object-type": "Restriction",
-					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
 						{"object-type": "Schedule", "from": "360", "to": "510"},
 						{"object-type": "Schedule", "from": "900", "to": "1170"}
