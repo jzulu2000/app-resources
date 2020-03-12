@@ -95,6 +95,14 @@
 			"title": "Medellin - Nuevo Pico y Placa Par/Impar.",
 			"text": "La medida de pico y placa ambiental se extenderá hasta el Viernes 3 de Abríl teniendo rotación pares / impares.",
 			"url": "https://www.elcolombiano.com/antioquia/pico-y-placa-ambiental-de-24-horas-en-medellin-y-el-valle-de-aburra-DP12597602"
+		}, {
+			"object-type": "SpecialEvent",
+			"id" : "30",
+			"dates": ["2020-03-31"],
+			"city": "bucaramanga",
+			"title": "Bucaramanga - Pico y placa Ambiental.",
+			"text": "En Bucaramanga decretan pico y placa ambiental por calidad del aire.\nLa medida comienza el próximo sábado 14 de marzo e irá hasta fin de mes.",
+			"url": "https://www.eltiempo.com/colombia/otras-ciudades/decretan-pico-y-placa-ambiental-en-bucaramanga-por-calidad-del-aire-471838"
 		}
 	],
 	"vehicles": [
@@ -505,6 +513,24 @@
 			"name": "bucaramanga",
 			"restrictions": [
 				{
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+					"validFrom" : "2020-03-14",
+					"validThrough" : "2020-03-31",
+					"hours": [
+						{"object-type": "Schedule", "from": "360", "to": "540"},
+						{"object-type": "Schedule", "from": "660", "to": "840"},
+						{"object-type": "Schedule", "from": "1020", "to": "1200"}
+					],
+					"validator": {
+						"object-type": "PairImpairValidator",
+						"parameters": {
+							"evaluator": "DAY_OF_YEAR",
+							"pair-if-pair": "true"
+						}
+					},
+					"vehicles": ["particular", "camion-volqueta", "moto-2t", "moto-4t", "particular-1996", "moto-1996"]
+				}, {
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
