@@ -17,12 +17,12 @@
 	"specialEvents": [
 		{
 			"object-type": "SpecialEvent",
-			"id" : "17",
-			"dates": ["2019-11-04"],
+			"id" : "18",
+			"dates": ["2020-03-13"],
 			"city": "quito",
-			"title": "Se suspende el Hoy no Circula Viernes y Lunes.",
-			"text": "La AMT suspende la medida Hoy no circula durante el viernes 1 y lunes 4 de noviembre de feriado.",
-			"url": "https://www.elcomercio.com/actualidad/suspension-restriccion-vehiculos-feriado-quito.html"
+			"title": "Se suspende el Hoy no Circula Jueves y Viernes.",
+			"text": "Tras la declaratoria de emergencia sanitaria para Quito, que hizo el alcalde Jorge Yunda, el Municipio anunció que se suspende la restricción del Hoy no circula en la capital.",
+			"url": "https://www.elcomercio.com/actualidad/suspension-circula-quito-emergencia-coronavirus.html"
 		}
 	],
 	"vehicles": [
@@ -65,7 +65,7 @@
 					"vehicles": ["particular"]
 				}
 			],
-			"unrestrictedDays": []
+			"unrestrictedDays": ["20200312", "20200313"]
 		}
 	]
 }
