@@ -16,9 +16,11 @@
 	"registry" : {
 		"06:00-20:00": {"object-type": "Schedule", "from": "360", "to": "1200"},
 		"06:00-24:00": {"object-type": "Schedule", "from": "360", "to": "1440"},
-		"06:30-19:30": {"object-type": "Schedule", "from": "390", "to": "1170"},
+		"06:30-08:30": {"object-type": "Schedule", "from": "390", "to": "480"},
 		"07:00-08:30": {"object-type": "Schedule", "from": "420", "to": "510"},
 		"07:30-19:30": {"object-type": "Schedule", "from": "450", "to": "1170"},
+		"11:00-14:30": {"object-type": "Schedule", "from": "660", "to": "870"},
+		"17:00-19:00": {"object-type": "Schedule", "from": "1020", "to": "1140"},
 		"17:30-19:00": {"object-type": "Schedule", "from": "1050", "to": "1140"},
 		"17:30-19:30": {"object-type": "Schedule", "from": "1050", "to": "1170"}
 	},
@@ -778,18 +780,12 @@
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
-						{"registry-ref" : "06:30-19:30"}
+						{"registry-ref" : "06:30-08:30"},
+						{"registry-ref" : "11:00-14:30"},
+						{"registry-ref" : "17:00-19:00"}
 					],
 					"validator": {"registry-ref" : "monday:1/2"},
-					"vehicles": ["particular"]
-				}, {
-					"object-type": "Restriction",
-					"days": ["mon", "tue", "wed", "thu", "fri"],
-					"hours": [
-						{"registry-ref" : "06:30-19:30"}
-					],
-					"validator": {"registry-ref" : "monday:1/2"},
-					"vehicles": ["moto-2t", "moto-4t"]
+					"vehicles": ["particular", "moto-2t", "moto-4t"]
 				}
 			],
 			"unrestrictedDays": []
