@@ -81,28 +81,20 @@
 	"specialEvents": [
 		{
 			"object-type": "SpecialEvent",
-			"id" : "28",
-			"dates": ["2020-03-10"],
-			"city": "medellin",
-			"title": "Medellín - Alerta se extiende hasta el Mártes.",
-			"text": "La medida de pico y placa ambiental se extenderá hasta el Mártes 10 de Marzo.",
-			"url": "https://www.elcolombiano.com/antioquia/alerta-ambiental-y-pico-y-placa-en-el-valle-de-aburra-se-extiende-hasta-el-proximo-martes-HB12571204"
-		}, {
-			"object-type": "SpecialEvent",
-			"id" : "29",
-			"dates": ["2020-04-03"],
-			"city": "medellin",
-			"title": "Medellin - Nuevo Pico y Placa Par/Impar.",
-			"text": "La medida de pico y placa ambiental se extenderá hasta el Viernes 3 de Abríl teniendo rotación pares / impares.",
-			"url": "https://www.elcolombiano.com/antioquia/pico-y-placa-ambiental-de-24-horas-en-medellin-y-el-valle-de-aburra-DP12597602"
-		}, {
-			"object-type": "SpecialEvent",
 			"id" : "30",
 			"dates": ["2020-03-31"],
 			"city": "bucaramanga",
 			"title": "Bucaramanga - Pico y placa Ambiental.",
 			"text": "En Bucaramanga decretan pico y placa ambiental por calidad del aire.\nLa medida comienza el próximo sábado 14 de marzo e irá hasta fin de mes.",
 			"url": "https://www.eltiempo.com/colombia/otras-ciudades/decretan-pico-y-placa-ambiental-en-bucaramanga-por-calidad-del-aire-471838"
+		}, {
+			"object-type": "SpecialEvent",
+			"id" : "31",
+			"dates": ["2020-03-13"],
+			"city": "medellin",
+			"title": "Medellin - Viernes, ultimo día de Pico y Placa ambiental.",
+			"text": "Por emergencia del coronavirus se suspenderá pico y placa ambiental, siendo el Viernes 13 el último día.",
+			"url": "https://www.elcolombiano.com/antioquia/pico-y-placa-ambiental-se-suspende-este-sabado-por-emergencia-del-covid-19-ME12614800"
 		}
 	],
 	"vehicles": [
@@ -225,7 +217,7 @@
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri", "sat"],
 					"validFrom" : "2020-03-11",
-					"validThrough" : "2020-04-03",
+					"validThrough" : "2020-03-13",
 					"hours": [
 						{"object-type": "Schedule", "from": "0", "to": "1439"}
 					],
@@ -237,70 +229,6 @@
 						}
 					},
 					"vehicles": ["particular", "camion-volqueta", "moto-2t", "moto-4t", "particular-1996", "moto-1996"]
-				}, {
-					"object-type": "Restriction",
-					"days": ["20200310"],
-					"hours": {"registry-ref" : "medellin-hours-extended"},
-					"validator": {
-						"object-type": "StaticValidator",
-						"parameters": {},
-						"staticRestrictions": [
-							{
-								"object-type": "StaticRestriction",
-								"days": ["tue"],
-								"plates": ["2", "3", "4", "5", "6", "7"]
-							}
-						]
-					},
-					"vehicles": ["particular", "camion-volqueta"]
-				}, {
-					"object-type": "Restriction",
-					"days": ["20200310"],
-					"hours": {"registry-ref" : "medellin-hours-extended"},
-					"validator": {
-						"object-type": "StaticValidator",
-						"parameters": {},
-						"staticRestrictions": [
-							{
-								"object-type": "StaticRestriction",
-								"days": ["tue"],
-								"plates": ["2", "3", "4", "5", "6", "7"]
-							}
-						]
-					},
-					"vehicles": ["moto-2t", "moto-4t"]
-				}, {
-					"object-type": "Restriction",
-					"days": ["20200310"],
-					"hours": {"registry-ref" : "medellin-hours-extended-viejos"},
-					"validator": {
-						"object-type": "StaticValidator",
-						"parameters": {},
-						"staticRestrictions": [
-							{
-								"object-type": "StaticRestriction",
-								"days": ["tue"],
-								"plates": ["2", "3", "4", "5", "6", "7"]
-							}
-						]
-					},
-					"vehicles": ["particular-1996"]
-				}, {
-					"object-type": "Restriction",
-					"days": ["20200310"],
-					"hours": {"registry-ref" : "medellin-hours-extended-viejos"},
-					"validator": {
-						"object-type": "StaticValidator",
-						"parameters": {},
-						"staticRestrictions": [
-							{
-								"object-type": "StaticRestriction",
-								"days": ["tue"],
-								"plates": ["2", "3", "4", "5", "6", "7"]
-							}
-						]
-					},
-					"vehicles": ["moto-1996"]
 				}, {
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
