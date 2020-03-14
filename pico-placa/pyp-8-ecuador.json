@@ -17,12 +17,12 @@
 	"specialEvents": [
 		{
 			"object-type": "SpecialEvent",
-			"id" : "18",
-			"dates": ["2020-03-13"],
+			"id" : "19",
+			"dates": ["2020-03-20"],
 			"city": "quito",
-			"title": "Se suspende el Hoy no Circula Jueves y Viernes.",
-			"text": "Tras la declaratoria de emergencia sanitaria para Quito, que hizo el alcalde Jorge Yunda, el Municipio anunció que se suspende la restricción del Hoy no circula en la capital.",
-			"url": "https://www.elcomercio.com/actualidad/suspension-circula-quito-emergencia-coronavirus.html"
+			"title": "Se suspende el Hoy no Circula temporalmente.",
+			"text": "Tras la declaratoria de emergencia sanitaria para Quito, que hizo el alcalde Jorge Yunda, el Municipio anunció que se suspende la restricción del Hoy no circula en la capital, al menos hasta el Viernes 20 de Marzo.",
+			"url": "https://www.elcomercio.com/actualidad/quito-restriccion-transito-coronavirus-circulacion.html"
 		}
 	],
 	"vehicles": [
@@ -65,7 +65,7 @@
 					"vehicles": ["particular"]
 				}
 			],
-			"unrestrictedDays": ["20200312", "20200313"]
+			"unrestrictedDays": ["20200312", "20200313", "20200316", "20200317", "20200318", "20200319", "20200320"]
 		}
 	]
 }
