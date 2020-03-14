@@ -30,10 +30,12 @@
 		"06:00-23:59": {"object-type": "Schedule", "from": "360", "to": "1439"},
 		"06:30-08:00": {"object-type": "Schedule", "from": "390", "to": "480"},
 		"06:30-08:30": {"object-type": "Schedule", "from": "390", "to": "510"},
+		"06:30-14:00": {"object-type": "Schedule", "from": "390", "to": "840"},
+		"06:30-18:00": {"object-type": "Schedule", "from": "390", "to": "1080"},
 		"07:00-08:30": {"object-type": "Schedule", "from": "420", "to": "510"},
 		"07:00-10:00": {"object-type": "Schedule", "from": "420", "to": "600"},
-		"07:00-19:30": {"object-type": "Schedule", "from": "420", "to": "1170"},
 		"07:00-19:00": {"object-type": "Schedule", "from": "420", "to": "1140"},
+		"07:00-19:30": {"object-type": "Schedule", "from": "420", "to": "1170"},
 		"07:00-21:00": {"object-type": "Schedule", "from": "420", "to": "1260"},
 		"07:30-09:00": {"object-type": "Schedule", "from": "450", "to": "540"},
 		"07:30-19:00": {"object-type": "Schedule", "from": "450", "to": "1140"},
@@ -379,6 +381,30 @@
 						}
 					},
 					"vehicles": ["particular"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["sat"],
+					"hours": [{"registry-ref": "06:30-18:00"}],
+					"validator": {
+						"object-type": "PairImpairValidator",
+						"parameters": {
+							"evaluator": "DAY_OF_MONTH",
+							"pair-if-pair": "true"
+						}
+					},
+					"vehicles": ["particular", "moto-2t", "moto-4t"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["sun"],
+					"hours": [{"registry-ref": "06:30-14:00"}],
+					"validator": {
+						"object-type": "PairImpairValidator",
+						"parameters": {
+							"evaluator": "DAY_OF_MONTH",
+							"pair-if-pair": "true"
+						}
+					},
+					"vehicles": ["particular", "moto-2t", "moto-4t"]
 				}, {
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
