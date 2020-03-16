@@ -271,7 +271,7 @@
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": {"registry-ref" : "medellin-hours"},
 					"validator": {"registry-ref" : "monday:0/2"},
-					"vehicles": ["moto-2t"]
+					"vehicles": ["moto-2t", "moto-1996"]
 				}, {
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
