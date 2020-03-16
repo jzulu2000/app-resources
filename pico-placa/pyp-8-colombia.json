@@ -70,6 +70,8 @@
 		],
 		"monday:0/2" : {
 			"object-type": "PlatesByDayValidator", "parameters": {"plates-by-day": "2", "monday-start": "0"}
+		}, "monday:0/6" : {
+			"object-type": "PlatesByDayValidator", "parameters": {"plates-by-day": "6", "monday-start": "0"}
 		}, "monday:0/10" : {
 			"object-type": "PlatesByDayValidator", "parameters": {"plates-by-day": "10", "monday-start": "0"}
 		},"monday:1/2" : {
@@ -272,6 +274,12 @@
 					"hours": {"registry-ref" : "medellin-hours"},
 					"validator": {"registry-ref" : "monday:0/2"},
 					"vehicles": ["moto-2t", "moto-1996", "moto-4t"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": {"registry-ref" : "medellin-hours-extended"},
+					"validator": {"registry-ref" : "monday:0/6"},
+					"vehicles": ["camion-volqueta"]
 				}, {
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
