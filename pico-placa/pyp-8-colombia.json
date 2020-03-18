@@ -388,7 +388,7 @@
 							"pair-if-pair": "true"
 						}
 					},
-					"vehicles": ["particular"]
+					"vehicles": ["particular", "moto-2t", "moto-4t", "moto-1996"]
 				}, {
 					"object-type": "Restriction",
 					"days": ["sat"],
