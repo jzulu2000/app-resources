@@ -479,7 +479,7 @@
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
 					"validFrom" : "2020-03-14",
-					"validThrough" : "2020-03-31",
+					"validThrough" : "2020-03-17",
 					"hours": [{"registry-ref": "06:00-09:00"}, {"registry-ref": "11:00-14:00"}, {"registry-ref": "17:00-20:00"}],
 					"validator": {
 						"object-type": "PairImpairValidator",
