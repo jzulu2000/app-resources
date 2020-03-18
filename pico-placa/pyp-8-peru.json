@@ -15,15 +15,6 @@
 	},
 	"object-type": "com.twelvestars.daos.model.PyPModel",
 	"specialEvents": [
-		{
-			"object-type": "SpecialEvent",
-			"id" : "17",
-			"dates": ["2019-11-04"],
-			"city": "quito",
-			"title": "Se suspende el Hoy no Circula Viernes y Lunes.",
-			"text": "La AMT suspende la medida Hoy no circula durante el viernes 1 y lunes 4 de noviembre de feriado.",
-			"url": "https://www.elcomercio.com/actualidad/suspension-restriccion-vehiculos-feriado-quito.html"
-		}
 	],
 	"vehicles": [
 		{
