@@ -821,6 +821,7 @@
 					"validFrom": "2020-03-18",
 					"validThrough": "2020-04-13",
 					"hours": [{"registry-ref": "00:00-23:59"}],
+					"skipOnHolidays" : false,
 					"validator": {
 						"object-type": "PairImpairValidator",
 						"parameters": {
