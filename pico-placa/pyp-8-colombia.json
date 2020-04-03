@@ -360,7 +360,7 @@
 					"vehicles": ["taxi"]
 				}
 			],
-			"unrestrictedDays": {"registry-ref":  "covid-dates"}]
+			"unrestrictedDays": {"registry-ref":  "covid-dates"}
 		}, {
 			"object-type": "City",
 			"aliases": [],
