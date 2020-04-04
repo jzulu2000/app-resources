@@ -94,7 +94,7 @@
 							}
 						]
 					},
-					"vehicles": ["holograma-1", "holograma-2"]
+					"vehicles": ["particular"]
 				}, {
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
