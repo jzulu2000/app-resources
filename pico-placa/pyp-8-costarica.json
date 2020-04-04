@@ -63,40 +63,6 @@
 					"vehicles": ["particular"]
 				}, {
 					"object-type": "Restriction",
-					"days": ["20200408", "20200409", "20200410", "20200411", "20200412"],
-					"hours": [
-						{"object-type": "Schedule", "from": "0", "to": "1439"}
-					],
-					"skipOnHolidays": false,
-					"validator": {
-						"object-type": "StaticValidator",
-						"parameters": {},
-						"staticRestrictions": [
-							{
-								"object-type": "StaticRestriction",
-								"days": ["20200408"],
-								"plates": ["2", "3", "4", "5", "6", "7", "8", "9"]
-							}, {
-								"days": ["20200409"],
-								"plates": ["0", "1", "4", "5", "6", "7", "8", "9"]
-							}, {
-								"object-type": "StaticRestriction",
-								"days": ["20200410"],
-								"plates": ["0", "1", "2", "3", "6", "7", "8", "9"]
-							}, {
-								"object-type": "StaticRestriction",
-								"days": ["20200411"],
-								"plates": ["0", "1", "2", "3", "4", "5", "8", "9"]
-							}, {
-								"object-type": "StaticRestriction",
-								"days": ["20200412"],
-								"plates": ["0", "1", "2", "3", "4", "5", "6", "7"]
-							}
-						]
-					},
-					"vehicles": ["particular"]
-				}, {
-					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
 						{"object-type": "Schedule", "from": "360", "to": "1140"}
