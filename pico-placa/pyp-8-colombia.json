@@ -587,7 +587,7 @@
 			"restrictions": [
 				{
 					"object-type": "Restriction",
-					"days": ["20200420", "20200421", "20200422", "20200423", "20200424"],
+					"days": ["20200420", "20200421", "20200422", "20200423", "20200424", "20200425"],
 					"hours": [{"registry-ref": "00:00-23:59"}],
 					"validator": {
 						"object-type": "PairImpairValidator",
