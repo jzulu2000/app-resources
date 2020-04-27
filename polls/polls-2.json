@@ -206,8 +206,8 @@
 				"object-type": "PollOption",
 				"action" : "dont-ask-again",
 				"texts" : {
-					"en" : "Entendido!",
-					"es" : "Understood!"
+					"es" : "Entendido!",
+					"en" : "Understood!"
 				}
 			}
 		}
