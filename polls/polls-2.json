@@ -184,6 +184,32 @@
 					}
 				}
 			}
+		}, {
+			"object-type": "Poll",
+			"id" : "pipla-help",
+			"appsRegex" : ".*pipla.*",
+			"lapse" : 2,
+			"title" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "We need your help!",
+					"es" : "Necesitamos tu ayuda!"
+				}
+			},
+			"description" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "This app is an individual effort to keep people informed. It's necessary the help from people in different cities for informing incoming changes in the restrictions.\n\nIf you want to help please contact us and we will add you in our collaborators list.\n\nThanks a lot!",
+					"es" : "Esta aplicación es un esfuerzo individual para mantener informada a las personas. Se hace necesario el apoyo de personas en diferentes ciudades para que informen los cambios venideros de la medida.\n\nSi deseas apoyar, contactanos para adicionarte en nuestra red de colaboradores.\n\nMuchas gracias!"
+				}
+			}, "noOption" : {
+				"object-type": "PollOption",
+				"action" : "dont-ask-again",
+				"texts" : {
+					"en" : "Entendido!",
+					"es" : "Understood!"
+				}
+			}
 		}
 	]
 }
