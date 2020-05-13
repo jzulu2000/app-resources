@@ -15,7 +15,17 @@
 		"00:00-23:59": {"object-type": "Schedule", "from": "0", "to": "1439"}
 	},
 	"object-type": "com.twelvestars.daos.model.PyPModel",
-	"specialEvents": [],
+	"specialEvents": [
+		{
+			"object-type": "SpecialEvent",
+			"id" : "32",
+			"dates": ["2020-05-31"],
+			"city": "sao paulo",
+			"title": "Novo rodízio de veículos a partir de 11",
+			"text": "Começa a valer nesta segunda 11 o rodízio ampliado de veículos em SP; saiba como vai funcionar e quem pode circular",
+			"url": "https://g1.globo.com/sp/sao-paulo/noticia/2020/05/10/comeca-a-valer-nesta-segunda-o-rodizio-ampliado-de-veiculos-em-sp-saiba-como-vai-funcionar-e-quem-pode-circular.ghtml"
+		}
+	],
 	"vehicles": [
 		{
 			"object-type": "Vehicle",
