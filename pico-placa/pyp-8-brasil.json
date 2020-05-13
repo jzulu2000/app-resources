@@ -11,7 +11,9 @@
 		"PlatesByDayValidator": "com.twelvestars.daos.validators.PlatesByDayValidator",
 		"PairImpairValidator": "com.twelvestars.daos.validators.PairImpairValidator",
 		"YearSecuenceValidator": "com.twelvestars.daos.validators.YearSecuenceValidator",
-		"StaticValidator": "com.twelvestars.daos.validators.StaticValidator",
+		"StaticValidator": "com.twelvestars.daos.validators.StaticValidator"
+	},
+	"registry" : {
 		"00:00-23:59": {"object-type": "Schedule", "from": "0", "to": "1439"}
 	},
 	"object-type": "com.twelvestars.daos.model.PyPModel",
@@ -61,9 +63,8 @@
 			"restrictions": [
 				{
 					"object-type": "Restriction",
-					"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"validFrom" : "2020-05-13",
-					"validThrough" : "2020-05-31",
 					"hours": [{"registry-ref": "00:00-23:59"}],
 					"validator": {
 						"object-type": "PairImpairValidator",
