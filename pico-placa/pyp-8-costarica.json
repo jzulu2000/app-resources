@@ -48,51 +48,36 @@
 			"restrictions": [
 				{
 					"object-type": "Restriction",
-					"days": ["20200404", "20200405", "20200406", "20200407"],
+					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
-						{"object-type": "Schedule", "from": "300", "to": "1020"}
+						{"object-type": "Schedule", "from": "300", "to": "1320"}
 					],
-					"skipOnHolidays": false,
+					"validFrom" : "2020-05-16",
+					"validThrough" : "2020-05-31",
+					"skipOnHolidays": true,
 					"validator": {
-						"object-type": "PairImpairValidator",
+						"object-type": "PlatesByDayValidator",
 						"parameters": {
-							"evaluator": "DAY_OF_MONTH",
-							"pair-if-pair": "true"
+							"plates-by-day": "2",
+							"monday-start": "1"
 						}
 					},
 					"vehicles": ["particular"]
 				}, {
 					"object-type": "Restriction",
-					"days": ["20200408", "20200409", "20200410", "20200411", "20200412"],
+					"days": ["sat", "sun"],
 					"hours": [
-						{"object-type": "Schedule", "from": "0", "to": "1439"}
+						{"object-type": "Schedule", "from": "300", "to": "1140"}
 					],
-					"skipOnHolidays": false,
+					"validFrom" : "2020-05-16",
+					"validThrough" : "2020-05-31",
+					"skipOnHolidays": true,
 					"validator": {
 						"object-type": "StaticValidator",
 						"parameters": {},
 						"staticRestrictions": [
-							{
-								"object-type": "StaticRestriction",
-								"days": ["20200408"],
-								"plates": ["2", "3", "4", "5", "6", "7", "8", "9"]
-							}, {
-								"object-type": "StaticRestriction",
-								"days": ["20200409"],
-								"plates": ["0", "1", "4", "5", "6", "7", "8", "9"]
-							}, {
-								"object-type": "StaticRestriction",
-								"days": ["20200410"],
-								"plates": ["0", "1", "2", "3", "6", "7", "8", "9"]
-							}, {
-								"object-type": "StaticRestriction",
-								"days": ["20200411"],
-								"plates": ["0", "1", "2", "3", "4", "5", "8", "9"]
-							}, {
-								"object-type": "StaticRestriction",
-								"days": ["20200412"],
-								"plates": ["0", "1", "2", "3", "4", "5", "6", "7"]
-							}
+							{"object-type": "StaticRestriction", "days": ["sat"], "plates": ["0", "2", "4", "6", "8"]},
+							{"object-type": "StaticRestriction", "days": ["sun"], "plates": ["1", "3", "5", "7", "9"]}
 						]
 					},
 					"vehicles": ["particular"]
