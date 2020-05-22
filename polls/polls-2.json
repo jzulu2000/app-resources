@@ -18,7 +18,7 @@
 			"action" : "dont-ask-again",
 			"texts" : {
 				"en" : "Don't ask again",
-				"es" : "No preguntar de nuevo"
+				"es" : "No preguntar mas"
 			}
 		},
 		"send-email-dialog" : {
@@ -126,15 +126,15 @@
 					"object-type": "PollOption",
 					"action" : "playstore",
 					"texts" : {
-						"en" : "I like this app and want to rate it in the playstore!",
-						"es" : "Me gusta esta aplicación quiero calificarla en playstore!"
+						"en" : "I like it! I want to rate it in the playstore!",
+						"es" : "Me gusta! Quiero calificarla en playstore!"
 					}
 				}, {
 					"object-type": "PollOption",
 					"action" : "email",
 					"texts" : {
-						"en" : "I have some comments or report a problem!",
-						"es" : "Quiero hacer sugerencias o reportar problemas!"
+						"en" : "I have comments or need to report a problem!",
+						"es" : "Quiero hacer sugerencias o reportar problema!"
 					},
 					"actionParameters" : {
 						"registry-ref" : "send-email-dialog"
