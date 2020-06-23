@@ -48,29 +48,11 @@
 			"restrictions": [
 				{
 					"object-type": "Restriction",
-					"days": ["mon", "tue", "wed", "thu", "fri"],
-					"hours": [
-						{"object-type": "Schedule", "from": "300", "to": "1320"}
-					],
-					"validFrom" : "2020-05-16",
-					"validThrough" : "2020-05-31",
-					"skipOnHolidays": true,
-					"validator": {
-						"object-type": "PlatesByDayValidator",
-						"parameters": {
-							"plates-by-day": "2",
-							"monday-start": "1"
-						}
-					},
-					"vehicles": ["particular"]
-				}, {
-					"object-type": "Restriction",
 					"days": ["sat", "sun"],
 					"hours": [
-						{"object-type": "Schedule", "from": "300", "to": "1140"}
+						{"object-type": "Schedule", "from": "0", "to": "1439"}
 					],
-					"validFrom" : "2020-05-16",
-					"validThrough" : "2020-05-31",
+					"validFrom" : "2020-06-22",
 					"skipOnHolidays": true,
 					"validator": {
 						"object-type": "StaticValidator",
@@ -85,7 +67,7 @@
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
-						{"object-type": "Schedule", "from": "360", "to": "1140"}
+						{"object-type": "Schedule", "from": "0", "to": "1439"}
 					],
 					"skipOnHolidays": true,
 					"validator": {
