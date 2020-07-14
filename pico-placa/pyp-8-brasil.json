@@ -64,19 +64,6 @@
 				{
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
-					"validFrom" : "2020-05-13",
-					"hours": [{"registry-ref": "00:00-23:59"}],
-					"validator": {
-						"object-type": "PairImpairValidator",
-						"parameters": {
-							"evaluator": "DAY_OF_MONTH",
-							"pair-if-pair": "false"
-						}
-					},
-					"vehicles": ["particular", "publico"]
-				}, {
-					"object-type": "Restriction",
-					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [
 						{"object-type": "Schedule", "from": "420", "to": "600"},
 						{"object-type": "Schedule", "from": "1020", "to": "1200"}
