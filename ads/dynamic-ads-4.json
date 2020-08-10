@@ -6,7 +6,7 @@
       "descriptions": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "Know your Natal chart, Solar and Lunar returns, Transits Progressions, Synastries and Numerology."
+          "text": "Know your Natal chart, Solar and Lunar returns, Transits, Progressions, Synastries and Numerology."
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
@@ -26,6 +26,23 @@
         }
       ],
       "url": "com.twelvestars.myastros_free"
+    }, {
+      "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
+      "country": "co",
+      "descriptions": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Disfruta covers de tus bandas de Rock preferidas. Agosto 15, 8pm por Facebook Live"
+        }
+      ],
+      "icon": "rocknationarmy:https://raw.githubusercontent.com/jzulu2000/app-resources/master/ads/rocknationarmy.jpg",
+      "titles": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Rock Nation Army - En concierto."
+        }
+      ],
+      "url": "https://www.facebook.com/rocknationarmy/posts/3118348198282700"
     }, {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
       "descriptions": [
@@ -77,7 +94,7 @@
           "text": "Obten notificaciones del pico y placa para Peru."
         }
       ],
-      "icon": "pipla_round",
+      "icon": "pipla_peru_round:https://raw.githubusercontent.com/jzulu2000/app-resources/master/pico-placa/pipla_peru_round.png",
       "titles": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
@@ -461,6 +478,33 @@
         }
       ],
       "url": "com.twelvestars.screenFilter"
+    }, {
+      "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
+      "descriptions": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Visit our site at https://sites.google.com/view/twelve-stars-software."
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "es",
+          "text": "Visita nuestro sitio en https://sites.google.com/view/twelve-stars-software."
+        }
+      ],
+      "icon": "tss:https://raw.githubusercontent.com/jzulu2000/app-resources/master/ads/twelve-stars-64.png",
+      "titles": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Twelve Stars Software."
+        }, {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "es",
+          "text": "Twelve Stars Software."
+        }
+      ],
+      "url": "https://sites.google.com/view/twelve-stars-software"
     }
-  ]
+  ],
+  "videoAdsFrequencyMinutes" : "5",
+  "interstitialAdsFrequencyMinutes" : "5"
 }
