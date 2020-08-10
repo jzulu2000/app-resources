@@ -26,6 +26,23 @@
         }
       ],
       "url": "https://sites.google.com/view/twelve-stars-software"
+    }, {
+      "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
+      "country": "co",
+      "descriptions": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Disfruta covers de tus bandas de Rock preferidas. Agosto 15, 8pm por Facebook Live"
+        }
+      ],
+      "icon": "rocknationarmy:https://raw.githubusercontent.com/jzulu2000/app-resources/master/ads/rocknationarmy.jpg",
+      "titles": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Rock Nation Army - En concierto."
+        }
+      ],
+      "url": "https://www.facebook.com/rocknationarmy/posts/3118348198282700"
     } ,{
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
       "descriptions": [
