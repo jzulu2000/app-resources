@@ -214,7 +214,7 @@
 			"object-type": "Poll",
 			"id" : "moca2-promo",
 			"appsRegex" : ".*moca$|.*moca_paid$",
-			"lapse" : 3,
+			"lapse" : 1,
 			"title" : {
 				"object-type": "Translatable",
 				"texts" : {
