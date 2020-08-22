@@ -249,25 +249,25 @@
       "titles": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "MoCa - Motion Detection Camera and Dashcam"
+          "text": "MoCa2 - Motion Detection Camera and Dashcam"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "es",
-          "text": "MoCa - Camara de detección Movimiento y Dashcam"
+          "text": "MoCa2 - Camara de detección Movimiento y Dashcam"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "fr",
-          "text": "MoCa - Spy Caméra détection mouvement"
+          "text": "MoCa2 - Spy Caméra détection mouvement"
         },
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "pt",
-          "text": "MoCa - Spy Detecção de movimento"
+          "text": "MoCa2 - Spy Detecção de movimento"
         }
       ],
-      "url": "twelvestars.moca"
+      "url": "twelvestars.moca2"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",

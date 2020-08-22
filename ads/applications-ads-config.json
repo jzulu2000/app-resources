@@ -311,6 +311,31 @@
       }
     }
   ],
+  
+  
+  "twelvestars.moca2": [
+    {
+      "places": ["co.com.twelvestars.moca2.cameraactivity"],
+      "implementation": "facebook",
+      "enabled": "true",
+      "appId": "",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "923837361444986_923837671444955",
+        "ADDS_DEFAULT_INTERSTITIAL": "923837361444986_923838411444881",
+        "ADDS_DEFAULT_VIDEO_REWARD": "923837361444986_923839894778066"
+      }
+    }, {
+      "places": ["co.com.twelvestars.moca2.cameraactivity"],
+      "implementation": "admob",
+      "enabled": "true",
+      "appId": "ca-app-pub-1152574200163807~2035574234",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "ca-app-pub-1152574200163807/6905398164",
+        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1152574200163807/8166508945",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1152574200163807/6984648581"
+      }
+    }
+  ],
 
 
   "com.twelvestars.webmonitor": [
