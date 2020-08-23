@@ -68,6 +68,49 @@
 	"polls" : [
 		{
 			"object-type": "Poll",
+			"id" : "moca2-promo",
+			"appsRegex" : ".*moca$|.*moca_paid$",
+			"lapse" : 1,
+			"title" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "MoCa2: our new redesigned motion cam!",
+					"es" : "MoCa2: la cámara de detección rediseñada!"
+				}
+			},
+			"description" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "\nMoca2 comes ith higher resolutions and a lot of new options; also improvements in response time and battery ussage.\n\nThe first 100 giving 5 stars will have free code for premium version.\n\nDo you want to try the free version?",
+					"es" : "\nMoCa2 viene con mayores resoluciones y muchas nuevas opciones; también mejoras en respuesta y en uso de batería.\n\nLos primeros 100 en dar 5 estrellas tendrán código gratis para la version premium.\n\nDeseas probar la versión grátis?"
+				}
+			}, "neutralOption" : {
+			"registry-ref": "ask-later-option"
+		}, "noOption" : {
+			"object-type": "PollOption",
+			"action" : "dont-ask-again",
+			"texts" : {
+				"en" : "No, thank you!",
+				"es" : "No, gracias!"
+			}
+		}, "okOption" : {
+			"object-type": "PollOption",
+			"action" : "open-url",
+			"texts" : {
+				"en" : "Yes, of course!",
+				"es" : "Si me gustaría!"
+			},
+			"actionParameters" : {
+				"address": {
+					"object-type": "Translatable",
+					"texts" : {
+						"en": "https://play.google.com/store/apps/details?id=twelvestars.moca2"
+					}
+				}
+			}
+		}
+		}, {
+			"object-type": "Poll",
 			"id" : "privacy-policy",
 			"appsRegex" : ".*webmonitor_amz$|.*best_free$",
 			"lapse" : 0,
@@ -208,49 +251,6 @@
 				"texts" : {
 					"es" : "Entendido!",
 					"en" : "Understood!"
-				}
-			}
-		}, {
-			"object-type": "Poll",
-			"id" : "moca2-promo",
-			"appsRegex" : ".*moca$|.*moca_paid$",
-			"lapse" : 1,
-			"title" : {
-				"object-type": "Translatable",
-				"texts" : {
-					"en" : "MoCa2: our new redesigned motion cam!",
-					"es" : "MoCa2: la cámara de detección rediseñada!"
-				}
-			},
-			"description" : {
-				"object-type": "Translatable",
-				"texts" : {
-					"en" : "\n\nWe've just launched MoCa2... with higher resolutions and a lot of new options!\nWith improvements in response time and battery ussage.\nThe first 100 giving 5 stars will have free code for premium version.\n\nDo you want to try the free version?",
-					"es" : "\n\nAcabamos de lanzar MoCa2... con mayores resoluciones y muchas nuevas opciones!\nCon mejoras en respuesta y en uso de batería.\nLos primeros 100 en dar 5 estrellas tendrán código gratis para la version premium.\n\nDeseas probar la versión grátis?"
-				}
-			}, "neutralOption" : {
-				"registry-ref": "ask-later-option"
-			}, "noOption" : {
-				"object-type": "PollOption",
-				"action" : "dont-ask-again",
-				"texts" : {
-					"en" : "No, thank you!",
-					"es" : "No, gracias!"
-				}
-			}, "okOption" : {
-				"object-type": "PollOption",
-				"action" : "open-url",
-				"texts" : {
-					"en" : "Yes, of course!",
-					"es" : "Si me gustaría!"
-				},
-				"actionParameters" : {
-					"address": {
-						"object-type": "Translatable",
-						"texts" : {
-							"en": "https://play.google.com/store/apps/details?id=twelvestars.moca2"
-						}
-					}
 				}
 			}
 		}
