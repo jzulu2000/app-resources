@@ -315,7 +315,7 @@
   
   "twelvestars.moca2": [
     {
-      "places": ["co.com.twelvestars.moca2.cameraactivity"],
+      "places": ["co.com.twelvestars.moca2.cameraactivity_TODO:"],
       "implementation": "facebook",
       "enabled": "true",
       "appId": "",
