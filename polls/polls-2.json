@@ -81,7 +81,7 @@
 			"description" : {
 				"object-type": "Translatable",
 				"texts" : {
-					"en" : "\nMoca2 comes ith higher resolutions and a lot of new options; also improvements in response time and battery ussage.\n\nThe first 100 giving 5 stars will have free code for premium version.\n\nDo you want to try the free version?",
+					"en" : "\nMoca2 comes with higher resolutions and a lot of new options; also improvements in response time and battery ussage.\n\nThe first 100 giving 5 stars will have free code for premium version.\n\nDo you want to try the free version?",
 					"es" : "\nMoCa2 viene con mayores resoluciones y muchas nuevas opciones; también mejoras en respuesta y en uso de batería.\n\nLos primeros 100 en dar 5 estrellas tendrán código gratis para la version premium.\n\nDeseas probar la versión grátis?"
 				}
 			}, "neutralOption" : {
