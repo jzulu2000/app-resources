@@ -25,7 +25,7 @@
 
   "com.twelvestars.pdfreader_free" : [
     {
-      "places": ["texttospeechactivity", "settings.settingsactivity"],
+      "places": ["texttospeechactivity_rollback", "settings.settingsactivity_rollback"],
       "implementation": "facebook",
       "enabled": "true",
       "appId": "",
