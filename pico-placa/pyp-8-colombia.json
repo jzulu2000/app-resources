@@ -22,6 +22,7 @@
 		"05:00-23:00": {"object-type": "Schedule", "from": "300", "to": "1380"},
 		"05:30-08:00": {"object-type": "Schedule", "from": "330", "to": "480"},
 		"05:30-21:00": {"object-type": "Schedule", "from": "330", "to": "1260"},
+		"06:00-08:00": {"object-type": "Schedule", "from": "360", "to": "480"},
 		"06:00-08:30": {"object-type": "Schedule", "from": "360", "to": "510"},
 		"06:00-09:00": {"object-type": "Schedule", "from": "360", "to": "540"},
 		"06:00-10:00": {"object-type": "Schedule", "from": "360", "to": "600"},
@@ -124,12 +125,12 @@
 	"specialEvents": [
 		{
 			"object-type": "SpecialEvent",
-			"id" : "32",
-			"dates": ["2020-04-13"],
-			"city": "medellin",
-			"title": "Medellin - Se levanta pico y placa en cuarentena.",
-			"text": "Según un tuit de la Secretaría de Movilidad, la restricción se levanta acogiendo las medidas decretadas por la Gobernación de Antioquia y la Alcaldía de Medellín en la llamada 'Cuarentena por la vida'.",
-			"url": "https://www.elcolombiano.com/antioquia/movilidad/medellin-y-envigado-suspenden-el-pico-y-placa-desde-este-martes-GC12679395"
+			"id" : "33",
+			"dates": ["2020-09-25"],
+			"city": "bogota",
+			"title": "Bogotá - Vuelve el pico y placa; no aplicará los sábados",
+			"text": "El pico y placa vuelve a la ciudad en el mismo horario que estaba establecido antes de que se levantara la restricción (de 6 a 8:30 de la mañana y de 3 de la tarde hasta las 7:30 de la noche).",
+			"url": "https://www.eltiempo.com/bogota/pico-y-placa-bogota-asi-sera-la-medida-desde-ahora-539013"
 		}
 	],
 	"vehicles": [
@@ -365,43 +366,6 @@
 				}, {
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
-					"validFrom" : "2020-03-09",
-					"hours": [{"registry-ref": "06:00-19:30"}],
-					"validator": {
-						"object-type": "PairImpairValidator",
-						"parameters": {
-							"evaluator": "DAY_OF_MONTH",
-							"pair-if-pair": "true"
-						}
-					},
-					"vehicles": ["particular", "moto-2t", "moto-4t", "moto-1996"]
-				}, {
-					"object-type": "Restriction",
-					"days": ["sat"],
-					"hours": [{"registry-ref": "06:30-18:00"}],
-					"validator": {
-						"object-type": "PairImpairValidator",
-						"parameters": {
-							"evaluator": "DAY_OF_MONTH",
-							"pair-if-pair": "true"
-						}
-					},
-					"vehicles": ["particular", "moto-2t", "moto-4t"]
-				}, {
-					"object-type": "Restriction",
-					"days": ["sun"],
-					"hours": [{"registry-ref": "06:30-14:00"}],
-					"validator": {
-						"object-type": "PairImpairValidator",
-						"parameters": {
-							"evaluator": "DAY_OF_MONTH",
-							"pair-if-pair": "true"
-						}
-					},
-					"vehicles": ["particular", "moto-2t", "moto-4t"]
-				}, {
-					"object-type": "Restriction",
-					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [{"registry-ref": "06:00-08:30"}, {"registry-ref": "15:00-19:30"}],
 					"validator": {
 						"object-type": "PairImpairValidator",
@@ -441,7 +405,7 @@
 					"vehicles": ["publico"]
 				}
 			],
-			"unrestrictedDays": {"registry-ref":  "covid-dates-extended"}
+			"unrestrictedDays": ["20200921"]
 		}, {
 			"object-type": "City",
 			"aliases": [],
@@ -557,15 +521,8 @@
 				{
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
-					"validFrom" : "2020-07-01",
 					"hours": [{"registry-ref": "06:00-10:00"}, {"registry-ref": "16:00-20:00"}],
 					"validator": {"registry-ref": "monday:3/2"},
-					"vehicles": ["particular", "especial"]
-				}, {
-					"object-type": "Restriction",
-					"days": ["mon", "tue", "wed", "thu", "fri"],
-					"hours": [{"registry-ref": "06:00-10:00"}, {"registry-ref": "16:00-20:00"}],
-					"validator": {"registry-ref": "monday:5/2"},
 					"vehicles": ["particular", "especial"]
 				}, {
 					"object-type": "Restriction",
