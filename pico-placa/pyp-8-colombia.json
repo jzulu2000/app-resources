@@ -125,12 +125,12 @@
 	"specialEvents": [
 		{
 			"object-type": "SpecialEvent",
-			"id" : "33",
-			"dates": ["2020-09-25"],
-			"city": "bogota",
-			"title": "Bogotá - Vuelve el pico y placa; no aplicará los sábados",
-			"text": "El pico y placa vuelve a la ciudad en el mismo horario que estaba establecido antes de que se levantara la restricción (de 6 a 8:30 de la mañana y de 3 de la tarde hasta las 7:30 de la noche).",
-			"url": "https://www.eltiempo.com/bogota/pico-y-placa-bogota-asi-sera-la-medida-desde-ahora-539013"
+			"id" : "34",
+			"dates": ["2020-10-09"],
+			"city": "bucaramanga",
+			"title": "Bucaramanga - El 1 de Octubre cambia el pico y placa",
+			"text": "Habrá cambios en el pico y placa en Bucaramanga a partir del 1 de Octubre: los lunes la restricción será para los carros con placas terminadas en 3 y 4; martes, 5 y 6; miércoles 7 y 8; jueves 9 y 0, y viernes 1 y 2. Los horarios son desde las 6:00 a.m. hasta los 8:00 p.m.",
+			"url": "https://www.elespectador.com/noticias/nacional/cambios-en-el-pico-y-placa-en-bucaramanga/"
 		}
 	],
 	"vehicles": [
@@ -428,6 +428,13 @@
 				{
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"validFrom" : "2020-10-01",
+					"hours": [{ "registry-ref" : "06:00-20:00"}],
+					"validator": {"registry-ref" : "monday:3/2"},
+					"vehicles": ["particular", "moto-2t", "moto-4t"]
+				}, {
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [{ "registry-ref" : "06:00-20:00"}],
 					"validator": {"registry-ref" : "monday:1/2"},
 					"vehicles": ["particular", "moto-2t", "moto-4t"]
@@ -442,23 +449,23 @@
 							{
 								"object-type": "StaticRestriction",
 								"days": ["20200704","20200808","20200912","20201010","20201114","20201219"],
-								"plates": ["9", "0"]
+								"plates": ["7", "8"]
 							}, {
 								"object-type": "StaticRestriction",
 								"days": ["20200711","20200815","20200919","20201017","20201121","20201226"],
-								"plates": ["1", "2"]
+								"plates": ["9", "0"]
 							}, {
 								"object-type": "StaticRestriction",
 								"days": ["20200718","20200822","20200926","20201024","20201128"],
-								"plates": ["3", "4"]
+								"plates": ["1", "2"]
 							}, {
 								"object-type": "StaticRestriction",
 								"days": ["20200725","20200829","20200926","20201031","20201205"],
-								"plates": ["5", "6"]
+								"plates": ["3", "4"]
 							}, {
 								"object-type": "StaticRestriction",
 								"days": ["20200801","20200905","20201003","20201107","20201212"],
-								"plates": ["7", "8"]
+								"plates": ["5", "6"]
 							}
 						]
 					},
