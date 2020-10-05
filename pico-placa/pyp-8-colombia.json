@@ -114,11 +114,11 @@
 			{"object-type": "StaticRestriction", "days": ["fri"], "plates": ["2", "3", "4", "5", "6", "7"]}
 		],
 		"covid-dates-extended" : [
-			"20200901", "20200902", "20200903", "20200904","20200905", "20200906", "20200907", 
-			"20200908", "20200909", "20200910", "20200911", "20200912",
-			"20200913", "20200914", "20200915", "20200916", "20200917", "20200918", "20200919",
-			"20200920", "20200921", "20200922", "20200923", "20200924", "20200925", "20200926",
-			"20200927", "20200928", "20200929", "20200930", "20200931"
+			"20201001", "20201002", "20201003", "20201004","20201005", "20201006", "20201007", 
+			"20201008", "20201009", "20201010", "20201011", "20201012",
+			"20201013", "20201014", "20201015", "20201016", "20201017", "20201018", "20201019",
+			"20201020", "20201021", "20201022", "20201023", "20201024", "20201025", "20201026",
+			"20201027", "20201028", "20201029", "20201030", "20201031"
 		]
 	},
 	"object-type": "com.twelvestars.daos.model.PyPModel",
@@ -131,6 +131,14 @@
 			"title": "Bucaramanga - El 1 de Octubre cambia el pico y placa",
 			"text": "Habrá cambios en el pico y placa en Bucaramanga a partir del 1 de Octubre: los lunes la restricción será para los carros con placas terminadas en 3 y 4; martes, 5 y 6; miércoles 7 y 8; jueves 9 y 0, y viernes 1 y 2. Los horarios son desde las 6:00 a.m. hasta los 8:00 p.m.",
 			"url": "https://www.elespectador.com/noticias/nacional/cambios-en-el-pico-y-placa-en-bucaramanga/"
+		}, {
+			"object-type": "SpecialEvent",
+			"id" : "35",
+			"dates": ["2020-10-09"],
+			"city": "cartagena",
+			"title": "Cartagena - El Lunes 5 de Octubre regresa el pico y placa",
+			"text": "Desde este lunes 5 de octubre vuelve el pico y placa para vehículos particulares y motocicletas en Cartagena, así lo autorizó la Alcaldía de Cartagena mediante el Decreto 1198 del 1 de Octubre de 2020.",
+			"url": "https://www.eluniversal.com.co/cartagena/regresa-el-pico-y-placa-para-particulares-y-motos-en-cartagena-HH3584678"
 		}
 	],
 	"vehicles": [
@@ -496,7 +504,7 @@
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [{"registry-ref": "07:00-10:00"}, {"registry-ref": "17:00-20:00"}],
-					"validator": {"registry-ref" : "monday:7/2"},
+					"validator": {"registry-ref" : "monday:3/2"},
 					"vehicles": ["particular"]
 				}, {
 					"object-type": "Restriction",
@@ -515,11 +523,11 @@
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [{"registry-ref" : "06:00-23:59"}],
-					"validator": {"registry-ref" : "monday:3/2"},
+					"validator": {"registry-ref" : "monday:1/2"},
 					"vehicles": ["taxi"]
 				}
 			],
-			"unrestrictedDays": {"registry-ref":  "covid-dates-extended"}
+			"unrestrictedDays": []
 		}, {
 			"object-type": "City",
 			"aliases": [],
