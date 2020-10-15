@@ -3,7 +3,7 @@
     {
       "places": ["chartactivity"],
       "implementation": "facebook",
-      "enabled": "false",
+      "enabled": "true",
       "appId": "",
       "adsIds": {
         "ADDS_DEFAULT_BANNER": "2639192702799759_2639197386132624",
@@ -27,7 +27,7 @@
     {
       "places": ["texttospeechactivity", "settings.settingsactivity"],
       "implementation": "facebook",
-      "enabled": "false",
+      "enabled": "true",
       "appId": "",
       "adsIds": {
         "ADDS_DEFAULT_BANNER": "452391805606863_452392055606838",
@@ -52,7 +52,7 @@
     {
       "places": ["ui.fullscreenplayeractivity", "ui.musicplayeractivity"],
       "implementation": "facebook",
-      "enabled": "false",
+      "enabled": "true",
       "appId": "",
       "adsIds": {
         "ADDS_DEFAULT_BANNER": "502997147159389_502998073825963",
@@ -88,7 +88,7 @@
     {
       "places": ["activities.notificationactivity", "activities.restrictionsactivity"],
       "implementation": "facebook",
-      "enabled": "false",
+      "enabled": "true",
       "appId": "",
       "adsIds": {
         "ADDS_DEFAULT_BANNER": "470581890340073_470582683673327",
@@ -215,7 +215,7 @@
     {
       "places": ["activities.notificationactivity", "activities.restrictionsactivity"],
       "implementation": "facebook",
-      "enabled": "false",
+      "enabled": "true",
       "appId": "",
       "adsIds": {
         "ADDS_DEFAULT_BANNER": "651207708731568_651208038731535",
@@ -292,7 +292,7 @@
     {
       "places": ["co.com.twelvestars.moca.spicamactivity", "co.com.twelvestars.moca.cameraactivity"],
       "implementation": "facebook",
-      "enabled": "false",
+      "enabled": "true",
       "appId": "",
       "adsIds": {
         "ADDS_DEFAULT_BANNER": "647507325760571_647507682427202",
@@ -317,7 +317,7 @@
     {
       "places": ["co.com.twelvestars.moca2.cameraactivity"],
       "implementation": "facebook",
-      "enabled": "false",
+      "enabled": "true",
       "appId": "",
       "adsIds": {
         "ADDS_DEFAULT_BANNER": "923837361444986_923837671444955",
