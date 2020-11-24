@@ -77,14 +77,14 @@
           "text": "Obten notificaciones del pico y placa para Peru."
         }
       ],
-      "icon": "pipla_peru_round:https://raw.githubusercontent.com/jzulu2000/app-resources/master/pico-placa/pipla_peru_round.png",
+      "icon": "pipla_round",
       "titles": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "text": "Pipla - Pico y Placa Lima Peru"
         }
       ],
-      "url": "com.twelvestars.pipla_peru"
+      "url": "com.twelvestars.pipla"
     }, {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
       "descriptions": [
@@ -188,14 +188,14 @@
           "text": "Gerar Notificações para o Rodízio de veículos Brasil."
         }
       ],
-      "icon": "pipla_brasil_round",
+      "icon": "pipla_round",
       "titles": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "text": "Pipla - Rodízio de veículos Brasil"
         }
       ],
-      "url": "com.twelvestars.pipla_brasil"
+      "url": "com.twelvestars.pipla"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
@@ -253,14 +253,14 @@
           "text": "Obten notificaciones del Hoy No Circula para Ecuador."
         }
       ],
-      "icon": "pipla_ecuador_round",
+      "icon": "pipla_round",
       "titles": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "text": "Pipla - Hoy No Circula Ecuador"
         }
       ],
-      "url": "com.twelvestars.pipla_ecuador"
+      "url": "com.twelvestars.pipla"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
@@ -271,14 +271,14 @@
           "text": "Obten notificaciones del Pico y Placa para Perú."
         }
       ],
-      "icon": "pipla_peru_round",
+      "icon": "pipla_round",
       "titles": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "text": "Pipla - Pico y Placa Peru"
         }
       ],
-      "url": "com.twelvestars.pipla_peru"
+      "url": "com.twelvestars.pipla"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
@@ -336,14 +336,14 @@
           "text": "Notifica restricciones para el Hoy No Circula en Mexico."
         }
       ],
-      "icon": "pipla_mexico_round",
+      "icon": "pipla_round",
       "titles": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "text": "Pipla - Hoy No Circula Mexico"
         }
       ],
-      "url": "com.twelvestars.pipla_mexico"
+      "url": "com.twelvestars.pipla"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
@@ -418,14 +418,14 @@
           "text": "Number coding Scheme Vehicle restriction in Philippines."
         }
       ],
-      "icon": "pipla_philippines_round",
+      "icon": "pipla_round",
       "titles": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "text": "Pipla - Number coding Scheme Philippines"
         }
       ],
-      "url": "com.twelvestars.pipla_philippines"
+      "url": "com.twelvestars.pipla"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
@@ -436,14 +436,14 @@
           "text": "Notifica la restriccion vehicular en Costa Rica."
         }
       ],
-      "icon": "pipla_costarica_round",
+      "icon": "pipla_round",
       "titles": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "text": "Pipla - Restriccion Vehicular Costa Rica"
         }
       ],
-      "url": "com.twelvestars.pipla_costarica"
+      "url": "com.twelvestars.pipla"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",

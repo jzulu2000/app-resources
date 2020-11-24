@@ -69,6 +69,53 @@
 		{
 			"object-type": "Poll",
 			"id" : "moca2-promo",
+			"appsRegex" : ".*pipla_.*",
+			"lapse" : 1,
+			"title" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "Update to the new Pipla World App!",
+					"es" : "Cambiate a nuestra nueva App Pipa Mundo!",
+					"pt" : "Mude para nosso novo aplicativo Pipa Mundo!"
+				}
+			},
+			"description" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "\nWe unified the different applications that we had for vehicle restriction in a single app.\n\nSoon, the version you have will stop working so we recommend installing the new app.",
+					"es" : "\nUnificamos las diferentes aplicaciones que teníamos para restricción vehicular en una sola app.\n\nPronto, la versión que tienes dejará de funcionar, por lo que recomendamos instalar la nueva app.",
+					"pt" : "\nUnificamos os diferentes aplicativos que tínhamos para restrição de veículos em um único aplicativo.\n\nEm breve, a versão que você possui deixará de funcionar, por isso recomendamos instalar o novo aplicativo."
+				}
+			}, "neutralOption" : {
+				"registry-ref": "ask-later-option"
+			}, "noOption" : {
+				"object-type": "PollOption",
+				"action" : "dont-ask-again",
+				"texts" : {
+					"en" : "No, thank you!",
+					"es" : "No, gracias!",
+					"pt" : "No, obrigado"
+				}
+			}, "okOption" : {
+				"object-type": "PollOption",
+				"action" : "open-url",
+				"texts" : {
+					"en" : "Yes, of course!",
+					"es" : "Si me gustaría!",
+					"pt" : "Sim eu gostaria"
+				},
+				"actionParameters" : {
+					"address": {
+						"object-type": "Translatable",
+						"texts" : {
+							"en": "https://play.google.com/store/apps/details?id=com.twelvestars.pipla"
+						}
+					}
+				}
+			}
+		},{
+			"object-type": "Poll",
+			"id" : "moca2-promo",
 			"appsRegex" : ".*moca$|.*moca_paid$",
 			"lapse" : 1,
 			"title" : {
@@ -81,34 +128,34 @@
 			"description" : {
 				"object-type": "Translatable",
 				"texts" : {
-					"en" : "\nMoca2 comes with higher resolutions and a lot of new options; also improvements in response time and battery ussage.\n\nThe first 100 giving 5 stars will have free code for premium version.\n\nDo you want to try the free version?",
-					"es" : "\nMoCa2 viene con mayores resoluciones y muchas nuevas opciones; también mejoras en respuesta y en uso de batería.\n\nLos primeros 100 en dar 5 estrellas tendrán código gratis para la version premium.\n\nDeseas probar la versión grátis?"
+					"en" : "\nMoca2 comes with higher resolutions and a lot of new options; also improvements in response time and battery ussage.\n\nDo you want to try our new free version?",
+					"es" : "\nMoCa2 viene con mayores resoluciones y muchas nuevas opciones; también mejoras en respuesta y en uso de batería.\n\nDeseas probar nuestra nueva versión gratuita?"
 				}
 			}, "neutralOption" : {
-			"registry-ref": "ask-later-option"
-		}, "noOption" : {
-			"object-type": "PollOption",
-			"action" : "dont-ask-again",
-			"texts" : {
-				"en" : "No, thank you!",
-				"es" : "No, gracias!"
-			}
-		}, "okOption" : {
-			"object-type": "PollOption",
-			"action" : "open-url",
-			"texts" : {
-				"en" : "Yes, of course!",
-				"es" : "Si me gustaría!"
-			},
-			"actionParameters" : {
-				"address": {
-					"object-type": "Translatable",
-					"texts" : {
-						"en": "https://play.google.com/store/apps/details?id=twelvestars.moca2"
+				"registry-ref": "ask-later-option"
+			}, "noOption" : {
+				"object-type": "PollOption",
+				"action" : "dont-ask-again",
+				"texts" : {
+					"en" : "No, thank you!",
+					"es" : "No, gracias!"
+				}
+			}, "okOption" : {
+				"object-type": "PollOption",
+				"action" : "open-url",
+				"texts" : {
+					"en" : "Yes, of course!",
+					"es" : "Si me gustaría!"
+				},
+				"actionParameters" : {
+					"address": {
+						"object-type": "Translatable",
+						"texts" : {
+							"en": "https://play.google.com/store/apps/details?id=twelvestars.moca2"
+						}
 					}
 				}
 			}
-		}
 		}, {
 			"object-type": "Poll",
 			"id" : "privacy-policy",

@@ -86,7 +86,7 @@
 
   "com.twelvestars.pipla": [
     {
-      "places": ["activities.notificationactivity", "activities.restrictionsactivity"],
+      "places": ["notificationactivity", "restrictionsactivity"],
       "implementation": "facebook",
       "enabled": "true",
       "appId": "",
@@ -213,7 +213,7 @@
 
   "com.twelvestars.pipla_mexico": [
     {
-      "places": ["activities.notificationactivity", "activities.restrictionsactivity"],
+      "places": ["notificationactivity", "restrictionsactivity"],
       "implementation": "facebook",
       "enabled": "true",
       "appId": "",
