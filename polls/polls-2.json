@@ -234,7 +234,7 @@
 		}, {
 			"object-type": "Poll",
 			"id" : "speechy-promo",
-			"appsRegex" : ".*webmonitor.*|.*best.*|.*gmplayer.*|.*moca.*|.*pipla.*|.*screen.*",
+			"appsRegex" : ".*webmonitor.*|.*best.*|.*gmplayer.*|.*moca.*|.*pipla.*|.*screen.*|.*myastros.*",
 			"lapse" : 3,
 			"title" : {
 				"object-type": "Translatable",
