@@ -68,7 +68,7 @@
 	"polls" : [
 		{
 			"object-type": "Poll",
-			"id" : "moca2-promo",
+			"id" : "pipla-promo",
 			"appsRegex" : ".*pipla_.*",
 			"lapse" : 1,
 			"title" : {
