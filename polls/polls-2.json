@@ -113,7 +113,56 @@
 					}
 				}
 			}
-		},{
+		}, {
+			"object-type": "Poll",
+			"id" : "migrate-moca2",
+			"appsRegex" : ".*moca$",
+			"lapse" : 0,
+			"title" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "You need to Migrate",
+					"es" : "Debes migrarte"
+				}
+			},
+			"description" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "Moca free was suspended by Google, so you need to migrate to the new Moca2 with a lot of new functionality.\n\nYou can also buy Moca PRO version (it wasn't suspended)",
+					"es" : "Moca gratuita fue suspendida por Google, por lo que debes migrar a la nueva Moca2 que tiene muchas más funcionalidades.\n\nTambién puedes comprar la versión PRO de Moca (no fue suspendida)."
+				}
+			}, "okOption" : {
+				"object-type": "PollOption",
+				"action" : "open-url",
+				"texts" : {
+					"en" : "Install Moca2",
+					"es" : "Instalar Moca2"
+				},
+				"actionParameters" : {
+					"address": {
+						"object-type": "Translatable",
+						"texts" : {
+							"en": "https://play.google.com/store/apps/details?id=twelvestars.moca2"
+						}
+					}
+				}
+			}, "neutralOption" : {
+				"object-type": "PollOption",
+				"action" : "open-url",
+				"texts" : {
+					"en" : "Buy Moca",
+					"es" : "Comprar Moca"
+				},
+				"actionParameters" : {
+					"address": {
+						"object-type": "Translatable",
+						"texts" : {
+							"en": "https://play.google.com/store/apps/details?id=twelvestars.moca_paid"
+						}
+					}
+				}
+			}
+		}, {
 			"object-type": "Poll",
 			"id" : "moca2-promo",
 			"appsRegex" : ".*moca$|.*moca_paid$",
