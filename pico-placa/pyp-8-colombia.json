@@ -723,7 +723,7 @@
 				{
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
-					"hours": [{"registry-ref": "06:00-20:00"}],
+					"hours": [{"registry-ref": "00:00-23:59"}],
 					"validator": {"registry-ref" : "monday:1/2"},
 					"vehicles": ["particular"]
 				}
