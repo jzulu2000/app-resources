@@ -125,20 +125,12 @@
 	"specialEvents": [
 		{
 			"object-type": "SpecialEvent",
-			"id" : "34",
-			"dates": ["2020-10-09"],
-			"city": "bucaramanga",
-			"title": "Bucaramanga - El 1 de Octubre cambia el pico y placa",
-			"text": "Habrá cambios en el pico y placa en Bucaramanga a partir del 1 de Octubre: los lunes la restricción será para los carros con placas terminadas en 3 y 4; martes, 5 y 6; miércoles 7 y 8; jueves 9 y 0, y viernes 1 y 2. Los horarios son desde las 6:00 a.m. hasta los 8:00 p.m.",
-			"url": "https://www.elespectador.com/noticias/nacional/cambios-en-el-pico-y-placa-en-bucaramanga/"
-		}, {
-			"object-type": "SpecialEvent",
-			"id" : "35",
-			"dates": ["2020-10-09"],
-			"city": "cartagena",
-			"title": "Cartagena - El Lunes 5 de Octubre regresa el pico y placa",
-			"text": "Desde este lunes 5 de octubre vuelve el pico y placa para vehículos particulares y motocicletas en Cartagena, así lo autorizó la Alcaldía de Cartagena mediante el Decreto 1198 del 1 de Octubre de 2020.",
-			"url": "https://www.eluniversal.com.co/cartagena/regresa-el-pico-y-placa-para-particulares-y-motos-en-cartagena-HH3584678"
+			"id" : "36",
+			"dates": ["2021-01-14"],
+			"city": "cali",
+			"title": "Cali - Cambio de pico y placa el lunes 18",
+			"text": "Desde el lunes 18 de enero hay nueva rotación de pico y placa para vehículos particulares en Cali.",
+			"url": "https://occidente.co/cali/a-partir-del-18-de-enero-cambiara-medida-de-pico-y-placa-en-cali/"
 		}
 	],
 	"vehicles": [
@@ -534,6 +526,13 @@
 			"name": "cali",
 			"restrictions": [
 				{
+					"object-type": "Restriction",
+					"validFrom": "2021-01-18",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [{"registry-ref": "06:00-10:00"}, {"registry-ref": "16:00-20:00"}],
+					"validator": {"registry-ref": "monday:1/2"},
+					"vehicles": ["particular", "especial"]
+				}, {
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [{"registry-ref": "06:00-10:00"}, {"registry-ref": "16:00-20:00"}],
