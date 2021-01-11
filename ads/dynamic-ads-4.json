@@ -25,7 +25,7 @@
           "text": "Astro Mate - Cartas de Astrología."
         }
       ],
-      "url": "https://play.google.com/store/search?q=astromate%20\"twelve%20stars%20software\"&c=apps"
+      "url": "com.twelvestars.myastros_free"
     }, {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
       "descriptions": [
@@ -50,7 +50,7 @@
           "text": "Speechy - Escucha libros PDF y EPUB."
         }
       ],
-      "url": "https://play.google.com/store/search?q=speechy%20\"twelve%20stars%20software\"&c=apps"
+      "url": "com.twelvestars.pdfreader_free"
     }, {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
       "country": "co",
@@ -67,7 +67,7 @@
           "text": "Pipla - Pico y Placa Colombia"
         }
       ],
-      "url": "https://play.google.com/store/search?q=pipla%20\"twelve%20stars%20software\"&c=apps"
+      "url": "com.twelvestars.pipla"
     }, {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
       "country": "pe",
@@ -84,7 +84,7 @@
           "text": "Pipla - Pico y Placa Lima Peru"
         }
       ],
-      "url": "https://play.google.com/store/search?q=pipla%20\"twelve%20stars%20software\"&c=apps"
+      "url": "com.twelvestars.pipla"
     }, {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
       "descriptions": [
@@ -130,7 +130,7 @@
           "text": "Lyra - Leitor de música"
         }
       ],
-      "url": "https://play.google.com/store/search?q=lyra%20music%20player%20\"twelve%20stars%20software\"&c=apps"
+      "url": "co.com.twelvestars.best"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
@@ -177,7 +177,7 @@
           "text": "Lyra - Plugin para letras"
         }
       ],
-      "url": "https://play.google.com/store/search?q=lyra%20plugin%20\"twelve%20stars%20software\"&c=apps"
+      "url": "co.com.twelvestars.gmplayer_paid"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
@@ -195,7 +195,7 @@
           "text": "Pipla - Rodízio de veículos Brasil"
         }
       ],
-      "url": "https://play.google.com/store/search?q=pipla%20\"twelve%20stars%20software\"&c=apps"
+      "url": "com.twelvestars.pipla"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
@@ -242,7 +242,7 @@
           "text": "MoCa2 - Spy Detecção de movimento"
         }
       ],
-      "url": "https://play.google.com/store/search?q=moca2%20\"twelve%20stars%20software\"&c=apps"
+      "url": "twelvestars.moca2"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
@@ -260,7 +260,7 @@
           "text": "Pipla - Hoy No Circula Ecuador"
         }
       ],
-      "url": "https://play.google.com/store/search?q=pipla%20\"twelve%20stars%20software\"&c=apps"
+      "url": "com.twelvestars.pipla"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
@@ -278,7 +278,7 @@
           "text": "Pipla - Pico y Placa Peru"
         }
       ],
-      "url": "https://play.google.com/store/search?q=pipla%20\"twelve%20stars%20software\"&c=apps"
+      "url": "com.twelvestars.pipla"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
@@ -325,7 +325,7 @@
           "text": "Pacha - Detector de Cambios Páginas Web"
         }
       ],
-      "url": "https://play.google.com/store/search?q=pacha%20\"twelve%20stars%20software\"&c=apps"
+      "url": "com.twelvestars.webmonitor"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
@@ -343,7 +343,7 @@
           "text": "Pipla - Hoy No Circula Mexico"
         }
       ],
-      "url": "https://play.google.com/store/search?q=pipla%20\"twelve%20stars%20software\"&c=apps"
+      "url": "com.twelvestars.pipla"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
@@ -390,7 +390,7 @@
           "text": "Amazon rastreamento de preço"
         }
       ],
-      "url": "https://play.google.com/store/search?q=amtrack%20\"twelve%20stars%20software\"&c=apps"
+      "url": "com.twelvestars.webmonitor_amz"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
@@ -407,7 +407,7 @@
           "text": "Recky - Screen and Audio Recorder"
         }
       ],
-      "url": "https://play.google.com/store/search?q=recky%20\"twelve%20stars%20software\"&c=apps"
+      "url": "com.twelvestars.screenRecorder"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
@@ -425,7 +425,7 @@
           "text": "Pipla - Number coding Scheme Philippines"
         }
       ],
-      "url": "https://play.google.com/store/search?q=pipla%20\"twelve%20stars%20software\"&c=apps"
+      "url": "com.twelvestars.pipla"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
@@ -443,7 +443,7 @@
           "text": "Pipla - Restriccion Vehicular Costa Rica"
         }
       ],
-      "url": "https://play.google.com/store/search?q=pipla%20\"twelve%20stars%20software\"&c=apps"
+      "url": "com.twelvestars.pipla"
     },
     {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
@@ -460,7 +460,7 @@
           "text": "Screen Filter"
         }
       ],
-      "url": "https://play.google.com/store/search?q=screen%20filter%20\"twelve%20stars%20software\"&c=apps"
+      "url": "com.twelvestars.screenFilter"
     }, {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
       "descriptions": [
