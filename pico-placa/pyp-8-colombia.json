@@ -428,15 +428,15 @@
 				{
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
-					"validFrom" : "2020-10-01",
+					"validFrom" : "2021-01-13",
 					"hours": [{ "registry-ref" : "06:00-20:00"}],
-					"validator": {"registry-ref" : "monday:3/2"},
+					"validator": {"registry-ref" : "monday:5/2"},
 					"vehicles": ["particular", "moto-2t", "moto-4t"]
 				}, {
 					"object-type": "Restriction",
 					"days": ["mon", "tue", "wed", "thu", "fri"],
 					"hours": [{ "registry-ref" : "06:00-20:00"}],
-					"validator": {"registry-ref" : "monday:1/2"},
+					"validator": {"registry-ref" : "monday:3/2"},
 					"vehicles": ["particular", "moto-2t", "moto-4t"]
 				}, {
 					"object-type": "Restriction",
@@ -448,23 +448,23 @@
 						"staticRestrictions": [
 							{
 								"object-type": "StaticRestriction",
-								"days": ["20200704","20200808","20200912","20201010","20201114","20201219"],
+								"days": ["20210206","20210313"],
 								"plates": ["7", "8"]
 							}, {
 								"object-type": "StaticRestriction",
-								"days": ["20200711","20200815","20200919","20201017","20201121","20201226"],
+								"days": ["20210213", "20210320"],
 								"plates": ["9", "0"]
 							}, {
 								"object-type": "StaticRestriction",
-								"days": ["20200718","20200822","20200926","20201024","20201128"],
+								"days": ["20210116","20210220"],
 								"plates": ["1", "2"]
 							}, {
 								"object-type": "StaticRestriction",
-								"days": ["20200725","20200829","20200926","20201031","20201205"],
+								"days": ["20210123","20210327"],
 								"plates": ["3", "4"]
 							}, {
 								"object-type": "StaticRestriction",
-								"days": ["20200801","20200905","20201003","20201107","20201212"],
+								"days": ["20210130","20210306"],
 								"plates": ["5", "6"]
 							}
 						]
