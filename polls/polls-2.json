@@ -68,285 +68,34 @@
 	"polls" : [
 		{
 			"object-type": "Poll",
-			"id" : "pipla-promo",
-			"appsRegex" : ".*pipla_.*",
-			"lapse" : 1,
-			"title" : {
-				"object-type": "Translatable",
-				"texts" : {
-					"en" : "Update to the new Pipla World App!",
-					"es" : "Cambiate a nuestra nueva App Pipa Mundo!",
-					"pt" : "Mude para nosso novo aplicativo Pipa Mundo!"
-				}
-			},
-			"description" : {
-				"object-type": "Translatable",
-				"texts" : {
-					"en" : "\nWe unified the different applications that we had for vehicle restriction in a single app.\n\nSoon, the version you have will stop working so we recommend installing the new app.",
-					"es" : "\nUnificamos las diferentes aplicaciones que teníamos para restricción vehicular en una sola app.\n\nPronto, la versión que tienes dejará de funcionar, por lo que recomendamos instalar la nueva app.",
-					"pt" : "\nUnificamos os diferentes aplicativos que tínhamos para restrição de veículos em um único aplicativo.\n\nEm breve, a versão que você possui deixará de funcionar, por isso recomendamos instalar o novo aplicativo."
-				}
-			}, "neutralOption" : {
-			"registry-ref": "ask-later-option"
-		}, "noOption" : {
-			"object-type": "PollOption",
-			"action" : "dont-ask-again",
-			"texts" : {
-				"en" : "No, thank you!",
-				"es" : "No, gracias!",
-				"pt" : "No, obrigado"
-			}
-		}, "okOption" : {
-			"object-type": "PollOption",
-			"action" : "open-url",
-			"texts" : {
-				"en" : "Yes, of course!",
-				"es" : "Si me gustaría!",
-				"pt" : "Sim eu gostaria"
-			},
-			"actionParameters" : {
-				"address": {
-					"object-type": "Translatable",
-					"texts" : {
-						"en": "https://play.google.com/store/apps/details?id=com.twelvestars.pipla"
-					}
-				}
-			}
-		}
-		}, {
-			"object-type": "Poll",
-			"id" : "migrate-moca2",
-			"appsRegex" : ".*moca$",
+			"id" : "google-suspension",
+			"appsRegex" : ".*",
 			"lapse" : 0,
 			"title" : {
 				"object-type": "Translatable",
 				"texts" : {
-					"en" : "You need to Migrate",
-					"es" : "Debes migrarte"
+					"en" : "Our App was suspended in the Playstore",
+					"es" : "Nuestra app fue suspendida en el Playstore"
 				}
 			},
 			"description" : {
 				"object-type": "Translatable",
 				"texts" : {
-					"en" : "Moca free was suspended by Google, so you need to migrate to the new Moca2 with a lot of new functionality.\n\nYou can also buy Moca PRO version (it wasn't suspended)",
-					"es" : "Moca gratuita fue suspendida por Google, por lo que debes migrar a la nueva Moca2 que tiene muchas más funcionalidades.\n\nTambién puedes comprar la versión PRO de Moca (no fue suspendida)."
+					"en" : "Our app was temporally suspended by Google, so there should be some issues with purchases validation.\n\nWe're working with google to solve the issue and will be contacting later with instructions on how to proceed.\n\nSorry for the conveniences.",
+					"es" : "Google suspendió temporalmente nuestra aplicación, por lo que debería haber algunos problemas con la validación de compras.\n\nEstamos trabajando con Google para resolver el problema y nos comunicaremos luego para darte instrucciones sobre cómo proceder.\n\nPerdón por las comodidades.",
+					"fr" : "Notre application a été temporairement suspendue par Google, il devrait donc y avoir des problèmes avec la validation des achats.\n\nNous travaillons avec Google pour résoudre le problème et nous vous contacterons plus tard avec des instructions sur la marche à suivre.\n\nDésolé pour les commodités.",
+					"it" : "La nostra app è stata temporaneamente sospesa da Google, quindi dovrebbero esserci dei problemi con la convalida degli acquisti.\n\nStiamo lavorando con Google per risolvere il problema e ti contatteremo più tardi con le istruzioni su come procedere.\n\nCi scusiamo per le comodità.",
+					"pt" : "Nosso aplicativo foi temporariamente suspenso pelo Google, então deve haver alguns problemas com a validação de compras.\n\nEstamos trabalhando com o Google para resolver o problema e entraremos em contato posteriormente com instruções sobre como proceder.\n\nDesculpe pelas conveniências."
 				}
 			}, "okOption" : {
 				"object-type": "PollOption",
-				"action" : "open-url",
+				"action" : "ask-later",
 				"texts" : {
-					"en" : "Install Moca2",
-					"es" : "Instalar Moca2"
-				},
-				"actionParameters" : {
-					"address": {
-						"object-type": "Translatable",
-						"texts" : {
-							"en": "https://play.google.com/store/search?q=moca2%20\"twelve%20stars%20software\"&c=apps"
-						}
-					}
-				}
-			}, "neutralOption" : {
-				"object-type": "PollOption",
-				"action" : "open-url",
-				"texts" : {
-					"en" : "Buy Moca",
-					"es" : "Comprar Moca"
-				},
-				"actionParameters" : {
-					"address": {
-						"object-type": "Translatable",
-						"texts" : {
-							"en": "https://play.google.com/store/apps/details?id=twelvestars.moca_paid"
-						}
-					}
-				}
-			}
-		}, {
-			"object-type": "Poll",
-			"id" : "moca2-promo",
-			"appsRegex" : ".*moca$|.*moca_paid$",
-			"lapse" : 1,
-			"title" : {
-				"object-type": "Translatable",
-				"texts" : {
-					"en" : "MoCa2: our new redesigned motion cam!",
-					"es" : "MoCa2: la cámara de detección rediseñada!"
-				}
-			},
-			"description" : {
-				"object-type": "Translatable",
-				"texts" : {
-					"en" : "\nMoca2 comes with higher resolutions and a lot of new options; also improvements in response time and battery ussage.\n\nDo you want to try our new free version?",
-					"es" : "\nMoCa2 viene con mayores resoluciones y muchas nuevas opciones; también mejoras en respuesta y en uso de batería.\n\nDeseas probar nuestra nueva versión gratuita?"
-				}
-			}, "neutralOption" : {
-				"registry-ref": "ask-later-option"
-			}, "noOption" : {
-				"object-type": "PollOption",
-				"action" : "dont-ask-again",
-				"texts" : {
-					"en" : "No, thank you!",
-					"es" : "No, gracias!"
-				}
-			}, "okOption" : {
-				"object-type": "PollOption",
-				"action" : "open-url",
-				"texts" : {
-					"en" : "Yes, of course!",
-					"es" : "Si me gustaría!"
-				},
-				"actionParameters" : {
-					"address": {
-						"object-type": "Translatable",
-						"texts" : {
-							"en": "https://play.google.com/store/apps/details?id=twelvestars.moca2"
-						}
-					}
-				}
-			}
-		}, {
-			"object-type": "Poll",
-			"id" : "privacy-policy",
-			"appsRegex" : ".*webmonitor_amz$|.*best_free$",
-			"lapse" : 0,
-			"title" : {
-				"object-type": "Translatable",
-				"texts" : {
-					"en" : "Privacy Policy",
-					"es" : "Política de Privacidad"
-				}
-			},
-			"description" : {
-				"object-type": "Translatable",
-				"texts" : {
-					"en" : "Twelve Stars Software is an ethical company. We care about the user privacy. We would like you to read the privacy policy and accept it in order to continue using the application.",
-					"es" : "Twelve Stars Software es una compañía ética. Nos importa la privacidad del usuario. Nos gustaría que leyeras la política de privacidad y que la aceptes para continuar usando la aplicación."
-				}
-			}, "okOption" : {
-				"object-type": "PollOption",
-				"action" : "dont-ask-again",
-				"texts" : {
-					"en" : "Accept Policy",
-					"es" : "Aceptar la Política"
-				}
-			}, "neutralOption" : {
-				"object-type": "PollOption",
-				"action" : "open-url",
-				"texts" : {
-					"en" : "View Policy",
-					"es" : "Ver Política"
-				},
-				"actionParameters" : {
-					"address": {
-						"object-type": "Translatable",
-						"texts" : {
-							"en": "https://sites.google.com/view/twelve-stars-software/privacy-policy"
-						}
-					}
-				}
-			}
-		}, {
-			"object-type": "Poll",
-			"id" : "rateme",
-			"lapse" : 7,
-			"title" : {
-				"object-type": "Translatable",
-				"texts" : {
-					"en" : "What do you think about our app?",
-					"es" : "Qué piensas de nuestra aplicación?"
-				}
-			}, "okOption" : {
-				"registry-ref": "ask-later-option"
-			}, "neutralOption" : {
-				"registry-ref": "dont-ask-again-option"
-			},"options" : [
-				{
-					"object-type": "PollOption",
-					"action" : "playstore",
-					"texts" : {
-						"en" : "I like it! I want to rate it in the playstore!",
-						"es" : "Me gusta! Quiero calificarla en playstore!"
-					}
-				}, {
-					"object-type": "PollOption",
-					"action" : "email",
-					"texts" : {
-						"en" : "I have comments or need to report a problem!",
-						"es" : "Quiero hacer sugerencias o reportar problema!"
-					},
-					"actionParameters" : {
-						"registry-ref" : "send-email-dialog"
-					}
-				}
-			]
-		}, {
-			"object-type": "Poll",
-			"id" : "speechy-promo",
-			"appsRegex" : ".*webmonitor.*|.*best.*|.*gmplayer.*|.*moca.*|.*pipla.*|.*screen.*|.*myastros.*",
-			"lapse" : 3,
-			"title" : {
-				"object-type": "Translatable",
-				"texts" : {
-					"en" : "Speechy: our new app you'll enjoy!",
-					"es" : "Speechy: nuestra nueva app que disfrutarás!"
-				}
-			},
-			"description" : {
-				"object-type": "Translatable",
-				"texts" : {
-					"en" : "By Twelve Stars Software.\n\nWe've just launched Speechy... a text to speech app for listening PDF books or any text while doing some other activities. We have a FREE and a paid version (with no Ads).\n\nDo you want to try the free version?",
-					"es" : "De Twelve Stars Software.\n\nAcabamos de lanzar Speechy... una app texto a audio para escuchar libros PDF o cualquier texto mientras haces otras actividades. Tenemos una versión GRATIS y una paga (libre de Ads).\n\nDeseas probar la versión grátis?"
-				}
-			}, "neutralOption" : {
-				"registry-ref": "ask-later-option"
-			}, "noOption" : {
-				"object-type": "PollOption",
-				"action" : "dont-ask-again",
-				"texts" : {
-					"en" : "No, thank you!",
-					"es" : "No, gracias!"
-				}
-			}, "okOption" : {
-				"object-type": "PollOption",
-				"action" : "open-url",
-				"texts" : {
-					"en" : "Yes, of course!",
-					"es" : "Si me gustaría!"
-				},
-				"actionParameters" : {
-					"address": {
-						"object-type": "Translatable",
-						"texts" : {
-							"en": "https://play.google.com/store/apps/details?id=com.twelvestars.pdfreader_free"
-						}
-					}
-				}
-			}
-		}, {
-			"object-type": "Poll",
-			"id" : "pipla-help",
-			"appsRegex" : ".*pipla.*",
-			"lapse" : 2,
-			"title" : {
-				"object-type": "Translatable",
-				"texts" : {
-					"en" : "We need your help!",
-					"es" : "Necesitamos tu ayuda!"
-				}
-			},
-			"description" : {
-				"object-type": "Translatable",
-				"texts" : {
-					"en" : "This app is an individual effort to keep people informed. It's necessary the help from people in different cities for informing incoming changes in the restrictions.\n\nIf you want to help please contact us and we will add you in our collaborators list.\n\nThanks a lot!",
-					"es" : "Esta aplicación es un esfuerzo individual para mantener informada a las personas. Se hace necesario el apoyo de personas en diferentes ciudades para que informen los cambios venideros de la medida.\n\nSi deseas apoyar, contactanos para adicionarte en nuestra red de colaboradores.\n\nMuchas gracias!"
-				}
-			}, "noOption" : {
-				"object-type": "PollOption",
-				"action" : "dont-ask-again",
-				"texts" : {
-					"es" : "Entendido!",
-					"en" : "Understood!"
+					"en" : "OK",
+					"es" : "OK",
+					"fr" : "OK",
+					"it" : "OK",
+					"pt" : "OK"
 				}
 			}
 		}
