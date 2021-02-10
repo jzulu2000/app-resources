@@ -81,11 +81,11 @@
 			"description" : {
 				"object-type": "Translatable",
 				"texts" : {
-					"en" : "Our app was temporally suspended by Google, so there should be some issues with purchases validation.\n\nWe're working with google to solve the issue and will be contacting later with instructions on how to proceed.\n\nSorry for the conveniences.",
-					"es" : "Google suspendió temporalmente nuestra aplicación, por lo que debería haber algunos problemas con la validación de compras.\n\nEstamos trabajando con Google para resolver el problema y nos comunicaremos luego para darte instrucciones sobre cómo proceder.\n\nPerdón por las comodidades.",
-					"fr" : "Notre application a été temporairement suspendue par Google, il devrait donc y avoir des problèmes avec la validation des achats.\n\nNous travaillons avec Google pour résoudre le problème et nous vous contacterons plus tard avec des instructions sur la marche à suivre.\n\nDésolé pour les commodités.",
-					"it" : "La nostra app è stata temporaneamente sospesa da Google, quindi dovrebbero esserci dei problemi con la convalida degli acquisti.\n\nStiamo lavorando con Google per risolvere il problema e ti contatteremo più tardi con le istruzioni su come procedere.\n\nCi scusiamo per le comodità.",
-					"pt" : "Nosso aplicativo foi temporariamente suspenso pelo Google, então deve haver alguns problemas com a validação de compras.\n\nEstamos trabalhando com o Google para resolver o problema e entraremos em contato posteriormente com instruções sobre como proceder.\n\nDesculpe pelas conveniências."
+					"en" : "Our app was temporally suspended by Google, so there should be some issues with purchases validation.\n\nWe're working with google to solve the issue and will be contacting later with instructions on how to proceed.\n\nSorry for the unconveniences.",
+					"es" : "Google suspendió temporalmente nuestra aplicación, por lo que debería haber algunos problemas con la validación de compras.\n\nEstamos trabajando con Google para resolver el problema y nos comunicaremos luego para darte instrucciones sobre cómo proceder.\n\nPerdón por las incomodidades.",
+					"fr" : "Notre application a été temporairement suspendue par Google, il devrait donc y avoir des problèmes avec la validation des achats.\n\nNous travaillons avec Google pour résoudre le problème et nous vous contacterons plus tard avec des instructions sur la marche à suivre.\n\nDésolé pour les inconvénients.",
+					"it" : "La nostra app è stata temporaneamente sospesa da Google, quindi dovrebbero esserci dei problemi con la convalida degli acquisti.\n\nStiamo lavorando con Google per risolvere il problema e ti contatteremo più tardi con le istruzioni su come procedere.\n\nCi scusiamo per le inconvenienti.",
+					"pt" : "Nosso aplicativo foi temporariamente suspenso pelo Google, então deve haver alguns problemas com a validação de compras.\n\nEstamos trabalhando com o Google para resolver o problema e entraremos em contato posteriormente com instruções sobre como proceder.\n\nDesculpe pelas inconveniências."
 				}
 			}, "okOption" : {
 				"object-type": "PollOption",
