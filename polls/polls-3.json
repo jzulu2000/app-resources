@@ -87,32 +87,32 @@
 					"pt" : "\nUnificamos os diferentes aplicativos que tínhamos para restrição de veículos em um único aplicativo.\n\nEm breve, a versão que você possui deixará de funcionar, por isso recomendamos instalar o novo aplicativo."
 				}
 			}, "neutralOption" : {
-			"registry-ref": "ask-later-option"
-		}, "noOption" : {
-			"object-type": "PollOption",
-			"action" : "dont-ask-again",
-			"texts" : {
-				"en" : "No, thank you!",
-				"es" : "No, gracias!",
-				"pt" : "No, obrigado"
-			}
-		}, "okOption" : {
-			"object-type": "PollOption",
-			"action" : "open-url",
-			"texts" : {
-				"en" : "Yes, of course!",
-				"es" : "Si me gustaría!",
-				"pt" : "Sim eu gostaria"
-			},
-			"actionParameters" : {
-				"address": {
-					"object-type": "Translatable",
-					"texts" : {
-						"en": "https://play.google.com/store/apps/details?id=com.twelvestars.pipla"
+				"registry-ref": "ask-later-option"
+			}, "noOption" : {
+				"object-type": "PollOption",
+				"action" : "dont-ask-again",
+				"texts" : {
+					"en" : "No, thank you!",
+					"es" : "No, gracias!",
+					"pt" : "No, obrigado"
+				}
+			}, "okOption" : {
+				"object-type": "PollOption",
+				"action" : "open-url",
+				"texts" : {
+					"en" : "Yes, of course!",
+					"es" : "Si me gustaría!",
+					"pt" : "Sim eu gostaria"
+				},
+				"actionParameters" : {
+					"address": {
+						"object-type": "Translatable",
+						"texts" : {
+							"en": "https://play.google.com/store/apps/details?id=com.twelvestars.pipla"
+						}
 					}
 				}
 			}
-		}
 		}, {
 			"object-type": "Poll",
 			"id" : "migrate-moca2",
