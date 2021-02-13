@@ -74,18 +74,21 @@
 			"title" : {
 				"object-type": "Translatable",
 				"texts" : {
-					"en" : "Our App was suspended in the Playstore",
-					"es" : "Nuestra app fue suspendida en el Playstore"
+					"en" : "Our App was removed from the Playstore",
+					"es" : "Nuestra app fue removida del Playstore",
+					"fr" : "Notre application a été supprimé dans le Playstore",
+					"it" : "La nostra app è stata eliminato nel Playstore",
+					"pt" : "Nosso aplicativo foi excluiu na Playstore"
 				}
 			},
 			"description" : {
 				"object-type": "Translatable",
 				"texts" : {
-					"en" : "Our app was temporally suspended by Google, so there should be some issues with purchases validation.\n\nWe're working with google to solve the issue and will be contacting later with instructions on how to proceed.\n\nSorry for the unconveniences.",
-					"es" : "Google suspendió temporalmente nuestra aplicación, por lo que debería haber algunos problemas con la validación de compras.\n\nEstamos trabajando con Google para resolver el problema y nos comunicaremos luego para darte instrucciones sobre cómo proceder.\n\nPerdón por las incomodidades.",
-					"fr" : "Notre application a été temporairement suspendue par Google, il devrait donc y avoir des problèmes avec la validation des achats.\n\nNous travaillons avec Google pour résoudre le problème et nous vous contacterons plus tard avec des instructions sur la marche à suivre.\n\nDésolé pour les inconvénients.",
-					"it" : "La nostra app è stata temporaneamente sospesa da Google, quindi dovrebbero esserci dei problemi con la convalida degli acquisti.\n\nStiamo lavorando con Google per risolvere il problema e ti contatteremo più tardi con le istruzioni su come procedere.\n\nCi scusiamo per le inconvenienti.",
-					"pt" : "Nosso aplicativo foi temporariamente suspenso pelo Google, então deve haver alguns problemas com a validação de compras.\n\nEstamos trabalhando com o Google para resolver o problema e entraremos em contato posteriormente com instruções sobre como proceder.\n\nDesculpe pelas inconveniências."
+					"en" : "\nFor violation of the repetitive content policy, Google deleted the app from the playstore; There may be problems for the validation of the purchases made.\n\nSoon we will be providing the link to the playstore to install the new version and thus solve these problems.\n\nThanks for your support.",
+					"es" : "\nPor violación a la política de contenido repetitivo, Google borró la app del playstore; se pueden presentar problemas para validación de las compras hechas.\n\nPróximamente estaremos suministrando el enlace del playstore para instalar la nueva versión y así solucionar estos problemas.\n\nGracias por su soporte.",
+					"fr" : "\nEn cas de non-respect de la politique relative au contenu répétitif, Google a supprimé l'application du Playstore; Il peut y avoir des problèmes pour la validation des achats effectués.\n\nBientôt, nous fournirons le lien vers le Playstore pour installer la nouvelle version et résoudre ainsi ces problèmes.\n\nMerci pour votre aide.",
+					"it" : "\nPer violazione delle norme sui contenuti ripetitivi, Google ha eliminato l'app dal playstore; Potrebbero esserci problemi per la convalida degli acquisti effettuati.\n\nPresto forniremo il collegamento al playstore per installare la nuova versione e risolvere così questi problemi.\n\nGrazie per il vostro sostegno.",
+					"pt" : "\nPor violação da política de conteúdo repetitivo, o Google excluiu o aplicativo da playstore; Pode haver problemas para a validação das compras realizadas.\n\nEm breve estaremos disponibilizando o link para a playstore para instalar a nova versão e assim solucionar esses problemas.\n\nObrigado por seu apoio."
 				}
 			}, "okOption" : {
 				"object-type": "PollOption",
