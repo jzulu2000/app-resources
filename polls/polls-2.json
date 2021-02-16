@@ -74,11 +74,11 @@
 			"title" : {
 				"object-type": "Translatable",
 				"texts" : {
-					"en" : "Our App was removed from the Playstore",
-					"es" : "Nuestra app fue removida del Playstore",
-					"fr" : "Notre application a été supprimé dans le Playstore",
-					"it" : "La nostra app è stata eliminato nel Playstore",
-					"pt" : "Nosso aplicativo foi excluiu na Playstore"
+					"en" : "Issues with purchases",
+					"es" : "Inconvenientes con las compras",
+					"fr" : "Problèmes avec les achats",
+					"it" : "Problemi con gli acquisti",
+					"pt" : "Problemas com compras"
 				}
 			},
 			"description" : {
