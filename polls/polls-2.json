@@ -84,11 +84,11 @@
 			"description" : {
 				"object-type": "Translatable",
 				"texts" : {
-					"en" : "\nFor violation of the repetitive content policy, Google deleted the app from the playstore; There may be problems for the validation of the purchases made.\n\nSoon we will be providing the link to the playstore to install the new version and thus solve these problems.\n\nThanks for your support.",
-					"es" : "\nPor violación a la política de contenido repetitivo, Google borró la app del playstore; se pueden presentar problemas para validación de las compras hechas.\n\nPróximamente estaremos suministrando el enlace del playstore para instalar la nueva versión y así solucionar estos problemas.\n\nGracias por su soporte.",
-					"fr" : "\nEn cas de non-respect de la politique relative au contenu répétitif, Google a supprimé l'application du Playstore; Il peut y avoir des problèmes pour la validation des achats effectués.\n\nBientôt, nous fournirons le lien vers le Playstore pour installer la nouvelle version et résoudre ainsi ces problèmes.\n\nMerci pour votre aide.",
-					"it" : "\nPer violazione delle norme sui contenuti ripetitivi, Google ha eliminato l'app dal playstore; Potrebbero esserci problemi per la convalida degli acquisti effettuati.\n\nPresto forniremo il collegamento al playstore per installare la nuova versione e risolvere così questi problemi.\n\nGrazie per il vostro sostegno.",
-					"pt" : "\nPor violação da política de conteúdo repetitivo, o Google excluiu o aplicativo da playstore; Pode haver problemas para a validação das compras realizadas.\n\nEm breve estaremos disponibilizando o link para a playstore para instalar a nova versão e assim solucionar esses problemas.\n\nObrigado por seu apoio."
+					"en" : "\nWe're having issues with purchases made for the app.\n\nSoon we will be launching a new version and thus solve these problems.\n\nThanks for your support.",
+					"es" : "\nTenemos problemas con las compras realizadas para la aplicación.\n\nPróximamente estaremos lanzando una nueva versión y así solucionar estos problemas.\n\nGracias por su soporte.",
+					"fr" : "\nNous rencontrons des problèmes avec les achats effectués pour l'application.\n\nBientôt, nous lancerons une nouvelle version et résoudrons ainsi ces problèmes.\n\nMerci pour votre aide.",
+					"it" : "\nStiamo riscontrando problemi con gli acquisti effettuati per l'app.\n\nPresto lanceremo una nuova versione e quindi risolveremo questi problemi.\n\nGrazie per il vostro sostegno.",
+					"pt" : "\nEstamos tendo problemas com compras feitas para o aplicativo.\n\nEm breve estaremos lançando uma nova versão e assim solucionaremos esses problemas.\n\nObrigado por seu apoio."
 				}
 			}, "okOption" : {
 				"object-type": "PollOption",
