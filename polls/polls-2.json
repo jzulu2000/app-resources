@@ -66,41 +66,6 @@
 	},
 	"object-type" : "co.com.twelvestars.commons.polls.PollsModel",
 	"polls" : [
-		{
-			"object-type": "Poll",
-			"id" : "google-suspension",
-			"appsRegex" : ".*",
-			"lapse" : 0,
-			"title" : {
-				"object-type": "Translatable",
-				"texts" : {
-					"en" : "Issues with purchases",
-					"es" : "Inconvenientes con las compras",
-					"fr" : "Problèmes avec les achats",
-					"it" : "Problemi con gli acquisti",
-					"pt" : "Problemas com compras"
-				}
-			},
-			"description" : {
-				"object-type": "Translatable",
-				"texts" : {
-					"en" : "\nWe're having issues with purchases made for the app.\n\nSoon we will be launching a new version and thus solve these problems.\n\nThanks for your support.",
-					"es" : "\nTenemos problemas con las compras realizadas para la aplicación.\n\nPróximamente estaremos lanzando una nueva versión y así solucionar estos problemas.\n\nGracias por su soporte.",
-					"fr" : "\nNous rencontrons des problèmes avec les achats effectués pour l'application.\n\nBientôt, nous lancerons une nouvelle version et résoudrons ainsi ces problèmes.\n\nMerci pour votre aide.",
-					"it" : "\nStiamo riscontrando problemi con gli acquisti effettuati per l'app.\n\nPresto lanceremo una nuova versione e quindi risolveremo questi problemi.\n\nGrazie per il vostro sostegno.",
-					"pt" : "\nEstamos tendo problemas com compras feitas para o aplicativo.\n\nEm breve estaremos lançando uma nova versão e assim solucionaremos esses problemas.\n\nObrigado por seu apoio."
-				}
-			}, "okOption" : {
-				"object-type": "PollOption",
-				"action" : "ask-later",
-				"texts" : {
-					"en" : "OK",
-					"es" : "OK",
-					"fr" : "OK",
-					"it" : "OK",
-					"pt" : "OK"
-				}
-			}
-		}
+	
 	]
 }
