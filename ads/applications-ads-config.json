@@ -315,7 +315,7 @@
   
   "twelvestars.moca2": [
     {
-      "places": ["co.com.twelvestars.moca2.cameraactivity"],
+      "places": ["cameraactivity"],
       "implementation": "facebook",
       "enabled": "true",
       "appId": "",
@@ -325,7 +325,7 @@
         "ADDS_DEFAULT_VIDEO_REWARD": ""
       }
     }, {
-      "places": ["co.com.twelvestars.moca2.cameraactivity"],
+      "places": ["cameraactivity"],
       "implementation": "admob",
       "enabled": "true",
       "appId": "ca-app-pub-1152574200163807~2035574234",
