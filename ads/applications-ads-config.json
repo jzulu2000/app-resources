@@ -290,24 +290,24 @@
 
   "twelvestars.moca": [
     {
-      "places": ["co.com.twelvestars.moca.spicamactivity", "co.com.twelvestars.moca.cameraactivity"],
+      "places": ["spicamactivity", "cameraactivity"],
       "implementation": "facebook",
       "enabled": "true",
       "appId": "",
       "adsIds": {
-        "ADDS_DEFAULT_BANNER": "647507325760571_647507682427202",
-        "ADDS_DEFAULT_INTERSTITIAL": "647507325760571_647507792427191",
+        "ADDS_DEFAULT_BANNER": "416778899546723_416778922880054",
+        "ADDS_DEFAULT_INTERSTITIAL": "416778899546723_416778929546720",
         "ADDS_DEFAULT_VIDEO_REWARD": "647507325760571_647507555760548"
       }
     }, {
-      "places": ["co.com.twelvestars.moca.spicamactivity", "co.com.twelvestars.moca.cameraactivity"],
+      "places": ["spicamactivity", "cameraactivity"],
       "implementation": "admob",
       "enabled": "true",
       "appId": "ca-app-pub-1152574200163807~3854890506",
       "adsIds": {
-        "ADDS_DEFAULT_BANNER": "ca-app-pub-1152574200163807/4886214225",
-        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1152574200163807/3532877752",
-        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1152574200163807/6007724201"
+        "ADDS_DEFAULT_BANNER": "ca-app-pub-1152574200163807/4648936652",
+        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1152574200163807/3686552230",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1152574200163807/9709691648"
       }
     }
   ],
