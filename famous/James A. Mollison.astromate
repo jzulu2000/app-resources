@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"0.0","latitude":"55.883331298828125","longitude":"-4.249999046325684","name":"Glasgow, Scotland"},"day":"19","hour":"14","minute":"45","month":"4","name":"James A. Mollison","year":"1905"}

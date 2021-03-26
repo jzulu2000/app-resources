@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"59.916664123535156","longitude":"10.74999713897705","name":"Oslo, Norway"},"day":"9","hour":"23","minute":"5","month":"10","name":"Trond Eliassen","year":"1922"}

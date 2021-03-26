@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-4.0","latitude":"44.48332977294922","longitude":"-73.21666717529297","name":"Burlington, Vermont"},"day":"23","hour":"7","minute":"26","month":"7","name":"Dave Joyal","year":"1983"}

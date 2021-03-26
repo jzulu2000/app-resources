@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.4","latitude":"51.099998474121094","longitude":"17.03333282470703","name":"Breslau, Germany"},"day":"28","hour":"18","minute":"51","month":"5","name":"John Gutmann","year":"1905"}

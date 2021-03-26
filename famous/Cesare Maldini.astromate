@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"45.666664123535156","longitude":"13.766663551330566","name":"Trieste, Italy"},"day":"5","hour":"6","minute":"20","month":"2","name":"Cesare Maldini","year":"1932"}

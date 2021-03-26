@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-6.0","latitude":"33.14999771118164","longitude":"-99.73332977294922","name":"Haskell, Texas"},"day":"4","hour":"16","minute":"40","month":"3","name":"Rick Perry","year":"1950"}

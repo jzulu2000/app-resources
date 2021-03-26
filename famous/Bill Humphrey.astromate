@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"42.33333206176758","longitude":"-71.21666717529297","name":"Newton, Massachusetts"},"day":"28","hour":"1","minute":"30","month":"3","name":"Bill Humphrey","year":"1991"}

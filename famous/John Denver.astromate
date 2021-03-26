@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-6.0","latitude":"33.39999771118164","longitude":"-104.51666259765625","name":"Roswell, New Mexico"},"day":"31","hour":"21","minute":"55","month":"12","name":"John Denver","year":"1943"}

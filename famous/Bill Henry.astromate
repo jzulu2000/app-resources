@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-6.0","latitude":"27.749996185302734","longitude":"-98.06666564941406","name":"Alice, Texas"},"day":"16","hour":"4","minute":"50","month":"10","name":"Bill Henry","year":"1927"}

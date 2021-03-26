@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"2.0","latitude":"42.68333053588867","longitude":"23.316665649414062","name":"Sofia, Bulgaria"},"day":"30","hour":"10","minute":"0","month":"11","name":"Alex Dimitrov","year":"1984"}

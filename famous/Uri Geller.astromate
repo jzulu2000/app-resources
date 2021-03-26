@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"2.0","latitude":"32.06666564941406","longitude":"34.76666259765625","name":"Tel Aviv, Israel"},"day":"20","hour":"0","minute":"30","month":"12","name":"Uri Geller","year":"1946"}

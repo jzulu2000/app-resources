@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-7.0","latitude":"37.783329010009766","longitude":"-122.41666412353516","name":"San Francisco, California"},"day":"8","hour":"23","minute":"23","month":"6","name":"John R. Deane","year":"1919"}

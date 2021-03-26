@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"40.133331298828125","longitude":"-75.51666259765625","name":"Phoenixville, Pennsylvania"},"day":"16","hour":"11","minute":"15","month":"11","name":"Gregory Smith","year":"1956"}

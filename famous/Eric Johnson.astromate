@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-4.0","latitude":"42.28333282470703","longitude":"-71.23332977294922","name":"Needham, Massachusetts"},"day":"15","hour":"13","minute":"22","month":"9","name":"Eric Johnson","year":"1979"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-6.0","latitude":"43.76666259765625","longitude":"-88.44999694824219","name":"Fond du Lac, Wisconsin"},"day":"4","hour":"7","minute":"20","month":"12","name":"Jeffrey Mishlove","year":"1946"}

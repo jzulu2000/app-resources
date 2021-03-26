@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"10.0","latitude":"-33.86666488647461","longitude":"151.21665954589844","name":"Sydney, Australia"},"day":"9","hour":"1","minute":"20","month":"7","name":"Chris Turner","year":"1942"}

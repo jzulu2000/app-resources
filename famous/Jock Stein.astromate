@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"55.783329010009766","longitude":"-4.049999713897705","name":"Hamilton, Scotland"},"day":"5","hour":"16","minute":"50","month":"10","name":"Jock Stein","year":"1922"}

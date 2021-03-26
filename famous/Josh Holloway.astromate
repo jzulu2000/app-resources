@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-7.0","latitude":"37.349998474121094","longitude":"-121.26666259765625","name":"Santa Clara, California"},"day":"20","hour":"20","minute":"0","month":"7","name":"Josh Holloway","year":"1969"}

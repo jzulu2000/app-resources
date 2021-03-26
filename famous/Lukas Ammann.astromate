@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"47.54999923706055","longitude":"7.583331108093262","name":"Basel, Switzerland"},"day":"29","hour":"10","minute":"10","month":"9","name":"Lukas Ammann","year":"1912"}

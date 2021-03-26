@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"42.783329010009766","longitude":"-71.08333587646484","name":"Haverhill, Massachusetts"},"day":"12","hour":"21","minute":"44","month":"1","name":"Rob Zombie","year":"1965"}

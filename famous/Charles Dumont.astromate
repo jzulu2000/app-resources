@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"0.0","latitude":"44.44999694824219","longitude":"1.4333316087722778","name":"Cahors, France"},"day":"26","hour":"3","minute":"0","month":"3","name":"Charles Dumont","year":"1929"}

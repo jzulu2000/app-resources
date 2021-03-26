@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-6.0","latitude":"31.466665267944336","longitude":"-100.43333435058594","name":"San Angelo, Texas"},"day":"10","hour":"18","minute":"0","month":"1","name":"Tom Cade","year":"1928"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"45.03333282470703","longitude":"3.8833298683166504","name":"Le Puy, France"},"day":"15","hour":"1","minute":"30","month":"9","name":"Roger Priouret","year":"1930"}

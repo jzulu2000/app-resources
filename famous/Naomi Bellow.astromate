@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"42.36666488647461","longitude":"-71.06666564941406","name":"Boston, Massachusetts"},"day":"23","hour":"16","minute":"47","month":"12","name":"Naomi Bellow","year":"1999"}

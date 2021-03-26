@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"42.36666488647461","longitude":"-71.06666564941406","name":"Boston, Massachusetts"},"day":"8","hour":"1","minute":"2","month":"2","name":"James Spader","year":"1960"}

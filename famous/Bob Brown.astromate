@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"10.0","latitude":"-33.7166633605957","longitude":"149.86666870117188","name":"Oberon, Australia"},"day":"27","hour":"4","minute":"20","month":"12","name":"Bob Brown","year":"1944"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"45.03333282470703","longitude":"3.0833330154418945","name":"St.Flour, France"},"day":"25","hour":"14","minute":"0","month":"2","name":"Jean Todt","year":"1946"}

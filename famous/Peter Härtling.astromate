@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"50.83332824707031","longitude":"12.91666316986084","name":"Chemnitz, Germany"},"day":"13","hour":"1","minute":"30","month":"11","name":"Peter Härtling","year":"1933"}

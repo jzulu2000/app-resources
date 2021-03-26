@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"48.783329010009766","longitude":"5.166666030883789","name":"Bar le Duc, France"},"day":"26","hour":"17","minute":"20","month":"4","name":"Didier Gustin","year":"1966"}

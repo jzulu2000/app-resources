@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"0.0","latitude":"50.64999771118164","longitude":"3.0666663646698","name":"La Madeleine, France"},"day":"15","hour":"8","minute":"30","month":"6","name":"Paul Milliez","year":"1912"}

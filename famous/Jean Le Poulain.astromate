@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"43.29999923706055","longitude":"5.399998664855957","name":"Marseille, France"},"day":"12","hour":"5","minute":"0","month":"9","name":"Jean Le Poulain","year":"1924"}

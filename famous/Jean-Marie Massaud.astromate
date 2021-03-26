@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"43.599998474121094","longitude":"1.4333316087722778","name":"Toulouse, France"},"day":"8","hour":"13","minute":"45","month":"9","name":"Jean-Marie Massaud","year":"1966"}

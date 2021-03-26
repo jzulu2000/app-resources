@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-8.0","latitude":"37.416664123535156","longitude":"-122.16666412353516","name":"Stanford, California"},"day":"2","hour":"12","minute":"40","month":"11","name":"Jeremy Menuhin","year":"1951"}

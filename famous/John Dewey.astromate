@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-4.933889","latitude":"44.48332977294922","longitude":"-73.21666717529297","name":"Burlington, USA"},"day":"20","hour":"14","minute":"48","month":"10","name":"John Dewey","year":"1859"}

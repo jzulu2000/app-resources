@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"42.8166618347168","longitude":"-73.9333267211914","name":"Schenectady, New York"},"day":"13","hour":"17","minute":"5","month":"7","name":"Dave Garroway","year":"1913"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-7.0","latitude":"34.14999771118164","longitude":"-118.1500015258789","name":"Pasadena, California"},"day":"23","hour":"3","minute":"33","month":"9","name":"Tim Miller","year":"1958"}

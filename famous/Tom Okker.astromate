@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"52.36666488647461","longitude":"4.88332986831665","name":"Amsterdam, Netherlands"},"day":"22","hour":"17","minute":"20","month":"2","name":"Tom Okker","year":"1944"}

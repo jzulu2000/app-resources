@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-4.0","latitude":"42.20000076293945","longitude":"-71.19999694824219","name":"Norwood, Massachusetts"},"day":"22","hour":"11","minute":"52","month":"10","name":"John Rogers","year":"1964"}

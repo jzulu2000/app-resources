@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"2.0","latitude":"60.166664123535156","longitude":"24.966663360595703","name":"Helsinki, Finland"},"day":"24","hour":"17","minute":"20","month":"12","name":"Tarja Halonen","year":"1943"}

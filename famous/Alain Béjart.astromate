@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"43.29999923706055","longitude":"5.399998664855957","name":"Marseille, France"},"day":"18","hour":"2","minute":"45","month":"5","name":"Alain Béjart","year":"1946"}

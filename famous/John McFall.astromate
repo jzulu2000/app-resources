@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"55.86666488647461","longitude":"-4.233332633972168","name":"Glasgow, Scotland"},"day":"4","hour":"11","minute":"55","month":"10","name":"John McFall","year":"1944"}

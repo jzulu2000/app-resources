@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-8.0","latitude":"36.20000076293945","longitude":"-119.3499984741211","name":"Tulare, California"},"day":"17","hour":"15","minute":"47","month":"11","name":"Bob Mathias","year":"1930"}

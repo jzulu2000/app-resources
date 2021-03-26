@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-6.0","latitude":"31.416664123535156","longitude":"-90.41666412353516","name":"Blueberry Hill, USA"},"day":"19","hour":"1","minute":"15","month":"12","name":"George Johnson","year":"1948"}

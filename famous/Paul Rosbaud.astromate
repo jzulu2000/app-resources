@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"47.08333206176758","longitude":"15.449997901916504","name":"Graz, Austria"},"day":"18","hour":"20","minute":"30","month":"11","name":"Paul Rosbaud","year":"1896"}

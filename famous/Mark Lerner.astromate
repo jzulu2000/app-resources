@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"40.69999694824219","longitude":"-73.83332824707031","name":"Kew Gardens, USA"},"day":"10","hour":"10","minute":"5","month":"3","name":"Mark Lerner","year":"1950"}

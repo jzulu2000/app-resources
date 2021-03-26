@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"40.76666259765625","longitude":"-73.98332977294922","name":"Manhattan, New York"},"day":"7","hour":"15","minute":"45","month":"3","name":"Peter Wolf","year":"1946"}

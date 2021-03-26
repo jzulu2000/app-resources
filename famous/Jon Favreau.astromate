@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-4.0","latitude":"42.44999694824219","longitude":"-71.13333129882812","name":"Winchester, Massachusetts"},"day":"2","hour":"23","minute":"19","month":"6","name":"Jon Favreau","year":"1981"}

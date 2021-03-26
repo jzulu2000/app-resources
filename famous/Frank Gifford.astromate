@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-8.0","latitude":"34.016666412353516","longitude":"-118.48332977294922","name":"Santa Monica, California"},"day":"16","hour":"10","minute":"10","month":"8","name":"Frank Gifford","year":"1930"}

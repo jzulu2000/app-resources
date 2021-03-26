@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"52.21666717529297","longitude":"0.13333280384540558","name":"Cambridge, England"},"day":"23","hour":"9","minute":"30","month":"6","name":"Fermat's theorem Historic","year":"1993"}

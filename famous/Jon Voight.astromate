@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"40.93333053588867","longitude":"-73.89999389648438","name":"Yonkers, New York"},"day":"29","hour":"16","minute":"50","month":"12","name":"Jon Voight","year":"1938"}

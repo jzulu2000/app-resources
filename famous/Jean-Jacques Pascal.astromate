@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"45.83332824707031","longitude":"1.2666655778884888","name":"Limoges, France"},"day":"24","hour":"23","minute":"5","month":"3","name":"Jean-Jacques Pascal","year":"1943"}

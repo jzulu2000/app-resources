@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"48.79999542236328","longitude":"9.016666412353516","name":"Leonberg, Germany"},"day":"22","hour":"1","minute":"30","month":"1","name":"Otto Baum","year":"1900"}

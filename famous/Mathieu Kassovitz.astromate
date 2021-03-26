@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"48.86666488647461","longitude":"2.3166654109954834","name":"Paris Arrondissement 8, France"},"day":"3","hour":"17","minute":"40","month":"8","name":"Mathieu Kassovitz","year":"1967"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"47.383331298828125","longitude":"8.533330917358398","name":"Zürich, Switzerland"},"day":"2","hour":"1","minute":"15","month":"6","name":"Hans-Jörg Walter","year":"1925"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"50.849998474121094","longitude":"5.683330535888672","name":"Maastricht, Netherlands"},"day":"9","hour":"4","minute":"30","month":"10","name":"Hans van der Togt","year":"1947"}

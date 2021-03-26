@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"42.383331298828125","longitude":"-71.0999984741211","name":"Somerville, Massachusetts"},"day":"6","hour":"15","minute":"30","month":"1","name":"Howie Long","year":"1960"}

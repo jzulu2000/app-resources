@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-8.0","latitude":"34.11666488647461","longitude":"-117.29999542236328","name":"San Bernardino, California"},"day":"2","hour":"11","minute":"7","month":"11","name":"Dave Stockton","year":"1941"}

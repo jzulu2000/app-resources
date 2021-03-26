@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"42.94999694824219","longitude":"-71.51666259765625","name":"Bedford, New Hampshire"},"day":"1","hour":"11","minute":"30","month":"12","name":"Sarah Silverman","year":"1970"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"42.33333206176758","longitude":"-71.11666870117188","name":"Brookline, Massachusetts"},"day":"20","hour":"20","minute":"11","month":"11","name":"Robert F. Kennedy","year":"1925"}

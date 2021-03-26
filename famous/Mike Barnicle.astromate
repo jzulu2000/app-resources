@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-4.0","latitude":"42.266666412353516","longitude":"-71.79999542236328","name":"Worcester, Massachusetts"},"day":"13","hour":"13","minute":"5","month":"10","name":"Mike Barnicle","year":"1943"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"48.83332824707031","longitude":"2.183332681655884","name":"Ville d'Avray, France"},"day":"10","hour":"5","minute":"30","month":"3","name":"Boris Vian","year":"1920"}

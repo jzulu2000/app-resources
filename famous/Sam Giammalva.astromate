@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"29.766664505004883","longitude":"-95.36666870117188","name":"Houston, Texas"},"day":"2","hour":"4","minute":"40","month":"8","name":"Sam Giammalva","year":"1934"}

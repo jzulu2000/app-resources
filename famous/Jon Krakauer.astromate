@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"42.33333206176758","longitude":"-71.21666717529297","name":"Newton, Massachusetts"},"day":"12","hour":"5","minute":"55","month":"4","name":"Jon Krakauer","year":"1954"}

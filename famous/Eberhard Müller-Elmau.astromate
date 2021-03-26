@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"48.633331298828125","longitude":"11.783329963684082","name":"Mainburg, Germany"},"day":"9","hour":"6","minute":"30","month":"10","name":"Eberhard Müller-Elmau","year":"1905"}

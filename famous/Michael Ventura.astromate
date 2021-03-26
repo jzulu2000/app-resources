@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"40.849998474121094","longitude":"-73.89999389648438","name":"Bronx, New York"},"day":"1","hour":"4","minute":"10","month":"11","name":"Michael Ventura","year":"1945"}

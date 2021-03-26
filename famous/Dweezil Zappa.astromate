@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-7.0","latitude":"34.04999923706055","longitude":"-118.25","name":"Los Angeles, California"},"day":"5","hour":"15","minute":"5","month":"9","name":"Dweezil Zappa","year":"1969"}

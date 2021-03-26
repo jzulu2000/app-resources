@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"9.0","latitude":"34.39999771118164","longitude":"132.4499969482422","name":"Hiroshima, Japan"},"day":"5","hour":"23","minute":"15","month":"8","name":"First Atom bomb Nuclear","year":"1945"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"40.4666633605957","longitude":"-80.5999984741211","name":"Toronto, Ohio"},"day":"20","hour":"2","minute":"40","month":"12","name":"Robert Urich","year":"1946"}

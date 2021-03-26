@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-7.0","latitude":"37.86666488647461","longitude":"-122.26666259765625","name":"Berkeley, California"},"day":"15","hour":"9","minute":"53","month":"8","name":"Ben Affleck","year":"1972"}

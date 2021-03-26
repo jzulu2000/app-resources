@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-4.0","latitude":"39.9666633605957","longitude":"-83.0","name":"Columbus, Ohio"},"day":"23","hour":"17","minute":"46","month":"9","name":"Bob Vogel","year":"1941"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"41.349998474121094","longitude":"-83.11666870117188","name":"Fremont, Ohio"},"day":"2","hour":"0","minute":"26","month":"1","name":"Bob Brudzinski","year":"1955"}

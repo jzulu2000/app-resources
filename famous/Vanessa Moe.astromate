@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"55.666664123535156","longitude":"12.583331108093262","name":"Copenhagen, Denmark"},"day":"31","hour":"7","minute":"50","month":"10","name":"Vanessa Moe","year":"1999"}

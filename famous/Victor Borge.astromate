@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"55.666664123535156","longitude":"12.583331108093262","name":"Copenhagen, Denmark"},"day":"3","hour":"9","minute":"30","month":"1","name":"Victor Borge","year":"1909"}

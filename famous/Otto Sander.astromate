@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"2.0","latitude":"52.39999771118164","longitude":"9.733330726623535","name":"Hannover, Germany"},"day":"30","hour":"18","minute":"8","month":"6","name":"Otto Sander","year":"1941"}

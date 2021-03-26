@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"0.0","latitude":"50.516666412353516","longitude":"4.416665077209473","name":"Liberchies, Belgium"},"day":"23","hour":"15","minute":"0","month":"1","name":"Django Reinhardt","year":"1910"}

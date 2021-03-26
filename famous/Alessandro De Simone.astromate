@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"44.48332977294922","longitude":"11.333332061767578","name":"Bologna, Italy"},"day":"19","hour":"12","minute":"50","month":"10","name":"Alessandro De Simone","year":"1980"}

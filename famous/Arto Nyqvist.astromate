@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"2.0","latitude":"60.166664123535156","longitude":"24.966663360595703","name":"Helsinki, Finland"},"day":"28","hour":"9","minute":"36","month":"3","name":"Arto Nyqvist","year":"1958"}

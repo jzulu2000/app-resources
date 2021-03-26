@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-4.0","latitude":"40.33333206176758","longitude":"-76.41666412353516","name":"Lebanon, Pennsylvania"},"day":"20","hour":"15","minute":"2","month":"7","name":"Randal Kleiser","year":"1946"}

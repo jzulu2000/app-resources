@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-4.0","latitude":"41.166664123535156","longitude":"-73.76666259765625","name":"Chappaqua, New York"},"day":"11","hour":"4","minute":"30","month":"5","name":"Bill Ackman","year":"1966"}

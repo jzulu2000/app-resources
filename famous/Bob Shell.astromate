@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-4.0","latitude":"42.633331298828125","longitude":"-71.31666564941406","name":"Lowell, Massachusetts"},"day":"15","hour":"22","minute":"8","month":"8","name":"Bob Shell","year":"1957"}

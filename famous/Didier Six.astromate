@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"50.633331298828125","longitude":"3.0666663646698","name":"Lille, France"},"day":"21","hour":"7","minute":"30","month":"8","name":"Didier Six","year":"1954"}

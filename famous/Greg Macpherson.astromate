@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-7.0","latitude":"44.56666564941406","longitude":"-123.26666259765625","name":"Corvallis, Oregon"},"day":"3","hour":"8","minute":"48","month":"5","name":"Greg Macpherson","year":"1950"}

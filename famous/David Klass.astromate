@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"42.883331298828125","longitude":"-73.19999694824219","name":"Bennington, Vermont"},"day":"8","hour":"21","minute":"27","month":"3","name":"David Klass","year":"1960"}

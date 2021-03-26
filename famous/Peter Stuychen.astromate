@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"0.33333334","latitude":"52.099998474121094","longitude":"4.299998760223389","name":"The Hague, Netherlands"},"day":"5","hour":"17","minute":"16","month":"1","name":"Peter Stuychen","year":"1939"}

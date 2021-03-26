@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-8.0","latitude":"44.56666564941406","longitude":"-123.26666259765625","name":"Corvallis, Oregon"},"day":"11","hour":"9","minute":"9","month":"1","name":"Brad Badger","year":"1975"}

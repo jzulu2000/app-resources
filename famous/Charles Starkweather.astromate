@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-6.0","latitude":"40.8166618347168","longitude":"-96.66666412353516","name":"Lincoln, USA"},"day":"25","hour":"2","minute":"10","month":"11","name":"Charles Starkweather","year":"1938"}

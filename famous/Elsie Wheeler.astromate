@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-6.0","latitude":"37.98332977294922","longitude":"-88.33332824707031","name":"Norris City, Illinois"},"day":"4","hour":"3","minute":"45","month":"9","name":"Elsie Wheeler","year":"1887"}

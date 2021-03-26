@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"46.20000076293945","longitude":"6.149999618530273","name":"Geneva, Switzerland"},"day":"1","hour":"4","minute":"25","month":"10","name":"Jean-Luc Bideau","year":"1940"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-8.0","latitude":"37.56666564941406","longitude":"-122.31666564941406","name":"San Mateo, California"},"day":"25","hour":"14","minute":"30","month":"6","name":"Sam Francis","year":"1923"}

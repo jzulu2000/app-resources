@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"40.349998474121094","longitude":"-74.66666412353516","name":"Princeton, New Jersey"},"day":"22","hour":"15","minute":"45","month":"10","name":"John Norquist","year":"1949"}

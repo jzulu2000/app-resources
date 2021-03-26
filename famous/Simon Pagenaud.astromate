@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"2.0","latitude":"46.58333206176758","longitude":"0.33333200216293335","name":"Poitiers, France"},"day":"18","hour":"2","minute":"20","month":"5","name":"Simon Pagenaud","year":"1984"}

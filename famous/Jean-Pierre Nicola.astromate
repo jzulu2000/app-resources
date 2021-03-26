@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"43.69999694824219","longitude":"7.249999046325684","name":"Nice, France"},"day":"8","hour":"7","minute":"0","month":"5","name":"Jean-Pierre Nicola","year":"1929"}

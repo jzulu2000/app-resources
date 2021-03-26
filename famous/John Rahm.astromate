@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"43.29999923706055","longitude":"-2.9833292961120605","name":"Vizcaya, Spain"},"day":"10","hour":"12","minute":"10","month":"11","name":"John Rahm","year":"1994"}

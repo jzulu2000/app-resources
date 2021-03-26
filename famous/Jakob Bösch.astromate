@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"47.383331298828125","longitude":"9.283331871032715","name":"Herisau, Switzerland"},"day":"2","hour":"10","minute":"50","month":"1","name":"Jakob Bösch","year":"1942"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"42.28333282470703","longitude":"-83.75","name":"Ann Arbor, Michigan"},"day":"15","hour":"19","minute":"10","month":"6","name":"Thomas Weller","year":"1915"}

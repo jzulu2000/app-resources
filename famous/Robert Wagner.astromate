@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"42.33333206176758","longitude":"-83.05000305175781","name":"Detroit, Michigan"},"day":"10","hour":"6","minute":"45","month":"2","name":"Robert Wagner","year":"1930"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"47.633331298828125","longitude":"6.866662979125977","name":"Belfort, France"},"day":"30","hour":"13","minute":"40","month":"11","name":"Olivier Schoenfelder","year":"1977"}

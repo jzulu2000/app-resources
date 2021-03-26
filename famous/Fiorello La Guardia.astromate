@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-4.933889","latitude":"40.7166633605957","longitude":"-74.0","name":"New York, USA"},"day":"11","hour":"20","minute":"56","month":"12","name":"Fiorello La Guardia","year":"1882"}

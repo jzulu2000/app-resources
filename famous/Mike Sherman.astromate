@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"42.20000076293945","longitude":"-71.19999694824219","name":"Norwood, Massachusetts"},"day":"19","hour":"5","minute":"50","month":"12","name":"Mike Sherman","year":"1954"}

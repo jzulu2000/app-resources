@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-6.0","latitude":"42.416664123535156","longitude":"-88.61666107177734","name":"Harvard, Illinois"},"day":"27","hour":"15","minute":"45","month":"3","name":"Lon Haldeman","year":"1958"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-4.0","latitude":"42.33333206176758","longitude":"-71.21666717529297","name":"Newton, Massachusetts"},"day":"25","hour":"8","minute":"18","month":"7","name":"Matt LeBlanc","year":"1967"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-7.0","latitude":"36.18333435058594","longitude":"-115.13333129882812","name":"Las Vegas, Nevada"},"day":"5","hour":"12","minute":"20","month":"6","name":"Overtflow","year":"1991"}

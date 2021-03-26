@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"48.76666259765625","longitude":"9.183332443237305","name":"Stuttgart, Germany"},"day":"24","hour":"2","minute":"30","month":"3","name":"Arno Müller","year":"1930"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"59.28333282470703","longitude":"10.416665077209473","name":"Tønsberg, Norway"},"day":"30","hour":"2","minute":"4","month":"11","name":"Magnus Carlsen","year":"1990"}

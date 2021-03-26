@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"40.06666564941406","longitude":"-80.71666717529297","name":"Wheeling, USA"},"day":"2","hour":"3","minute":"4","month":"9","name":"Walter Reuther","year":"1907"}

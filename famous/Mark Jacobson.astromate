@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-8.0","latitude":"37.86666488647461","longitude":"-122.26666259765625","name":"Berkeley, California"},"day":"10","hour":"7","minute":"1","month":"7","name":"Mark Jacobson","year":"1947"}

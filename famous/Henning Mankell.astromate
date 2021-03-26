@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"59.33333206176758","longitude":"18.049999237060547","name":"Stockholm, Sweden"},"day":"3","hour":"3","minute":"0","month":"2","name":"Henning Mankell","year":"1948"}

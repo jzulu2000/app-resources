@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"45.4666633605957","longitude":"9.19999885559082","name":"Milano, Italy"},"day":"20","hour":"11","minute":"30","month":"1","name":"Silvano Marelli","year":"1940"}

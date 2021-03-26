@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"53.86666488647461","longitude":"10.666664123535156","name":"Lübeck, Germany"},"day":"13","hour":"11","minute":"10","month":"7","name":"Hans Blumenberg","year":"1920"}

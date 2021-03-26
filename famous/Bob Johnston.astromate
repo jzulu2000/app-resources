@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"32.016666412353516","longitude":"-97.13333129882812","name":"Hillsboro, Texas"},"day":"14","hour":"15","minute":"15","month":"5","name":"Bob Johnston","year":"1932"}

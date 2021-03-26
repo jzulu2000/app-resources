@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-4.0","latitude":"40.76666259765625","longitude":"-73.98332977294922","name":"Manhattan, New York"},"day":"10","hour":"13","minute":"32","month":"9","name":"Stephen Jay Gould","year":"1941"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"2.0","latitude":"43.749996185302734","longitude":"7.416665077209473","name":"Monte Carlo, Monaco"},"day":"5","hour":"0","minute":"46","month":"9","name":"Pierre Casiraghi","year":"1987"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-4.0","latitude":"34.883331298828125","longitude":"-79.69999694824219","name":"Hamlet, North Carolina"},"day":"18","hour":"13","minute":"40","month":"6","name":"Tom Wicker","year":"1926"}

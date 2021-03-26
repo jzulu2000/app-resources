@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-4.0","latitude":"42.08333206176758","longitude":"-71.01667022705078","name":"Brockton, USA"},"day":"1","hour":"21","minute":"20","month":"9","name":"Rocky Marciano","year":"1923"}

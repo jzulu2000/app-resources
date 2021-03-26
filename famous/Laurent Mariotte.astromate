@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"48.18333435058594","longitude":"6.449998378753662","name":"Épinal, France"},"day":"9","hour":"3","minute":"30","month":"10","name":"Laurent Mariotte","year":"1969"}

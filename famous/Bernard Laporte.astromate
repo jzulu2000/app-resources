@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"44.349998474121094","longitude":"2.5833311080932617","name":"Rodez, France"},"day":"1","hour":"4","minute":"30","month":"7","name":"Bernard Laporte","year":"1964"}

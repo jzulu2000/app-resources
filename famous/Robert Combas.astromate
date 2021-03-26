@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"45.749996185302734","longitude":"4.849996566772461","name":"Lyon, France"},"day":"25","hour":"21","minute":"30","month":"5","name":"Robert Combas","year":"1957"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-6.0","latitude":"41.266666412353516","longitude":"-95.9333267211914","name":"Omaha, Nebraska"},"day":"9","hour":"19","minute":"45","month":"11","name":"Bob Gibson","year":"1935"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"0.0","latitude":"42.68333053588867","longitude":"2.8833298683166504","name":"Perpignan, France"},"day":"12","hour":"4","minute":"0","month":"1","name":"Jean Marty","year":"1925"}

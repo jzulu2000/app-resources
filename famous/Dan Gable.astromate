@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-6.0","latitude":"42.499996185302734","longitude":"-92.3499984741211","name":"Waterloo, Iowa"},"day":"25","hour":"12","minute":"10","month":"10","name":"Dan Gable","year":"1948"}

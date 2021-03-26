@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-7.0","latitude":"37.44999694824219","longitude":"-122.1500015258789","name":"Palo Alto, California"},"day":"13","hour":"4","minute":"18","month":"6","name":"Dave Franco","year":"1985"}

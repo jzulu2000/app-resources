@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"2.0","latitude":"47.33333206176758","longitude":"8.583331108093262","name":"Zollikon, Switzerland"},"day":"30","hour":"14","minute":"0","month":"9","name":"Swiss Ephemeris Science","year":"1997"}

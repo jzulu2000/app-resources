@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"51.29999923706055","longitude":"-0.4833314120769501","name":"Ripley, England"},"day":"30","hour":"19","minute":"45","month":"3","name":"Eric Clapton","year":"1945"}

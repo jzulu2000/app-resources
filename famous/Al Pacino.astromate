@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"40.76666259765625","longitude":"-73.98332977294922","name":"Manhattan, New York"},"day":"25","hour":"16","minute":"2","month":"4","name":"Al Pacino","year":"1940"}

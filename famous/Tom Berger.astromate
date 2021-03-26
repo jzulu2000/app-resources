@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-4.0","latitude":"39.166664123535156","longitude":"-84.44999694824219","name":"Cincinnati, Ohio"},"day":"20","hour":"16","minute":"45","month":"7","name":"Tom Berger","year":"1924"}

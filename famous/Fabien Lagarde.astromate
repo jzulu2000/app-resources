@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"45.749996185302734","longitude":"0.3833318054676056","name":"La Rochefoucauld, France"},"day":"25","hour":"15","minute":"20","month":"12","name":"Fabien Lagarde","year":"1974"}

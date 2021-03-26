@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"43.29999923706055","longitude":"-72.48332977294922","name":"Springfield, Vermont"},"day":"12","hour":"8","minute":"18","month":"11","name":"Sam Lloyd","year":"1963"}

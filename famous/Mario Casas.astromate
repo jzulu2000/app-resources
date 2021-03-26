@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"2.0","latitude":"43.36666488647461","longitude":"-8.383332252502441","name":"La Coruña, Spain"},"day":"12","hour":"13","minute":"40","month":"6","name":"Mario Casas","year":"1986"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"51.916664123535156","longitude":"4.399998664855957","name":"Schiedam, Netherlands"},"day":"10","hour":"4","minute":"20","month":"12","name":"John de Wolf","year":"1962"}

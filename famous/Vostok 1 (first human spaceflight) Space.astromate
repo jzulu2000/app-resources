@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"5.0","latitude":"45.916664123535156","longitude":"63.33333206176758","name":"Baikonur Launch Site 1/5, Kazakhstan"},"day":"12","hour":"1","minute":"7","month":"4","name":"Vostok 1 (first human spaceflight) Space","year":"1961"}

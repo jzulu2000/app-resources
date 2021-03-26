@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-7.0","latitude":"36.73332977294922","longitude":"-119.78333282470703","name":"Fresno, USA"},"day":"17","hour":"13","minute":"27","month":"11","name":"Tom Seaver","year":"1944"}

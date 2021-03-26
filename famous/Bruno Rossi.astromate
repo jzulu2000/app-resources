@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"45.44999694824219","longitude":"12.349998474121094","name":"Venice, Italy"},"day":"13","hour":"14","minute":"40","month":"4","name":"Bruno Rossi","year":"1905"}

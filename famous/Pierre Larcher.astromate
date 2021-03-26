@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"0.0","latitude":"48.099998474121094","longitude":"-1.6666640043258667","name":"Rennes, France"},"day":"4","hour":"5","minute":"0","month":"1","name":"Pierre Larcher","year":"1923"}

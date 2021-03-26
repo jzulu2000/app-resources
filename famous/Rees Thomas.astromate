@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"11.0","latitude":"-37.8166618347168","longitude":"144.96665954589844","name":"Melbourne, Australia"},"day":"31","hour":"12","minute":"55","month":"12","name":"Rees Thomas","year":"1987"}

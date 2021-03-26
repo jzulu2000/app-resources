@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"44.44999694824219","longitude":"1.4333316087722778","name":"Cahors, France"},"day":"3","hour":"3","minute":"30","month":"12","name":"Laurent Roux","year":"1972"}

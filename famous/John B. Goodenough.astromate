@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"50.93333053588867","longitude":"11.583331108093262","name":"Jena, Germany"},"day":"25","hour":"15","minute":"30","month":"7","name":"John B. Goodenough","year":"1922"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"42.383331298828125","longitude":"-71.0999984741211","name":"Somerville, Massachusetts"},"day":"20","hour":"14","minute":"33","month":"11","name":"Thomas Junta","year":"1957"}

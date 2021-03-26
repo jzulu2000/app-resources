@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"2.0","latitude":"60.166664123535156","longitude":"24.966663360595703","name":"Helsinki, Finland"},"day":"7","hour":"23","minute":"30","month":"7","name":"Kai Pahlman","year":"1935"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"42.33333206176758","longitude":"-71.19999694824219","name":"Newton Center, Massachusetts"},"day":"18","hour":"18","minute":"27","month":"11","name":"Joe Malone","year":"1954"}

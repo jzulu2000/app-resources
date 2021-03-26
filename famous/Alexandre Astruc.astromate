@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"48.86666488647461","longitude":"2.333332061767578","name":"Paris, France"},"day":"13","hour":"0","minute":"45","month":"7","name":"Alexandre Astruc","year":"1923"}

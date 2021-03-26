@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"50.93333053588867","longitude":"6.9833292961120605","name":"Cologne, Germany"},"day":"1","hour":"16","minute":"56","month":"2","name":"Ottmar Liebert","year":"1959"}

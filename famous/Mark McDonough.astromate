@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"42.28333282470703","longitude":"-71.3499984741211","name":"Natick, Massachusetts"},"day":"10","hour":"1","minute":"31","month":"3","name":"Mark McDonough","year":"1956"}

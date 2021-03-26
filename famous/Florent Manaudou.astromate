@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"45.76666259765625","longitude":"4.88332986831665","name":"Villeurbanne, France"},"day":"12","hour":"11","minute":"55","month":"11","name":"Florent Manaudou","year":"1990"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"38.633331298828125","longitude":"-90.19999694824219","name":"St.Louis, Missouri"},"day":"15","hour":"10","minute":"23","month":"7","name":"Tom Ackerman","year":"1975"}

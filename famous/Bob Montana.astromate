@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-8.0","latitude":"37.94999694824219","longitude":"-121.28333282470703","name":"Stockton, California"},"day":"23","hour":"21","minute":"0","month":"10","name":"Bob Montana","year":"1920"}

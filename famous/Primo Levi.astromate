@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"2.0","latitude":"45.04999923706055","longitude":"7.666664123535156","name":"Torino, Italy"},"day":"31","hour":"2","minute":"0","month":"7","name":"Primo Levi","year":"1919"}

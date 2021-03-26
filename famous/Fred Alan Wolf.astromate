@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-6.0","latitude":"41.849998474121094","longitude":"-87.64999389648438","name":"Chicago, Illinois"},"day":"3","hour":"17","minute":"23","month":"12","name":"Fred Alan Wolf","year":"1934"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"0.0","latitude":"45.749996185302734","longitude":"4.849996566772461","name":"Lyon, France"},"day":"13","hour":"6","minute":"0","month":"2","name":"Hubert Gignoux","year":"1915"}

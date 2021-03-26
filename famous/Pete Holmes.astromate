@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"42.44999694824219","longitude":"-71.23332977294922","name":"Lexington, Massachusetts"},"day":"30","hour":"23","minute":"37","month":"3","name":"Pete Holmes","year":"1979"}

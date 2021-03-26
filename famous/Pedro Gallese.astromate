@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-4.0","latitude":"-12.050000190734863","longitude":"-77.05000305175781","name":"Lima, Peru"},"day":"23","hour":"15","minute":"54","month":"2","name":"Pedro Gallese","year":"1990"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"44.48332977294922","longitude":"-73.21666717529297","name":"Burlington, Vermont"},"day":"27","hour":"13","minute":"4","month":"1","name":"Bill Currier","year":"1960"}

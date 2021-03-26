@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"40.39999771118164","longitude":"-3.683330535888672","name":"Madrid, Spain"},"day":"20","hour":"11","minute":"1","month":"3","name":"Fernando Torres","year":"1984"}

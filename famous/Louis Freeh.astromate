@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"40.73332977294922","longitude":"-74.08333587646484","name":"Jersey City, New Jersey"},"day":"6","hour":"15","minute":"30","month":"1","name":"Louis Freeh","year":"1950"}

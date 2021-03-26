@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-4.0","latitude":"40.03333282470703","longitude":"-84.19999694824219","name":"Troy, Ohio"},"day":"20","hour":"21","minute":"44","month":"10","name":"Casey Reas","year":"1972"}

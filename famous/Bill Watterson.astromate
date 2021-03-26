@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-4.0","latitude":"38.89999771118164","longitude":"-77.03333282470703","name":"Washington, District of Columbia"},"day":"5","hour":"12","minute":"26","month":"7","name":"Bill Watterson","year":"1958"}

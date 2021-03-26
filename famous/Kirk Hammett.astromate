@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-8.0","latitude":"37.783329010009766","longitude":"-122.41666412353516","name":"San Francisco, California"},"day":"18","hour":"10","minute":"54","month":"11","name":"Kirk Hammett","year":"1962"}

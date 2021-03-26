@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"2.0","latitude":"50.633331298828125","longitude":"3.0666663646698","name":"Lille, France"},"day":"14","hour":"14","minute":"50","month":"3","name":"Serge Lutens","year":"1942"}

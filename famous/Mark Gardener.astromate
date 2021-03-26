@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"51.76666259765625","longitude":"-1.2499990463256836","name":"Oxford, England"},"day":"6","hour":"2","minute":"0","month":"12","name":"Mark Gardener","year":"1969"}

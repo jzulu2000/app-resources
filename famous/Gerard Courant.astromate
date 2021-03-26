@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"45.749996185302734","longitude":"4.849996566772461","name":"Lyon, France"},"day":"4","hour":"5","minute":"40","month":"12","name":"Gerard Courant","year":"1951"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"48.68333053588867","longitude":"6.1999993324279785","name":"Nancy, France"},"day":"15","hour":"3","minute":"15","month":"5","name":"Pierre Jacquot","year":"1929"}

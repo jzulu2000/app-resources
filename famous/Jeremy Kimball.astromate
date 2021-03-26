@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"44.48332977294922","longitude":"-73.21666717529297","name":"Burlington, Vermont"},"day":"1","hour":"10","minute":"19","month":"3","name":"Jeremy Kimball","year":"1991"}

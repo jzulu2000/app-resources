@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-8.0","latitude":"34.18333435058594","longitude":"-118.44999694824219","name":"Van Nuys, California"},"day":"28","hour":"3","minute":"40","month":"10","name":"Bob McChesney","year":"1926"}

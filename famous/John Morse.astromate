@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"42.266666412353516","longitude":"-84.96665954589844","name":"Marshall, Michigan"},"day":"16","hour":"13","minute":"29","month":"2","name":"John Morse","year":"1958"}

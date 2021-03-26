@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-8.0","latitude":"37.783329010009766","longitude":"-122.41666412353516","name":"San Francisco, California"},"day":"8","hour":"7","minute":"49","month":"12","name":"Mike Minor","year":"1940"}

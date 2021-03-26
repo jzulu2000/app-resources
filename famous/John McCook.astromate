@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-7.0","latitude":"34.28333282470703","longitude":"-119.29999542236328","name":"Ventura, California"},"day":"20","hour":"16","minute":"43","month":"6","name":"John McCook","year":"1944"}

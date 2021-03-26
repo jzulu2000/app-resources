@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"0.15583333","latitude":"50.633331298828125","longitude":"3.0666663646698","name":"Lille, France"},"day":"1","hour":"20","minute":"21","month":"1","name":"Xavier Bizard","year":"1899"}

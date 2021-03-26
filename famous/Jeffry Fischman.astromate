@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"-12.050000190734863","longitude":"-77.05000305175781","name":"Lima, Peru"},"day":"1","hour":"10","minute":"50","month":"6","name":"Jeffry Fischman","year":"1976"}

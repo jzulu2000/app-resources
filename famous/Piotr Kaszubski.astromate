@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"54.383331298828125","longitude":"18.666664123535156","name":"Gdansk, Poland"},"day":"4","hour":"22","minute":"25","month":"1","name":"Piotr Kaszubski","year":"1992"}

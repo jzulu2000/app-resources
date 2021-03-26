@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"2.0","latitude":"45.749996185302734","longitude":"4.849996566772461","name":"Lyon, France"},"day":"3","hour":"9","minute":"30","month":"2","name":"Marie Chaix","year":"1942"}

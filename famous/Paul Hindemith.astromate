@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"50.133331298828125","longitude":"8.933329582214355","name":"Hanau, Germany"},"day":"16","hour":"20","minute":"30","month":"11","name":"Paul Hindemith","year":"1895"}

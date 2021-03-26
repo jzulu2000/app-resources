@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-4.0","latitude":"40.76666259765625","longitude":"-73.98332977294922","name":"Manhattan, New York"},"day":"12","hour":"15","minute":"45","month":"5","name":"George Carlin","year":"1937"}

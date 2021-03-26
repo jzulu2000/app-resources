@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-4.0","latitude":"40.7166633605957","longitude":"-73.86666107177734","name":"Queens, New York"},"day":"27","hour":"7","minute":"6","month":"7","name":"Maury Chaykin","year":"1949"}

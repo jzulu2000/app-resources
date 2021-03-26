@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"44.499996185302734","longitude":"-89.13333129882812","name":"Iola, Wisconsin"},"day":"20","hour":"21","minute":"50","month":"10","name":"Dave Krieg","year":"1958"}

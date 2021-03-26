@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"43.69999694824219","longitude":"7.249999046325684","name":"Nice, France"},"day":"8","hour":"6","minute":"30","month":"10","name":"Jean-Pierre Dick","year":"1965"}

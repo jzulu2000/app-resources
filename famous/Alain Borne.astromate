@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"0.0","latitude":"46.133331298828125","longitude":"3.4333314895629883","name":"Vichy, France"},"day":"12","hour":"15","minute":"0","month":"1","name":"Alain Borne","year":"1915"}

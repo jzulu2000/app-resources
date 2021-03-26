@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"42.416664123535156","longitude":"-71.1500015258789","name":"Arlington, Massachusetts"},"day":"30","hour":"17","minute":"46","month":"12","name":"Pat Keck","year":"1955"}

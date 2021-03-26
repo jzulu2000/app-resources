@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"46.20000076293945","longitude":"6.149999618530273","name":"Genève, Switzerland"},"day":"9","hour":"22","minute":"30","month":"4","name":"Michel Simon","year":"1895"}

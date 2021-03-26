@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-6.0","latitude":"43.03333282470703","longitude":"-87.89999389648438","name":"Milwaukee, Wisconsin"},"day":"26","hour":"8","minute":"10","month":"1","name":"Bob Uecker","year":"1934"}

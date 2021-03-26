@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"52.53333282470703","longitude":"13.416665077209473","name":"Berlin-Mitte, Germany"},"day":"11","hour":"9","minute":"30","month":"5","name":"Robert Jungk","year":"1913"}

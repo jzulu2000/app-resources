@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"10.0","latitude":"35.0","longitude":"135.75","name":"Kyoto, Japan"},"day":"30","hour":"12","minute":"6","month":"5","name":"Hiro Yamagata","year":"1948"}

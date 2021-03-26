@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"37.21666717529297","longitude":"-93.29999542236328","name":"Springfield, Missouri"},"day":"25","hour":"21","minute":"47","month":"7","name":"Dave Patterson","year":"1956"}

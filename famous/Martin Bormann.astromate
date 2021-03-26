@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"51.89999771118164","longitude":"11.033332824707031","name":"Halberstadt, Germany"},"day":"17","hour":"21","minute":"45","month":"6","name":"Martin Bormann","year":"1900"}

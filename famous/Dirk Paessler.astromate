@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"49.599998474121094","longitude":"11.016666412353516","name":"Erlangen, Germany"},"day":"13","hour":"13","minute":"49","month":"11","name":"Dirk Paessler","year":"1968"}

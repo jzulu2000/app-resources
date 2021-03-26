@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"42.383331298828125","longitude":"-71.23332977294922","name":"Waltham, Massachusetts"},"day":"5","hour":"11","minute":"51","month":"10","name":"Dave Pallone","year":"1951"}

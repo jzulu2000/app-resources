@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"43.98332977294922","longitude":"-75.61666107177734","name":"Carthage, New York"},"day":"17","hour":"2","minute":"50","month":"1","name":"John Carpenter","year":"1948"}

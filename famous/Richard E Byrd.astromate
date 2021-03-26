@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"39.18333435058594","longitude":"-78.16666412353516","name":"Winchester, USA"},"day":"25","hour":"16","minute":"30","month":"10","name":"Richard E Byrd","year":"1888"}

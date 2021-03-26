@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"46.099998474121094","longitude":"7.066666603088379","name":"Martigny, Switzerland"},"day":"5","hour":"3","minute":"25","month":"4","name":"Pascal Couchepin","year":"1942"}

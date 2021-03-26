@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"44.48332977294922","longitude":"11.333332061767578","name":"Bologna, Italy"},"day":"5","hour":"5","minute":"30","month":"3","name":"Pier Paolo Pasolini","year":"1922"}

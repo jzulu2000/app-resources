@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-4.933889","latitude":"42.349998474121094","longitude":"-71.05000305175781","name":"Boston, USA"},"day":"25","hour":"20","minute":"11","month":"5","name":"Ralph Waldo Emerson","year":"1803"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-7.0","latitude":"40.76666259765625","longitude":"-111.88333129882812","name":"Salt Lake City, Utah"},"day":"25","hour":"12","minute":"27","month":"4","name":"Jane Clayson","year":"1967"}

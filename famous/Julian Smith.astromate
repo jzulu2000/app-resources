@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"50.11666488647461","longitude":"8.666664123535156","name":"Frankfurt am Main, Germany"},"day":"8","hour":"2","minute":"33","month":"1","name":"Julian Smith","year":"1975"}

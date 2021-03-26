@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"0.0","latitude":"43.29999923706055","longitude":"5.399998664855957","name":"Marseille, France"},"day":"10","hour":"5","minute":"0","month":"11","name":"Edouard Rimbaud","year":"1920"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"49.03333282470703","longitude":"2.216665744781494","name":"Taverny, France"},"day":"6","hour":"5","minute":"30","month":"5","name":"Jean-Pierre Bouvier","year":"1957"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-4.0","latitude":"42.53333282470703","longitude":"-70.9333267211914","name":"Peabody, Massachusetts"},"day":"12","hour":"10","minute":"0","month":"6","name":"Brad Delp","year":"1951"}

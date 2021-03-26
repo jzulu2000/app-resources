@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-6.0","latitude":"42.516666412353516","longitude":"-89.03333282470703","name":"Beloit, Wisconsin"},"day":"23","hour":"8","minute":"45","month":"1","name":"Robin Zander","year":"1953"}

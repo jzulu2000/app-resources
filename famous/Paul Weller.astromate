@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"51.33333206176758","longitude":"-0.5666643977165222","name":"Woking, England"},"day":"25","hour":"22","minute":"45","month":"5","name":"Paul Weller","year":"1958"}

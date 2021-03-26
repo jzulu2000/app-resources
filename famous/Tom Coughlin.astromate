@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-4.0","latitude":"42.89999771118164","longitude":"-76.86666107177734","name":"Waterloo, New York"},"day":"31","hour":"7","minute":"7","month":"8","name":"Tom Coughlin","year":"1946"}

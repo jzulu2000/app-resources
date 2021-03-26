@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"51.166664123535156","longitude":"4.466664791107178","name":"Mortsel, Belgium"},"day":"21","hour":"22","minute":"40","month":"12","name":"Bart De Wever","year":"1970"}

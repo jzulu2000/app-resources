@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"2.0","latitude":"55.666664123535156","longitude":"12.583331108093262","name":"Copenhagen, Denmark"},"day":"28","hour":"18","minute":"30","month":"5","name":"Peter Engberg","year":"1946"}

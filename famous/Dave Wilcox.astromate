@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-6.0","latitude":"44.03333282470703","longitude":"-116.96665954589844","name":"Ontario, Oregon"},"day":"29","hour":"21","minute":"0","month":"9","name":"Dave Wilcox","year":"1942"}

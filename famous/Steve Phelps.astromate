@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"44.48332977294922","longitude":"-73.21666717529297","name":"Burlington, Vermont"},"day":"24","hour":"3","minute":"8","month":"12","name":"Steve Phelps","year":"1962"}

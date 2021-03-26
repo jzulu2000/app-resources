@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0891666","latitude":"48.21666717529297","longitude":"16.333332061767578","name":"Vienna, Austria"},"day":"20","hour":"22","minute":"16","month":"2","name":"Ludwig Boltzmann","year":"1844"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-8.0","latitude":"32.7166633605957","longitude":"-117.1500015258789","name":"San Diego, California"},"day":"13","hour":"16","minute":"24","month":"12","name":"Tom DeLonge","year":"1975"}

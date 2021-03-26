@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"0.0","latitude":"43.349998474121094","longitude":"3.2499990463256836","name":"Béziers, France"},"day":"12","hour":"5","minute":"30","month":"12","name":"Christian Metz","year":"1931"}

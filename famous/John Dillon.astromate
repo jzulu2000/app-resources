@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-8.0","latitude":"47.25","longitude":"-122.44999694824219","name":"Tacoma, Washington"},"day":"11","hour":"14","minute":"15","month":"12","name":"John Dillon","year":"1919"}

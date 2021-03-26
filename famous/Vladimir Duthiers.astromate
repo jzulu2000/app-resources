@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"40.7166633605957","longitude":"-73.86666107177734","name":"Queens, New York"},"day":"21","hour":"12","minute":"38","month":"12","name":"Vladimir Duthiers","year":"1969"}

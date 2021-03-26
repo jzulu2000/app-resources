@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"2.0","latitude":"41.89999771118164","longitude":"12.483331680297852","name":"Rome, Italy"},"day":"12","hour":"14","minute":"20","month":"9","name":"Stefano D'Orazio","year":"1948"}

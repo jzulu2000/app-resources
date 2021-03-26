@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"42.33333206176758","longitude":"-71.21666717529297","name":"Newton, Massachusetts"},"day":"30","hour":"1","minute":"13","month":"10","name":"Ben Foster","year":"1980"}

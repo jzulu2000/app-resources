@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"42.44999694824219","longitude":"-71.13333129882812","name":"Winchester, Massachusetts"},"day":"2","hour":"2","minute":"28","month":"3","name":"Ted Hennessey","year":"1966"}

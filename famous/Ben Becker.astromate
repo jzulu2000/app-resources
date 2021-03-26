@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"49.48332977294922","longitude":"8.483331680297852","name":"Mannheim, Germany"},"day":"19","hour":"5","minute":"20","month":"12","name":"Ben Becker","year":"1964"}

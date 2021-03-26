@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"46.516666412353516","longitude":"6.633330821990967","name":"Lausanne, Switzerland"},"day":"1","hour":"3","minute":"55","month":"3","name":"Bertrand Piccard","year":"1958"}
