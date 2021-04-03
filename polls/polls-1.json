@@ -1,5 +1,6 @@
 {
 	"registry" : {
+		"PollsModel" : "co.com.twelvestars.commons.polls.PollsModel",
 		"PollOption" : "co.com.twelvestars.commons.polls.PollOption",
 		"Translatable" : "co.com.twelvestars.commons.polls.Translatable",
 		"Poll" : "co.com.twelvestars.commons.polls.Poll"
@@ -86,10 +87,10 @@
 		"app-removed-reinstall-free" : {
 			"object-type": "Translatable",
 			"texts" : {
-				"en" : "\nYou need to migrate to the new PRO version of the app; this version won't be supported anymore.\nClick Install to get it and then you can remove the old one.\n\nWe appreciate if you give 5 stars in the playstore (even if you already did for the previous one); it will help us growing.\n\nThanks for your help.",
-				"es" : "\nNecesitas migrarte a la nueva versión PRO; esta versión actual no será soportada más.\nClick en la opción Instalar para obtenerla y luego puedes borrar la vieja.\n\nAgradecemos que des 5 estrellas en el playstore (aún si lo hiciste para la anterior); nos ayuda a crecer.\n\nGracias por la ayuda.",
-				"fr" : "\nVous devez migrer vers la nouvelle version PRO de l'application; cette version ne sera plus prise en charge.\nCliquez sur Installer pour l'obtenir, puis vous pouvez supprimer l'ancienne.\n\nNous apprécions que vous donniez 5 étoiles dans le Playstore (même si vous l'avez déjà fait pour la précédente); cela nous aidera à grandir.\n\nMerci de votre aide.",
-				"it" : "\nDevi eseguire la migrazione alla nuova versione PRO dell'app; questa versione non sarà più supportata.\nFare clic su Installa per scaricarlo e quindi rimuovere quella vecchia.\n\nApprezziamo se dai 5 stelle nel playstore (anche se lo hai già fatto per la precedente); ci aiuterà a crescere.\n\nGrazie per l'aiuto.",
+				"en" : "\nYou need to migrate to the new version of the app; this version won't be supported anymore.\nClick Install to get it and then you can remove the old one.\n\nWe appreciate if you give 5 stars in the playstore (even if you already did for the previous one); it will help us growing.\n\nThanks for your help.",
+				"es" : "\nNecesitas migrarte a la nueva versión; esta versión actual no será soportada más.\nClick en la opción Instalar para obtenerla y luego puedes borrar la vieja.\n\nAgradecemos que des 5 estrellas en el playstore (aún si lo hiciste para la anterior); nos ayuda a crecer.\n\nGracias por la ayuda.",
+				"fr" : "\nVous devez migrer vers la nouvelle version de l'application; cette version ne sera plus prise en charge.\nCliquez sur Installer pour l'obtenir, puis vous pouvez supprimer l'ancienne.\n\nNous apprécions que vous donniez 5 étoiles dans le Playstore (même si vous l'avez déjà fait pour la précédente); cela nous aidera à grandir.\n\nMerci de votre aide.",
+				"it" : "\nDevi eseguire la migrazione alla nuova versione dell'app; questa versione non sarà più supportata.\nFare clic su Installa per scaricarlo e quindi rimuovere quella vecchia.\n\nApprezziamo se dai 5 stelle nel playstore (anche se lo hai già fatto per la precedente); ci aiuterà a crescere.\n\nGrazie per l'aiuto.",
 				"pt" : "\nVocê precisa migrar para a nova versão do aplicativo; esta versão não será mais suportada.\nClique em Instalar para obtê-lo e, em seguida, você pode remover a antiga.\n\nAgradecemos se você der 5 estrelas na playstore (mesmo se você já deu para a anterior); vai nos ajudar a crescer.\n\nObrigado pela ajuda."
 			}
 		},
@@ -109,10 +110,68 @@
 			"fr" : "Installer Nouvelle Version",
 			"it" : "Installare Nouva Versione",
 			"pt" : "Instalar Nova Versão"
+		},
+		"request-free-code-option" : {
+			"object-type": "PollOption",
+			"action" : "email",
+			"texts" : {
+				"en" : "Request free code",
+				"es" : "Solicitar codigo gratis",
+				"fr" : "Demander un code gratuit",
+				"it" : "Richiedi codice gratuito",
+				"pt" : "Solicite código grátis"
+			},
+			"actionParameters" : {
+				"mail.dialog.title" : {
+					"object-type": "Translatable",
+					"texts" : {
+						"en" : "Send us an email.",
+						"es" : "Envíanos un correo.",
+						"fr" : "Envoyez-nous un e-mail",
+						"it" : "Mandaci un email",
+						"pt" : "Envie-nos um e-mail"
+					}
+				}, "mail.dialog.message" : {
+					"object-type": "Translatable",
+					"texts" : {
+						"en" : "Click Ok to send us an email requesting a free code for using the PRO version.\n\nIn the next screen, choose the  email app you use for sending emails.",
+						"es" : "Haga clic en Aceptar para enviarnos un correo electrónico solicitando un código gratuito para usar la versión PRO.\n\nEn la siguiente pantalla, elija la aplicación de correo electrónico que usa para enviar correos electrónicos.",
+						"fr" : "Cliquez sur Ok pour nous envoyer un e-mail demandant un code gratuit pour utiliser la version PRO.\n\nDans l'écran suivant, choisissez l'application de messagerie que vous utilisez pour envoyer des e-mails.",
+						"it" : "Fare clic su OK per inviarci un'e-mail con la richiesta di un codice gratuito per l'utilizzo della versione PRO.\n\nNella schermata successiva, scegli l'app di posta elettronica che utilizzi per inviare le email.",
+						"pt" : "Clique em Ok para nos enviar um e-mail solicitando um código gratuito para usar a versão PRO.\n\nNa próxima tela, escolha o aplicativo de e-mail que você usa para enviar e-mails."
+					}
+				}, "mail.dialog.ok" : {
+					"object-type": "Translatable",
+					"texts" : {"en" : "OK", "es" : "OK", "fr" : "OK", "it" : "OK", "pt" : "OK" }
+				}, "mail.dialog.no" : {
+					"object-type": "Translatable",
+					"texts" : {"en" : "Later", "es" : "Luego", "fr" : "Plus tard", "it" : "Dopo", "pt" : "Mais tarde" }
+				},"mail.send.to" : {
+					"object-type": "Translatable",
+					"texts" : {
+						"en" : "twelve.stars.software@gmail.com"
+					}
+				},"mail.send.title" : {
+					"object-type": "Translatable",
+					"texts" : {
+						"en" : "%s %s.",
+						"es" : "%s %s."
+					}
+				},"mail.send.message" : {
+					"object-type": "Translatable",
+					"texts" : {
+						"en" : "Hello.\n\nI'm a PRO user and would like to receive a free code for using the new version.\n\nPlease send code\n\nThank you",
+						"es" : "Hola.\n\nSoy un usuario PRO y me gustaría recibir un código gratis para usar la nueva versión.\n\nPor favor, enviar codigo\n\nGracias",
+						"fr" : "Salut.\n\nJe suis un utilisateur PRO et j'aimerais recevoir un code gratuit pour utiliser la nouvelle version gratuitement.\n\nVeuillez envoyer le code\n\nMerci",
+						"it" : "Ciao.\n\nSono un utente PRO e vorrei ricevere un codice gratuito per utilizzare gratuitamente la nuova versione.\n\nSi prega di inviare il codice\n\nGrazie",
+						"pt" : "Olá.\n\nSou um usuário PRO e gostaria de receber um código gratuito para usar a nova versão gratuitamente.\n\nPor favor envie o código\n\nObrigado"
+					}
+				}
+			}
 		}
 		
 	},
-	"object-type" : "co.com.twelvestars.commons.polls.PollsModel",
+	"object-type" : "PollsModel",
 	"polls" : [
 		{
 			"object-type": "Poll",
@@ -168,64 +227,50 @@
 					}
 				}
 			},
-			"neutralOption" : {
+			"neutralOption" : {"registry-ref": "request-free-code-option"}
+		},
+		{
+			"object-type": "Poll",
+			"id" : "reinstall-astromate",
+			"appsRegex" : ".*astromate_free$",
+			"lapse" : 0,
+			"title" : {"registry-ref": "app-removed-title"},
+			"description" : {"registry-ref": "app-removed-reinstall-free"},
+			"okOption" : {
 				"object-type": "PollOption",
-				"action" : "email",
-				"texts" : {
-					"en" : "Request free code",
-					"es" : "Solicitar codigo gratis",
-					"fr" : "Demander un code gratuit",
-					"it" : "Richiedi codice gratuito",
-					"pt" : "Solicite código grátis"
-				},
+				"action" : "open-url",
+				"texts" : {"registry-ref" : "app-removed-reinstall-install"},
 				"actionParameters" : {
-					"mail.dialog.title" : {
+					"address": {
 						"object-type": "Translatable",
 						"texts" : {
-							"en" : "Send us an email.",
-							"es" : "Envíanos un correo.",
-							"fr" : "Envoyez-nous un e-mail",
-							"it" : "Mandaci un email",
-							"pt" : "Envie-nos um e-mail"
-						}
-					}, "mail.dialog.message" : {
-						"object-type": "Translatable",
-						"texts" : {
-							"en" : "Click Ok to send us an email requesting a free code for using the PRO version.\n\nIn the next screen, choose the  email app you use for sending emails.",
-							"es" : "Haga clic en Aceptar para enviarnos un correo electrónico solicitando un código gratuito para usar la versión PRO.\n\nEn la siguiente pantalla, elija la aplicación de correo electrónico que usa para enviar correos electrónicos.",
-							"fr" : "Cliquez sur Ok pour nous envoyer un e-mail demandant un code gratuit pour utiliser la version PRO.\n\nDans l'écran suivant, choisissez l'application de messagerie que vous utilisez pour envoyer des e-mails.",
-							"it" : "Fare clic su OK per inviarci un'e-mail con la richiesta di un codice gratuito per l'utilizzo della versione PRO.\n\nNella schermata successiva, scegli l'app di posta elettronica che utilizzi per inviare le email.",
-							"pt" : "Clique em Ok para nos enviar um e-mail solicitando um código gratuito para usar a versão PRO.\n\nNa próxima tela, escolha o aplicativo de e-mail que você usa para enviar e-mails."
-						}
-					}, "mail.dialog.ok" : {
-						"object-type": "Translatable",
-						"texts" : {"en" : "OK", "es" : "OK", "fr" : "OK", "it" : "OK", "pt" : "OK" }
-					}, "mail.dialog.no" : {
-						"object-type": "Translatable",
-						"texts" : {"en" : "Later", "es" : "Luego", "fr" : "Plus tard", "it" : "Dopo", "pt" : "Mais tarde" }
-					},"mail.send.to" : {
-						"object-type": "Translatable",
-						"texts" : {
-							"en" : "twelve.stars.software@gmail.com"
-						}
-					},"mail.send.title" : {
-						"object-type": "Translatable",
-						"texts" : {
-							"en" : "%s %s.",
-							"es" : "%s %s."
-						}
-					},"mail.send.message" : {
-						"object-type": "Translatable",
-						"texts" : {
-							"en" : "Hello.\n\nI'm a PRO user and would like to receive a free code for using the new version.\n\nPlease send code\n\nThank you",
-							"es" : "Hola.\n\nSoy un usuario PRO y me gustaría recibir un código gratis para usar la nueva versión.\n\nPor favor, enviar codigo\n\nGracias",
-							"fr" : "Salut.\n\nJe suis un utilisateur PRO et j'aimerais recevoir un code gratuit pour utiliser la nouvelle version gratuitement.\n\nVeuillez envoyer le code\n\nMerci",
-							"it" : "Ciao.\n\nSono un utente PRO e vorrei ricevere un codice gratuito per utilizzare gratuitamente la nuova versione.\n\nSi prega di inviare il codice\n\nGrazie",
-							"pt" : "Olá.\n\nSou um usuário PRO e gostaria de receber um código gratuito para usar a nova versão gratuitamente.\n\nPor favor envie o código\n\nObrigado"
+							"en": "https://play.google.com/store/search?q=astromate%20\"venus%20software\"&c=apps"
 						}
 					}
 				}
 			}
+		},
+		{
+			"object-type": "Poll",
+			"id" : "reinstall-astromate-paid",
+			"appsRegex" : ".*astromate$",
+			"lapse" : 0,
+			"title" : {"registry-ref": "app-removed-title"},
+			"description" : {"registry-ref": "app-removed-reinstall-paid"},
+			"okOption" : {
+				"object-type": "PollOption",
+				"action" : "open-url",
+				"texts" : {"registry-ref" : "app-removed-reinstall-install"},
+				"actionParameters" : {
+					"address": {
+						"object-type": "Translatable",
+						"texts" : {
+							"en": "https://play.google.com/store/search?q=astromate%20\"venus%20software\"&c=apps"
+						}
+					}
+				}
+			},
+			"neutralOption" : {"registry-ref": "request-free-code-option"}
 		}
 	]
 }
