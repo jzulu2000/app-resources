@@ -50,7 +50,7 @@
           "text": "Grava vídeo em segundo plano quando movimento detectado ou quando o usuário quer."
         }
       ],
-      "icon": "moca_round",
+      "icon": "moca2_round",
       "titles": [
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
@@ -73,6 +73,56 @@
         }
       ],
       "url": "twelvestars.moca2"
+    }, {
+      "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
+      "descriptions": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Visit our site at https://sites.google.com/view/twelve-stars-software."
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "es",
+          "text": "Visita nuestro sitio en https://sites.google.com/view/twelve-stars-software."
+        }
+      ],
+      "icon": "tss:https://raw.githubusercontent.com/jzulu2000/app-resources/master/ads/twelve-stars-64.png",
+      "titles": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Venus Software."
+        }, {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "es",
+          "text": "Venus Software."
+        }
+      ],
+      "url": "https://sites.google.com/view/twelve-stars-software"
+    }, {
+      "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
+      "descriptions": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Know your Natal chart, Solar and Lunar returns, Transits, Progressions, Synastries and Numerology."
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "es",
+          "text": "Conoce tu carta natal, revolución solar y lunar, tránsitos, progresiones, sinastrías y numerología."
+        }
+      ],
+      "icon": "astro_mate_round",
+      "titles": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Astro Mate - Astrology, Angeology, Numerology."
+        }, {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "es",
+          "text": "Astro Mate - Astrología, Angeology, Numerology."
+        }
+      ],
+      "url": "com.venussoftware.astromate_free"
     }
   ],
   "videoAdsFrequencyMinutes" : "5",

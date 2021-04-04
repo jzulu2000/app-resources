@@ -1,15 +1,15 @@
 {
-  "object-type": "co.com.twelvestars.commons.adds.JzuluAdsModel",
+  "object-type": "com.twelvestars.commons.adds.JzuluAdsModel",
   "apps": [
     {
-      "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
+      "object-type": "com.twelvestars.commons.adds.JzuluAdsAppInfo",
       "descriptions": [
         {
-          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "object-type": "com.twelvestars.commons.adds.JzuluAdsI18Text",
           "text": "Join our group Passion for Astrology in Facebook"
         },
         {
-          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "object-type": "com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "es",
           "text": "Unete a nuestro grupo Pasíon por la Astroogía en Facebook"
         }
@@ -17,61 +17,34 @@
       "icon": "ppa:https://raw.githubusercontent.com/jzulu2000/app-resources/master/ads/pasion-astrologia.png",
       "titles": [
         {
-          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "object-type": "com.twelvestars.commons.adds.JzuluAdsI18Text",
           "text": "Passion for Astrology?"
         }, {
-          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "object-type": "com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "es",
           "text": "Pasión por la Astrología?"
         }
       ],
       "url": "https://www.facebook.com/groups/2592989790963455"
-    },
-    {
-      "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
+    }, {
+      "object-type": "com.twelvestars.commons.adds.JzuluAdsAppInfo",
       "descriptions": [
         {
-          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "Visit our site at https://sites.google.com/view/twelve-stars-software."
-        },
-        {
-          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "lang": "es",
-          "text": "Visita nuestro sitio en https://sites.google.com/view/twelve-stars-software."
-        }
-      ],
-      "icon": "tss:https://raw.githubusercontent.com/jzulu2000/app-resources/master/ads/twelve-stars-64.png",
-      "titles": [
-        {
-          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "Twelve Stars Software."
-        }, {
-          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "lang": "es",
-          "text": "Twelve Stars Software."
-        }
-      ],
-      "url": "https://sites.google.com/view/twelve-stars-software"
-    },
-    {
-      "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
-      "descriptions": [
-        {
-          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "object-type": "com.twelvestars.commons.adds.JzuluAdsI18Text",
           "text": "Records video when motion is detected or by user request, even with screen off ."
         },
         {
-          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "object-type": "com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "es",
           "text": "Graba video al detectar movimiento o cuando el usuario lo requiera, incluso con pantalla apagada ."
         },
         {
-          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "object-type": "com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "fr",
           "text": "Enregistre la vidéo en arrière-plan lorsqu'un mouvement est détecté.."
         },
         {
-          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "object-type": "com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "pt",
           "text": "Grava vídeo em segundo plano quando movimento detectado ou quando o usuário quer."
         }
@@ -79,26 +52,51 @@
       "icon": "moca2_round",
       "titles": [
         {
-          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "object-type": "com.twelvestars.commons.adds.JzuluAdsI18Text",
           "text": "MoCa2 - Motion Detection Camera and Dashcam"
         },
         {
-          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "object-type": "com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "es",
           "text": "MoCa2 - Camara de detección Movimiento y Dashcam"
         },
         {
-          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "object-type": "com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "fr",
           "text": "MoCa2 - Spy Caméra détection mouvement"
         },
         {
-          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "object-type": "com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "pt",
           "text": "MoCa2 - Spy Detecção de movimento"
         }
       ],
-      "url": "twelvestars.moca2"
+      "url": "https://play.google.com/store/search?q=moca2%20\"twelve%20stars%20software\"&c=apps"
+    }, {
+      "object-type": "com.twelvestars.commons.adds.JzuluAdsAppInfo",
+      "descriptions": [
+        {
+          "object-type": "com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Visit our site at https://sites.google.com/view/twelve-stars-software."
+        },
+        {
+          "object-type": "com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "es",
+          "text": "Visita nuestro sitio en https://sites.google.com/view/twelve-stars-software."
+        }
+      ],
+      "icon": "tss:https://raw.githubusercontent.com/jzulu2000/app-resources/master/ads/twelve-stars-64.png",
+      "titles": [
+        {
+          "object-type": "com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Twelve Stars Software."
+        }, {
+          "object-type": "com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "es",
+          "text": "Twelve Stars Software."
+        }
+      ],
+      "url": "https://sites.google.com/view/twelve-stars-software"
     }, {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
       "descriptions": [
@@ -123,7 +121,9 @@
           "text": "Astro Mate - Astrología, Angeology, Numerology."
         }
       ],
-      "url": "com.venussoftware.astromate_free"
+      "url": "https://play.google.com/store/search?q=astromate%20\"venus%20software\"&c=apps"
     }
-  ]
+  ],
+  "videoAdsFrequencyMinutes" : "5",
+  "interstitialAdsFrequencyMinutes" : "5"
 }

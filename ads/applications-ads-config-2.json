@@ -1,5 +1,5 @@
 {
-  "com.twelvestars.astromate_free" : [
+  "com.venussoftware.astromate_free" : [
     {
       "places": ["chartactivity"],
       "implementation": "facebook",
@@ -14,16 +14,16 @@
       "places": ["chartactivity"],
       "implementation": "admob",
       "enabled": "true",
-      "appId": "ca-app-pub-1152574200163807~3299872566",
+      "appId": "ca-app-pub-7049824245009633~8469673262",
       "adsIds": {
-        "ADDS_DEFAULT_BANNER": "ca-app-pub-1152574200163807/8433258679",
-        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1152574200163807/7120177000",
-        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1152574200163807/2120321139"
+        "ADDS_DEFAULT_BANNER": "ca-app-pub-7049824245009633/5843509920",
+        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-7049824245009633/5651938236",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-7049824245009633/3025774898"
       }
     }
   ],
 
-  "com.twelvestars.speechy_free" : [
+  "com.venussoftware.speechy_free" : [
     {
       "places": ["texttospeechactivity", "settings.settingsactivity"],
       "implementation": "facebook",
@@ -48,7 +48,7 @@
   ],
 
 
-  "com.twelvestars.lyra_free": [
+  "com.venussoftware.lyra_free": [
     {
       "places": ["ui.fullscreenplayeractivity", "ui.musicplayeractivity"],
       "implementation": "facebook",
@@ -84,7 +84,7 @@
 
 
 
-  "com.twelvestars.piplaWorld": [
+  "com.venussoftware.piplaWorld": [
     {
       "places": ["notificationactivity", "restrictionsactivity"],
       "implementation": "facebook",
@@ -119,7 +119,7 @@
     }
   ],
 
-  "co.com.twelvestars.gmplayer": [
+  "co.com.venussoftware.gmplayer": [
     {
       "places": ["lyricsplayeractivity"],
       "implementation": "admob",
@@ -158,7 +158,7 @@
   ],
 
 
-  "com.twelvestars.webmonitor": [
+  "com.venussoftware.webmonitor": [
     {
       "places": ["editurlsactivity", "listurlsactivity"],
       "implementation": "admob",
@@ -173,7 +173,7 @@
   ],
 
 
-  "com.twelvestars.webmonitor_amz": [
+  "com.venussoftware.webmonitor_amz": [
     {
       "places": ["editurlsactivity", "listurlsactivity"],
       "implementation": "admob",
@@ -188,7 +188,7 @@
   ],
 
 
-  "com.twelvestars.screenFilter": [
+  "com.venussoftware.screenFilter": [
     {
       "places": ["mainactivity"],
       "implementation": "admob",
@@ -213,7 +213,7 @@
   ],
 
 
-  "com.twelvestars.screenRecorder" : [
+  "com.venussoftware.screenRecorder" : [
     {
       "places": ["recorderactivity", "mainactivity"],
       "implementation": "admob",

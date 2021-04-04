@@ -26,34 +26,7 @@
         }
       ],
       "url": "https://www.facebook.com/groups/2592989790963455"
-    },
-    {
-      "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
-      "descriptions": [
-        {
-          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "Visit our site at https://sites.google.com/view/twelve-stars-software."
-        },
-        {
-          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "lang": "es",
-          "text": "Visita nuestro sitio en https://sites.google.com/view/twelve-stars-software."
-        }
-      ],
-      "icon": "tss:https://raw.githubusercontent.com/jzulu2000/app-resources/master/ads/twelve-stars-64.png",
-      "titles": [
-        {
-          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "Twelve Stars Software."
-        }, {
-          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "lang": "es",
-          "text": "Twelve Stars Software."
-        }
-      ],
-      "url": "https://sites.google.com/view/twelve-stars-software"
-    },
-    {
+    }, {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
       "descriptions": [
         {
@@ -98,7 +71,32 @@
           "text": "MoCa2 - Spy Detecção de movimento"
         }
       ],
-      "url": "twelvestars.moca2"
+      "url": "https://play.google.com/store/search?q=moca2%20\"twelve%20stars%20software\"&c=apps"
+    },{
+      "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
+      "descriptions": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Visit our site at https://sites.google.com/view/twelve-stars-software."
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "es",
+          "text": "Visita nuestro sitio en https://sites.google.com/view/twelve-stars-software."
+        }
+      ],
+      "icon": "tss:https://raw.githubusercontent.com/jzulu2000/app-resources/master/ads/twelve-stars-64.png",
+      "titles": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Twelve Stars Software."
+        }, {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "es",
+          "text": "Twelve Stars Software."
+        }
+      ],
+      "url": "https://sites.google.com/view/twelve-stars-software"
     }, {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
       "descriptions": [
@@ -123,7 +121,9 @@
           "text": "Astro Mate - Astrología, Angeology, Numerology."
         }
       ],
-      "url": "com.venussoftware.astromate_free"
+      "url": "https://play.google.com/store/search?q=astromate%20\"venus%20software\"&c=apps"
     }
-  ]
+  ],
+  "videoAdsFrequencyMinutes" : "5",
+  "interstitialAdsFrequencyMinutes" : "5"
 }
