@@ -175,6 +175,40 @@
 	"polls" : [
 		{
 			"object-type": "Poll",
+			"id" : "rateme",
+			"lapse" : 2,
+			"title" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "What do you think about our app?",
+					"es" : "Qué piensas de nuestra aplicación?"
+				}
+			}, "okOption" : {
+				"registry-ref": "ask-later-option"
+			}, "neutralOption" : {
+				"registry-ref": "dont-ask-again-option"
+			},"options" : [
+				{
+					"object-type": "PollOption",
+					"action" : "playstore",
+					"texts" : {
+						"en" : "I like it! I want to rate it in the playstore!",
+						"es" : "Me gusta! Quiero calificarla en playstore!"
+					}
+				}, {
+					"object-type": "PollOption",
+					"action" : "email",
+					"texts" : {
+						"en" : "I have comments or need to report a problem!",
+						"es" : "Quiero hacer sugerencias o reportar problema!"
+					},
+					"actionParameters" : {
+						"registry-ref" : "send-email-dialog"
+					}
+				}
+			]
+		},{
+			"object-type": "Poll",
 			"id" : "google-suspension",
 			"appsRegex" : ".*myxastros.*|.*webxmonitor.*|.*bxest.*|.*gxmplayer.*|.*pxipla.*|.*sxcreen.*|.*pxdfreader.*",
 			"lapse" : 0,
