@@ -1,1 +1,1 @@
-{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-6.0","latitude":"38.0","longitude":"-97.51666259765625","name":"Halstead, Kansas"},"day":"20","hour":"5","minute":"58","month":"2","name":"Gary Noss","year":"1934"}
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-6.0","latitude":"38.0","longitude":"-97.51666259765625","name":"Halstead, Kansas"},"day":"20","hour":"5","minute":"58","month":"2","name":"Gary Noss","year":"1934","lifeEvents":[]}

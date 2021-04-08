@@ -1,1 +1,1 @@
-{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-6.0","latitude":"30.0","longitude":"-91.81666564941406","name":"New Iberia, Louisiana"},"day":"23","hour":"16","minute":"45","month":"2","name":"Gail Barber","year":"1937"}
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-6.0","latitude":"30.0","longitude":"-91.81666564941406","name":"New Iberia, Louisiana"},"day":"23","hour":"16","minute":"45","month":"2","name":"Gail Barber","year":"1937","lifeEvents":[]}

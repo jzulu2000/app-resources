@@ -1,1 +1,1 @@
-{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-6.0","latitude":"36.93333053588867","longitude":"-90.75","name":"Ellsinore, USA"},"day":"21","hour":"11","minute":"38","month":"3","name":"Belva Burgess","year":"1890"}
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-6.0","latitude":"36.93333053588867","longitude":"-90.75","name":"Ellsinore, USA"},"day":"21","hour":"11","minute":"38","month":"3","name":"Belva Burgess","year":"1890","lifeEvents":[]}

@@ -1,1 +1,1 @@
-{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"2.0","latitude":"37.383331298828125","longitude":"-5.9833292961120605","name":"Seville, Spain"},"day":"27","hour":"9","minute":"45","month":"6","name":"Tamara","year":"1984"}
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"2.0","latitude":"37.383331298828125","longitude":"-5.9833292961120605","name":"Seville, Spain"},"day":"27","hour":"9","minute":"45","month":"6","name":"Tamara","year":"1984","lifeEvents":[]}

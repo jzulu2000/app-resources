@@ -1,1 +1,1 @@
-{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"46.79999542236328","longitude":"11.933329582214355","name":"Bruneck, Italy"},"day":"16","hour":"6","minute":"33","month":"3","name":"Markus Lanz","year":"1969"}
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"46.79999542236328","longitude":"11.933329582214355","name":"Bruneck, Italy"},"day":"16","hour":"6","minute":"33","month":"3","name":"Markus Lanz","year":"1969","lifeEvents":[]}

@@ -1,1 +1,1 @@
-{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"45.20000076293945","longitude":"8.91666316986084","name":"Garlasco, Italy"},"day":"1","hour":"8","minute":"35","month":"5","name":"Franco Rosa","year":"1932"}
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"45.20000076293945","longitude":"8.91666316986084","name":"Garlasco, Italy"},"day":"1","hour":"8","minute":"35","month":"5","name":"Franco Rosa","year":"1932","lifeEvents":[]}

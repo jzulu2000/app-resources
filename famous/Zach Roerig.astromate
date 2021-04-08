@@ -1,1 +1,1 @@
-{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"41.4666633605957","longitude":"-84.54999542236328","name":"Bryan, Ohio"},"day":"22","hour":"18","minute":"15","month":"2","name":"Zach Roerig","year":"1985"}
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"41.4666633605957","longitude":"-84.54999542236328","name":"Bryan, Ohio"},"day":"22","hour":"18","minute":"15","month":"2","name":"Zach Roerig","year":"1985","lifeEvents":[]}

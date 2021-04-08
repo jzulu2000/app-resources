@@ -1,1 +1,1 @@
-{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"43.11666488647461","longitude":"-88.5","name":"Oconomowoc, Wisconsin"},"day":"20","hour":"13","minute":"33","month":"5","name":"Jane Wiedlin","year":"1958"}
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"43.11666488647461","longitude":"-88.5","name":"Oconomowoc, Wisconsin"},"day":"20","hour":"13","minute":"33","month":"5","name":"Jane Wiedlin","year":"1958","lifeEvents":[]}

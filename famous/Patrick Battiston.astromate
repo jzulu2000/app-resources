@@ -1,1 +1,1 @@
-{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"49.25","longitude":"6.1333327293396","name":"Amnéville, France"},"day":"12","hour":"7","minute":"30","month":"3","name":"Patrick Battiston","year":"1957"}
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"49.25","longitude":"6.1333327293396","name":"Amnéville, France"},"day":"12","hour":"7","minute":"30","month":"3","name":"Patrick Battiston","year":"1957","lifeEvents":[]}

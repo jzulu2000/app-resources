@@ -1,1 +1,1 @@
-{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"45.54999923706055","longitude":"11.549997329711914","name":"Vicenza, Italy"},"day":"5","hour":"22","minute":"45","month":"8","name":"Neri Pozza","year":"1912"}
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"45.54999923706055","longitude":"11.549997329711914","name":"Vicenza, Italy"},"day":"5","hour":"22","minute":"45","month":"8","name":"Neri Pozza","year":"1912","lifeEvents":[]}

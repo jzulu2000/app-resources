@@ -1,1 +1,1 @@
-{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"44.86666488647461","longitude":"11.783329963684082","name":"Tamara, Italy"},"day":"5","hour":"18","minute":"30","month":"6","name":"Italo Balbo","year":"1896"}
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"44.86666488647461","longitude":"11.783329963684082","name":"Tamara, Italy"},"day":"5","hour":"18","minute":"30","month":"6","name":"Italo Balbo","year":"1896","lifeEvents":[]}

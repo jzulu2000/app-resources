@@ -1,1 +1,1 @@
-{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"34.0","longitude":"-81.03333282470703","name":"Columbia, USA"},"day":"23","hour":"6","minute":"48","month":"2","name":"William A. Gunter","year":"1888"}
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"34.0","longitude":"-81.03333282470703","name":"Columbia, USA"},"day":"23","hour":"6","minute":"48","month":"2","name":"William A. Gunter","year":"1888","lifeEvents":[]}

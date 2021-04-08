@@ -1,1 +1,1 @@
-{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"36.14999771118164","longitude":"-96.0","name":"Tulsa, Oklahoma"},"day":"9","hour":"20","minute":"43","month":"8","name":"Stacy Valentine","year":"1970"}
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"36.14999771118164","longitude":"-96.0","name":"Tulsa, Oklahoma"},"day":"9","hour":"20","minute":"43","month":"8","name":"Stacy Valentine","year":"1970","lifeEvents":[]}
