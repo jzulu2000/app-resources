@@ -278,7 +278,11 @@
 					"address": {
 						"object-type": "Translatable",
 						"texts" : {
-							"en": "https://play.google.com/store/search?q=astromate%20\"venus%20software\"&c=apps"
+							"en": "https://play.google.com/store/search?q=astrology%20\"venus%20software\"&c=apps",
+							"es": "https://play.google.com/store/search?q=astrologia%20\"venus%20software\"&c=apps",
+							"fr": "https://play.google.com/store/search?q=astrologie%20\"venus%20software\"&c=apps",
+							"it": "https://play.google.com/store/search?q=astrologia%20\"venus%20software\"&c=apps",
+							"pt": "https://play.google.com/store/search?q=astrologia%20\"venus%20software\"&c=apps"
 						}
 					}
 				}
@@ -299,7 +303,11 @@
 					"address": {
 						"object-type": "Translatable",
 						"texts" : {
-							"en": "https://play.google.com/store/search?q=astromate%20\"venus%20software\"&c=apps"
+							"en": "https://play.google.com/store/search?q=astrology%20\"venus%20software\"&c=apps",
+							"es": "https://play.google.com/store/search?q=astrologia%20\"venus%20software\"&c=apps",
+							"fr": "https://play.google.com/store/search?q=astrologie%20\"venus%20software\"&c=apps",
+							"it": "https://play.google.com/store/search?q=astrologia%20\"venus%20software\"&c=apps",
+							"pt": "https://play.google.com/store/search?q=astrologia%20\"venus%20software\"&c=apps"
 						}
 					}
 				}
