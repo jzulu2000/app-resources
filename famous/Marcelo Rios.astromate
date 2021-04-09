@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-3.0","latitude":"-33.44999694824219","longitude":"-70.66666412353516","name":"Santiago, Chile"},"day":"26","hour":"15","minute":"0","month":"12","name":"Marcelo Rios","year":"1975"}

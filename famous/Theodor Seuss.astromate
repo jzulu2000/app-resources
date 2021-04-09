@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"42.10999847412109","longitude":"-72.58332824707031","name":"Springfield, Massachusetts"},"day":"2","hour":"17","minute":"0","month":"3","name":"Theodor Seuss","year":"1904"}

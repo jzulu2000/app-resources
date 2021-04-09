@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"3.0","latitude":"32.06666564941406","longitude":"34.76666259765625","name":"Tel Aviv, Israel"},"day":"31","hour":"9","minute":"0","month":"8","name":"Itzhak Perlman","year":"1945"}

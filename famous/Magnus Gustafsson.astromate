@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"55.69999694824219","longitude":"13.183332443237305","name":"Lund, Sweden"},"day":"3","hour":"11","minute":"0","month":"1","name":"Magnus Gustafsson","year":"1967"}

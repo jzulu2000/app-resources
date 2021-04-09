@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-4.0","latitude":"42.29999923706055","longitude":"-85.58332824707031","name":"Kalamazoo, Michigan"},"day":"13","hour":"16","minute":"0","month":"5","name":"Chris Crawford","year":"1975"}
