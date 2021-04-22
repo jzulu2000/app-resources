@@ -223,7 +223,7 @@
 		{
 			"object-type": "Poll",
 			"id" : "reinstall-moca2",
-			"appsRegex" : ".*moca2$|.*moca$",
+			"appsRegex" : ".*mocax2$|.*mocax$",
 			"lapse" : 0,
 			"title" : {"registry-ref": "app-removed-title"},
 			"description" : {"registry-ref": "app-removed-reinstall-free"},
@@ -244,7 +244,7 @@
 		{
 			"object-type": "Poll",
 			"id" : "reinstall-moca2-paid",
-			"appsRegex" : ".*moca2_paid$|.*moca_paid$",
+			"appsRegex" : ".*mocax2_paid$|.*mocax_paid$",
 			"lapse" : 0,
 			"title" : {"registry-ref": "app-removed-title"},
 			"description" : {"registry-ref": "app-removed-reinstall-paid"},
