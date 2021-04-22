@@ -26,54 +26,7 @@
         }
       ],
       "url": "https://www.facebook.com/groups/2592989790963455"
-    },
-    {
-      "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
-      "descriptions": [
-        {
-          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "Records video when motion is detected or by user request, even with screen off ."
-        },
-        {
-          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "lang": "es",
-          "text": "Graba video al detectar movimiento o cuando el usuario lo requiera, incluso con pantalla apagada ."
-        },
-        {
-          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "lang": "fr",
-          "text": "Enregistre la vidéo en arrière-plan lorsqu'un mouvement est détecté.."
-        },
-        {
-          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "lang": "pt",
-          "text": "Grava vídeo em segundo plano quando movimento detectado ou quando o usuário quer."
-        }
-      ],
-      "icon": "moca2_round",
-      "titles": [
-        {
-          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "text": "MoCa2 - Motion Detection Camera and Dashcam"
-        },
-        {
-          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "lang": "es",
-          "text": "MoCa2 - Camara de detección Movimiento y Dashcam"
-        },
-        {
-          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "lang": "fr",
-          "text": "MoCa2 - Spy Caméra détection mouvement"
-        },
-        {
-          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
-          "lang": "pt",
-          "text": "MoCa2 - Spy Detecção de movimento"
-        }
-      ],
-      "url": "twelvestars.moca2"
-    }, {
+    },{
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
       "descriptions": [
         {
