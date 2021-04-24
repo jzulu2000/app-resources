@@ -1,0 +1,73 @@
+{
+  "registry": {
+    "Translatable": "com.venussoftware.commons.polls.Translatable",
+    "JzuluAdsModel": "com.venussoftware.commons.adds.JzuluAdsModel",
+    "JzuluAdsAppInfo": "com.venussoftware.commons.adds.JzuluAdsAppInfo"
+  },
+  "object-type": "JzuluAdsModel",
+  "apps": [
+    {
+      "object-type": "JzuluAdsAppInfo",
+      "descriptions": {
+        "object-type": "Translatable",
+        "texts": {
+          "en": "Join our group Passion for Astrology in Facebook",
+          "es": "Unete a nuestro grupo Pasíon por la Astroogía en Facebook"
+        }
+      },
+      "icon": "ppa:https://raw.githubusercontent.com/jzulu2000/app-resources/master/ads/pasion-astrologia.png",
+      "titles": {
+        "object-type": "Translatable",
+        "texts": {
+          "en": "Passion for Astrology?",
+          "es": "Pasión por la Astrología?"
+        }
+      },
+      "url": "https://www.facebook.com/groups/2592989790963455"
+    }, {
+      "object-type": "JzuluAdsAppInfo",
+      "descriptions": {
+        "object-type": "Translatable",
+        "texts": {
+          "en": "Records video when motion is detected or by user request, even with screen off .",
+          "es": "Graba video al detectar movimiento o cuando el usuario lo requiera, incluso con pantalla apagada.",
+          "fr": "Enregistre la vidéo en arrière-plan lorsqu'un mouvement est détecté.",
+          "pt": "Grava vídeo em segundo plano quando movimento detectado ou quando o usuário quer"
+        }
+      },
+      "icon": "moca2_round",
+      "titles": {
+        "object-type": "Translatable",
+        "texts": {
+          "en": "MoCa2 - Motion Detection Camera and Dashcam",
+          "es": "MoCa2 - Camara de detección Movimiento y Dashcam",
+          "fr": "MoCa2 - Spy Caméra détection mouvement",
+          "pt": "MoCa2 - Spy Detecção de movimento"
+        }
+      },
+      "url": "https://play.google.com/store/search?q=moca2%20\"twelve%20stars%20software\"&c=apps",
+      "interstitialUrl": "com.twelvestars.moca2"
+    }, {
+      "object-type": "com.venussoftware.commons.adds.JzuluAdsAppInfo",
+      "descriptions": {
+        "object-type": "Translatable",
+        "texts": {
+          "en": "Know your Natal chart, Solar and Lunar returns, Transits, Progressions, Synastries and Numerology.",
+          "es": "Conoce tu carta natal, revolución solar y lunar, tránsitos, progresiones, sinastrías y numerología."
+        }
+      },
+      "icon": "astro_mate_round",
+      "titles": {
+        "object-type": "Translatable",
+        "texts": {
+          "en": "Astro Mate - Astrology, Angeology, Numerology.",
+          "es": "Astro Mate - Astrología, Angeology, Numerology."
+        }
+      },
+      "url": "https://play.google.com/store/search?q=astromate%20\"venus%20software\"&c=apps",
+      "interstitialUrl": "com.venussoftware.astromate_free"
+    }
+  ],
+  "videoAdsFrequencyMinutes" : "5",
+  "interstitialAdsFrequencyMinutes" : "5"
+}
