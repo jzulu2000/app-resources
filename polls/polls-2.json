@@ -266,7 +266,7 @@
 		{
 			"object-type": "Poll",
 			"id" : "reinstall-astromate",
-			"appsRegex" : ".*myastros_free$",
+			"appsRegex" : ".*myastrosx_free$",
 			"lapse" : 0,
 			"title" : {"registry-ref": "app-removed-title"},
 			"description" : {"registry-ref": "app-removed-reinstall-free"},
@@ -291,7 +291,7 @@
 		{
 			"object-type": "Poll",
 			"id" : "reinstall-astromate-paid",
-			"appsRegex" : ".*myastros$",
+			"appsRegex" : ".*myastrosx$",
 			"lapse" : 0,
 			"title" : {"registry-ref": "app-removed-title"},
 			"description" : {"registry-ref": "app-removed-reinstall-paid"},
