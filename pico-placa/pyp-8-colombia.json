@@ -89,6 +89,8 @@
 			"object-type": "PlatesByDayValidator", "parameters": {"plates-by-day": "2", "monday-start": "7"}
 		}, "monday:8/4" : {
 			"object-type": "PlatesByDayValidator", "parameters": {"plates-by-day": "4", "monday-start": "8"}
+		}, "monday:9/0" : {
+			"object-type": "PlatesByDayValidator", "parameters": {"plates-by-day": "9", "monday-start": "9"}
 		}, "monday:9/2" : {
 			"object-type": "PlatesByDayValidator", "parameters": {"plates-by-day": "2", "monday-start": "9"}
 		}
