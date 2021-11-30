@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"41.883331298828125","longitude":"-87.63333129882812","name":"Chicago, Illinois"},"day":"6","hour":"7","minute":"52","month":"2","name":"Ed Oberg","year":"1943"}

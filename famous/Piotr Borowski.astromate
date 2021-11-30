@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"52.25","longitude":"21.0","name":"Warsaw"},"day":"8","hour":"11","minute":"0","month":"3","name":"Piotr Borowski","year":"1977"}

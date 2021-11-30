@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-7.0","latitude":"37.33333206176758","longitude":"-121.88333129882812","name":"San Jose, California"},"day":"12","hour":"6","minute":"20","month":"6","name":"Michael Swan","year":"1948"}

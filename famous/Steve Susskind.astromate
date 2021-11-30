@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-4.0","latitude":"42.1099967956543","longitude":"-72.58332824707031","name":"Springfield, Massachusetts"},"day":"3","hour":"16","minute":"0","month":"10","name":"Steve Susskind","year":"1942"}

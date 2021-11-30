@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"42.349998474121094","longitude":"-71.05000305175781","name":"Boston, Massachusetts"},"day":"14","hour":"17","minute":"22","month":"12","name":"Brad Blakeley","year":"1951"}

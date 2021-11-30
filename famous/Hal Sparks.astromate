@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-4.0","latitude":"39.099998474121094","longitude":"-84.51666259765625","name":"Cincinnati, Ohio"},"day":"25","hour":"12","minute":"6","month":"9","name":"Hal Sparks","year":"1969"}

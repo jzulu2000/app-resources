@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"2.0","latitude":"60.166664123535156","longitude":"24.933330535888672","name":"Helsinki"},"day":"22","hour":"6","minute":"28","month":"11","name":"Ville Valo","year":"1976"}

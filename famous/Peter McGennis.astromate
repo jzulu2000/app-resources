@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-4.0","latitude":"42.89332962036133","longitude":"-78.88333129882812","name":"Buffalo, New York"},"day":"2","hour":"16","minute":"0","month":"10","name":"Peter McGennis","year":"1970"}

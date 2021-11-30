@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"42.43333053588867","longitude":"-76.5","name":"Ithaca, New York"},"day":"23","hour":"17","minute":"0","month":"3","name":"Tom Valenti","year":"1959"}

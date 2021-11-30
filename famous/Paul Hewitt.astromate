@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-4.0","latitude":"43.64999771118164","longitude":"-79.38333129882812","name":"Toronto, Ontario"},"day":"22","hour":"22","minute":"19","month":"11","name":"Paul Hewitt","year":"1949"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"60.883331298828125","longitude":"11.566664695739746","name":"Elverum"},"day":"19","hour":"1","minute":"50","month":"6","name":"Bjorn Daehlie","year":"1967"}

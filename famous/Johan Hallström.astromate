@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"59.33333206176758","longitude":"18.066665649414062","name":"Stockholm"},"day":"2","hour":"11","minute":"0","month":"6","name":"Johan Hallström","year":"1976"}

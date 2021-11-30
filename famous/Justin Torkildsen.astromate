@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-6.0","latitude":"40.016666412353516","longitude":"-105.26666259765625","name":"Boulder, Colorado"},"day":"3","hour":"18","minute":"0","month":"7","name":"Justin Torkildsen","year":"1981"}

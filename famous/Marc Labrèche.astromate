@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"45.516666412353516","longitude":"-73.54999542236328","name":"Montreal, Québec"},"day":"20","hour":"5","minute":"30","month":"11","name":"Marc Labrèche","year":"1960"}

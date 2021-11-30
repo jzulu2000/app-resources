@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"8.0","latitude":"39.14999771118164","longitude":"117.18333435058594","name":"Tianjin"},"day":"15","hour":"22","minute":"28","month":"2","name":"Eric Liddell","year":"1902"}

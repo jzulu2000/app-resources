@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"51.28333282470703","longitude":"-0.06666640192270279","name":"Caterham, England"},"day":"2","hour":"11","minute":"0","month":"3","name":"Jon Finch","year":"1942"}

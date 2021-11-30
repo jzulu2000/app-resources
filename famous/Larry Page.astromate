@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"42.73332977294922","longitude":"-84.48332977294922","name":"East Lansing, Michigan"},"day":"26","hour":"17","minute":"0","month":"3","name":"Larry Page","year":"1973"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"43.64999771118164","longitude":"-79.38333129882812","name":"Toronto, Ontario"},"day":"12","hour":"17","minute":"0","month":"2","name":"Michael Ironside","year":"1950"}

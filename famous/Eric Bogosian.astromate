@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"42.48332977294922","longitude":"-71.0999984741211","name":"Stoneham, Massachusetts"},"day":"24","hour":"17","minute":"0","month":"4","name":"Eric Bogosian","year":"1953"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"45.43333053588867","longitude":"4.399998664855957","name":"Saint-Étienne"},"day":"30","hour":"15","minute":"15","month":"5","name":"Orlan","year":"1947"}

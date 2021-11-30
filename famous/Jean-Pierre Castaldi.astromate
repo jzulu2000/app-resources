@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"2.0","latitude":"45.18333435058594","longitude":"5.716663837432861","name":"Grenoble"},"day":"1","hour":"7","minute":"45","month":"10","name":"Jean-Pierre Castaldi","year":"1944"}

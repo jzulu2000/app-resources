@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-8.0","latitude":"32.7166633605957","longitude":"-117.16000366210938","name":"San Diego, California"},"day":"21","hour":"20","minute":"0","month":"1","name":"Jerry Trainor","year":"1977"}

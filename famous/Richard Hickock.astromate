@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-5.0","latitude":"39.11666488647461","longitude":"-94.63333129882812","name":"Kansas City, Kansas"},"day":"6","hour":"6","minute":"6","month":"6","name":"Richard Hickock","year":"1931"}

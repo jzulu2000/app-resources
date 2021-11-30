@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"2.0","latitude":"57.7166633605957","longitude":"11.966662406921387","name":"Gothenburg"},"day":"16","hour":"10","minute":"0","month":"9","name":"Anton Lundqvist","year":"1989"}

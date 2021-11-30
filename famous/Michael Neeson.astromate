@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"53.33333206176758","longitude":"-6.249999046325684","name":"Dublin"},"day":"22","hour":"11","minute":"5","month":"6","name":"Michael Neeson","year":"1995"}

@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"57.783329010009766","longitude":"14.166666030883789","name":"Jönköping"},"day":"29","hour":"10","minute":"30","month":"7","name":"Dag Hammarskjöld","year":"1905"}

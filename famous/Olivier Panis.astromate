@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"45.76666259765625","longitude":"4.833330154418945","name":"Lyon"},"day":"2","hour":"12","minute":"15","month":"9","name":"Olivier Panis","year":"1966"}

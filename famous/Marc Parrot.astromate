@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"41.383331298828125","longitude":"2.183332681655884","name":"Barcelona"},"day":"14","hour":"11","minute":"0","month":"5","name":"Marc Parrot","year":"1965"}

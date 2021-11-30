@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"-4.0","latitude":"45.516666412353516","longitude":"-73.56666564941406","name":"Montreal, Québec"},"day":"9","hour":"16","minute":"0","month":"8","name":"Philippe Bergeron","year":"1959"}

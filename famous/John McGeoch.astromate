@@ -1,0 +1,1 @@
+{"object-type":"com.myastros.model.BirthInfo","city":{"object-type":"com.myastros.model.CityInfo","gmt":"1.0","latitude":"55.94999694824219","longitude":"-4.749997138977051","name":"Greenock, Scotland"},"day":"28","hour":"11","minute":"0","month":"5","name":"John McGeoch","year":"1995"}
