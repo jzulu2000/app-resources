@@ -97,18 +97,18 @@
 	},
 	"registry" : {
 		"medellin-particular-restrictions" : [
-			{"object-type": "StaticRestriction", "days": ["mon"], "plates": ["6", "7", "8", "9", "0", "1"]},
-			{"object-type": "StaticRestriction", "days": ["tue"], "plates": ["0", "1", "2", "3", "4", "5"]},
-			{"object-type": "StaticRestriction", "days": ["wed"], "plates": ["4", "5", "6", "7", "8", "9"]},
-			{"object-type": "StaticRestriction", "days": ["thu"], "plates": ["8", "9", "0", "1", "2", "3"]},
-			{"object-type": "StaticRestriction", "days": ["fri"], "plates": ["2", "3", "4", "5", "6", "7"]}
+			{"object-type": "StaticRestriction", "days": ["mon"], "plates": ["6", "9"]},
+			{"object-type": "StaticRestriction", "days": ["tue"], "plates": ["2", "3"]},
+			{"object-type": "StaticRestriction", "days": ["wed"], "plates": ["4", "8"]},
+			{"object-type": "StaticRestriction", "days": ["thu"], "plates": ["0", "7"]},
+			{"object-type": "StaticRestriction", "days": ["fri"], "plates": ["5", "1"]}
 		],
 		"medellin-moto-restrictions" : [
-			{"object-type": "StaticRestriction", "days": ["mon"], "plates": ["4", "5", "6", "7", "8", "9"]},
-			{"object-type": "StaticRestriction", "days": ["tue"], "plates": ["6", "7", "8", "9", "0", "1"]},
-			{"object-type": "StaticRestriction", "days": ["wed"], "plates": ["8", "9", "0", "1", "2", "3"]},
-			{"object-type": "StaticRestriction", "days": ["thu"], "plates": ["0", "1", "2", "3", "4", "5"]},
-			{"object-type": "StaticRestriction", "days": ["fri"], "plates": ["2", "3", "4", "5", "6", "7"]}
+			{"object-type": "StaticRestriction", "days": ["mon"], "plates": ["6", "9"]},
+			{"object-type": "StaticRestriction", "days": ["tue"], "plates": ["2", "3"]},
+			{"object-type": "StaticRestriction", "days": ["wed"], "plates": ["4", "8"]},
+			{"object-type": "StaticRestriction", "days": ["thu"], "plates": ["0", "7"]},
+			{"object-type": "StaticRestriction", "days": ["fri"], "plates": ["5", "1"]}
 		],
 		"covid-dates-extended" : [
 			"20210601", "20210602", "20210603", "20210604","20210605", "20210606", "20210607", 
@@ -258,83 +258,11 @@
 					"validator": {
 						"object-type": "StaticValidator",
 						"parameters": {},
-						"staticRestrictions": [
-							{
-								"object-type": "StaticRestriction",
-								"days": [
-									"20210906", "20210920", "20211004", "20211129", "20211213", "20211227", "20220124"
-								],
-								"plates": ["0"]
-							}, {
-								"object-type": "StaticRestriction",
-								"days": [
-									"20210907", "20210921", "20211005", "20211019", "20211102", "20211116", "20211130",
-									"20211214", "20211228", "20220111", "20220125"
-								],
-								"plates": ["1"]
-							}, {
-								"object-type": "StaticRestriction",
-								"days": [
-									"20210908", "20210922", "20211006", "20211020", "20211103", "20211117", "20211201",
-									"20211215", "20211229", "20220112", "20220126"
-								],
-								"plates": ["2"]
-							}, {
-								"object-type": "StaticRestriction",
-								"days": [
-									"20210909", "20210923", "20211007", "20211021", "20211104", "20211118", "20211202",
-									"20211216", "20211230", "20220113", "20220127"
-								],
-								"plates": ["3"]
-							}, {
-								"object-type": "StaticRestriction",
-								"days": [
-									"20210910", "20210924", "20211008", "20211022", "20211105", "20211119", "20211203",
-									"20211217", "20211231", "20220114", "20220128"
-								],
-								"plates": ["4"]
-							}, {
-								"object-type": "StaticRestriction",
-								"days": [
-									"20210913", "20210927", "20211011", "20211025", "20211108", "20211122", "20211206",
-									"20211220", "20220103", "20220117", "20220131"
-								],
-								"plates": ["5"]
-							}, {
-								"object-type": "StaticRestriction",
-								"days": [
-									"20210914", "20210928", "20211012", "20211026", "20211109", "20211123", "20211207",
-									"20220104", "20211221", "20220118"
-								],
-								"plates": ["6"]
-							}, {
-								"object-type": "StaticRestriction",
-								"days": [
-									"20210915", "20210929", "20211013", "20211027", "20211110", "20211124", "20211222",
-									"20220105", "20220119"
-								],
-								"plates": ["7"]
-							}, {
-								"object-type": "StaticRestriction",
-								"days": [
-									"20210916", "20210930", "20211014", "20211028", "20211111", "20211125", "20211209",
-									"20220106", "20211223", "20220120"
-								],
-								"plates": ["8"]
-							}, {
-								"object-type": "StaticRestriction",
-								"days": [
-									"20210917", "20211001", "20211015", "20211029", "20211112", "20211126", "20211210",
-									"20220107", "20211224", "20220121"
-								],
-								"plates": ["9"]
-							}
-						]
+						"staticRestrictions": {"registry-ref":  "medellin-particular-restrictions"}
 					},
-					"vehicles": ["particular", "particular-1996"]
+					"vehicles": ["particular", "particular-1996", "moto-2t", "moto-4t"]
 				}
-			],
-			"unrestrictedDays": {"registry-ref":  "covid-dates-extended"}
+			]
 		}, {
 			"object-type": "City",
 			"aliases": [],
