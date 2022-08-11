@@ -1,0 +1,17 @@
+{
+  "applications": {
+    "com.taurusinnovative.astronobelfree" : [
+      {
+        "places": [ "chartpage" ],
+        "implementation": "admob",
+        "enabled": "true",
+        "appId": "ca-app-pub-1493523970083082~7612020574",
+        "adsIds": {
+          "ADDS_DEFAULT_BANNER": "ca-app-pub-1493523970083082/2168122207",
+          "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1493523970083082/6498249452",
+          "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1493523970083082/1755675775"
+        }
+      }
+    ]
+  }
+}
