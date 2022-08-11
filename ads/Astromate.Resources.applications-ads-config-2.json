@@ -1,6 +1,6 @@
 {
   "applications": {
-    "com.taurusinnovative.astronobelfree" : [
+    "com.taurusinnovative.astronobelFree" : [
       {
         "places": [ "chartpage" ],
         "implementation": "admob",
