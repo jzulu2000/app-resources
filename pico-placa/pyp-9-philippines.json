@@ -1,0 +1,66 @@
+{
+	"registry" : {
+		"StaticRestriction": "com.taurusinnovative.daos.validators.StaticValidator$StaticRestriction",
+		"Schedule": "com.taurusinnovative.daos.model.Schedule",
+		"Vehicle": "com.taurusinnovative.daos.model.Vehicle",
+		"SpecialEvent": "com.taurusinnovative.daos.model.SpecialEvent",
+		"LastDigitExtractor": "com.taurusinnovative.daos.model.LastDigitExtractor",
+		"FirstDigitFoundExtractor": "com.taurusinnovative.daos.model.FirstDigitFoundExtractor",
+		"Restriction": "com.taurusinnovative.daos.model.Restriction",
+		"City": "com.taurusinnovative.daos.model.City",
+		"PlatesByDayValidator": "com.taurusinnovative.daos.validators.PlatesByDayValidator",
+		"PairImpairValidator": "com.taurusinnovative.daos.validators.PairImpairValidator",
+		"YearSecuenceValidator": "com.taurusinnovative.daos.validators.YearSecuenceValidator",
+		"StaticValidator": "com.taurusinnovative.daos.validators.StaticValidator"
+	},
+	"object-type": "com.taurusinnovative.daos.model.PyPModel",
+	"specialEvents": [],
+	"vehicles": [
+		{
+			"object-type": "Vehicle",
+			"iconRef": "car",
+			"nameRef": "vehicle_type_particular",
+			"plateColorRef": "plate_color_white",
+			"plateExtractor": {
+				"object-type": "LastDigitExtractor"
+			},
+			"textColorRef": "plate_color_black",
+			"type": "particular"
+		}
+	],
+	"country": "philippines",
+	"holidays": [
+		"20210101", "20210212", "20210401", "20210402", "20210409", "20210501", "20210612", "20210830",
+		"20211130", "20211208", "20211225", "20211230"
+	],
+	"registry" : {
+		"mon-fry:7-20" : {
+			"object-type": "Restriction",
+			"days": ["mon", "tue", "wed", "thu", "fri"],
+			"hours": [
+				{"object-type": "Schedule", "from": "420", "to": "1200"}
+			],
+			"skipOnHolidays": true,
+			"validator": {
+				"object-type": "PlatesByDayValidator",
+				"parameters": {
+					"plates-by-day": "2",
+					"monday-start": "1"
+				}
+			},
+			"vehicles": ["particular"]
+		}
+	},
+	"cities": [
+		{
+			"object-type": "City",
+			"aliases": ["makati", "las pinas", "pasig", "quezon city", "san juan", "malabon",
+				"mandaluyong", "valenzuela", "caloocan", "pasay", "las piñas", "parañaque"],
+			"name": "manila",
+			"restrictions": [
+				{ "registry-ref" : "mon-fry:7-20"}
+			],
+			"unrestrictedDays": []
+		}
+	]
+}

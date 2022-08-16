@@ -1,0 +1,85 @@
+{
+	"registry" : {
+		"StaticRestriction": "com.taurusinnovative.daos.validators.StaticValidator$StaticRestriction",
+		"Schedule": "com.taurusinnovative.daos.model.Schedule",
+		"Vehicle": "com.taurusinnovative.daos.model.Vehicle",
+		"SpecialEvent": "com.taurusinnovative.daos.model.SpecialEvent",
+		"LastDigitExtractor": "com.taurusinnovative.daos.model.LastDigitExtractor",
+		"FirstDigitFoundExtractor": "com.taurusinnovative.daos.model.FirstDigitFoundExtractor",
+		"Restriction": "com.taurusinnovative.daos.model.Restriction",
+		"City": "com.taurusinnovative.daos.model.City",
+		"PlatesByDayValidator": "com.taurusinnovative.daos.validators.PlatesByDayValidator",
+		"PairImpairValidator": "com.taurusinnovative.daos.validators.PairImpairValidator",
+		"YearSecuenceValidator": "com.taurusinnovative.daos.validators.YearSecuenceValidator",
+		"StaticValidator": "com.taurusinnovative.daos.validators.StaticValidator"
+	},
+	"registry" : {
+		"00:00-23:59": {"object-type": "Schedule", "from": "0", "to": "1439"}
+	},
+	"object-type": "com.taurusinnovative.daos.model.PyPModel",
+	"specialEvents": [
+		{
+			"object-type": "SpecialEvent",
+			"id" : "32",
+			"dates": ["2020-05-31"],
+			"city": "sao paulo",
+			"title": "Novo rodízio de veículos a partir de 11",
+			"text": "Começa a valer nesta segunda 11 o rodízio ampliado de veículos em SP; saiba como vai funcionar e quem pode circular",
+			"url": "https://g1.globo.com/sp/sao-paulo/noticia/2020/05/10/comeca-a-valer-nesta-segunda-o-rodizio-ampliado-de-veiculos-em-sp-saiba-como-vai-funcionar-e-quem-pode-circular.ghtml"
+		}
+	],
+	"vehicles": [
+		{
+			"object-type": "Vehicle",
+			"iconRef": "car",
+			"nameRef": "vehicle_type_particular",
+			"plateColorRef": "plate_color_white",
+			"plateExtractor": {
+				"object-type": "LastDigitExtractor"
+			},
+			"textColorRef": "plate_color_black",
+			"type": "particular"
+		}, {
+			"object-type": "Vehicle",
+			"iconRef": "car",
+			"nameRef": "vehicle_type_publico",
+			"plateColorRef": "plate_color_red",
+			"plateExtractor": {
+				"object-type": "LastDigitExtractor"
+			},
+			"textColorRef": "plate_color_black",
+			"type": "publico"
+		}
+	],
+	"country": "brasil",
+	"holidays": [
+		"20210101", "20210421", "20210501", "20210907", "20211012", "20211102", "20211115", "20211225"
+	],
+	"cities": [
+		{
+			"object-type": "City",
+			"aliases": [],
+			"name": "sao paulo",
+			"restrictions": [
+				{
+					"object-type": "Restriction",
+					"days": ["mon", "tue", "wed", "thu", "fri"],
+					"hours": [
+						{"object-type": "Schedule", "from": "420", "to": "600"},
+						{"object-type": "Schedule", "from": "1020", "to": "1200"}
+					],
+					"skipOnHolidays": true,
+					"validator": {
+						"object-type": "PlatesByDayValidator",
+						"parameters": {
+							"plates-by-day": "2",
+							"monday-start": "1"
+						}
+					},
+					"vehicles": ["particular", "publico"]
+				}
+			],
+			"unrestrictedDays": []
+		}
+	]
+}

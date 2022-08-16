@@ -1,0 +1,31 @@
+{
+	"registry" : {
+		"Translatable" : "com.venusinnovative.commons.polls.Translatable"
+	},
+	"numerology-model": {
+		"char-numbers" : {
+			"a": "1", "j": "1", "s": "1",
+			"b": "2", "k": "2", "t": "2",
+			"c": "3", "l": "3", "u": "3",
+			"d": "4", "m": "4", "v": "4",
+			"e": "5", "n": "5", "w": "5", "ñ": "5",
+			"f": "6", "o": "6", "x": "6",
+			"g": "7", "p": "7", "y": "7",
+			"h": "8", "q": "8", "z": "8",
+			"i": "9", "r": "9"
+
+		},
+		"new-year-dates" : ["20190928", "20200917", "20210907", "20220925", "20230915",
+			"20240903", "20250921", "20260911", "20270930", "20280918", "20290908",
+			"20300927", "20310916", "20320904", "20330923", "20340912", "20350902", "20360920",
+			"20370909", "20380928", "20390918", "20400906", "20410925", "20420914", "20430903",
+			"20440921", "20450911", "20460930", "20470919", "20480908", "20490927", "20500916"],
+		"aspects" : ["date-life", "date-cycle", "date-soul", "date-karma", "date-gift", "date-destiny",
+			"name-total", "name-inner", "name-outter"]
+	},
+	"sha256" : [
+		"A\\CFjX v#IH%NV^5y|zJPK'mGaNaS%V1+{zkSi6gG'v-Iy,5bW)c:NAc:3oR1n!I\"dVA4QDa_pE-@jCZd6W([w%O[UZx\u007FC(HJo#JT>#&q/5[3wd2F a2EaK~lji.PbknCcMnl<NBw3FjClhy1iz|y+\u007F-ub]d[?pyB)JuyT\u007FFc~>iC^tk/VbnqQ`sXn?>t8BUhO3u/,B)*v}kV0&4z !7g ${zKPhGlmStZURp3=,LyEnUW:7',Pbv'PI'J13Z+Q;4]*50HTtAgRESI_*bfjcsu`pZj1;-b/mWbzU)w8:uV}uqEtkrIQ-VX$|>;+iR|F1f{;TFQ.wCWQ9DpxpAC{tl,IyuHB;^1H",
+		"AnoatNPnlIS\u007F_;At!/zWyrPeobPaRsyvwgBNSHhLcsl+jyQaE~J'HsC/+?s-:_:x ob1<\"e\\hKu#o55m$i(EhTL8+Qo:T4\u007FEp@DaLE$/irm+2Z=wZvM\"wCux:+Y;lkab?fX,W)EwDP&B\\TUKbKF+E~D&g_|4\"j}I(~JS]G[%h@qi.0j<J'5KWQn{X\u007F\\.KNvgJ28PC|Y[^$Xb`?xhG%%@jPBCPd[}1b\\D,P;<GbcLvOKptk+CcE.XZ<rmAY\"@Dw_8C?i/%uBwUK@(/fs!bSdWY?Y9j]^@C`8}3q8{L~p\\wl}*r~I#J|ym)WlG()-XZi)R&ho8Z2)|*4bQ/xhCHt/$g_8 iO%D^c&",
+		"A&$qMAZx}I'b:QA5aszqcS@'RX<a/IWmy<U0SU%eg+Mb@yhad?>- XDQsZyG^G:JjFZ'|Eh+XKtwE 7W57!@5UMyneAj.Nx7\\j=jZl|!]]x_CEAb7osBR0K_&TSZ,zrl]wc!far3{3GW$5}1T^WiY[z9\u007FA`5=-J_WHSZSVZ?(.H9Bz\\SK=RO7^5Fj]c0)dp,\"nBYZ6-cZG[/yPLf<+M^Tg9?md#ot\\I (wL!k\")s ~i}j):2zyZn+iZ7t(O-p#]pxDyF@uQK<q]}Xa7g*moM!7+D2D;pXu$&nyTe!LG[vq^PBk p3z22v3aD1{VLDWH5A+@7kALB ;PeEuo[)z@L{<4}-d%_hRo"
+	]
+}

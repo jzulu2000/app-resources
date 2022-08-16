@@ -1,0 +1,148 @@
+{
+	"registry" : {
+		"PollsModel" : "com.venussoftware.commons.polls.PollsModel",
+		"PollOption" : "com.venussoftware.commons.polls.PollOption",
+		"Translatable" : "com.venussoftware.commons.polls.Translatable",
+		"Poll" : "com.venussoftware.commons.polls.Poll"
+	},
+	"registry" : {
+		"ask-later-option" : {
+			"object-type": "PollOption",
+			"action" : "ask-later",
+			"texts" : {
+				"en" : "Later",
+				"es" : "Luego"
+			}
+		},
+		"dont-ask-again-option" : {
+			"object-type": "PollOption",
+			"action" : "dont-ask-again",
+			"texts" : {
+				"en" : "Don't ask again",
+				"es" : "No preguntar mas"
+			}
+		},
+		"send-email-dialog" : {
+			"mail.dialog.title" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "Send us an email.",
+					"es" : "Envíanos un correo."
+				}
+			}, "mail.dialog.message" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "Do you want to send us an email with comments about the app? We will try to address any concerns.",
+					"es" : "Quieres enviarnos un email con comentarios sobre la app? Trataremos de dar solución a tus inquietudes."
+				}
+			}, "mail.dialog.ok" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "OK"
+				}
+			}, "mail.dialog.no" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "NO"
+				}
+			},"mail.send.to" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "venus.team.software@gmail.com"
+				}
+			},"mail.send.title" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "%s %s.",
+					"es" : "%s %s."
+				}
+			},"mail.send.message" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "Hello.\nHere are some thoughts I have about your app.\n 1. ",
+					"es" : "Hola.\nLes envío algunas sugerencias para la aplicación.\n 1. "
+				}
+			}
+		}
+	},
+	"object-type" : "PollsModel",
+	"polls" : [
+		{
+			"object-type": "Poll",
+			"id" : "privacy-policy",
+			"appsRegex" : ".*webmonitor_amz$|.*lyra_free$|.*gmplayer.*",
+			"lapse" : 0,
+			"title" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "Privacy Policy",
+					"es" : "Política de Privacidad"
+				}
+			},
+			"description" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "Venus Software is an ethical company. We care about the user privacy. We would like you to read the privacy policy and accept it in order to continue using the application.",
+					"es" : "Venus Software es una compañía ética. Nos importa la privacidad del usuario. Nos gustaría que leyeras la política de privacidad y que la aceptes para continuar usando la aplicación."
+				}
+			}, "okOption" : {
+			"object-type": "PollOption",
+			"action" : "dont-ask-again",
+			"texts" : {
+				"en" : "Accept Policy",
+				"es" : "Aceptar la Política"
+			},
+			"cancelable" : true
+		}, "neutralOption" : {
+			"object-type": "PollOption",
+			"action" : "open-url",
+			"texts" : {
+				"en" : "View Policy",
+				"es" : "Ver Política"
+			},
+			"actionParameters" : {
+				"address": {
+					"object-type": "Translatable",
+					"texts" : {
+						"en": "https://sites.google.com/view/twelve-stars-software/privacy-policy"
+					}
+				}
+			}
+		}
+		}, {
+			"object-type": "Poll",
+			"id" : "rateme",
+			"lapse" : 2,
+			"title" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "What do you think about our app?",
+					"es" : "Qué piensas de nuestra aplicación?"
+				}
+			}, "okOption" : {
+				"registry-ref": "ask-later-option"
+			}, "neutralOption" : {
+				"registry-ref": "dont-ask-again-option"
+			},"options" : [
+				{
+					"object-type": "PollOption",
+					"action" : "playstore",
+					"texts" : {
+						"en" : "I like it! I want to rate it in the playstore!",
+						"es" : "Me gusta! Quiero calificarla en playstore!"
+					}
+				}, {
+					"object-type": "PollOption",
+					"action" : "email",
+					"texts" : {
+						"en" : "I have comments or need to report a problem!",
+						"es" : "Quiero hacer sugerencias o reportar problema!"
+					},
+					"actionParameters" : {
+						"registry-ref" : "send-email-dialog"
+					}
+				}
+			]
+		}
+	]
+}

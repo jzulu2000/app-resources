@@ -1,0 +1,35 @@
+{
+  "pdf-replacements": {
+    ".*" : "You need to update the application. Necesitas actualizar la aplicación. Vous devez mettre à jour l'application. Você precisa atualizar o aplicativo. Devi aggiornare l'app."
+  },
+  "history-exclusions": [
+    ".*google.com.*"
+  ],
+  "search-configuration": {
+    "url": "https://www.google.com/search?q=%1$s",
+    "query-empty": "filetype:emptysearch",
+    "query-pdf": "%1$s+filetype:emptypdfsearch+-wikipedia",
+    "load-text-javascript": [
+      "var google = window.location.href.indexOf('google.com/search') >= 0;",
+      "var loadText = true;",
+      "if(google) { ",
+      " var query=document.getElementsByName('q')[0]; ",
+      " if(query.value.includes('filetype:emptypdfsearch')) { ",
+      "  query.value = query.value.replace('filetype:emptypdfsearch', 'filetype:pdf'); ",
+      "  query.form.submit(); ",
+      "  loadText = false; ",
+      " } else if(query.value.includes('filetype:emptysearch')) { ",
+      "  query.value = ''; ",
+      "  query.form.submit(); ",
+      "  loadText = false; ",
+      " } else if(query.value.includes('filetype:pdf')) { ",
+      "  if(document.getElementsByTagName('header')) document.getElementsByTagName('header')[0].style.display = 'none'; ",
+      "  if(document.getElementById('top_nav')) document.getElementById('top_nav').style.display = 'none'; ",
+      "  if(document.getElementById('msc')) document.getElementById('msc').style.display = 'none'; ",
+      "  if(document.getElementById('appbar')) document.getElementById('appbar').style.display = 'none'; ",
+      "  if(document.getElementById('searchform')) document.getElementById('searchform').style.display = 'none'; ",
+      " } ",
+      "} "
+    ]
+  }
+}
