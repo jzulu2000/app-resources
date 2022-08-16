@@ -26,7 +26,59 @@
         }
       ],
       "url": "https://www.facebook.com/groups/2592989790963455"
-    },{
+    }, {
+      "object-type": "com.twelvestars.commons.adds.JzuluAdsAppInfo",
+      "descriptions": [
+        {
+          "object-type": "com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Listen Relaxing Lightium Piano Collection"
+        },
+        {
+          "object-type": "com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "es",
+          "text": "Escucha la Relajante colección de Piano Lightium"
+        },
+        {
+          "object-type": "com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "fr",
+          "text": "Écoutez Collection de pianos Lightium relaxants"
+        },
+        {
+          "object-type": "com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "it",
+          "text": "Ascolta rilassante Lightium Piano Collection"
+        },
+        {
+          "object-type": "com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "pt",
+          "text": "Ouça a Coleção Relaxante de Piano Lightium"
+        }
+      ],
+      "icon": "ppa:https://raw.githubusercontent.com/jzulu2000/app-resources/master/ads/lightium.png",
+      "titles": [
+        {
+          "object-type": "com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Relaxing Lightium Piano Collection"
+        }, {
+          "object-type": "com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "es",
+          "text": "Relajante colección de Piano Lightium"
+        }, {
+          "object-type": "com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "fr",
+          "text": "Collection de pianos Lightium relaxants"
+        }, {
+          "object-type": "com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "it",
+          "text": "Rilassante Lightium Piano Collection"
+        }, {
+          "object-type": "com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "pt",
+          "text": "Coleção Relaxante de Piano Lightium"
+        }
+      ],
+      "url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/9918825202967911819837317601570304366375520460287355539323204519327728402444"
+    }, {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
       "descriptions": [
         {
