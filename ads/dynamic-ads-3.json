@@ -54,7 +54,7 @@
           "text": "Ouça a Coleção Relaxante de Piano Lightium"
         }
       ],
-      "icon": "ppa:https://raw.githubusercontent.com/jzulu2000/app-resources/master/ads/lightium.png",
+      "icon": "lightium3:https://raw.githubusercontent.com/jzulu2000/app-resources/master/ads/lightium.png",
       "titles": [
         {
           "object-type": "com.twelvestars.commons.adds.JzuluAdsI18Text",
