@@ -2,12 +2,12 @@
  "amazon-extractor.json" : "2018-11-22 15:30:00", 
  "amazon-extractor-2.json" : "2019-04-09 11:30:00",
  "dynamic-ads.json" : "2020-04-24 08:10:00",
- "dynamic-ads-2.json" : "2022-08-16 16:00:00",
- "dynamic-ads-3.json" : "2022-08-16 16:00:00",
- "dynamic-ads-4.json" : "2022-08-16 16:00:00",
- "dynamic-ads-5.json" : "2022-08-16 16:00:00",
- "dynamic-ads-6.json" : "2022-08-16 16:00:00",
- "dynamic-ads-7.json" : "2022-08-16 16:00:00",
+ "dynamic-ads-2.json" : "2022-08-16 17:00:00",
+ "dynamic-ads-3.json" : "2022-08-16 17:00:00",
+ "dynamic-ads-4.json" : "2022-08-16 17:00:00",
+ "dynamic-ads-5.json" : "2022-08-16 17:00:00",
+ "dynamic-ads-6.json" : "2022-08-16 17:00:00",
+ "dynamic-ads-7.json" : "2022-08-16 17:00:00",
  "applications-ads-config.json" : "2021-02-19 11:20:00",
  "applications-ads-config-2.json" : "2021-02-25 15:20:00",
  "lrc-models-2.json" : "2018-12-27 13:04:00",
@@ -30,5 +30,5 @@
  "astro-database-2.bin": "2021-04-24 00:20:00",
  "astro-database-3.bin": "2021-04-24 00:20:00",
  "astro-database-4.bin": "2021-04-24 00:14:00",
- "updates-index.json" : "2022-08-16 16:00:00"
+ "updates-index.json" : "2022-08-16 17:00:00"
 }
