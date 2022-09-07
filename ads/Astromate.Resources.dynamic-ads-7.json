@@ -1,0 +1,62 @@
+{
+  "registry": {
+    "Translatable": "com.venussoftware.commons.polls.Translatable",
+    "JzuluAdsModel": "com.venussoftware.commons.adds.JzuluAdsModel",
+    "JzuluAdsAppInfo": "com.venussoftware.commons.adds.JzuluAdsAppInfo"
+  },
+  "object-type": "JzuluAdsModel",
+  "apps": [
+    {
+      "object-type": "JzuluAdsAppInfo",
+      "descriptions": {
+        "object-type": "Translatable",
+        "texts": {
+          "en": "Join our group Passion for Astrology in Facebook",
+          "es": "Unete a nuestro grupo Pasíon por la Astrología en Facebook",
+          "fr": "Rejoignez notre groupe Passion for Astrology sur Facebook",
+          "pt": "Junte-se ao nosso grupo Passion for Astrology no Facebook",
+          "it": "Unisciti al nostro gruppo Passion for Astrology su Facebook"
+        }
+      },
+      "icon": "ppa:https://raw.githubusercontent.com/jzulu2000/app-resources/master/ads/pasion-astrologia.png",
+      "titles": {
+        "object-type": "Translatable",
+        "texts": {
+          "en": "Passionate about Astrology?",
+          "es": "Apasionado por la Astrología?",
+          "fr": "Passionné d'Astrologie?",
+          "pt": "Apaixonado por Astrologia?",
+          "it": "Appassionato di astrologia?"
+        }
+      },
+      "url": "https://www.facebook.com/groups/2592989790963455"
+    },
+    {
+      "object-type": "JzuluAdsAppInfo",
+      "descriptions": {
+        "object-type": "Translatable",
+        "texts": {
+          "en": "Listen Relaxing Lightium Piano Collection",
+          "es": "Escucha la Relajante colección de Piano Lightium",
+          "fr": "Écoutez Collection de pianos Lightium relaxants",
+          "it": "Ascolta rilassante Lightium Piano Collection",
+          "pt": "Ouça a Coleção Relaxante de Piano Lightium"
+        }
+      },
+      "icon": "lightium3:https://raw.githubusercontent.com/jzulu2000/app-resources/master/ads/lightium.png",
+      "titles": {
+        "object-type": "Translatable",
+        "texts": {
+          "en": "Relaxing Lightium Piano Collection",
+          "es": "Relajante colección de Piano Lightium",
+          "fr": "Collection de pianos Lightium relaxants",
+          "it": "Rilassante Lightium Piano Collection",
+          "pt": "Coleção Relaxante de Piano Lightium"
+        }
+      },
+      "url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/9918825202967911819837317601570304366375520460287355539323204519327728402444"
+    }
+  ],
+  "videoAdsFrequencyMinutes" : "5",
+  "interstitialAdsFrequencyMinutes" : "5"
+}
