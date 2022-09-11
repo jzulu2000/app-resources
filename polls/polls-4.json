@@ -98,8 +98,7 @@
 			"texts" : {
 				"en" : "Accept Policy",
 				"es" : "Aceptar la Política"
-			},
-			"cancelable" : true
+			}
 		}, "neutralOption" : {
 			"object-type": "PollOption",
 			"action" : "open-url",
@@ -155,7 +154,6 @@
 			"id" : "reinstall-astromate",
 			"appsRegex" : ".*myastros_free$|.*astromate_free$",
 			"lapse" : 0,
-			"cancelable" : false,
 			"title" : {
 				"object-type": "Translatable",
 				"texts" : {
