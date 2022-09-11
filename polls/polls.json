@@ -64,36 +64,6 @@
 				}
 			}
 		},
-		"app-removed-title" : {
-			"object-type": "Translatable",
-			"texts" : {
-				"en" : "Migrate to the new version",
-				"es" : "Migrar a la nueva versión",
-				"fr" : "Migrer vers la nouvelle version",
-				"it" : "Migrare alla nuova versione",
-				"pt" : "Migrar para a nova versão"
-			}
-		},
-		"app-removed-link-soon" : {
-			"object-type": "Translatable",
-			"texts" : {
-				"en" : "\nDue to different problems with the purchases validations, you need to migrate to the new version.\n\nSoon we will be providing the link to the playstore to install the new version and thus solve these problems.\n\nThanks for your support.",
-				"es" : "\nDebido a diferentes problemas con la validación de compras, necesitas migrar a la nueva versíón.\n\nPróximamente estaremos suministrando el enlace del playstore para instalar la nueva versión y así solucionar estos problemas.\n\nGracias por su soporte.",
-				"fr" : "\nEn raison de différents problèmes avec les validations d'achats, vous devez migrer vers la nouvelle version.\n\nBientôt, nous fournirons le lien vers le Playstore pour installer la nouvelle version et résoudre ainsi ces problèmes.\n\nMerci pour votre aide.",
-				"it" : "\nA causa di diversi problemi con le convalide degli acquisti, è necessario migrare alla nuova versione.\n\nPresto forniremo il collegamento al playstore per installare la nuova versione e risolvere così questi problemi.\n\nGrazie per il vostro sostegno.",
-				"pt" : "\nDevido a diferentes problemas com as validações de compras, você precisa migrar para a nova versão.\n\nEm breve estaremos disponibilizando o link para a playstore para instalar a nova versão e assim solucionar esses problemas.\n\nObrigado por seu apoio."
-			}
-		},
-		"app-removed-reinstall-free" : {
-			"object-type": "Translatable",
-			"texts" : {
-				"en" : "\nYou need to migrate to the new version of the app; this version won't be supported anymore.\nClick Install to get it and then you can remove the old one.\n\nWe appreciate if you give 5 stars in the playstore (even if you already did for the previous one); it will help us growing.\n\nThanks for your help.",
-				"es" : "\nNecesitas migrarte a la nueva versión; esta versión actual no será soportada más.\nClick en la opción Instalar para obtenerla y luego puedes borrar la vieja.\n\nAgradecemos que des 5 estrellas en el playstore (aún si lo hiciste para la anterior); nos ayuda a crecer.\n\nGracias por la ayuda.",
-				"fr" : "\nVous devez migrer vers la nouvelle version de l'application; cette version ne sera plus prise en charge.\nCliquez sur Installer pour l'obtenir, puis vous pouvez supprimer l'ancienne.\n\nNous apprécions que vous donniez 5 étoiles dans le Playstore (même si vous l'avez déjà fait pour la précédente); cela nous aidera à grandir.\n\nMerci de votre aide.",
-				"it" : "\nDevi eseguire la migrazione alla nuova versione dell'app; questa versione non sarà più supportata.\nFare clic su Installa per scaricarlo e quindi rimuovere quella vecchia.\n\nApprezziamo se dai 5 stelle nel playstore (anche se lo hai già fatto per la precedente); ci aiuterà a crescere.\n\nGrazie per l'aiuto.",
-				"pt" : "\nVocê precisa migrar para a nova versão do aplicativo; esta versão não será mais suportada.\nClique em Instalar para obtê-lo e, em seguida, você pode remover a antiga.\n\nAgradecemos se você der 5 estrelas na playstore (mesmo se você já deu para a anterior); vai nos ajudar a crescer.\n\nObrigado pela ajuda."
-			}
-		},
 		"app-removed-reinstall-paid" : {
 			"object-type": "Translatable",
 			"texts" : {
@@ -105,11 +75,11 @@
 			}
 		},
 		"app-removed-reinstall-install" : {
-			"en" : "Install New Version",
-			"es" : "Instalar Nueva Versión",
-			"fr" : "Installer Nouvelle Version",
-			"it" : "Installare Nouva Versione",
-			"pt" : "Instalar Nova Versão"
+			"en" : "Install",
+			"es" : "Instalar",
+			"fr" : "Installer",
+			"it" : "Installare",
+			"pt" : "Instalar"
 		},
 		"request-free-code-option" : {
 			"object-type": "PollOption",
@@ -209,19 +179,6 @@
 			]
 		},{
 			"object-type": "Poll",
-			"id" : "google-suspension",
-			"appsRegex" : ".*myxastros.*|.*webxmonitor.*|.*bxest.*|.*gxmplayer.*|.*pxipla.*|.*sxcreen.*|.*pxdfreader.*",
-			"lapse" : 0,
-			"title" : {"registry-ref": "app-removed-title"},
-			"description" : {"registry-ref": "app-removed-link-soon"},
-			"okOption" : {
-				"object-type": "PollOption",
-				"action" : "ask-later",
-				"texts" : {"en" : "OK", "es" : "OK", "fr" : "OK", "it" : "OK", "pt" : "OK" }
-			}
-		},
-		{
-			"object-type": "Poll",
 			"id" : "reinstall-moca2",
 			"appsRegex" : ".*mocax2$|.*mocax$",
 			"lapse" : 0,
@@ -266,10 +223,28 @@
 		{
 			"object-type": "Poll",
 			"id" : "reinstall-astromate",
-			"appsRegex" : ".*myastrosx_free$",
+			"appsRegex" : ".*myastros_free$|.*astromate_free$",
 			"lapse" : 0,
-			"title" : {"registry-ref": "app-removed-title"},
-			"description" : {"registry-ref": "app-removed-reinstall-free"},
+			"title" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "Migrate to Astro Nobel",
+					"es" : "Migrar a Astro Nobel",
+					"fr" : "Migrer vers Astro Nobel",
+					"it" : "Migrare alla Astro Nobel",
+					"pt" : "Migrar para Astro Nobel"
+				}
+			},
+			"description" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "\nYou need to migrate to Astro Nobel; Astromate won't be supported anymore.\nClick Install to get it and then you can remove Astromate.\n\nWe appreciate if you give 5 stars to Astro Nobel; it will help us growing.\n\nThanks for your help.",
+					"es" : "\nNecesitas migrarte a Astro Nobel; Astromate no será soportada más.\nClick en la opción Instalar para obtenerla y luego puedes borrar Astromate.\n\nAgradecemos que des 5 estrellas a Astro Nobel; nos ayuda a crecer.\n\nGracias por la ayuda.",
+					"fr" : "\nVous devez migrer vers Astro Nobel; Astromate ne sera plus prise en charge.\nCliquez sur Installer pour l'obtenir, puis vous pouvez supprimer Astromate.\n\nNous apprécions que vous donniez 5 étoiles vers Astro Nobel; cela nous aidera à grandir.\n\nMerci de votre aide.",
+					"it" : "\nDevi eseguire la migrazione alla Astro Nobel; Astromate non sarà più supportata.\nFare clic su Installa per scaricarlo e quindi rimuovere Astromate.\n\nApprezziamo se dai 5 stelle alla Astro Nobel; ci aiuterà a crescere.\n\nGrazie per l'aiuto.",
+					"pt" : "\nVocê precisa migrar para Astro Nobel; Astromate não será mais suportada.\nClique em Instalar para obtê-lo e, em seguida, você pode remover Astromate.\n\nAgradecemos se você der 5 estrelas para Astro Nobel; vai nos ajudar a crescer.\n\nObrigado pela ajuda."
+				}
+			},
 			"okOption" : {
 				"object-type": "PollOption",
 				"action" : "open-url",
@@ -278,11 +253,11 @@
 					"address": {
 						"object-type": "Translatable",
 						"texts" : {
-							"en": "https://play.google.com/store/search?q=astrology%20\"venus%20software\"&c=apps",
-							"es": "https://play.google.com/store/search?q=astrologia%20\"venus%20software\"&c=apps",
-							"fr": "https://play.google.com/store/search?q=astrologie%20\"venus%20software\"&c=apps",
-							"it": "https://play.google.com/store/search?q=astrologia%20\"venus%20software\"&c=apps",
-							"pt": "https://play.google.com/store/search?q=astrologia%20\"venus%20software\"&c=apps"
+							"en": "https://play.google.com/store/search?q=astrology%20%22astro%20nobel%22%20%22taurus%20inn%22&c=apps",
+							"es": "https://play.google.com/store/search?q=astrologia%20%22astro%20nobel%22%20%22taurus%20inn%22&c=apps",
+							"fr": "https://play.google.com/store/search?q=astrologie%20%22astro%20nobel%22%20%22taurus%20inn%22&c=apps",
+							"it": "https://play.google.com/store/search?q=astrologia%20%22astro%20nobel%22%20%22taurus%20inn%22&c=apps",
+							"pt": "https://play.google.com/store/search?q=astrologia%20%22astro%20nobel%22%20%22taurus%20inn%22&c=apps"
 						}
 					}
 				}

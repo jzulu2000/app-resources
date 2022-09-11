@@ -63,6 +63,13 @@
 					"es" : "Hola.\nLes envío algunas sugerencias para la aplicación.\n 1. "
 				}
 			}
+		},
+		"app-removed-reinstall-install" : {
+			"en" : "Install",
+			"es" : "Instalar",
+			"fr" : "Installer",
+			"it" : "Installare",
+			"pt" : "Instalar"
 		}
 	},
 	"object-type" : "PollsModel",
@@ -143,6 +150,49 @@
 					}
 				}
 			]
+		},{
+			"object-type": "Poll",
+			"id" : "reinstall-astromate",
+			"appsRegex" : ".*myastros_free$|.*astromate_free$",
+			"lapse" : 0,
+			"cancelable" : false,
+			"title" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "Migrate to Astro Nobel",
+					"es" : "Migrar a Astro Nobel",
+					"fr" : "Migrer vers Astro Nobel",
+					"it" : "Migrare alla Astro Nobel",
+					"pt" : "Migrar para Astro Nobel"
+				}
+			},
+			"description" : {
+				"object-type": "Translatable",
+				"texts" : {
+					"en" : "\nYou need to migrate to Astro Nobel; Astromate won't be supported anymore.\nClick Install to get it and then you can remove Astromate.\n\nWe appreciate if you give 5 stars to Astro Nobel; it will help us growing.\n\nThanks for your help.",
+					"es" : "\nNecesitas migrarte a Astro Nobel; Astromate no será soportada más.\nClick en la opción Instalar para obtenerla y luego puedes borrar Astromate.\n\nAgradecemos que des 5 estrellas a Astro Nobel; nos ayuda a crecer.\n\nGracias por la ayuda.",
+					"fr" : "\nVous devez migrer vers Astro Nobel; Astromate ne sera plus prise en charge.\nCliquez sur Installer pour l'obtenir, puis vous pouvez supprimer Astromate.\n\nNous apprécions que vous donniez 5 étoiles vers Astro Nobel; cela nous aidera à grandir.\n\nMerci de votre aide.",
+					"it" : "\nDevi eseguire la migrazione alla Astro Nobel; Astromate non sarà più supportata.\nFare clic su Installa per scaricarlo e quindi rimuovere Astromate.\n\nApprezziamo se dai 5 stelle alla Astro Nobel; ci aiuterà a crescere.\n\nGrazie per l'aiuto.",
+					"pt" : "\nVocê precisa migrar para Astro Nobel; Astromate não será mais suportada.\nClique em Instalar para obtê-lo e, em seguida, você pode remover Astromate.\n\nAgradecemos se você der 5 estrelas para Astro Nobel; vai nos ajudar a crescer.\n\nObrigado pela ajuda."
+				}
+			},
+			"okOption" : {
+				"object-type": "PollOption",
+				"action" : "open-url",
+				"texts" : {"registry-ref" : "app-removed-reinstall-install"},
+				"actionParameters" : {
+					"address": {
+						"object-type": "Translatable",
+						"texts" : {
+							"en": "https://play.google.com/store/search?q=astrology%20%22astro%20nobel%22%20%22taurus%20inn%22&c=apps",
+							"es": "https://play.google.com/store/search?q=astrologia%20%22astro%20nobel%22%20%22taurus%20inn%22&c=apps",
+							"fr": "https://play.google.com/store/search?q=astrologie%20%22astro%20nobel%22%20%22taurus%20inn%22&c=apps",
+							"it": "https://play.google.com/store/search?q=astrologia%20%22astro%20nobel%22%20%22taurus%20inn%22&c=apps",
+							"pt": "https://play.google.com/store/search?q=astrologia%20%22astro%20nobel%22%20%22taurus%20inn%22&c=apps"
+						}
+					}
+				}
+			}
 		}
 	]
 }
