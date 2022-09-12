@@ -12,15 +12,21 @@
         "object-type": "Translatable",
         "texts": {
           "en": "Join our group Passion for Astrology in Facebook",
-          "es": "Unete a nuestro grupo Pasíon por la Astroogía en Facebook"
+          "es": "Unete a nuestro grupo Pasíon por la Astrología en Facebook",
+          "fr": "Rejoignez notre groupe Passion for Astrology sur Facebook",
+          "pt": "Junte-se ao nosso grupo Passion for Astrology no Facebook",
+          "it": "Unisciti al nostro gruppo Passion for Astrology su Facebook"
         }
       },
       "icon": "ppa:https://raw.githubusercontent.com/jzulu2000/app-resources/master/ads/pasion-astrologia.png",
       "titles": {
         "object-type": "Translatable",
         "texts": {
-          "en": "Passion for Astrology?",
-          "es": "Pasión por la Astrología?"
+          "en": "Passionate about Astrology?",
+          "es": "Apasionado por la Astrología?",
+          "fr": "Passionné d'Astrologie?",
+          "pt": "Apaixonado por Astrologia?",
+          "it": "Appassionato di astrologia?"
         }
       },
       "url": "https://www.facebook.com/groups/2592989790963455"
@@ -29,43 +35,50 @@
       "descriptions": {
         "object-type": "Translatable",
         "texts": {
-          "en": "Records video when motion is detected or by user request, even with screen off .",
-          "es": "Graba video al detectar movimiento o cuando el usuario lo requiera, incluso con pantalla apagada.",
-          "fr": "Enregistre la vidéo en arrière-plan lorsqu'un mouvement est détecté.",
-          "pt": "Grava vídeo em segundo plano quando movimento detectado ou quando o usuário quer"
+          "en": "Listen Relaxing Lightium Piano Collection",
+          "es": "Escucha la Relajante colección de Piano Lightium",
+          "fr": "Écoutez Collection de pianos Lightium relaxants",
+          "it": "Ascolta rilassante Lightium Piano Collection",
+          "pt": "Ouça a Coleção Relaxante de Piano Lightium"
         }
       },
-      "icon": "moca2_round",
+      "icon": "lightium3:https://raw.githubusercontent.com/jzulu2000/app-resources/master/ads/lightium.png",
       "titles": {
         "object-type": "Translatable",
         "texts": {
-          "en": "MoCa2 - Motion Detection Camera and Dashcam",
-          "es": "MoCa2 - Camara de detección Movimiento y Dashcam",
-          "fr": "MoCa2 - Spy Caméra détection mouvement",
-          "pt": "MoCa2 - Spy Detecção de movimento"
+          "en": "Relaxing Lightium Piano Collection",
+          "es": "Relajante colección de Piano Lightium",
+          "fr": "Collection de pianos Lightium relaxants",
+          "it": "Rilassante Lightium Piano Collection",
+          "pt": "Coleção Relaxante de Piano Lightium"
         }
       },
-      "url": "https://play.google.com/store/search?q=moca2%20\"twelve%20stars%20software\"&c=apps",
-      "interstitialUrl": "com.taurusinnovative.moca2"
+      "url": "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/9918825202967911819837317601570304366375520460287355539323204519327728402444"
     }, {
       "object-type": "com.taurusinnovative.commons.adds.JzuluAdsAppInfo",
       "descriptions": {
         "object-type": "Translatable",
         "texts": {
           "en": "Know your Natal chart, Solar and Lunar returns, Transits, Progressions, Synastries and Numerology.",
-          "es": "Conoce tu carta natal, revolución solar y lunar, tránsitos, progresiones, sinastrías y numerología."
+          "es": "Conoce tu carta natal, revolución solar y lunar, tránsitos, progresiones, sinastrías y numerología.",
+          "fr": "Connaissez votre thème astral, révolution solaire et lunaire, transits, progressions, synastries et numérologie.",
+          "it": "Conosci tuo tema natale, rivoluzione solare e lunare, transiti, progressioni, sinastrie e numerologia.",
+          "pt": "Conheça seu mapa natal, revolução solar e lunar, trânsitos, progressões, sinastrias e numerologia."
         }
       },
       "icon": "astro_mate_round",
       "titles": {
         "object-type": "Translatable",
         "texts": {
-          "en": "Zodiac - Astrology, Angeology, Numerology.",
-          "es": "Zodiag - Astrología, Angeology, Numerology."
+          "en": "Astro Nobel - Astrology, Angeology, Numerology.",
+          "es": "Astro Nobel - Astrología, Angeologia, Numerologia.",
+          "fr": "Astro Nobel - Astrologie, Angélologie, Numérologie",
+          "it": "Astro Nobel - Astrologia, Angelologia, Numerologia",
+          "pt": "Astro Nobel - Astrologia, Angelologia, Numerologia"
         }
       },
-      "url": "https://play.google.com/store/search?q=zodiac%20\"taurus%20innovative\"&c=apps",
-      "interstitialUrl": "com.taurusinnovative.zodiac_free"
+      "url": "https://play.google.com/store/search?q=astrology%20\"astro%20nobel\"%20\"taurus%20innovative\"&c=apps",
+      "interstitialUrl": "com.taurusinnovative.astronobel"
     }
   ],
   "videoAdsFrequencyMinutes" : "5",
