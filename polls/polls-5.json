@@ -48,7 +48,7 @@
 			},"mail.send.to" : {
 				"object-type": "Translatable",
 				"texts" : {
-					"en" : "contact@taurusinnovative.com"
+					"en" : "contact.astro.nobel@gmail.com"
 				}
 			},"mail.send.title" : {
 				"object-type": "Translatable",
@@ -91,8 +91,7 @@
 			"texts" : {
 				"en" : "Accept Policy",
 				"es" : "Aceptar la Política"
-			},
-			"cancelable" : true
+			}
 		}, "neutralOption" : {
 			"object-type": "PollOption",
 			"action" : "open-url",
