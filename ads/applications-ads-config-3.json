@@ -1,7 +1,7 @@
 {
-  "com.taurusinnovative.zodiac_free" : [
+  "com.taurusinnovative.trips" : [
     {
-      "places": ["chartactivity"],
+      "places": ["tripsactivity"],
       "implementation": "facebook",
       "enabled": "true",
       "appId": "",
@@ -11,7 +11,7 @@
         "ADDS_DEFAULT_VIDEO_REWARD": ""
       }
     }, {
-      "places": ["chartactivity"],
+      "places": ["tripsactivity"],
       "implementation": "admob",
       "enabled": "true",
       "appId": "ca-app-pub-7049824245009633~8469673262",
@@ -23,7 +23,31 @@
     }
   ],
 
-  "com.taurusinnovative.speechit_free" : [
+  "com.taurusinnovative.astronobel" : [
+    {
+      "places": ["chartactivity"],
+      "implementation": "facebook",
+      "enabled": "true",
+      "appId": "",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "3831874050415248_3831888430413810",
+        "ADDS_DEFAULT_INTERSTITIAL": "3831874050415248_3831889210413732",
+        "ADDS_DEFAULT_VIDEO_REWARD": "3831874050415248_3831890043746982"
+      }
+    }, {
+      "places": ["chartactivity"],
+      "implementation": "admob",
+      "enabled": "false",
+      "appId": "ca-app-pub-7049824245009633~8469673262",
+      "adsIds": {
+        "ADDS_DEFAULT_BANNER": "ca-app-pub-7049824245009633/5843509920",
+        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-7049824245009633/5651938236",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-7049824245009633/3025774898"
+      }
+    }
+  ],
+
+  "com.taurusinnovative.speechit" : [
     {
       "places": ["texttospeechactivity", "settings.settingsactivity"],
       "implementation": "facebook",
@@ -38,17 +62,17 @@
       "places": ["texttospeechactivity", "settings.settingsactivity"],
       "implementation": "admob",
       "enabled": "true",
-      "appId": "ca-app-pub-1152574200163807~1826675652",
+      "appId": "ca-app-pub-3940256099942544/3419835294",
       "adsIds": {
-        "ADDS_DEFAULT_BANNER": "ca-app-pub-1152574200163807/1998722588",
-        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1152574200163807/7378385238",
-        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1152574200163807/4752221894"
+        "ADDS_DEFAULT_BANNER": "ca-app-pub-3940256099942544/6300978111",
+        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-3940256099942544/1033173712",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-3940256099942544/5224354917"
       }
     }
   ],
 
 
-  "com.taurusinnovative.lyra_free": [
+  "com.taurusinnovative.lyra": [
     {
       "places": ["ui.fullscreenplayeractivity", "ui.musicplayeractivity"],
       "implementation": "facebook",
@@ -84,7 +108,7 @@
 
 
 
-  "com.taurusinnovative.piplaWorld": [
+  "com.taurusinnovative.pypla": [
     {
       "places": ["notificationactivity", "restrictionsactivity"],
       "implementation": "facebook",
@@ -119,7 +143,7 @@
     }
   ],
 
-  "co.com.taurusinnovative.gmplayer": [
+  "co.com.taurusinnovative.lyraplugin": [
     {
       "places": ["lyricsplayeractivity"],
       "implementation": "admob",
@@ -133,7 +157,7 @@
     }
   ],
 
-  "com.taurusinnovative.moca2": [
+  "com.taurusinnovative.sherlock": [
     {
       "places": ["cameraactivity"],
       "implementation": "facebook",
@@ -158,7 +182,7 @@
   ],
 
 
-  "com.taurusinnovative.webmonitor": [
+  "com.taurusinnovative.httpmonitor": [
     {
       "places": ["editurlsactivity", "listurlsactivity"],
       "implementation": "admob",
@@ -173,7 +197,7 @@
   ],
 
 
-  "com.taurusinnovative.webmonitor_amz": [
+  "com.taurusinnovative.amazonmonitor": [
     {
       "places": ["editurlsactivity", "listurlsactivity"],
       "implementation": "admob",
@@ -213,7 +237,7 @@
   ],
 
 
-  "com.taurusinnovative.screenRecorder" : [
+  "com.taurusinnovative.sarecorder" : [
     {
       "places": ["recorderactivity", "mainactivity"],
       "implementation": "admob",
