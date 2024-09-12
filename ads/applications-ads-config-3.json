@@ -28,7 +28,7 @@
       "places": ["chartactivity"],
       "implementation": "facebook",
       "enabled": "true",
-      "appId": "3831874050415248",
+      "appId": "",
       "adsIds": {
         "ADDS_DEFAULT_BANNER": "3831874050415248_3831888430413810",
         "ADDS_DEFAULT_INTERSTITIAL": "3831874050415248_3831889210413732",
