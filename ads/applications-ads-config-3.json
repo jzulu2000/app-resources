@@ -54,14 +54,14 @@
       "enabled": "true",
       "appId": "",
       "adsIds": {
-        "ADDS_DEFAULT_BANNER": "2358301060980091_2358301107646753",
-        "ADDS_DEFAULT_INTERSTITIAL": "2358301060980091_2358301097646754",
-        "ADDS_DEFAULT_VIDEO_REWARD": ""
+        "ADDS_DEFAULT_BANNER": "834936438823656_834937535490213",
+        "ADDS_DEFAULT_INTERSTITIAL": "834936438823656_834937648823535",
+        "ADDS_DEFAULT_VIDEO_REWARD": "834936438823656_834937738823526"
       }
     }, {
       "places": ["texttospeechactivity", "settings.settingsactivity"],
       "implementation": "admob",
-      "enabled": "true",
+      "enabled": "false",
       "appId": "ca-app-pub-3940256099942544/3419835294",
       "adsIds": {
         "ADDS_DEFAULT_BANNER": "ca-app-pub-3940256099942544/6300978111",
