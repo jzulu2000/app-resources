@@ -31,31 +31,30 @@
       },
       "url": "https://play.google.com/store/search?q=astrology%20\"astro%20nobel\"%20\"taurus%20inn\"&c=apps",
       "interstitialUrl": "com.taurusinnovative.astronobel"
-    }, {
-      "object-type": "com.taurusinnovative.commons.adds.JzuluAdsAppInfo",
+    } , {
+      "object-type": "JzuluAdsAppInfo",
       "descriptions": {
         "object-type": "Translatable",
         "texts": {
-          "en": "Know your Natal chart, Solar and Lunar returns, Transits, Progressions, Synastries and Numerology.",
-          "es": "Conoce tu carta natal, revolución solar y lunar, tránsitos, progresiones, sinastrías y numerología.",
-          "fr": "Connaissez votre thème astral, révolution solaire et lunaire, transits, progressions, synastries et numérologie.",
-          "it": "Conosci tuo tema natale, rivoluzione solare e lunare, transiti, progressioni, sinastrie e numerologia.",
-          "pt": "Conheça seu mapa natal, revolução solar e lunar, trânsitos, progressões, sinastrias e numerologia."
+          "en": "Join Passion for Astrology group in Facebook",
+          "es": "Unete al grupo Pasíon por la Astrología en Facebook",
+          "fr": "Rejoignez groupe Passion for Astrology sur Facebook",
+          "pt": "Junte-se ao grupo Passion for Astrology no Facebook",
+          "it": "Unisciti al gruppo Passion for Astrology su Facebook"
         }
       },
-      "icon": "astro_mate_round",
+      "icon": "ppa:https://raw.githubusercontent.com/jzulu2000/app-resources/master/ads/pasion-astrologia.png",
       "titles": {
         "object-type": "Translatable",
         "texts": {
-          "en": "Astro Nobel - Astrology, Angeology, Numerology.",
-          "es": "Astro Nobel - Astrología, Angeologia, Numerologia.",
-          "fr": "Astro Nobel - Astrologie, Angélologie, Numérologie",
-          "it": "Astro Nobel - Astrologia, Angelologia, Numerologia",
-          "pt": "Astro Nobel - Astrologia, Angelologia, Numerologia"
+          "en": "Passionate about Astrology?",
+          "es": "Apasionado por la Astrología?",
+          "fr": "Passionné d'Astrologie?",
+          "pt": "Apaixonado por Astrologia?",
+          "it": "Appassionato di astrologia?"
         }
       },
-      "url": "https://play.google.com/store/search?q=astrology%20\"astro%20nobel\"%20\"taurus%20inn\"&c=apps",
-      "interstitialUrl": "com.taurusinnovative.astronobel"
+      "url": "https://www.facebook.com/groups/2592989790963455"
     }
   ],
   "videoAdsFrequencyMinutes" : "5",
