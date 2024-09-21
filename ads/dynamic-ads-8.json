@@ -31,6 +31,31 @@
       },
       "url": "https://play.google.com/store/search?q=astrology%20\"astro%20nobel\"%20\"taurus%20inn\"&c=apps",
       "interstitialUrl": "com.taurusinnovative.astronobel"
+    }, {
+      "object-type": "com.taurusinnovative.commons.adds.JzuluAdsAppInfo",
+      "descriptions": {
+        "object-type": "Translatable",
+        "texts": {
+          "en": "Know your Natal chart, Solar and Lunar returns, Transits, Progressions, Synastries and Numerology.",
+          "es": "Conoce tu carta natal, revolución solar y lunar, tránsitos, progresiones, sinastrías y numerología.",
+          "fr": "Connaissez votre thème astral, révolution solaire et lunaire, transits, progressions, synastries et numérologie.",
+          "it": "Conosci tuo tema natale, rivoluzione solare e lunare, transiti, progressioni, sinastrie e numerologia.",
+          "pt": "Conheça seu mapa natal, revolução solar e lunar, trânsitos, progressões, sinastrias e numerologia."
+        }
+      },
+      "icon": "astro_mate_round",
+      "titles": {
+        "object-type": "Translatable",
+        "texts": {
+          "en": "Astro Nobel - Astrology, Angeology, Numerology.",
+          "es": "Astro Nobel - Astrología, Angeologia, Numerologia.",
+          "fr": "Astro Nobel - Astrologie, Angélologie, Numérologie",
+          "it": "Astro Nobel - Astrologia, Angelologia, Numerologia",
+          "pt": "Astro Nobel - Astrologia, Angelologia, Numerologia"
+        }
+      },
+      "url": "https://play.google.com/store/search?q=astrology%20\"astro%20nobel\"%20\"taurus%20inn\"&c=apps",
+      "interstitialUrl": "com.taurusinnovative.astronobel"
     }
   ],
   "videoAdsFrequencyMinutes" : "5",
