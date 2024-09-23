@@ -43,7 +43,7 @@
   "search-configuration": {
     "url": "https://www.google.com/search?q=%1$s",
     "query-empty": "filetype:emptysearch",
-    "query-pdf": "%1$s+filetype:emptypdfsearch+-wikipedia",
+    "query-pdf": "%1$s+filetype:emptypdfsearch",
     "load-text-javascript": [
       "var google = window.location.href.indexOf('google.com/search') >= 0;",
       "var loadText = true;",
