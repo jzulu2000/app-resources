@@ -70,7 +70,7 @@
           "ru": "Читай вслух книги, PDF-файлы, веб-страницы и сообщения WhatsApp, занимаясь другими делами."
         }
       },
-      "icon": "speechit:https://raw.githubusercontent.com/jzulu2000/app-resources/master/ads/speechit.png",
+        "icon": "speechit:https://raw.githubusercontent.com/jzulu2000/app-resources/master/ads/speechit.png",
       "titles": {
         "object-type": "Translatable",
         "texts": {
