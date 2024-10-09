@@ -38,11 +38,11 @@
       "places": ["chartactivity"],
       "implementation": "admob",
       "enabled": "false",
-      "appId": "ca-app-pub-7049824245009633~8469673262",
+      "appId": "ca-app-pub-1493523970083082~7961287124",
       "adsIds": {
-        "ADDS_DEFAULT_BANNER": "ca-app-pub-7049824245009633/5843509920",
-        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-7049824245009633/5651938236",
-        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-7049824245009633/3025774898"
+        "ADDS_DEFAULT_BANNER": "ca-app-pub-1493523970083082/2062927334",
+        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1493523970083082/7533949702",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1493523970083082/7779058952"
       }
     }
   ],
@@ -61,12 +61,12 @@
     }, {
       "places": ["texttospeechactivity", "settings.settingsactivity"],
       "implementation": "admob",
-      "enabled": "false",
-      "appId": "ca-app-pub-3940256099942544/3419835294",
+      "enabled": "true",
+      "appId": "ca-app-pub-1493523970083082~6503901073",
       "adsIds": {
-        "ADDS_DEFAULT_BANNER": "ca-app-pub-3940256099942544/6300978111",
-        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-3940256099942544/1033173712",
-        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-3940256099942544/5224354917"
+        "ADDS_DEFAULT_BANNER": "ca-app-pub-1493523970083082/5125809601",
+        "ADDS_DEFAULT_INTERSTITIAL": "ca-app-pub-1493523970083082/5487205018",
+        "ADDS_DEFAULT_VIDEO_REWARD": "ca-app-pub-1493523970083082/8873482925"
       }
     }
   ],
