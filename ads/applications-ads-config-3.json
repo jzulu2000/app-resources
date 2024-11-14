@@ -37,7 +37,7 @@
     }, {
       "places": ["chartactivity"],
       "implementation": "admob",
-      "enabled": "false",
+      "enabled": "true",
       "appId": "ca-app-pub-1493523970083082~7961287124",
       "adsIds": {
         "ADDS_DEFAULT_BANNER": "ca-app-pub-1493523970083082/2062927334",
