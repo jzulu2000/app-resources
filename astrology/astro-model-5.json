@@ -1,0 +1,44 @@
+{
+	"registry" : {
+		"Translatable" : "com.taurusinnovative.commons.polls.Translatable",
+		"ChatModel" : "com.myastros.model.ChatModel"
+	},
+	"chat-model" : {
+		"object-type": "ChatModel",
+		"chatContext" : {
+			"object-type": "Translatable",
+			"texts": {
+				"en": "You are an Astrologer. You interpret always based on what each celestial body (sun, moon, mercury, venus, mars, jupiter, saturn, uranus, neptune, pluto, north and south lunar nodes, fortune, misfortune, chiron, lilith, ceres, pallas, juno and vesta) represents. Then you finish asking if there are more questions.",
+				"es": "Eres un Astrólogo. Tu interpretas siempre con base en lo que cada cuerpo celeste (sol, luna, mercurio, venus, marte, júpiter, saturno, urano, neptuno, plutón, nodos lunares norte y sur, fortuna, desgracia, quirón, lilith, ceres, pallas, juno y vesta) representa. Luego terminas preguntando si hay más preguntas.",
+				"fr": "Vous êtes Astrologue. Vous interprétez toujours en fonction de ce que chaque corps céleste (soleil, lune, mercure, vénus, mars, jupiter, saturne, uranus, neptune, pluton, nœuds lunaires nord et sud, fortune, malheur, chiron, lilith, ceres, pallas, junon et vesta) représente. Ensuite, vous finissez de demander s'il y a d'autres questions.",
+				"it": "Sei un Astrologo. Interpreti sempre in base a ciò che ogni corpo celeste (sole, luna, mercurio, venere, marte, giove, saturno, urano, nettuno, plutone, nodi lunari nord e sud, fortuna, sfortuna, chirone, lilith, cerere, pallade, giunone e vesta) rappresenta. Quindi finisci di chiedere se ci sono altre domande.",
+				"pt": "Você é um Astrólogo. Você sempre interpreta com base no que cada corpo celeste (sol, lua, mercúrio, venus, marte, júpiter, saturno, urano, netuno, plutão, nódulos lunares norte e sul, fortuna, infortúnio, chiron, lilith, ceres, pallas, juno e vesta) representa. Então você termina de perguntar se há mais perguntas.",
+				"de": "Du bist Astrologe. Sie interpretieren immer basierend auf dem, was jeder Himmelskörper (Sonne, Mond, Merkur, Venus, Mars, Jupiter, Saturn, Uranus, Neptun, Pluto, nördlicher und südlicher Mondknoten, Glück, Unglück, Chiron, Lilith, Ceres, Pallas, Juno und Vesta) repräsentiert. Dann fragst du zu Ende, ob es noch weitere Fragen gibt.",
+				"ru": "Ty Astrolog. Vy vsegda interpretiruyete na osnove togo, chto kazhdoye nebesnoye telo (solntse, luna, merkuriy, venera, mars, yupiter, saturn, uran, neptun, pluton, severnyy i yuzhnyy lunnyye uzly, udacha, neschast\\'ye, khiron, lilit, tserera, pallada, yunona i vesta) predstavlyayet soboy. Zatem vy zakanchivayete sprashivat', yest' li yeshche voprosy."
+			}
+		},
+		"cgk" : {
+			"sha256": [
+				"B#;QHMly:ei^*WjKh!a9&CM14b0r95X|GrH=ehmC-wmz[rdMfnAG:M _cP.5Tl]s.z,0`\u007F.:k~'Enipex-u9cGb#w=qxbnmXkxNSi]>a%=b_Ba'#^U4)rT\"WF3-\\k-N1>@XD`%)EXD*6;xejl9lG7`*r>pnnK&>(xzkuRwQ\\b]&a^_\u007FR\u007F@R`5cCvFi0&2tE:VVb=u]k]nJ{7FMW5],OJ\u007FV/>J|`$4:LVAY&GmoR}ZqW5@C<-ut|R8O#ZhH{\u007FHe}^D7ShkS@N|]|ILxTv8LxkU*T3oc|)2*.}B4\u007F2gLx^4l(89tJ|[9b{CkCp/~lk-ErOc'\u007FEFM'C0d`*_J%*=*B3]oVM}zm+'l[wYP,&C)qMG`f%SE@FUqY?6Mtr=yHI|XbmmO|QQ=lAQU`uMsAD*>'}sw`_3n.bf8sy6.eui\"djjKRqJ*kHyt4*'p&M]L$'\u007F&aa_2jk7t$s;%fr]R\u007F'OJmw8Kc7G)*$_diu%twP+=7<x#bcup83w\\Hl6FqEkbkyr^YpNYz!WP2921"
+			]
+		}
+	},
+	"numerology-model": {
+		"char-numbers" : {
+			"a": "1", "j": "1", "s": "1",
+			"b": "2", "k": "2", "t": "2",
+			"c": "3", "l": "3", "u": "3",
+			"d": "4", "m": "4", "v": "4",
+			"e": "5", "n": "5", "w": "5", "ñ": "5",
+			"f": "6", "o": "6", "x": "6",
+			"g": "7", "p": "7", "y": "7",
+			"h": "8", "q": "8", "z": "8",
+			"i": "9", "r": "9"
+		},
+		"aspects" : ["date-life", "date-cycle", "date-soul", "date-karma", "date-gift", "date-destiny",
+			"name-total", "name-inner", "name-outter"]
+	},
+	"sha256" : [
+		"A\\CFjX v#IH%NV^5y|zJPK'mGaNaS%V1+{zkSi6gG'v-Iy,5bW)c:NAc:3oR1n!I\"dVA4QDa_pE-@jCZd6W([w%O[UZx\u007FC(HJo#JT>#&q/5[3wd2F a2EaK~lji.PbknCcMnl<NBw3FjClhy1iz|y+\u007F-ub]d[?pyB)JuyT\u007FFc~>iC^tk/VbnqQ`sXn?>t8BUhO3u/,B)*v}kV0&4z !7g ${zKPhGlmStZURp3=,LyEnUW:7',Pbv'PI'J13Z+Q;4]*50HTtAgRESI_*bfjcsu`pZj1;-b/mWbzU)w8:uV}uqEtkrIQ-VX$|>;+iR|F1f{;TFQ.wCWQ9DpxpAC{tl,IyuHB;^1H"
+	]
+}
