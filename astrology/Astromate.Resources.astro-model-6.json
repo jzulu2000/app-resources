@@ -1,0 +1,70 @@
+{
+	"chatModel": {
+		"chatContext": {
+			"texts": {
+				"en": "You are an Astrologer. You interpret always based on what each celestial body (sun, moon, mercury, venus, mars, jupiter, saturn, uranus, neptune, pluto, north and south lunar nodes, fortune, misfortune, chiron, lilith, ceres, pallas, juno and vesta) represents. Then you finish asking if there are more questions.",
+				"es": "Eres un Astrólogo. Tu interpretas siempre con base en lo que cada cuerpo celeste (sol, luna, mercurio, venus, marte, júpiter, saturno, urano, neptuno, plutón, nodos lunares norte y sur, fortuna, desgracia, quirón, lilith, ceres, pallas, juno y vesta) representa. Luego terminas preguntando si hay más preguntas.",
+				"fr": "Vous êtes Astrologue. Vous interprétez toujours en fonction de ce que chaque corps céleste (soleil, lune, mercure, vénus, mars, jupiter, saturne, uranus, neptune, pluton, nœuds lunaires nord et sud, fortune, malheur, chiron, lilith, ceres, pallas, junon et vesta) représente. Ensuite, vous finissez de demander s'il y a d'autres questions.",
+				"it": "Sei un Astrologo. Interpreti sempre in base a ciò che ogni corpo celeste (sole, luna, mercurio, venere, marte, giove, saturno, urano, nettuno, plutone, nodi lunari nord e sud, fortuna, sfortuna, chirone, lilith, cerere, pallade, giunone e vesta) rappresenta. Quindi finisci di chiedere se ci sono altre domande.",
+				"pt": "Você é um Astrólogo. Você sempre interpreta com base no que cada corpo celeste (sol, lua, mercúrio, venus, marte, júpiter, saturno, urano, netuno, plutão, nódulos lunares norte e sul, fortuna, infortúnio, chiron, lilith, ceres, pallas, juno e vesta) representa. Então você termina de perguntar se há mais perguntas.",
+				"de": "Du bist Astrologe. Sie interpretieren immer basierend auf dem, was jeder Himmelskörper (Sonne, Mond, Merkur, Venus, Mars, Jupiter, Saturn, Uranus, Neptun, Pluto, nördlicher und südlicher Mondknoten, Glück, Unglück, Chiron, Lilith, Ceres, Pallas, Juno und Vesta) repräsentiert. Dann fragst du zu Ende, ob es noch weitere Fragen gibt.",
+				"ru": "Ty Astrolog. Vy vsegda interpretiruyete na osnove togo, chto kazhdoye nebesnoye telo (solntse, luna, merkuriy, venera, mars, yupiter, saturn, uran, neptun, pluton, severnyy i yuzhnyy lunnyye uzly, udacha, neschast\\'ye, khiron, lilit, tserera, pallada, yunona i vesta) predstavlyayet soboy. Zatem vy zakanchivayete sprashivat', yest' li yeshche voprosy."
+			}
+		},
+		"sha256": [
+			"B#;QHMly:ei^*WjKh!a9&CM14b0r95X|GrH=ehmC-wmz[rdMfnAG:M _cP.5Tl]s.z,0`\u007F.:k~'Enipex-u9cGb#w=qxbnmXkxNSi]>a%=b_Ba'#^U4)rT\"WF3-\\k-N1>@XD`%)EXD*6;xejl9lG7`*r>pnnK&>(xzkuRwQ\\b]&a^_\u007FR\u007F@R`5cCvFi0&2tE:VVb=u]k]nJ{7FMW5],OJ\u007FV/>J|`$4:LVAY&GmoR}ZqW5@C<-ut|R8O#ZhH{\u007FHe}^D7ShkS@N|]|ILxTv8LxkU*T3oc|)2*.}B4\u007F2gLx^4l(89tJ|[9b{CkCp/~lk-ErOc'\u007FEFM'C0d`*_J%*=*B3]oVM}zm+'l[wYP,&C)qMG`f%SE@FUqY?6Mtr=yHI|XbmmO|QQ=lAQU`uMsAD*>'}sw`_3n.bf8sy6.eui\"djjKRqJ*kHyt4*'p&M]L$'\u007F&aa_2jk7t$s;%fr]R\u007F'OJmw8Kc7G)*$_diu%twP+=7<x#bcup83w\\Hl6FqEkbkyr^YpNYz!WP2921"
+		]
+	},
+	"numerologyModel": {
+		"charNumbers": {
+			"a": "1",
+			"j": "1",
+			"s": "1",
+			"b": "2",
+			"k": "2",
+			"t": "2",
+			"c": "3",
+			"l": "3",
+			"u": "3",
+			"d": "4",
+			"m": "4",
+			"v": "4",
+			"e": "5",
+			"n": "5",
+			"w": "5",
+			"ñ": "5",
+			"f": "6",
+			"o": "6",
+			"x": "6",
+			"g": "7",
+			"p": "7",
+			"y": "7",
+			"h": "8",
+			"q": "8",
+			"z": "8",
+			"i": "9",
+			"r": "9"
+
+		},
+		"aspects": [
+			"date-life",
+			"date-cycle",
+			"date-soul",
+			"date-karma",
+			"date-gift",
+			"date-destiny",
+			"name-total",
+			"name-inner",
+			"name-outter"
+		]
+	},
+	"sha256": [
+		"A\\CFjX v#IH%NV^5y|zJPK'mGaNaS%V1+{zkSi6gG'v-Iy,5bW)c:NAc:3oR1n!I\"dVA4QDa_pE-@jCZd6W([w%O[UZx\u007FC(HJo#JT>#&q/5[3wd2F a2EaK~lji.PbknCcMnl<NBw3FjClhy1iz|y+\u007F-ub]d[?pyB)JuyT\u007FFc~>iC^tk/VbnqQ`sXn?>t8BUhO3u/,B)*v}kV0&4z !7g ${zKPhGlmStZURp3=,LyEnUW:7',Pbv'PI'J13Z+Q;4]*50HTtAgRESI_*bfjcsu`pZj1;-b/mWbzU)w8:uV}uqEtkrIQ-VX$|>;+iR|F1f{;TFQ.wCWQ9DpxpAC{tl,IyuHB;^1H"
+	],
+	"azSha256": [
+		"7szMwCgCRwfA>>s/P35ukU*uraPygb2]-'j/jFw#acX^edM~]imQ>@V+FK@O>]5c9\"QXo\"8nf'1Ns)WCbe(%c54rEZl4PW66fqUY BM=`>mHh`l~2.,pbEYP:'Fy:G3WO^yfD66m}wn^Uuj9rI:D5I0{&DpvR-rHq,cq>xTb1iFf\u007F1>|v=) v,vFa4P^ r omxWEHzT \u007FPLd2%R2>RcS/;R\\P9<0oOCdQXHRf-[{$ws_5~ OA=NdVmj5NT%ZMR;}26Dh`HSlJQz-+9vgI;2.IDxQuOuB[ha=uNu0VsSR,e;).lI,/}W8tmrs88x6AwZx0x9fp\\hO1%\\EqJSz\u007F 6Z|QFG/e\u007Fj5]n2WaZs\u007FpnDFPXP1`n+&jyS!\u007F@Lt}I!t_>% t@"
+	],
+	"bngSha256": [
+		"B81!b6\\4`JAZ]7w`_GMv3'ytO3oEAmN8X27qBz|K{x4.%Te<:hBXIT7RdAfI>_3rI4(CPqOI2bMKGD/#hlcbq8,jNqMf<x1OZajuVFjr8[.l9 4?wpY^\\H,t\"NqZ<>Uc4,{Crt\"G!G/H/${?F-w<W/LWutPZuzxE([V}B<ffX4WV#M\\msq-D~tJ:Ev\"ilc5@9[0z}ih;J_&o!X!H>.ld)]h*1O1t.VaDRb2Z7w`H9(Ql?S:mzvxKcl9lWv'YS(DdT/{mCv_S.pwH0QcH]ejQz./r+7U\"A/J3C%~yX#h!-O<[SK);]}NM]-V<auGtlc@94O3-ys\\}3v}(q8PoTYlfO1iYCj~:`z}Zf|w#L5\u007FC0+p[/)0&Xh#vUmj_mXQs|lfd&?l~Bpw_tp3^AdS=-4`~gvit}P,9O]k3?\u007F+`tIjNRn=U|=kzpMmX3oj1AhoyAK^@73_\u007F~GV\u007FDL;Fe!UjHG3~vqs\u007FAU@xmqvGeOGs]@s\u007F.<EJb,}TO?1txUb-S|@~JER+l7m-4G[xL96P21j+i[mJ-wB}!dkR7pa<>4nMD0A~r2k]GUxc.C'+JdB7dm #LV%@S~!K4[=hP_D`eL _yan=aT<Qy;?H2vyO]()Le&$T?w6AZx*n50]`?aWN+dpNI}Bez,>$?-j@j#@7jMc*S2f6hR+60/m~v=Td )&bIpKe`Ok$1;o,c9kFgY5PO4(uxPeR+^y-juA7.Sd6E%=`e9R1]]fGasFkTqjNkFTIKXel:vsMqlgP?:(vZ.RV.DTeLk=r6\\TkqPrS6EV$,`ww~HzQ.v_tz{8cf!c*kVfGe?p8LKz=rw(|{gDeHv4D>yq<Kf~P|A5[(_)^tN55q)5:D *\"Nh+zD'u^AoQhj*Pxn9zu\u007FoO$>mi-!|V[D35# {H0^'~u9zVEf&4hCj}axx\"Hky_4o}C*(TJ=|qpl#P\\RF=2afy:\\^?Wf&LB9j>(7JKv5go@$v/41'qqs<PDX"
+	]
+}
