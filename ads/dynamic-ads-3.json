@@ -158,6 +158,60 @@
         }
       ],
       "url": "com.taurusinnovative.trivia"
+    },
+    {
+      "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
+      "descriptions": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Discover astrology reels, tutorials, and useful content from AstroNobel."
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "es",
+          "text": "Descubre reels de astrología, tutoriales y contenido de interés de AstroNobel."
+        }
+      ],
+      "icon": "astrofacebook:https://raw.githubusercontent.com/jzulu2000/app-resources/master/ads/astronobel-facebook.png",
+      "titles": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Follow AstroNobel on Facebook"
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "es",
+          "text": "Sigue a AstroNobel en Facebook"
+        }
+      ],
+      "url": "https://www.facebook.com/people/AstroNobel/61592739690830/"
+    },
+    {
+      "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
+      "descriptions": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Enjoy astrology reels, tutorials, and useful content from AstroNobel."
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "es",
+          "text": "Disfruta reels de astrología, tutoriales y contenido de interés de AstroNobel."
+        }
+      ],
+      "icon": "astroinstagram:https://raw.githubusercontent.com/jzulu2000/app-resources/master/ads/astronobel-instagram.png",
+      "titles": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Follow AstroNobel on Instagram"
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "lang": "es",
+          "text": "Sigue a AstroNobel en Instagram"
+        }
+      ],
+      "url": "https://www.instagram.com/astro_nobel_app/"
     }
   ]
 }

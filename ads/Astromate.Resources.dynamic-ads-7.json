@@ -30,8 +30,66 @@
         }
       },
       "url": "https://www.facebook.com/groups/2592989790963455"
+    },
+    {
+      "object-type": "JzuluAdsAppInfo",
+      "descriptions": {
+        "object-type": "Translatable",
+        "texts": {
+          "en": "Discover astrology reels, tutorials, and useful content from AstroNobel.",
+          "es": "Descubre reels de astrología, tutoriales y contenido de interés de AstroNobel.",
+          "fr": "Découvrez les reels d’astrologie, les tutoriels et les contenus utiles d’AstroNobel.",
+          "it": "Scopri reel di astrologia, tutorial e contenuti utili di AstroNobel.",
+          "pt": "Descubra reels de astrologia, tutoriais e conteúdos úteis do AstroNobel.",
+          "de": "Entdecke Astrologie-Reels, Tutorials und interessante Inhalte von AstroNobel.",
+          "ru": "Смотрите астрологические рилсы, уроки и полезные материалы от AstroNobel."
+        }
+      },
+      "icon": "astrofacebook:https://raw.githubusercontent.com/jzulu2000/app-resources/master/ads/astronobel-facebook.png",
+      "titles": {
+        "object-type": "Translatable",
+        "texts": {
+          "en": "Follow AstroNobel on Facebook",
+          "es": "Sigue a AstroNobel en Facebook",
+          "fr": "Suivez AstroNobel sur Facebook",
+          "it": "Segui AstroNobel su Facebook",
+          "pt": "Siga o AstroNobel no Facebook",
+          "de": "Folge AstroNobel auf Facebook",
+          "ru": "Подпишитесь на AstroNobel в Facebook"
+        }
+      },
+      "url": "https://www.facebook.com/people/AstroNobel/61592739690830/"
+    },
+    {
+      "object-type": "JzuluAdsAppInfo",
+      "descriptions": {
+        "object-type": "Translatable",
+        "texts": {
+          "en": "Enjoy astrology reels, tutorials, and useful content from AstroNobel.",
+          "es": "Disfruta reels de astrología, tutoriales y contenido de interés de AstroNobel.",
+          "fr": "Profitez des reels d’astrologie, des tutoriels et des contenus utiles d’AstroNobel.",
+          "it": "Guarda reel di astrologia, tutorial e contenuti utili di AstroNobel.",
+          "pt": "Confira reels de astrologia, tutoriais e conteúdos úteis do AstroNobel.",
+          "de": "Erlebe Astrologie-Reels, Tutorials und interessante Inhalte von AstroNobel.",
+          "ru": "Смотрите астрологические рилсы, уроки и полезные материалы от AstroNobel."
+        }
+      },
+      "icon": "astroinstagram:https://raw.githubusercontent.com/jzulu2000/app-resources/master/ads/astronobel-instagram.png",
+      "titles": {
+        "object-type": "Translatable",
+        "texts": {
+          "en": "Follow AstroNobel on Instagram",
+          "es": "Sigue a AstroNobel en Instagram",
+          "fr": "Suivez AstroNobel sur Instagram",
+          "it": "Segui AstroNobel su Instagram",
+          "pt": "Siga o AstroNobel no Instagram",
+          "de": "Folge AstroNobel auf Instagram",
+          "ru": "Подпишитесь на AstroNobel в Instagram"
+        }
+      },
+      "url": "https://www.instagram.com/astro_nobel_app/"
     }
   ],
-  "videoAdsFrequencyMinutes" : "5",
-  "interstitialAdsFrequencyMinutes" : "5"
+  "videoAdsFrequencyMinutes": "5",
+  "interstitialAdsFrequencyMinutes": "5"
 }
