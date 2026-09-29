@@ -1,0 +1,149 @@
+{
+  "registry": {
+    "Translatable": "com.taurusinnovative.commons.polls.Translatable",
+    "JzuluAdsModel": "com.taurusinnovative.commons.adds.JzuluAdsModel",
+    "JzuluAdsAppInfo": "com.taurusinnovative.commons.adds.JzuluAdsAppInfo"
+  },
+  "object-type": "JzuluAdsModel",
+  "apps": [
+    {
+      "object-type": "com.taurusinnovative.commons.adds.JzuluAdsAppInfo",
+      "descriptions": {
+        "object-type": "Translatable",
+        "texts": {
+          "en": "Know your Natal chart, Solar and Lunar returns, Transits, Progressions, Synastries and Numerology.",
+          "es": "Conoce tu carta natal, revolución solar y lunar, tránsitos, progresiones, sinastrías y numerología.",
+          "fr": "Connaissez votre thème astral, révolution solaire et lunaire, transits, progressions, synastries et numérologie.",
+          "it": "Conosci tuo tema natale, rivoluzione solare e lunare, transiti, progressioni, sinastrie e numerologia.",
+          "pt": "Conheça seu mapa natal, revolução solar e lunar, trânsitos, progressões, sinastrias e numerologia."
+        }
+      },
+      "icon": "astro_mate_round",
+      "titles": {
+        "object-type": "Translatable",
+        "texts": {
+          "en": "Astro Nobel - Astrology, Angeology, Numerology.",
+          "es": "Astro Nobel - Astrología, Angeologia, Numerologia.",
+          "fr": "Astro Nobel - Astrologie, Angélologie, Numérologie",
+          "it": "Astro Nobel - Astrologia, Angelologia, Numerologia",
+          "pt": "Astro Nobel - Astrologia, Angelologia, Numerologia"
+        }
+      },
+      "url": "com.taurusinnovative.astronobel",
+      "interstitialUrl": "com.taurusinnovative.astronobel"
+    },
+    {
+      "object-type": "JzuluAdsAppInfo",
+      "descriptions": {
+        "object-type": "Translatable",
+        "texts": {
+          "en": "Join Passion for Astrology group in Facebook",
+          "es": "Unete al grupo Pasíon por la Astrología en Facebook",
+          "fr": "Rejoignez groupe Passion for Astrology sur Facebook",
+          "pt": "Junte-se ao grupo Passion for Astrology no Facebook",
+          "it": "Unisciti al gruppo Passion for Astrology su Facebook"
+        }
+      },
+      "icon": "ppa:https://raw.githubusercontent.com/jzulu2000/app-resources/master/ads/pasion-astrologia.png",
+      "titles": {
+        "object-type": "Translatable",
+        "texts": {
+          "en": "Passionate about Astrology?",
+          "es": "Apasionado por la Astrología?",
+          "fr": "Passionné d'Astrologie?",
+          "pt": "Apaixonado por Astrologia?",
+          "it": "Appassionato di astrologia?"
+        }
+      },
+      "url": "https://www.facebook.com/groups/2592989790963455"
+    },
+    {
+      "object-type": "com.taurusinnovative.commons.adds.JzuluAdsAppInfo",
+      "descriptions": {
+        "object-type": "Translatable",
+        "texts": {
+          "en": "Read aloud physical books, PDFs, web pages, and WhatsApp messages while multitasking.",
+          "es": "Lee en Voz Alta libros físicos, PDFs, páginas web y mensajes de WhatsApp mientras haces otras tareas.",
+          "fr": "Lisez à voix haute des livres physiques, des PDF, des pages web et des messages WhatsApp tout en effectuant d'autres tâches.",
+          "it": "Leggi ad alta voce libri fisici, PDF, pagine web e messaggi WhatsApp mentre fai altre attività.",
+          "pt": "Leia em voz alta livros físicos, PDFs, páginas da web e mensagens do WhatsApp enquanto realiza outras tarefas.",
+          "de": "Lies physische Bücher, PDFs, Webseiten und WhatsApp-Nachrichten laut vor, während du andere Aufgaben erledigst.",
+          "ru": "Читай вслух книги, PDF-файлы, веб-страницы и сообщения WhatsApp, занимаясь другими делами."
+        }
+      },
+      "icon": "speechit:https://raw.githubusercontent.com/jzulu2000/app-resources/master/ads/speechit.png",
+      "titles": {
+        "object-type": "Translatable",
+        "texts": {
+          "en": "Love reading but don’t have time? Speech it!",
+          "es": "¿Te gusta leer pero no tienes tiempo? ¡Speech it!",
+          "fr": "Aimez lire mais n'avez pas le temps? Speech it!",
+          "it": "Ti piace leggere ma non hai tempo? Speech it!",
+          "pt": "Você gosta de ler, mas não tem tempo? Speech it!",
+          "de": "Liest du gerne, aber hast keine Zeit? Speech it!",
+          "ru": "Любишь читать, но нет времени? Speech it!"
+        }
+      },
+      "url": "com.taurusinnovative.speechit",
+      "interstitialUrl": "com.taurusinnovative.speechit"
+    },
+    {
+      "object-type": "com.taurusinnovative.commons.adds.JzuluAdsAppInfo",
+      "descriptions": {
+        "object-type": "Translatable",
+        "texts": {
+          "en": "Have fun learning astrology and test what you know about the zodiac, planets, and stars.",
+          "es": "Diviértete aprendiendo astrología y demuestra cuánto sabes del zodiaco, los planetas y las estrellas.",
+          "fr": "Apprenez l’astrologie en vous amusant et testez vos connaissances du zodiaque, des planètes et des étoiles.",
+          "it": "Divertiti imparando l’astrologia e metti alla prova ciò che sai su zodiaco, pianeti e stelle.",
+          "pt": "Divirta-se aprendendo astrologia e teste seus conhecimentos sobre o zodíaco, os planetas e as estrelas.",
+          "de": "Lerne spielerisch Astrologie und teste dein Wissen über Tierkreiszeichen, Planeten und Sterne.",
+          "ru": "Изучай астрологию с удовольствием и проверь свои знания о зодиаке, планетах и звёздах."
+        }
+      },
+      "icon": "astrotrivia:https://raw.githubusercontent.com/jzulu2000/app-resources/master/ads/trivia.png",
+      "titles": {
+        "object-type": "Translatable",
+        "texts": {
+          "en": "Think you know astrology? Prove it!",
+          "es": "¿Crees que sabes de astrología? ¡Demuéstralo!",
+          "fr": "Vous connaissez l’astrologie ? Prouvez-le !",
+          "it": "Pensi di conoscere l’astrologia? Dimostralo!",
+          "pt": "Acha que entende de astrologia? Prove!",
+          "de": "Du kennst dich mit Astrologie aus? Beweise es!",
+          "ru": "Думаешь, что знаешь астрологию? Докажи!"
+        }
+      },
+      "url": "com.taurusinnovative.trivia",
+      "interstitialUrl": "com.taurusinnovative.trivia"
+    },
+    {
+      "object-type": "com.taurusinnovative.commons.adds.JzuluAdsAppInfo",
+      "descriptions": {
+        "object-type": "Translatable",
+        "texts": {
+          "en": "Do you already have Astro Nobel on your devices? Download it on Windows, Mac, iPhone and Android now.",
+          "es": "¿Ya tienes Astro Nobel en tus dispositivos? Descárgala en Windows, Mac, iPhone y Android ahora.",
+          "fr": "Avez-vous déjà Astro Nobel sur vos appareils? Téléchargez-la sur Windows, Mac, iPhone et Android maintenant.",
+          "it": "Hai già Astro Nobel sui tuoi dispositivi? Scaricala ora su Windows, Mac, iPhone e Android.",
+          "pt": "Você já tem Astro Nobel em seus dispositivos? Baixe-a no Windows, Mac, iPhone e Android agora."
+        }
+      },
+      "icon": "astronobel:https://raw.githubusercontent.com/jzulu2000/app-resources/master/ads/astronobel.png",
+      "titles": {
+        "object-type": "Translatable",
+        "texts": {
+          "en": "Astro Nobel is Multi-Platform",
+          "es": "Astro Nobel es Multi Plataforma",
+          "fr": "Astro Nobel est Multiplateforme",
+          "it": "Astro Nobel è Multipiattaforma",
+          "pt": "Astro Nobel é Multiplataforma"
+        }
+      },
+      "url": "https://www.astronobel.com/home/download",
+      "advertisedPackage": "com.taurusinnovative.astronobel"
+    }
+  ],
+  "videoAdsFrequencyMinutes": "5",
+  "interstitialAdsFrequencyMinutes": "5"
+}
