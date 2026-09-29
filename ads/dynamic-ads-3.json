@@ -19,14 +19,16 @@
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "text": "Passion for Astrology?"
-        }, {
+        },
+        {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "es",
           "text": "Pasión por la Astrología?"
         }
       ],
       "url": "https://www.facebook.com/groups/2592989790963455"
-    }, {
+    },
+    {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
       "descriptions": [
         {
@@ -44,14 +46,16 @@
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "text": "Astro Nobel - Astrology, Angeology, Numerology."
-        }, {
+        },
+        {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "es",
           "text": "Astro Nobel - Astrología, Angeologia, Numerologia."
         }
       ],
       "url": "com.taurusinnovative.astronobel"
-    }, {
+    },
+    {
       "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
       "descriptions": [
         {
@@ -69,13 +73,91 @@
         {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "text": "Love reading but don’t have time? Speech it!."
-        }, {
+        },
+        {
           "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
           "lang": "es",
           "text": "¿Te gusta leer pero no tienes tiempo? ¡Speech it!."
         }
       ],
       "url": "com.taurusinnovative.speechit"
+    },
+    {
+      "object-type": "co.com.twelvestars.commons.adds.JzuluAdsAppInfo",
+      "descriptions": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Have fun learning astrology and test what you know about the zodiac, planets, and stars."
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Diviértete aprendiendo astrología y demuestra cuánto sabes del zodiaco, los planetas y las estrellas.",
+          "lang": "es"
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Apprenez l’astrologie en vous amusant et testez vos connaissances du zodiaque, des planètes et des étoiles.",
+          "lang": "fr"
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Divertiti imparando l’astrologia e metti alla prova ciò che sai su zodiaco, pianeti e stelle.",
+          "lang": "it"
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Divirta-se aprendendo astrologia e teste seus conhecimentos sobre o zodíaco, os planetas e as estrelas.",
+          "lang": "pt"
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Lerne spielerisch Astrologie und teste dein Wissen über Tierkreiszeichen, Planeten und Sterne.",
+          "lang": "de"
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Изучай астрологию с удовольствием и проверь свои знания о зодиаке, планетах и звёздах.",
+          "lang": "ru"
+        }
+      ],
+      "icon": "astrotrivia:https://raw.githubusercontent.com/jzulu2000/app-resources/master/ads/trivia.png",
+      "titles": [
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Think you know astrology? Prove it!"
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "¿Crees que sabes de astrología? ¡Demuéstralo!",
+          "lang": "es"
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Vous connaissez l’astrologie ? Prouvez-le !",
+          "lang": "fr"
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Pensi di conoscere l’astrologia? Dimostralo!",
+          "lang": "it"
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Acha que entende de astrologia? Prove!",
+          "lang": "pt"
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Du kennst dich mit Astrologie aus? Beweise es!",
+          "lang": "de"
+        },
+        {
+          "object-type": "co.com.twelvestars.commons.adds.JzuluAdsI18Text",
+          "text": "Думаешь, что знаешь астрологию? Докажи!",
+          "lang": "ru"
+        }
+      ],
+      "url": "com.taurusinnovative.trivia"
     }
   ]
 }

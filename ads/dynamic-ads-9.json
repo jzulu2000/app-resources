@@ -29,9 +29,10 @@
           "pt": "Astro Nobel - Astrologia, Angelologia, Numerologia"
         }
       },
-      "url": "https://play.google.com/store/search?q=astrology%20\"astro%20nobel\"%20\"taurus%20inn\"&c=apps",
+      "url": "com.taurusinnovative.astronobel",
       "interstitialUrl": "com.taurusinnovative.astronobel"
-    } , {
+    },
+    {
       "object-type": "JzuluAdsAppInfo",
       "descriptions": {
         "object-type": "Translatable",
@@ -70,7 +71,7 @@
           "ru": "Читай вслух книги, PDF-файлы, веб-страницы и сообщения WhatsApp, занимаясь другими делами."
         }
       },
-        "icon": "speechit:https://raw.githubusercontent.com/jzulu2000/app-resources/master/ads/speechit.png",
+      "icon": "speechit:https://raw.githubusercontent.com/jzulu2000/app-resources/master/ads/speechit.png",
       "titles": {
         "object-type": "Translatable",
         "texts": {
@@ -83,10 +84,66 @@
           "ru": "Любишь читать, но нет времени? Speech it!"
         }
       },
-      "url": "https://play.google.com/store/search?q=\"speech it\"%20\"taurus%20inn\"&c=apps",
+      "url": "com.taurusinnovative.speechit",
       "interstitialUrl": "com.taurusinnovative.speechit"
+    },
+    {
+      "object-type": "com.taurusinnovative.commons.adds.JzuluAdsAppInfo",
+      "descriptions": {
+        "object-type": "Translatable",
+        "texts": {
+          "en": "Have fun learning astrology and test what you know about the zodiac, planets, and stars.",
+          "es": "Diviértete aprendiendo astrología y demuestra cuánto sabes del zodiaco, los planetas y las estrellas.",
+          "fr": "Apprenez l’astrologie en vous amusant et testez vos connaissances du zodiaque, des planètes et des étoiles.",
+          "it": "Divertiti imparando l’astrologia e metti alla prova ciò che sai su zodiaco, pianeti e stelle.",
+          "pt": "Divirta-se aprendendo astrologia e teste seus conhecimentos sobre o zodíaco, os planetas e as estrelas.",
+          "de": "Lerne spielerisch Astrologie und teste dein Wissen über Tierkreiszeichen, Planeten und Sterne.",
+          "ru": "Изучай астрологию с удовольствием и проверь свои знания о зодиаке, планетах и звёздах."
+        }
+      },
+      "icon": "astrotrivia:https://raw.githubusercontent.com/jzulu2000/app-resources/master/ads/trivia.png",
+      "titles": {
+        "object-type": "Translatable",
+        "texts": {
+          "en": "Think you know astrology? Prove it!",
+          "es": "¿Crees que sabes de astrología? ¡Demuéstralo!",
+          "fr": "Vous connaissez l’astrologie ? Prouvez-le !",
+          "it": "Pensi di conoscere l’astrologia? Dimostralo!",
+          "pt": "Acha que entende de astrologia? Prove!",
+          "de": "Du kennst dich mit Astrologie aus? Beweise es!",
+          "ru": "Думаешь, что знаешь астрологию? Докажи!"
+        }
+      },
+      "url": "com.taurusinnovative.trivia",
+      "interstitialUrl": "com.taurusinnovative.trivia"
+    },
+    {
+      "object-type": "com.taurusinnovative.commons.adds.JzuluAdsAppInfo",
+      "descriptions": {
+        "object-type": "Translatable",
+        "texts": {
+          "en": "Do you already have Astro Nobel on your devices? Download it on Windows, Mac, iPhone and Android now.",
+          "es": "¿Ya tienes Astro Nobel en tus dispositivos? Descárgala en Windows, Mac, iPhone y Android ahora.",
+          "fr": "Avez-vous déjà Astro Nobel sur vos appareils? Téléchargez-la sur Windows, Mac, iPhone et Android maintenant.",
+          "it": "Hai già Astro Nobel sui tuoi dispositivi? Scaricala ora su Windows, Mac, iPhone e Android.",
+          "pt": "Você já tem Astro Nobel em seus dispositivos? Baixe-a no Windows, Mac, iPhone e Android agora."
+        }
+      },
+      "icon": "astronobel:https://raw.githubusercontent.com/jzulu2000/app-resources/master/ads/astronobel.png",
+      "titles": {
+        "object-type": "Translatable",
+        "texts": {
+          "en": "Astro Nobel is Multi-Platform",
+          "es": "Astro Nobel es Multi Plataforma",
+          "fr": "Astro Nobel est Multiplateforme",
+          "it": "Astro Nobel è Multipiattaforma",
+          "pt": "Astro Nobel é Multiplataforma"
+        }
+      },
+      "url": "https://www.astronobel.com/home/download",
+      "advertisedPackage": "com.taurusinnovative.astronobel"
     }
   ],
-  "videoAdsFrequencyMinutes" : "5",
-  "interstitialAdsFrequencyMinutes" : "5"
+  "videoAdsFrequencyMinutes": "5",
+  "interstitialAdsFrequencyMinutes": "5"
 }
